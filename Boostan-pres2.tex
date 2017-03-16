@@ -1,0 +1,465 @@
+%% Data: 2015-05-25
+
+%%% ========================================================================================================= Basic Packages
+\usepackage[nonamebreak,square]{natbib}
+%%%  وارد کردن یکسری بسته‌های پایه
+
+%% برای رنگی کردن متن و استفاده از رنگ در متن این دو بسته مورد نیاز است.
+\usepackage[usenames,dvipsnames]{xcolor}
+
+%% بسته‌ای برای رنگ آمیزی جداول
+\usepackage{colortbl}
+
+%% بسته‌ای برای قرار دادن کادر رنگی و انواع کادرهای دیگر
+\usepackage[RL]{flowfram}
+
+%% وارد کردن یکسری دستورات ابتدایی و بسته‌های مورد نیاز به استایل
+\usepackage{amsthm,amssymb}
+\usepackage[cmex10]{amsmath}
+%\usepackage{thmtools}
+
+%% بسته‌ای برای فعال‌سازی پارامتر H در وارد کردن شکل. این پارامتر شکل را در همان‌جایی که دقیقا فراخوانی کرده‌ایم، وارد می‌کند.
+\usepackage{float}
+
+%% برای تنظیم حاشیه صفحات
+\usepackage{geometry}
+
+%% بسته‌ای برای تنظیم حاشیه و کادر دور فرمول و ... 
+\usepackage{empheq,fancybox}
+
+% بسته ای برای تنظیم فونت، اندازه و نحوه نمایش caption
+\usepackage{caption}
+\usepackage{subcaption}
+
+
+%% بسته ای برای استفاده از اشکال برای آیتم‌ها
+\usepackage{pifont}
+%% بسته‌ای برای رسم اشکال و تصاویر با Latex
+\usepackage{tikz}
+\usetikzlibrary{decorations.pathmorphing,decorations.footprints}
+
+\RequirePackage[framemethod=TikZ]{mdframed}
+\usetikzlibrary{arrows,calc}
+\RequirePackage{tikzpagenodes}
+
+%% رسم یکسری تصاویر با Latex به مانند عکس یک پرنده
+%\usepackage{pst-fun}
+
+%% بسته‌ای برای وارد کردن یک تصویر در پیش‌زمینه با دستور AddToShipoutPicture
+\usepackage{eso-pic}
+
+%% بسته ای برای تنظیم عنوان section و subsection‌ و ... 
+\usepackage{titlesec}
+
+%% در این قالب از بسته graphx برای انجام کارهای گرافیکی استفاده می‌شود. این بسته برای اضافه کردن تصویرها به متن استفاده شده است.
+\usepackage{graphicx}
+
+%%% بسته‌ای است که توسط آن می‌توان شماره صفحه و آخرین صفحه را استخراج نمود. 
+\usepackage{lastpage}
+
+%%% دوبسته برای اضافه کردن دستورات if و else به برنامه.
+\usepackage{xparse,ifthen}
+\usepackage{pdfpages}
+
+
+
+
+%%% بسته ای برای رنگی کردن لینک ها و فعال سازی لینک ها در یک نوشتار، بسته hyperref باید جزو آخرین بسته‌هایی باشد که فراخوانی می‌شود. 
+\usepackage{hyperref}
+
+
+\usepackage{listings}
+
+%%% بسته‌ای برای وارد کردن واژه نامه در متن، این بسته باید بعد از hyperref حتما صدا زده شود. 
+\usepackage[xindy,acronym,nonumberlist=true]{glossaries}
+
+%%%زی‌پرشین (به انگلیسی: XePersian) یک بسته حروف‌چینی رایگان و متن‌باز برای نگارش مستندات پارسی/انگلیسی با زی‌لاتک است.
+%%% در واقع، زی‌پرشین، کمک می‌کند تا به آسانی، مستندات را به پارسی، حروف‌چینی کرد. این بسته را وفا خلیقی نوشته است،
+%%% و به طور منظم، آن را بروز‌رسانی کرده و باگ‌های آن را رفع می‌کند.
+%%% نکته مهم این جا است که بسته Xepersian برای پشتیبانی از زبان فارسی آورده شده است، و 
+%%% می بایست آخرین بسته ای باشد که شما وارد می کنید، دقت کنید: آخرین بسته 
+\usepackage{xepersian}
+
+
+%%% ========================================================================================================= myData
+
+%% توسط دستور \myData می توانید تاریخ و ساعت را وارد متن خود کنید. 
+\newcommand{\myData}{
+	\newcount \hour
+	\newcount \min
+	\newcommand*{\timeoftoday}{%
+		\hour\time\divide\hour 60 ساعت \the\hour{}
+		\min\time\multiply\hour 60 \advance\min-\hour
+		\ifnum\min=0
+		\else
+		و
+		\the\min{} دقیقه
+		\fi}
+\today{} در \timeoftoday
+} %M
+
+%%% ========================================================================================================= graphicx
+
+%%==================== تنظیمات graphicx
+% برای اضافه کردن تصاویر به متن این امکان وجود دارد که تصاویر را در پوشه‌های
+% متفاوت قرار داد. با این کار از زیاد شدن پرونده‌ها در مسیر مستند جلوگیری می
+% شود. علاوه بر این دسته‌ای از تصاویر وجود دارد که بین همه مستندها مشترک است
+% برای نمونه نماد پژوهشکده که بین همه مشترک است.  از این رو تعداد مسیر به عنوان
+% مسیرهای پیش فرض برای جستجوی تصاویر تعیین شده است.
+%\graphicspath{{./Pic/}}
+
+%%% ========================================================================================================= geometry
+
+%%%==================== تنظیمات بسته geometry
+%%% تنظیمات مربوط به حاشیه صفحه
+\geometry{paperwidth=230mm,paperheight=180mm,rmargin=50mm,lmargin=8mm,top=20mm,bottom=10mm}
+
+%%% ========================================================================================================= hyperref
+%%% در این قسمت تنظیمات بسته hyperref را قرار می دهیم.
+%%% این تنظیمات شامل موارد زیر است.
+\hypersetup{
+%%% موقعی که فایل پی دی اف خروجی را باز می کنید صفحه به صورت عریض و بزرگ باز می شود.
+	pdfpagemode=FullScreen,
+%%% به جای استفاده از مربع قرمز دور موارد ارجاعی از لینک های رنگی استفاده کند.
+	colorlinks=true,
+%%% رنگ برخی از لینک ها در زیر تعریف شده است. 
+	linkcolor=blue, anchorcolor=green, citecolor=magenta, urlcolor=cyan, filecolor=magenta, pdftoolbar=true
+}%
+
+
+
+%%==================== تنظیمات listing
+%%  در این قسمت تمام ابزارهای مورد نیاز در نوشتن برنامه ها اورده شده 
+%%  است. با استفاده از این ابزارهای می‌توان برنامه های مورد نیاز را در مستند جای داد.
+\definecolor{listinggray}{gray}{.98}
+
+\lstset{% general command to set parameter(s)
+	% زبان برنامه نویسی که به طور پیش فرض انتخاب می شود.
+	language=Java,
+	% رنگ پیش فرض برای پیش زمینه
+	backgroundcolor=\color{listinggray},
+	%% میزان طول محیط listings را مشخص می کند، به صورت پیش فرض \textwidth است. 
+	%linewidth=\textwidth ,
+	%% نوع قالب دور محیط listings را تعیین می کند. 
+	frameround=fttt,
+	frame=trBL,
+	%% is selected at the beginning of each listing. You could use \footnotesize,
+	%% \small, \itshape, \ttfamily, or something like that. The last token of
+	%% basic style must not read any following characters.
+	basicstyle=\ttfamily, % print whole listing small
+	%%   با این دستور استایل keyword ها را مشخص می کنیم. مثلا در این حالت گفته ایم که keyword ها را با رنگ آبی مشخص کند، و آن ها را bold‌کند. دقت کنید که keyword های زبان‌هایی که این بسته پشتیبانی می‌کند، 
+	%% در این بسته تعریف شده است. مثلا در JAVA کلمه main به صورت پیش فرض تعریف شده است و در صورت وجود آن در کد شما آن را Latex آبی رنگ می‌کند. 
+	keywordstyle=\color{blue}\bfseries,
+	% underlined bold black keywords
+	%identifierstyle=, % nothing happens
+	%framexleftmargin=5mm, frame=shadowbox, rulesepcolor=\color{red}
+	%% استایل String را در متن مشخص می کند. مثلا در این جا گفته شده است که رشته ها را با رنگ قرمز و به صورت ایتالیک نمایش بده.
+	stringstyle=\ttfamily\color{red}, % typewriter type for strings
+	%% نحوه استایل comment را مشخص می کند. دقت کنید که رنگ انتخاب شده نوعی رنگ سبز است، برای این که این رنگ شناخته شود می بایست دو بسته color و xcolor به صورتی که فراخوانی شده است، فراخوانی شود. 
+	commentstyle=\color{LimeGreen},
+	lineskip = .5pt,
+	%% سه دستور بعدی نحوه نمایش شماره خطوط را مشخص می کند. 
+	numberstyle=\footnotesize, 
+	%% تعیین فاصله بین شماره خطوط و محیط listings
+	numbersep=10pt,
+	%% محل قرارگیری شماره خطوط
+	numbers=left,
+	%% تعیین محل قرارگیری caption محیط. بطور پیش فرض در بالای محیط است که به پایین محیط تغییر داده شده است. 
+	captionpos=b, 
+	%% توسط breakline می توانید خاصیت شکسته شدن خطوط بلند را در محیط listings فعال و یا غیرفعال کنید.
+	%% activates or deactivates automatic line breaking of long lines.
+	breaklines=true,
+	%% باعث می شود که فاصله های بین رشته های نمایان شود.
+	%% lets blank spaces in strings appear  or as blank spaces
+	showstringspaces=true
+}% 
+
+%% البته شما می توانید این موارد پیش فرض را به ازای هر کد تغییر دهید. به عنوان مثال، ما یک کد در پوشه Code در شاخه فعلی قرار دادیم، می خواهیم آن را وارد متن کنیم، کافی است که خطوط زیر را در محل مناسبی که می خواهیم کد را قرار دهیم وارد کنیم. در این مثال یک فایل کد JAVA به نام myCode.java را می خواهیم وارد کنیم. 
+%%\begin{latin}
+%%\lstinputlisting[breaklines=true,numbers=left,language=Java, basicstyle=\ttfamily, numberstyle=\footnotesize, numbersep=10pt, captionpos=b, frame=single, breakatwhitespace=false]{Code/myCode.java}
+%%\end{latin}
+
+%%% 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+
+%%% ========================================================================================================= Font
+%% تنظیم فونت. 
+%%برای دانستن اطلاعات بیشتر در مورد تنظیم فونت به لینک زیر مراجعه کنید.
+%%http://www.parsilatex.com/mediawiki/index.php?title=%D9%81%D9%88%D9%86%D8%AA_%D8%AF%D8%B1_xepersian
+%% دقت شود که در این استایل از فونت های زیر استفاده می‌شود، بدین‌سان لازم است فونت هایی که فعال هستند (comment نیستند) توسط کاربر در سیستم عامل نصب شود.
+%%سعی شده است از فونت های استاندارد IR‌ که حاصل کار شورای عالی اطلاع رسانی هست، استفاده شود، کاربران می‌توانند فونت های یاد شده را از لینک زیر دانلود کنند.
+%% http://www.scict.ir/portal/Home/Default.aspx?CategoryID=b50ee619-ce53-4c25-bf53-b0f0332c1777
+
+	%%%  با دستور زیر می توانید فونتی مخصوص عبارات فارسی تعیین کنید:
+\settextfont[Scale=1.8]{IRNazanin}
+	%%% شما با دستور زیر بعد از فراخوانی بسته xepersian می توانید فونت انگلیسی را تعیین کنید
+	%%% دقت کنید که عبارات انگلیسی شما باید در دستور \lr{} قرار گیرد تا xepersian بتواند بفمهد که این عبارات انگلیسی است
+\setlatintextfont[Scale=1.5]{Linux Libertine}
+
+\defpersianfont\nastaligg[Scale=2.2]{A Thuluth}
+
+%%%  با استفاده از این دستور می‌توان فونت و فارسی و یا انگلیسی بودن اعداد در فرمول‌ها را به حالت اولیه (یعنی پیش‌فرض لاتک) برگرداند.
+\DefaultMathsDigits
+
+\DeclareMathSizes{10}{12}{10}{9}
+
+
+%%% تنظیم فاصله خطوط در متن اصلی
+\newlength{\baselineskipVar}
+\setlength{\baselineskipVar}{1.1cm}
+
+%%% ========================================================================================================= Environments
+%%% در ادامه یکسری محیط جالب به صورت کادر رنگی برای استفاده های مختلف تعریف می شود. 
+ \input{Boostan-EnvironmentsForPres}
+ 
+
+
+
+%%% ========================================================================================================= \begin{document}
+%% بازنویسی محیط \begin{document} برای ارایه یکسری تنظیمات در ابتدای برنامه
+\let\olddocument\document
+\let\endolddocument\enddocument
+\renewenvironment{document}{
+
+	\olddocument
+%% تنظیم فاصله بین خطوط با دستور \baselineskip
+	\baselineskip = \baselineskipVar
+	\begin{dynamiccontents*}{topbar}
+	\end{dynamiccontents*}
+}{%
+	\endolddocument
+}%
+
+%%% ========================================================================================================= \maketitle
+%% تنظیم صفحه بسم الله و صفحه شروع
+\input{Boostan-TitleStyle}
+\titleStyle{presentation}
+
+%%% ========================================================================================================= \titleSidebar
+
+%% تعریف سایدبار و محل قرارگیری آن. 
+\newdynamicframe{4mm}{.99\paperheight}{\dimexpr(\paperwidth-50mm)}{-0.05\paperheight}[sidebarR]
+\setdynamicframe*{sidebarR}{bordercolor=black}
+\begin{dynamiccontents*}{sidebarR}
+\colorbare
+\end{dynamiccontents*}
+
+
+\newcommand{\colorbare}{
+		\AddToShipoutPicture*{
+			\put(-220,-2){\tikz \shade[top color=blue!25,bottom color=green!40,decorate, decoration={random steps,segment length=2mm}](50pt,0) rectangle (80mm,.95\paperheight);}
+			}
+	\vskip 1.5cm
+	\settextfont[Scale=.9]{IRNazanin}
+	\setlatintextfont[Scale=.8]{Linux Libertine}
+} %M
+
+%%% ========================================================================================================= \topbar
+
+ %% استخراج عنوان خالص بخش برای قرار دادن در نوار بالا.
+\makeatletter
+\newcommand*{\currentname}{\@currentlabelname}
+\newcommand*{\theTitle}{\@title}
+\makeatother
+
+\titleformat*{\section}{\nastaligg\bfseries}
+
+\renewcommand{\sectionmark}[1]{\markright{#1}} %%
+
+
+%% تعاریف مربوط به نوار بالا
+\newdynamicframe[>1]{230mm}{11mm}{-8mm}{160mm}[topbar]
+\setdynamicframe*{topbar}{valign=c,backcolor=blue!25}
+
+\newcommand{\insertTopBar}{
+\begin{dynamiccontents*}{topbar}
+	\AddToShipoutPicture*{\put(-170,480){\tikz \draw[draw=white,top color=blue!25,bottom color=blue!25](0,0) rectangle (1.4\textwidth,.07\paperheight);}}
+	\begin{center}
+		\settextfont[Scale=1.2]{IRNazanin}
+		\begin{tabular*}{1.33\textwidth}{@{\extracolsep{\fill} }rcl}
+			\theTitle & \currentname & 
+			صفحه 
+			\thepage \; از \pageref*{lastpppp}\\
+		\end{tabular*}
+	\end{center}
+\end{dynamiccontents*}
+}
+
+%%% ========================================================================================================= rewrite figure environment
+
+  %%=========================== تنظمیات محیط شکل
+% بازنویسی محیط شکل
+\makeatletter
+\let\oldfigure\figure
+\def\figure{\@ifnextchar[\figure@i \figure@ii}
+\def\figure@i[#1]{\oldfigure[#1]\centering}
+\def\figure@ii{\oldfigure\centering}
+\makeatother
+  
+%%% ========================================================================================================= rewrite table environment
+% بازنویسی محیط جدول
+%\renewenvironment{table}[1][]{
+%	\ifthenelse{\equal{#1}{}}{\@float{table}}{\@float{table}[#1]}
+%	\centering
+%}{
+%	\end@float
+%}%
+%
+%% بازنویسی محیط tabular به منظور تنظیم فونت‌های جدول
+\let\oldtabular\tabular
+\let\endoldtabular\endtabular
+\renewenvironment{tabular}{\bgroup
+	\settextfont[Scale=1]{IRNazanin}
+	\setlatintextfont[Scale=1]{Linux Libertine}
+	\oldtabular
+}{%
+	\endoldtabular \egroup
+}%
+
+
+
+% تنظیم کننده فاصله بین خطوط (ردیف‌ها) در یک جدول
+\renewcommand{\arraystretch}{1.2}
+
+%%% =========================================================================================================\thank
+
+\newcommand{\thank}{
+	\label{lastpppp}
+	\clearpage
+	\phantomsection
+	\setdynamicframe*{sidebarR}{pages=none}
+	\setdynamicframe*{topbar}{pages=none}
+	\begin{center}
+		\distance{3}
+		%\begin{pspicture}(0,-1.3)(10,3)
+		%	\psBird[Branch] \rput{-20}(4,1.8){\psBird}
+		%\end{pspicture}
+		%\distance{1}
+		{\Huge\textcolor{red!100}{
+		با تشکر!
+		}}
+	\end{center}
+	\distance{3}
+	\clearpage
+	\setdynamicframe{1}{pages=all}
+	\setdynamicframe{2}{pages=all}
+} %
+
+%%% ========================================================================================================= \bibliography
+% تنطمیات مربوط به محیط مراجع 
+% کارهای پایانی بعد از اتمام نوشته
+% آوردن مراجع در انتهای گزارش با فرمت IEEE 
+% فرمت مراجع می تواند برای ACM و ... نیز باشد. برای این کار کافی است تنها  پارامتر style را باید تغییر دهید. 
+% مراجع همگی در یک فایل bibtex با پسوند .bib  وجود دارد، که می بایست در پوشه اصلی گزارش قرار داده شود.
+% نام این فایل می بایست library باشد. در غیر این صورت باید نام فایل bib را در خط زیر تغییر دهید. 
+\let\Oldbibliography\bibliography
+\renewcommand{\bibliography}[1]{
+	\let\appendix\relax
+	\baselineskip=.5cm
+	\renewcommand{\bibname}{مراجع}
+	\clearpage
+	\phantomsection
+	\setdynamicframe*{sidebarR}{pages=none}
+	\setdynamicframe*{topbar}{pages=none}
+	\bibliographystyle{asa-fa}
+	%\bibliographystyle{plainnat-fa}
+	\Oldbibliography{#1}
+}%
+%\newcommand{\bibent}[1]{
+%%%% با این دستور عنوان این قسمت به (مراجع) تغییر پیدا می‌کند. 
+%	
+%\baselineskip=.5cm
+%	\bibliographystyle{plainnat}
+%	\Oldbibliography{#1}
+%}%
+
+%%% ========================================================================================================= Glossaries
+
+% وارد کردن دستورات لازم برای وارد کردن واژه‌نامه و فهرست اختصارات
+\input{Boostan-Gloss}
+
+% این دستور در Boostan-Gloss وجود دارد ولی در آن جا تعیین شده است که به صورت پیش فرض پاروقی بخورد که ما در ارایه نمی خواهیم پاورقی زده شود، لذا LTRfootnote را از آن حذف می کنیم.
+\defglsentryfmt[english]{\glsgenentryfmt\ifglsused{\glslabel}{}{}}
+
+%%% همان مواردی که در بالا اشاره شد، اما این بار برای type واژگان اختصاری
+\defglsentryfmt[acronym]{\glsentryname{\glslabel}\ifglsused{\glslabel}{}{}}
+
+
+%% دستورات برای وارد کردن واژه و اختصار در کادر سمت راست.
+\newcommand{\insertword}[1]{
+	\begin{latin}
+		\textcolor{red}{\textbf{\glsname{#1}}}
+	\end{latin}
+	\vskip -5mm
+	\begin{persian}
+		\glstext{#1} \glsuseri{f-#1}
+		\vskip 3mm
+	\end{persian}
+}
+
+\newcommand{\insertwordBe}[1]{
+	\begin{latin}
+		\textcolor{red}{\textbf{\glsname{#1}}}
+	\end{latin}
+	\vskip -1mm
+	\begin{persian}
+		\glstext{#1} \glsuseri{f-#1}
+		\vskip 3mm
+	\end{persian}
+}
+
+\newcommand{\insertabbr}[1]{
+	\begin{LTR}\raggedright
+		\textcolor{red}{\textbf{\glsname{#1}}} \glsdesc{#1} 
+		\vskip 3mm
+	\end{LTR}
+}
+
+% دستور برای قرار دادن فهرست اختصارات 
+\newcommand{\printabbreviation}{
+	\clearpage
+	\phantomsection
+	\let\appendix\relax
+	\baselineskip=.75cm
+	\setdynamicframe*{sidebarR}{pages=none}
+	\setdynamicframe*{topbar}{pages=none}
+	\setglossarystyle{myAbbrlist}
+	\renewcommand*{\acronymname}{\begin{RTL}فهرست اختصارات\end{RTL}}
+	\begin{LTR}
+		\Oldprintglossary[type=acronym]	
+	\end{LTR}
+	\clearpage
+}%
+
+\let\Oldprintglossary\printglossary
+\renewcommand{\printglossary}{
+	\clearpage
+	\phantomsection
+	\let\appendix\relax
+	\baselineskip=.75cm
+	\setdynamicframe*{sidebarR}{pages=none}
+	\setdynamicframe*{topbar}{pages=none}
+	\setglossarystyle{myEntoFa}
+	\Oldprintglossary[type=english]
+	\clearpage
+	\phantomsection
+	\setdynamicframe*{sidebarR}{pages=none}
+	\setdynamicframe*{topbar}{pages=none}
+	\setglossarystyle{myFaToEn}
+	\Oldprintglossary[type=persian]
+}%
+
+%%% ========================================================================================================= footprinte
+
+\newcommand{\footprinte}{
+	\vskip 5mm
+	\tikz[decoration={footprints,foot length=20pt,stride length=25pt,foot angle=2},fill=YellowOrange] \fill [decorate] (0,0) -- (4,0);
+	\vskip 5mm
+}
+
+%%% =========================================================================================================
+
+
+\setcounter{tocdepth}{1}
+
+\renewcommand{\cite}[2][]{\lr{\citep[#1]{#2}}}
+

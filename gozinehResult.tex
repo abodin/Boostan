@@ -1,0 +1,408 @@
+\usepackage{catchfile,environ}
+\usepackage{multicol}
+
+\input{Boostan-articleManual}
+
+\usetikzlibrary{calc}
+
+\DeclareMathSizes{10}{11}{10}{9}
+
+\makeatletter% Taken from http://tex.stackexchange.com/q/109619/5764
+\def\declarenumlist#1#2#3{%
+	\expandafter\edef\csname pgfmath@randomlist@#1\endcsname{#3}%
+	\count@\@ne
+	\loop
+	\expandafter\edef
+	\csname pgfmath@randomlist@#1@\the\count@\endcsname
+	{\the\count@}
+	\ifnum\count@<#3\relax
+	\advance\count@\@ne
+	\repeat}
+\def\prunelist#1{%
+	\expandafter\xdef\csname pgfmath@randomlist@#1\endcsname
+	{\the\numexpr\csname pgfmath@randomlist@#1\endcsname-1\relax}
+	\count@\pgfmath@randomtemp 
+	\loop
+	\expandafter\global\expandafter\let
+	\csname pgfmath@randomlist@#1@\the\count@\expandafter\endcsname
+	\csname pgfmath@randomlist@#1@\the\numexpr\count@+1\relax\endcsname
+	\ifnum\count@<\csname pgfmath@randomlist@#1\endcsname\relax
+	\advance\count@\@ne
+	\repeat}
+
+\def\pgfmathrandomitemwithoutreplacement#1#2{%
+	\pgfmath@ifundefined{pgfmath@randomlist@#2}{\pgfmath@error{Unknown random list `#2'}}{%
+		\edef\pgfmath@randomlistlength{\csname pgfmath@randomlist@#2\endcsname}%
+		\ifnum\pgfmath@randomlistlength>0\relax%
+		\pgfmathrandominteger{\pgfmath@randomtemp}{1}{\pgfmath@randomlistlength}%
+		\def\pgfmath@marshal{\def#1}%
+		\expandafter\expandafter\expandafter\pgfmath@marshal\expandafter\expandafter\expandafter{\csname pgfmath@randomlist@#2@\pgfmath@randomtemp\endcsname}%
+		% Now prune.
+		\c@pgfmath@counta=\pgfmath@randomtemp\relax%
+		\c@pgfmath@countb=\c@pgfmath@counta%
+		\advance\c@pgfmath@countb by1\relax%
+		\pgfmathloop%
+		\ifnum\c@pgfmath@counta=\pgfmath@randomlistlength\relax%
+		\else%
+		\def\pgfmath@marshal{\expandafter\global\expandafter\let\csname pgfmath@randomlist@#2@\the\c@pgfmath@counta\endcsname=}%
+		\expandafter\pgfmath@marshal\csname pgfmath@randomlist@#2@\the\c@pgfmath@countb\endcsname%
+		\advance\c@pgfmath@counta by1\relax%
+		\advance\c@pgfmath@countb by1\relax%
+		\repeatpgfmathloop%
+		\advance\c@pgfmath@counta by-1\relax%
+		\expandafter\xdef\csname pgfmath@randomlist@#2\endcsname{\the\c@pgfmath@counta}%        
+		\else%
+		\pgfmath@error{Random list `#2' is empty}%
+		\fi%        
+	}}  
+	
+	\def\pgfmathrandomlistcopy#1#2{%
+		\pgfmath@ifundefined{pgfmath@randomlist@#2}{\pgfmath@error{Unknown random list `#2'}}{%
+			\edef\pgfmath@randomlistlength{\csname pgfmath@randomlist@#2\endcsname}%
+			\pgfmathloop%
+			\ifnum\pgfmathcounter>\pgfmath@randomlistlength\relax%
+			\else%
+			\def\pgfmath@marshal{\expandafter\global\expandafter\let\csname pgfmath@randomlist@#1@\pgfmathcounter\endcsname=}%
+			\expandafter\pgfmath@marshal\csname pgfmath@randomlist@#2@\pgfmathcounter\endcsname%
+			\repeatpgfmathloop%
+			\expandafter\xdef\csname pgfmath@randomlist@#1\endcsname{\pgfmath@randomlistlength}%
+		}%  
+	}
+	
+	
+	\makeatother
+	
+	
+	% Define how each questionblock should be handled
+	\newcounter{questionblock}
+	\newcounter{totalquestions}
+	\NewEnviron{questionblock}{}%
+	
+	\newcommand{\randomquestionsfrombank}[2]{%
+		\CatchFileDef{\bank}{#1}{}% Read the entire bank of questions into \bank
+		\setcounter{totalquestions}{0}% Reset total questions counters  ***
+		\RenewEnviron{questionblock}{\stepcounter{totalquestions}}% Count every question  ***
+		\bank% Process file  ***
+		\declarenumlist{uniquequestionlist}{1}{\thetotalquestions}% list from 1 to totalquestions inclusive.
+		\setcounter{totalquestions}{#2}% Start the count-down
+		\RenewEnviron{questionblock}{%
+			\stepcounter{questionblock}% Next question
+			\ifnum\value{questionblock}=\randomquestion 
+			\par% Start new paragraph
+			\BODY% Print question
+			\fi
+		}%
+		\foreach \uNiQueQ in {1,...,#2} {% Extract #2 random questions
+			\setcounter{questionblock}{0}% Start fresh with question block counter
+			\pgfmathrandomitem\randomquestion{uniquequestionlist}% Grab random question from list
+			\xdef\randomquestion{\randomquestion}% Make random question available globally
+			\prunelist{uniquequestionlist}% Remove picked item from list
+			\bank% Process file
+		}}
+		\usepackage{multicol,color}
+		\definecolor{mycolor}{rgb}{0,0,0}
+		\newcounter{question}
+		\newenvironment{mcquestions}{\begin{itemize}}{\end{itemize}}
+		\newcommand{\question}[1]{\stepcounter{question}\item[\textcolor{mycolor}{\thequestion.}] #1}
+		\newsavebox{\answera}
+		\newsavebox{\answerb}
+		\newsavebox{\answerc}
+		\newsavebox{\answerd}
+\newcommand{\darjPasokhDorost}[1]{\ifx\j\javab \immediate\write\file{\thequestion- #1}  \fi}
+\def\javab{1}
+\newcommand{\answer}[4]{%
+	\pgfmathdeclarerandomlist{some numbers}{{1}{2}{3}{4}}
+	\pgfmathrandomlistcopy{tmp}{some numbers}
+	\pgfmathrandomitemwithoutreplacement\j{tmp}
+	\sbox\answera{\darjPasokhDorost{1}\ifcase\j\relax\or#1\or#2\or#3\or#4\fi}%
+	\pgfmathrandomitemwithoutreplacement\j{tmp}
+	\sbox\answerb{\darjPasokhDorost{2}\ifcase\j\relax\or#1\or#2\or#3\or#4\fi}%
+	\pgfmathrandomitemwithoutreplacement\j{tmp}
+	\sbox\answerc{\darjPasokhDorost{3}\ifcase\j\relax\or#1\or#2\or#3\or#4\fi}%
+	\pgfmathrandomitemwithoutreplacement\j{tmp}
+	\sbox\answerd{\darjPasokhDorost{4}\ifcase\j\relax\or#1\or#2\or#3\or#4\fi}%
+						\ifdim\wd\answera<0.165\textwidth%
+			\ifdim\wd\answerb<0.165\textwidth%
+			\ifdim\wd\answerc<0.165\textwidth%
+			\ifdim\wd\answerd<0.165\textwidth%
+			\begin{multicols}{4}
+				\begin{itemize}
+					\item[\textcolor{mycolor}{الف)}] \usebox{\answera}
+					\item[\textcolor{mycolor}{ب)}] \usebox{\answerb}
+					\item[\textcolor{mycolor}{ج)}] \usebox{\answerc}
+					\item[\textcolor{mycolor}{د)}] \usebox{\answerd}
+				\end{itemize}
+			\end{multicols}
+			\else%
+			\ifdim\wd\answera<0.4\textwidth%
+			\ifdim\wd\answerb<0.4\textwidth%
+			\ifdim\wd\answerc<0.4\textwidth%
+			\ifdim\wd\answerd<0.4\textwidth%
+			\begin{multicols}{2}
+				\begin{itemize}
+					\item[\textcolor{mycolor}{الف)}] \usebox{\answera}
+					\item[\textcolor{mycolor}{ج)}] \usebox{\answerc}
+					\item[\textcolor{mycolor}{ب)}] \usebox{\answerb}
+					\item[\textcolor{mycolor}{د)}] \usebox{\answerd}
+				\end{itemize}
+			\end{multicols}
+			\else
+			\begin{itemize}
+				\item[\textcolor{mycolor}{الف)}] #1
+				\item[\textcolor{mycolor}{ب)}] #2
+				\item[\textcolor{mycolor}{ج)}] #3
+				\item[\textcolor{mycolor}{د)}] #4
+			\end{itemize}
+			\fi
+			\else
+			\begin{itemize}
+				\item[\textcolor{mycolor}{الف)}] #1
+				\item[\textcolor{mycolor}{ب)}] #2
+				\item[\textcolor{mycolor}{ج)}] #3
+				\item[\textcolor{mycolor}{د)}] #4
+			\end{itemize}
+			\fi
+			\else
+			\begin{itemize}
+				\item[\textcolor{mycolor}{الف)}] #1
+				\item[\textcolor{mycolor}{ب)}] #2
+				\item[\textcolor{mycolor}{ج)}] #3
+				\item[\textcolor{mycolor}{د)}] #4
+			\end{itemize}
+			\fi
+			\else
+			\begin{itemize}
+				\item[\textcolor{mycolor}{الف)}] #1
+				\item[\textcolor{mycolor}{ب)}] #2
+				\item[\textcolor{mycolor}{ج)}] #3
+				\item[\textcolor{mycolor}{د)}] #4
+			\end{itemize}
+			\fi\fi
+			\else
+			\ifdim\wd\answera<0.4\textwidth%
+			\ifdim\wd\answerb<0.4\textwidth%
+			\ifdim\wd\answerc<0.4\textwidth%
+			\ifdim\wd\answerd<0.4\textwidth%
+			\begin{multicols}{2}
+				\begin{itemize}
+					\item[\textcolor{mycolor}{الف)}] \usebox{\answera}
+					\item[\textcolor{mycolor}{ج)}] \usebox{\answerc}
+					\item[\textcolor{mycolor}{ب)}] \usebox{\answerb}
+					\item[\textcolor{mycolor}{د)}] \usebox{\answerd}
+				\end{itemize}
+			\end{multicols}
+			\else
+			\begin{itemize}
+				\item[\textcolor{mycolor}{الف)}] #1
+				\item[\textcolor{mycolor}{ب)}] #2
+				\item[\textcolor{mycolor}{ج)}] #3
+				\item[\textcolor{mycolor}{د)}] #4
+			\end{itemize}
+			\fi
+			\else
+			\begin{itemize}
+				\item[\textcolor{mycolor}{الف)}] #1
+				\item[\textcolor{mycolor}{ب)}] #2
+				\item[\textcolor{mycolor}{ج)}] #3
+				\item[\textcolor{mycolor}{د)}] #4
+			\end{itemize}
+			\fi
+			\else
+			\begin{itemize}
+				\item[\textcolor{mycolor}{الف)}] #1
+				\item[\textcolor{mycolor}{ب)}] #2
+				\item[\textcolor{mycolor}{ج)}] #3
+				\item[\textcolor{mycolor}{د)}] #4
+			\end{itemize}
+			\fi
+			\else
+			\begin{itemize}
+				\item[\textcolor{mycolor}{الف)}] #1
+				\item[\textcolor{mycolor}{ب)}] #2
+				\item[\textcolor{mycolor}{ج)}] #3
+				\item[\textcolor{mycolor}{د)}] #4
+			\end{itemize}
+			\fi\fi
+			\else
+			\ifdim\wd\answera<0.4\textwidth%
+			\ifdim\wd\answerb<0.4\textwidth%
+			\ifdim\wd\answerc<0.4\textwidth%
+			\ifdim\wd\answerd<0.4\textwidth%
+			\begin{multicols}{2}
+				\begin{itemize}
+					\item[\textcolor{mycolor}{الف)}] \usebox{\answera}
+					\item[\textcolor{mycolor}{ج)}] \usebox{\answerc}
+					\item[\textcolor{mycolor}{ب)}] \usebox{\answerb}
+					\item[\textcolor{mycolor}{د)}] \usebox{\answerd}
+				\end{itemize}
+			\end{multicols}
+			\else
+			\begin{itemize}
+				\item[\textcolor{mycolor}{الف)}] #1
+				\item[\textcolor{mycolor}{ب)}] #2
+				\item[\textcolor{mycolor}{ج)}] #3
+				\item[\textcolor{mycolor}{د)}] #4
+			\end{itemize}
+			\fi
+			\else
+			\begin{itemize}
+				\item[\textcolor{mycolor}{الف)}] #1
+				\item[\textcolor{mycolor}{ب)}] #2
+				\item[\textcolor{mycolor}{ج)}] #3
+				\item[\textcolor{mycolor}{د)}] #4
+			\end{itemize}
+			\fi
+			\else
+			\begin{itemize}
+				\item[\textcolor{mycolor}{الف)}] #1
+				\item[\textcolor{mycolor}{ب)}] #2
+				\item[\textcolor{mycolor}{ج)}] #3
+				\item[\textcolor{mycolor}{د)}] #4
+			\end{itemize}
+			\fi
+			\else
+			\begin{itemize}
+				\item[\textcolor{mycolor}{الف)}] #1
+				\item[\textcolor{mycolor}{ب)}] #2
+				\item[\textcolor{mycolor}{ج)}] #3
+				\item[\textcolor{mycolor}{د)}] #4
+			\end{itemize}
+			\fi\fi
+			\else
+			\ifdim\wd\answera<0.4\textwidth%
+			\ifdim\wd\answerb<0.4\textwidth%
+			\ifdim\wd\answerc<0.4\textwidth%
+			\ifdim\wd\answerd<0.4\textwidth%
+			\begin{multicols}{2}
+				\begin{itemize}
+					\item[\textcolor{mycolor}{الف)}] \usebox{\answera}
+					\item[\textcolor{mycolor}{ج)}] \usebox{\answerc}
+					\item[\textcolor{mycolor}{ب)}] \usebox{\answerb}
+					\item[\textcolor{mycolor}{د)}] \usebox{\answerd}
+				\end{itemize}
+			\end{multicols}
+			\else
+			\begin{itemize}
+				\item[\textcolor{mycolor}{الف)}] #1
+				\item[\textcolor{mycolor}{ب)}] #2
+				\item[\textcolor{mycolor}{ج)}] #3
+				\item[\textcolor{mycolor}{د)}] #4
+			\end{itemize}
+			\fi
+			\else
+			\begin{itemize}
+				\item[\textcolor{mycolor}{الف)}] #1
+				\item[\textcolor{mycolor}{ب)}] #2
+				\item[\textcolor{mycolor}{ج)}] #3
+				\item[\textcolor{mycolor}{د)}] #4
+			\end{itemize}
+			\fi
+			\else
+			\begin{itemize}
+				\item[\textcolor{mycolor}{الف)}] #1
+				\item[\textcolor{mycolor}{ب)}] #2
+				\item[\textcolor{mycolor}{ج)}] #3
+				\item[\textcolor{mycolor}{د)}] #4
+			\end{itemize}
+			\fi
+			\else
+			\begin{itemize}
+				\item[\textcolor{mycolor}{الف)}] #1
+				\item[\textcolor{mycolor}{ب)}] #2
+				\item[\textcolor{mycolor}{ج)}] #3
+				\item[\textcolor{mycolor}{د)}] #4
+			\end{itemize}
+			\fi\fi
+		}
+
+
+%\defglsentryfmt[acronym]{\glsentryname{\glslabel}\ifglsused{\glslabel}{}{ (\lr{\glsentrydesc{\glslabel}})}}
+
+%\defglsentryfmt[english]{\glsgenentryfmt\ifglsused{\glslabel}{}{ (\lr{\glsentryname{\glslabel}})}}
+
+\newcommand\tline[2]{$\underset{\text{#1}}{\text{\underline{#2}}}$}
+
+\geometry{a4paper,top=1cm, bottom=1.5cm, left=.9cm, right=.6cm}
+
+%\newcommand{\insertName}{
+%		\baselineskip = .8cm
+%		\begin{table}[H]
+%			\begin{tabular}{|p{5cm}|p{3cm}|p{3cm}|}\hline
+%				نام و نام خانوادگی & شماره دانشجویی & تاریخ 
+%				\\\hline
+%				& & 
+%				\\\hline
+%			\end{tabular}
+%		\end{table}
+%	}
+
+\newcommand{\mygls}[1]{\glsentrytext{#1} (\glsentryname{#1})}
+\newcommand{\myabr}[1]{\glsentrytext{#1} (\lr{\glsentrydesc{#1}})}
+
+
+\NewDocumentEnvironment{bb}{g g}{
+	\tikzstyle{mybox1} = [draw=YellowGreen, fill=white,very thick, rectangle, rounded corners, inner sep=10pt, inner ysep=20pt]
+	\tikzstyle{fancytitle1} =[fill=YellowGreen, text=white]
+	\tikzstyle{fancytitle2} =[fill=YellowGreen!5, text=white]
+	\tikzstyle{fancytitle3} =[fill=white, text=white]
+	\begin{center}
+		\begin{tikzpicture}
+			\node [mybox1] (box)\bgroup
+			\IfValueTF{#2}{
+				\IfFileExists{#2}{\begin{minipage}{.85\textwidth}}{\begin{minipage}{.93\textwidth}}
+			}{%%
+				\IfFileExists{note.png}{\begin{minipage}{.85\textwidth}}{\begin{minipage}{.93\textwidth}}
+			}%%
+			\baselineskip=.95cm
+				\begin{RTL}
+}{%
+				\end{RTL}
+			\end{minipage}
+			\egroup;
+			\IfValueTF{#1}{\node[fancytitle1, left=10pt] at (box.north east) {\hboxR{#1}};}{\node[fancytitle1, left=10pt] at (box.north east) {\hboxR{نکته}};}%
+			\IfValueTF{#2}{
+				\IfFileExists{#2}
+				{\node[fancytitle3, left=3pt,   rounded corners] at (box.west) {\includegraphics[width=.07\textwidth]{#2}}; }
+				{\node[fancytitle2,  rounded corners] at (box.west) {\handBS};}			
+			}{%%
+				\IfFileExists{bb.png}
+				{\node[fancytitle3, left=3pt,   rounded corners] at (box.west) {\includegraphics[width=.07\textwidth]{note}}; }
+				{\node[fancytitle2,  rounded corners] at (box.west) {\handBS};}
+			}%%
+		\end{tikzpicture}
+	\end{center}
+}%
+
+\defglsentryfmt[english]{\glsgenentryfmt\ifglsused{\glslabel}{}{}}
+
+\defglsentryfmt[acronym]{\glsentryname{\glslabel}\ifglsused{\glslabel}{}{}}
+
+
+\newglossarystyle{myAbbrlist2}{%
+	%%% این دستور در حقیقت عملیات گروه‌بندی را انجام می‌دهد. بدین صورت که اختصارات‌ در بخش‌های جداگانه گروه‌بندی می‌شوند، 
+	%%% عنوان بخش همان نام حرفی است که هر اختصار در آن گروه با آن شروع شده است. 
+	\renewenvironment{theglossary}{}{}
+	\renewcommand*{\glsgroupskip}{\vskip 0mm}
+	\renewcommand*{\glsgroupheading}[1]{}
+	%%% در این دستور نحوه نمایش اختصارات می‌آید. در این جا حالت کوچک اختصار در سمت چپ و حالت بزرگ در سمت راست قرار داده شده است، و بین آن با نقطه پر می‌شود. 
+	\renewcommand*{\glossentry}[2]{\noindent\glsentrytext{##1}\dotfill\space \Glsentrylong{##1}
+		
+	}
+	%%% تغییر نام محیط abbreviation به فهرست اختصارات
+	\renewcommand*{\acronymname}{\rl{فهرست اختصارات}}
+}
+
+
+\newglossarystyle{myEntoFa2}{%
+	%%% این دستور در حقیقت عملیات گروه‌بندی را انجام می‌دهد. بدین صورت که واژه‌ها در بخش‌های جداگانه گروه‌بندی می‌شوند، 
+	%%% عنوان بخش همان نام حرفی است که هر واژه در آن گروه با آن شروع شده است. 
+	\renewenvironment{theglossary}{}{}
+	\renewcommand*{\glsgroupskip}{\vskip 0mm}
+	\renewcommand*{\glsgroupheading}[1]{}
+	%%% در این دستور نحوه نمایش واژه‌ها می‌آید. در این جا واژه فارسی در سمت راست و واژه انگلیسی در سمت چپ قرار داده شده است، و بین آن با نقطه پر می‌شود. 
+	\renewcommand*{\glossentry}[2]{\noindent\glsentrytext{##1}\dotfill\space \glsentryname{##1}
+		
+	}
+}
+
+\newtheorem*{definition*}{تعریف}

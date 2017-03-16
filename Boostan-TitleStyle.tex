@@ -1,0 +1,329 @@
+%% Data:  2014-09-03
+
+%\geometry{paperwidth=280mm,paperheight=200mm,rmargin=0mm,lmargin=0mm,top=0mm,bottom=0mm}
+
+\makeatletter
+
+%%% تعریف یکسری متغیرها که کاربر می‌تواند بعدا آن ها را مقداردهی کند. 
+
+\gdef\@type{نوع پروژه}
+\def\type#1{\gdef\@type{#1}}
+
+%% عنوان محصول را تعیین می‌کند. این عنواند در ایجاد عنوان در مستند استفاده
+%% می‌شود این عنوان در هر مستند باید ایجاد شود در غیر این صورت از عنوان
+%% پیشفرض استفاده خواهد شد.
+\gdef\@title{عنوان پروژه}
+\def\title#1{\gdef\@title{#1}}
+
+%% زیر عنوان یک متن ساده را تعیین می‌کند که یک هدف مهم محصول را تعیین می‌کند
+%% این عنوان می تواند برای یک محصول در نظر گرفته نشود. از این داده برای 
+%% ایجاد عنوان و سایر مکان های محصول استفاده می‌شود.
+\gdef\@subtitle{کاربرد محصول برای استفاده در زیر عنوان}
+\def\subtitle#1{\gdef\@subtitle{#1}}
+%% افراد و گروه های که در تهیه این مستند و محصول همکاری داشته اند را تعیین
+%% می کند این داده همواره باید بیان شود. این داده در نوشتن عنوان و دیگر قسمت
+%% های مستند مورد استفاده قرار می‌گیرد.
+\gdef\@author{}
+\def\author#1{\gdef\@author{#1}}
+\newcommand{\authorText}{\@author\,}
+%% تاریخ نهایی نوشتن مستند را تعیین می‌کند این تاریخ در نوشتن عنوان استفاده
+%% می‌شود این تارخ باید تعیین شود در غیر این صورت به صورت پیش فرض یک تاریخ
+%% برای آن استفاده می شود.
+\gdef\@date{ آخرین ویرایش: \myData}
+\def\date#1{\gdef\@date{#1}}
+
+\gdef\@supervisor{} 
+\def\supervisor#1{\gdef\@supervisor{#1}}
+
+\gdef\@adviser{نام استاد مشاور}
+\def\adviser#1{\gdef\@adviser{#1}}
+
+\gdef\@session{جلسه ارایه}
+\def\session#1{\gdef\@session{#1}}
+
+\gdef\@institute{پژوهشکده}
+\def\institute#1{\gdef\@institute{#1}}
+
+\gdef\@faculity{ نام دانشکده}
+\def\faculity#1{\gdef\@faculity{#1}}
+
+\gdef\@group{ نام گروه}
+\def\group#1{\gdef\@group{#1}}
+
+\gdef\@community{نام زیرگروه}
+\def\community#1{\gdef\@community{#1}}
+
+\gdef\@forwhat{پایان‌نامه یا رساله برای دریافت درجه}
+\def\forwhat#1{\gdef\@forwhat{#1}}
+
+\gdef\@field{در رشته مهندسی کامپیوتر گرایش}
+\def\field#1{\gdef\@field{#1}}
+
+
+\gdef\@version{اول}
+\def\version#1{\gdef\@version{#1}}
+
+
+%%% نام فایلی لوگوی مورد استفاده در نوشتار توسط این پارامتر مشخص می‌شود. 
+\gdef\@logofile{logonotfound}
+\def\logofile#1{\gdef\@logofile{#1}}
+%%% اندازه فایل لوگوی موجود در متن توسط این پارامتر مشخص می‌شود.
+\gdef\@logoScale{.3\textwidth}
+\def\logoScale#1{\gdef\@logoScale{#1}}
+
+\gdef\@titleStyle{lshort}
+\def\titleStyle#1{\gdef\@titleStyle{#1}}
+
+%%  برگه نخست در مستند را ایجاد می‌کند. در این برگه تنها نام پروردگار
+%% ذکر می‌شود. برای ایجاد نام پرودگار یک تصویر استفاده می‌شود به نام god.ps
+%% که باید در پوشه image کنار پرونده اصلی مستند قرار گرفته شده باشد.
+\DeclareDocumentCommand{\Godpage}{g g}{	
+	\thispagestyle{empty}
+	\begin{center}
+	\IfValueTF{#1}{
+		\IfValueTF{#2}{
+			\includegraphics[width=#2\textwidth]{#1}
+		}{%%%
+			\includegraphics[width=.7\textwidth]{#1}
+		}%%%
+	}{%%
+		\IfValueTF{#2}{
+			\defpersianfont\salam[Scale=26]{Far.Symbol8}
+			{\salam #2}
+		}{%%%
+			\defpersianfont\salam[Scale=50]{Far.Symbol8}
+			{\salam c}
+
+		}%%%
+	}%%
+	\end{center}
+	\newpage
+}%
+
+\DeclareDocumentCommand{\GodpageFont}{g}{	
+	\thispagestyle{empty}
+	\begin{center}
+		\IfValueTF{#1}{
+			\defpersianfont\salam[Scale=26]{Far.Symbol8}
+			{\salam #1}
+		}{%%%
+			\defpersianfont\salam[Scale=50]{Far.Symbol8}
+			{\salam c}
+
+		}%%%
+	\end{center}
+	\newpage
+}%
+
+
+%% ============================================================================================================================
+
+\newcommand{\pejoheshStyle}{
+%	%% این یک استایل ساده و رسمی.
+%	%% توسط این دستور تمامی footer و header های صفحه را حذف می‌کنیم. 
+	\thispagestyle{empty}
+	\begin{center}
+		\includegraphics[width=\@logoScale]{\@logofile}\\*[10pt]
+		\logofontR{\@institute}\medskip
+		\vspace*{\stretch{2}}
+		\typefontR\textbf{\@type}\\*[35pt]
+		\titlefontR\textbf{\@title}\medskip
+		\vspace*{\stretch{2}}
+		\datafontR{\@author}\medskip
+		\vspace*{\stretch{2}}
+		\datafontR{\@date}
+		\vspace*{\stretch{1}}
+	\end{center}
+	\clearpage
+} %
+
+%% ============================================================================================================================
+
+\newcommand{\lshortStyle}{
+	%% استایلی شبیه به استایل شروع کتاب "مقدمه‌ای نه چندان کوتاه بر Latex"
+	\definecolor{authorcol}{rgb}{.51,0,.51}
+	\begin{flushleft}
+	\vspace*{\stretch{.1}}
+	\begin{flushright}\includegraphics[width=\@logoScale]{\@logofile}\end{flushright}
+	\newlength{\centeroffset}
+	\setlength{\centeroffset}{-0.5\oddsidemargin}
+	\addtolength{\centeroffset}{0.5\evensidemargin}
+	\addtolength{\textwidth}{-\centeroffset}
+	%% توسط این دستور تمامی footer و header های صفحه را حذف می‌کنیم. 
+	\thispagestyle{empty}
+	
+	\vspace*{\stretch{2}}
+	
+	\noindent\hspace*{\centeroffset}\makebox[0pt][l]{
+		\begin{minipage}{\textwidth}
+			\flushleft
+			{ \titlefont\textcolor{magenta}\@title \\*[10pt]}
+			\noindent\color{gray}{\rule[-1ex]{\textwidth}{5pt}\\*[4mm]
+			\hfill{\large \bfseries\@type }}
+		\end{minipage}
+	}%
+	
+	\vspace{\stretch{2}}
+	
+	\noindent\hspace*{\centeroffset}\makebox[0pt][l]{
+		\begin{minipage}{\textwidth}
+			{\flushleft\textcolor{authorcol}{\bfseries\@author\\*[5pt]}}
+			{\flushleft\textcolor{authorcol}{\bfseries\@supervisor\\*[5pt]}}
+			{\flushleft\textcolor{authorcol}{\bfseries\small\@date}\\}
+		\end{minipage}
+	}%
+		
+	\vspace{\stretch{1.5}}
+
+	\end{flushleft}
+	\clearpage
+}%
+
+%% ============================================================================================================================
+
+\newfontfamily\sols[Scale=2.5,Script=Parsi,Language=Parsi,Mapping=farsidigits]{IranNastaliq}   
+\defpersianfont\salam[Scale=12]{Far.Symbol8}
+
+
+\newcommand{\presStyle}[1]{
+	\defpersianfont\titr[Scale=1.2]{IRTitr}
+
+	%%% ایجاد عنوان برای فایل ارایه (Presentation) 
+	%%% توسط این دستور تمامی footer و header های صفحه را حذف می‌کنیم. 
+	\thispagestyle{empty}
+	
+	\begin{titlepage}
+		\centering
+		{\salam \textcolor{Blue}{#1}}\\
+		\distance{2}
+		\textcolor{Green}{\huge\titr{\@title}}\\
+		\distance{2}
+		\textcolor{Magenta}{\textbf{\@session}}\\*[14pt]
+		\textcolor{Magenta}{\small\textbf{\@date}}
+		\distance{1}
+	\end{titlepage}
+	\clearpage\newpage
+	\pagestyle{empty}
+	\pagenumbering{arabic}
+}%	
+	
+	
+%% ============================================================================================================================
+
+\newcommand{\thesisStyleOO}[2]{
+	\ignorespaces
+	\begin{center}
+	\thispagestyle{empty}
+	\begin{table}
+		\begin{tabular}{ccc}
+			\includegraphics[width=.18\textwidth]{#1}
+			&
+			\begin{minipage}{0.55\linewidth}
+				\vskip 0.6cm
+				\begin{center}
+					\@institute\\* [0.4cm]
+					\@faculity\\ [0.4cm]
+					\@group \\*[1cm]
+				\end{center}
+			\end{minipage}
+			&
+			\includegraphics[width=.2\textwidth]{#2}
+		\end{tabular}
+	\end{table}
+	\vspace*{\stretch{1}}
+	\textbf{\LARGE{\@title}}
+	\vspace*{\stretch{1}}
+	\vskip 1cm
+	\large{\@forwhat}\\[.4cm]
+	\large{\@field}
+	\vspace*{\stretch{1}}
+	\vskip 1cm
+	\Large{\textbf{\@author}}
+	\vskip 1.5cm
+	\Large{
+	استاد راهنما:}
+	 \\ [0.4cm] \Large{\@supervisor}
+	\vskip 2cm
+	\large{\@date}
+	\end{center}
+	\clearpage
+}%
+
+%% ============================================================================================================================
+
+\newcommand{\thesisStyleO}{
+	\ignorespaces
+	\begin{center}
+		\vspace*{\stretch{1}}
+		{\textbf{\LARGE{\@title}}}
+		\vspace*{\stretch{1}}
+		\vskip 3cm
+%		{\Large
+%		نگارش:
+%		 \\ [0.2cm] \@author}
+		{\Large \@author}
+%		\vskip 1cm
+%		{\Large
+%		استاد راهنما:
+%		 \\ [0.2cm] \@supervisor}
+		\vskip 1cm
+		 %{\@comment $ $\\* [0.3cm]}
+		\large{\@date}
+		\end{center}
+	\clearpage
+}%
+
+%% ============================================================================================================================
+
+\newcommand{\homeworkS}{
+\thispagestyle{empty}
+\begin{center}
+\begin{flushright}
+\includegraphics[width=\@logoScale]{\@logofile}
+\end{flushright}
+\vspace{3cm}
+{\farsifontshafighT \bfseries {\@title} }
+\begin{tikzpicture}
+\draw[red,line width=0.15cm](0,0)--(12,0);
+\end{tikzpicture} 
+\vspace{2cm}
+\begin{minipage}{0.8\textwidth}
+\begin{flushright} \large
+\emph{\textcolor{Plum}{\@author}} \\[0.6cm]
+\end{flushright}
+\end{minipage}\\[1.5cm]
+\begin{minipage}{0.8\textwidth}
+\begin{flushright} \large
+\emph{\@supervisor}\\[0.6cm]
+\end{flushright}
+\end{minipage}
+\vfill\large \today
+\end{center}
+\clearpage
+}
+
+%% ============================================================================================================================
+
+\let\oldmaketitle\maketitle
+\renewcommand{\maketitle}{
+\ifthenelse{\equal{\@titleStyle}{pejohesh}}{\pejoheshStyle}{ %1
+\ifthenelse{\equal{\@titleStyle}{lshort}}{\lshortStyle}{ %2
+\ifthenelse{\equal{\@titleStyle}{proposal}}{\proposalStyle}{ %3
+\ifthenelse{\equal{\@titleStyle}{presentation}}{\presStyle{b}}{ %4
+\ifthenelse{\equal{\@titleStyle}{thesis}}{\thesisStyleO}{ %5
+\ifthenelse{\equal{\@titleStyle}{homework}}{\homeworkS}{ %6
+\oldmaketitle
+} %6
+} %5
+} %4
+} %3
+}%2
+}%1
+}%maketitle
+\makeatother
+
+%\geometry{paperwidth=230mm,paperheight=180mm,rmargin=50mm,lmargin=8mm,top=20mm,bottom=10mm}
+
+
+
+

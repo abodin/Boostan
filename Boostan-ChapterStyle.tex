@@ -1,0 +1,24 @@
+%% Data:  2015-07-04
+%% %% انواع مختلف استایل‌های برای عنوان فصل‌ها 
+
+
+\newcommand*\chapterlabel{}
+\titleformat{\chapter}
+  {\gdef\chapterlabel{}
+   \normalfont\Huge\bfseries}
+  {\gdef\chapterlabel{\thechapter\ }}{0pt}
+  {\begin{tikzpicture}[remember picture,overlay]
+    \node[yshift=-3cm] at (current page.north west)
+      {\begin{tikzpicture}[remember picture, overlay]
+        \draw[fill=BlueGreen] (0,0) rectangle
+          (\paperwidth,3cm);
+        \setRTL
+        \node[anchor=east,xshift=0.95\paperwidth,rectangle,
+              rounded corners=20pt,inner sep=11pt,
+              fill=MidnightBlue,text width=\dimexpr0.9\paperwidth-22pt\relax,align=justify]
+             {\addfontfeature{Color=F5F5F5}\chapterlabel#1};
+       \end{tikzpicture}
+      };
+   \end{tikzpicture}
+  }
+%\titlespacing*{\chapter}{0pt}{50pt}{-60pt}

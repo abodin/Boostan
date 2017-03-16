@@ -1,0 +1,59 @@
+\documentclass[10pt]{article}
+
+\usepackage[usenames,dvipsnames]{color,xcolor}
+
+\usepackage{tikz}
+\usetikzlibrary{calc,shapes}
+
+\usepackage[active,tightpage]{preview}
+\PreviewEnvironment{tikzpicture}
+\setlength\PreviewBorder{1mm}%
+
+\begin{document}
+
+\begin{tikzpicture}
+\pgfmathsetmacro{\a}{6}
+\pgfmathsetmacro{\b}{2cm}
+\pgfmathsetmacro{\c}{1.73205cm}
+\pgfmathsetmacro{\d}{1.73205cm}
+\pgfmathsetmacro{\shif}{1.5cm}
+\def \colortrans {black!1}
+\def \linetrans   {black!10}
+\newcounter{temp}
+
+\foreach \t in {2,...,7}{
+	\node[regular polygon, regular polygon sides=\a, minimum size=\b, draw=\linetrans, fill=\colortrans,yshift=-2*\c    ,xshift=(2*\t-2)*\shif] (poly) at (\a*2,0) {};
+	\node[regular polygon, regular polygon sides=\a, minimum size=\b, draw=\linetrans, fill=\colortrans,yshift=-\c        ,xshift=(2*\t-2)*\shif] (poly) at (\a*2,0) {};
+	\node[regular polygon, regular polygon sides=\a, minimum size=\b, draw=\linetrans, fill=\colortrans,                           xshift=(2*\t-2)*\shif] (poly) at (\a*2,0) {};
+	\node[regular polygon, regular polygon sides=\a, minimum size=\b, draw=\linetrans, fill=\colortrans,yshift=\c          ,xshift=(2*\t-2)*\shif] (poly) at (\a*2,0) {};
+	\node[regular polygon, regular polygon sides=\a, minimum size=\b, draw=\linetrans, fill=\colortrans,yshift=2*\c      ,xshift=(2*\t-2)*\shif] (poly) at (\a*2,0) {};
+	\node[regular polygon, regular polygon sides=\a, minimum size=\b, draw=\linetrans, fill=\colortrans,yshift=3*\c      ,xshift=(2*\t-2)*\shif] (poly) at (\a*2,0) {};
+}
+
+\foreach \o in {2,...,6}{
+\node[regular polygon, regular polygon sides=\a, minimum size=\b, draw=\linetrans, fill=\colortrans,yshift=-3*\d/2,xshift=(2*\o-1)*\shif] (poly) at (\a*2,0) {};
+\node[regular polygon, regular polygon sides=\a, minimum size=\b, draw=\linetrans, fill=\colortrans,yshift=-\d/2,xshift=(2*\o-1)*\shif] (poly) at (\a*2,0) {};
+\node[regular polygon, regular polygon sides=\a, minimum size=\b, draw=\linetrans, fill=\colortrans,yshift=\d/2,xshift=(2*\o-1)*\shif] (20,4) at (\a*2,0) {};
+\node[regular polygon, regular polygon sides=\a, minimum size=\b, draw=\linetrans, fill=\colortrans,yshift=3*\d/2,xshift=(2*\o-1)*\shif] (poly) at (\a*2,0) {};
+\node[regular polygon, regular polygon sides=\a, minimum size=\b, draw=\linetrans, fill=\colortrans,yshift=5*\d/2,xshift=(2*\o-1)*\shif] (poly) at (\a*2,0) {};
+}
+
+
+
+%\draw[red, dashed,yshift=0,xshift=2*\shif] (\a*2,0) circle(2.8cm);
+
+%\draw[red, fill,yshift=0,xshift=2*\shif] (\a*2,0) circle(1pt);
+%\draw[red, fill,yshift=\c,xshift=4*\shif] (\a*2,0) circle(1pt);
+
+\coordinate [yshift=0,xshift=2*\shif] (A) at (\a*2,0);
+\coordinate [yshift=\c,xshift=4*\shif] (B) at (\a*2,0);
+%
+%\draw [thick,<->,draw=Purple!60] (A) -- (B) node[above] at ($ (A)!.5!(B) $) {d};
+
+
+
+\end{tikzpicture}
+
+\end{document}
+
+
