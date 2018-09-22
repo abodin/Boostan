@@ -1,6 +1,8 @@
-%% Data:  2014-09-03
+%% Data:  22 Sep 2018
 
 %\geometry{paperwidth=280mm,paperheight=200mm,rmargin=0mm,lmargin=0mm,top=0mm,bottom=0mm}
+
+\defpersianfont\salam[Scale=30]{Far.Symbol8}
 
 \makeatletter
 
@@ -88,10 +90,8 @@
 		}%%%
 	}{%%
 		\IfValueTF{#2}{
-			\defpersianfont\salam[Scale=26]{Far.Symbol8}
 			{\salam #2}
 		}{%%%
-			\defpersianfont\salam[Scale=50]{Far.Symbol8}
 			{\salam c}
 
 		}%%%
@@ -100,14 +100,15 @@
 	\newpage
 }%
 
-\DeclareDocumentCommand{\GodpageFont}{g}{	
+\DeclareDocumentCommand{\GodpageFont}{gg}{	
 	\thispagestyle{empty}
 	\begin{center}
 		\IfValueTF{#1}{
-			\defpersianfont\salam[Scale=26]{Far.Symbol8}
+			\IfValueTF{#2}{
+			}{%%%
+			}%%%
 			{\salam #1}
 		}{%%%
-			\defpersianfont\salam[Scale=50]{Far.Symbol8}
 			{\salam c}
 
 		}%%%
@@ -182,7 +183,7 @@
 %% ============================================================================================================================
 
 \newfontfamily\sols[Scale=2.5,Script=Parsi,Language=Parsi,Mapping=farsidigits]{IranNastaliq}   
-\defpersianfont\salam[Scale=12]{Far.Symbol8}
+
 
 
 \newcommand{\presStyle}[1]{
@@ -251,25 +252,42 @@
 
 %% ============================================================================================================================
 
-\newcommand{\thesisStyleO}{
+\newcommand{\thesisStyleO}[1]{
 	\ignorespaces
 	\begin{center}
-		\vspace*{\stretch{1}}
-		{\textbf{\LARGE{\@title}}}
-		\vspace*{\stretch{1}}
-		\vskip 3cm
-%		{\Large
-%		نگارش:
-%		 \\ [0.2cm] \@author}
-		{\Large \@author}
-%		\vskip 1cm
-%		{\Large
-%		استاد راهنما:
-%		 \\ [0.2cm] \@supervisor}
-		\vskip 1cm
-		 %{\@comment $ $\\* [0.3cm]}
-		\large{\@date}
-		\end{center}
+	\thispagestyle{empty}
+	\begin{table}
+		\begin{tabular}{ccc}
+& \includegraphics[width=.2\textwidth]{#1} & \\
+			&
+			\begin{minipage}{0.55\linewidth}
+				\vskip 0.6cm
+				\begin{center}
+					\@institute\\* [0.4cm]
+					\@faculity\\ [0.4cm]
+					\@group \\*[1cm]
+				\end{center}
+			\end{minipage}
+			&
+			
+		\end{tabular}
+	\end{table}
+	\vspace*{\stretch{1}}
+	\textbf{\LARGE{\@title}}
+	\vspace*{\stretch{1}}
+	\vskip 1cm
+	\large{\@forwhat}\\[.4cm]
+	\large{\@field}
+	\vspace*{\stretch{1}}
+	\vskip 1cm
+	\Large{\textbf{\@author}}
+	\vskip 1.5cm
+	\Large{
+	استاد راهنما:}
+	 \\ [0.4cm] \Large{\@supervisor}
+	\vskip 2cm
+	\large{\@date}
+	\end{center}
 	\clearpage
 }%
 

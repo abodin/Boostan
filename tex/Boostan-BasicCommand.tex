@@ -1,4 +1,3 @@
-
 %% توسط دستور \myData می توانید تاریخ و ساعت را وارد متن خود کنید. 
 \newcommand{\myData}{
 	\newcount \hour
@@ -75,7 +74,7 @@
 	\refstepcounter{chapter}%
 	\typeout{\@chapapp\space\thechapter.}%
 	\addcontentsline{toc}{chapter}%
-	{\@chapapp~\protect\numberline{\tartibi{chapter}}~~~ #1}%
+	{\@chapapp~\protect\numberline{\arabic{chapter}}~~~ #1}%
 	\else
 	\addcontentsline{toc}{chapter}{#1}%
 	\fi
@@ -95,9 +94,12 @@
 %\renewcommand*\l@subsection{\@dottedtocline{2}{6.5em}{3.2em}} 
 \makeatother
 
-
-
-
-
-
-
+%%% این دستور به این خاطر تعریف می‌شود، که اگر بخواهیم مثلا یک کلمه در واژه نامه را Index‌کنیم، مثلا بنویسیم، ‎\index{\glspl{Water}‎}‎، این دستور index درست عمل نمی‌کند. نویسنده بسته glossaries در این باره این طور گفته است.
+%%%If you inspect the .idx file you will see that it contains the following:
+%%%\indexentry{\glsentryplural{StrictlyStable}|hyperpage}{1}
+%%%\index doesn't expand its argument when writing to the .idx file and since xindy doesn't understand (La)TeX commands the index won't be correctly sorted. This is a feature of \index and is not connected with glossaries.
+%%%You could try something like
+%%%\expandafter\index\expandafter{\glsentryplural{StrictlyStable}}
+%%% توسط دستور تعیین شده می‌توان این مشکل را حل کرد. دقت کنید که این دستور می‌بایست حتما برای واژه‌نامه ها فقط تعریف شود. 
+\newcommand{\indexglspl}[1]{\expandafter\index\expandafter{\glsentryplural{#1}}}
+\newcommand{\indexgls}[1]{\expandafter\index\expandafter{\glsentryname{#1}}}

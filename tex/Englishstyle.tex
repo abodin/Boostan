@@ -1,4 +1,4 @@
-\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[usenames,dvipsnames,table]{xcolor}
 \usepackage[top=2cm,bottom=2cm,left=1.5cm,right=1.5cm]{geometry}
 \usepackage{graphicx}
 \usepackage{pifont}
@@ -200,19 +200,19 @@
 
 %%% تعریف یکسری متغیرها که کاربر می‌تواند بعدا آن ها را مقداردهی کند. 
 
-\gdef\@type{نوع پروژه}
+\gdef\@type{}
 \def\type#1{\gdef\@type{#1}}
 
 %% عنوان محصول را تعیین می‌کند. این عنواند در ایجاد عنوان در مستند استفاده
 %% می‌شود این عنوان در هر مستند باید ایجاد شود در غیر این صورت از عنوان
 %% پیشفرض استفاده خواهد شد.
-\gdef\@title{عنوان پروژه}
+\gdef\@title{}
 \def\title#1{\gdef\@title{#1}}
 
 %% زیر عنوان یک متن ساده را تعیین می‌کند که یک هدف مهم محصول را تعیین می‌کند
 %% این عنوان می تواند برای یک محصول در نظر گرفته نشود. از این داده برای 
 %% ایجاد عنوان و سایر مکان های محصول استفاده می‌شود.
-\gdef\@subtitle{کاربرد محصول برای استفاده در زیر عنوان}
+\gdef\@subtitle{}
 \def\subtitle#1{\gdef\@subtitle{#1}}
 %% افراد و گروه های که در تهیه این مستند و محصول همکاری داشته اند را تعیین
 %% می کند این داده همواره باید بیان شود. این داده در نوشتن عنوان و دیگر قسمت
@@ -229,32 +229,32 @@
 \gdef\@supervisor{} 
 \def\supervisor#1{\gdef\@supervisor{#1}}
 
-\gdef\@adviser{نام استاد مشاور}
+\gdef\@adviser{}
 \def\adviser#1{\gdef\@adviser{#1}}
 
-\gdef\@session{جلسه ارایه}
+\gdef\@session{}
 \def\session#1{\gdef\@session{#1}}
 
-\gdef\@institute{پژوهشکده}
+\gdef\@institute{}
 \def\institute#1{\gdef\@institute{#1}}
 
-\gdef\@faculity{ نام دانشکده}
+\gdef\@faculity{}
 \def\faculity#1{\gdef\@faculity{#1}}
 
-\gdef\@group{ نام گروه}
+\gdef\@group{}
 \def\group#1{\gdef\@group{#1}}
 
-\gdef\@community{نام زیرگروه}
+\gdef\@community{}
 \def\community#1{\gdef\@community{#1}}
 
-\gdef\@forwhat{پایان‌نامه یا رساله برای دریافت درجه}
+\gdef\@forwhat{}
 \def\forwhat#1{\gdef\@forwhat{#1}}
 
-\gdef\@field{در رشته مهندسی کامپیوتر گرایش}
+\gdef\@field{}
 \def\field#1{\gdef\@field{#1}}
 
 
-\gdef\@version{اول}
+\gdef\@version{}
 \def\version#1{\gdef\@version{#1}}
 
 %%% نام فایلی لوگوی مورد استفاده در نوشتار توسط این پارامتر مشخص می‌شود. 
@@ -306,6 +306,7 @@
 
 \makeatother
 
+
 \newcommand*\chapterlabel{}
 \titleformat{\chapter}
   {\gdef\chapterlabel{}
@@ -325,8 +326,6 @@
    \end{tikzpicture}
   }
 %\titlespacing*{\chapter}{0pt}{50pt}{-60pt}
-
-
 
 
 \newcommand{\setupname}[1]{%

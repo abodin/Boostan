@@ -1,14 +1,15 @@
-%% Data:  2016-02-01
+%% Date: 22 Sep 2018
 %
 %% فایل  Boostan-LoadBasicPackage یکسری بسته‌های پایه را به استایل اضافه می‌کند. اگر بسته‌ای وجود دارد که در اکثر نوشتارهای خود از آن استفاده می‌کنید، بهتر است آن را در این فایل وارد کنید. 
 %%یکسری قوانین برای وارد کردن بسته‌ها وجود دارد که در ابتدای فایل مورد نظر ذکر شده است. 
 \input{Boostan-LoadBasicPackage}
+
+%% یکسری فر امین اصلی نیز در فایل Boostan-BasicCommand ارایه شده است. 
 \input{Boostan-BasicCommand}
 
 %%% 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 %%%==================== تنظیمات بسته geometry
 %%% تنظیمات مربوط به حاشیه صفحه
-%\geometry{top=2.8cm, bottom=3cm, left=2.2cm, right=2.3cm}
 \geometry{a4paper,top=2.6cm, bottom=2.8cm, left=2.2cm, right=2.3cm}
 % %%% در Latex انواع مختلفی از اندازه‌ها برای ابعاد کاغذ وجود دارد. گرچه شما می‌توانید به دلخواه ابعاد مختلفی به کاغذ بدهید. 
 %%%%a0paper, a1paper, a2paper, a3paper, a4paper, a5paper, a6paper,b0paper, b1paper, b2paper, b3paper, b4paper, b5paper, b6paper, c0paper, c1paper, c2paper, c3paper, c4paper, c5paper, c6paper, b0j, b1j, b2j, b3j, b4j, b5j, b6j, ansiapaper, ansibpaper, ansicpaper, ansidpaper, ansiepaper, letterpaper, executivepaper, legalpaper
@@ -29,7 +30,7 @@
 	%linewidth=\textwidth ,
 	%% نوع قالب دور محیط listings را تعیین می کند. 
 	frameround=fttt,
-	frame=trBL,
+	frame=single,
 	aboveskip=5mm,
 	belowskip=4mm,
 	%% is selected at the beginning of each listing. You could use \footnotesize,
@@ -61,7 +62,7 @@
 	breaklines=true,
 	%% باعث می شود که فاصله های بین رشته های نمایان شود.
 	%% lets blank spaces in strings appear  or as blank spaces
-	showstringspaces=true
+	%showstringspaces=true
 	captiondirection=RTL
 }%
 
@@ -82,10 +83,10 @@
 
 \renewcommand{\lstlistingname}{\rl{کد}}
 
-%% البته شما می توانید این موارد پیش فرض را به ازای هر کد تغییر دهید. به عنوان مثال، ما یک کد در پوشه Code در شاخه فعلی قرار دادیم، می خواهیم آن را وارد متن کنیم، کافی است که خطوط زیر را در محل مناسبی که می خواهیم کد را قرار دهیم وارد کنیم. در این مثال یک فایل کد JAVA به نام myCode.java را می خواهیم وارد کنیم. 
-%%\begin{latin}
-%%\lstinputlisting[breaklines=true,numbers=left,language=Java, basicstyle=\ttfamily, numberstyle=\footnotesize, numbersep=10pt, captionpos=b, frame=single, breakatwhitespace=false]{Code/myCode.java}
-%%\end{latin}
+% البته شما می توانید این موارد پیش فرض را به ازای هر کد تغییر دهید. به عنوان مثال، ما یک کد در پوشه Code در شاخه فعلی قرار دادیم، می خواهیم آن را وارد متن کنیم، کافی است که خطوط زیر را در محل مناسبی که می خواهیم کد را قرار دهیم وارد کنیم. در این مثال یک فایل کد JAVA به نام myCode.java را می خواهیم وارد کنیم. 
+%\begin{latin}
+%\lstinputlisting[breaklines=true,numbers=left,language=Java, basicstyle=\ttfamily, numberstyle=\footnotesize, numbersep=10pt, captionpos=b, frame=single, breakatwhitespace=false]{Code/myCode.java}
+%\end{latin}
 
 %%% 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 %%==================== تنظیمات hyperref
@@ -182,7 +183,7 @@
 	%% شما با دستور زیر بعد از فراخوانی بسته xepersian می توانید فونت انگلیسی را تعیین کنید
 	%% دقت کنید که عبارات انگلیسی شما باید در دستور \lr{} قرار گیرد تا xepersian بتواند بفمهد که این عبارات انگلیسی است
 	%%\setlatintextfont[Scale=1]{Times New Roman}
-	\setlatintextfont[Scale=1]{Linux Libertine}
+	\setlatintextfont[Scale=1.1]{Linux Libertine}
 	%% تعریف برای فونت اعداد و ارقام
 	%\setdigitfont[Scale=1.1]{XB Zar}
 } % M
@@ -224,7 +225,7 @@
 
 %%% تنظیم فاصله خطوط در متن اصلی
 \newlength{\baselineskipVar}
-\setlength{\baselineskipVar}{.9cm}
+\setlength{\baselineskipVar}{0.9cm}
 
 %% تنظیم فاصله خطوط در فهرست‌ها
 \newlength{\listlineskipVar}
@@ -561,24 +562,86 @@
 %%
 
 %% ASN.1
-\lstdefinelanguage[]{asn.1}%
-{keywords=%
-	{DEFINITIONS,SEQUENCE,OCTET,INTEGER,BEGIN,END,OPTIONAL,STRING,ENUMERATED,CHOICE,BOOLEAN},
-	sensitive=true,
-	morecomment=[l]{--},
-	  emph=[2]%
-	{%
-		DEFAULT,NULL,
-	},
-	emphstyle=[2]{\color{Red}},
-	%
-	emph=[3]% Variable Types
-	{% 
-		SIZE,
-	},
-	emphstyle=[3]{\color{Plum}},
-}[keywords]%
+%\lstdefinelanguage[]{asn.1}%
+%{keywords=%
+%	{DEFINITIONS,SEQUENCE,OCTET,INTEGER,BEGIN,END,OPTIONAL,STRING,ENUMERATED,CHOICE,BOOLEAN},
+%	sensitive=true,
+%	morestring=[b]",
+%	morestring=[s]{>}{<},
+%	morecomment=[l]{--},
+%	morecomment=[s]{<?}{?>},
+%	stringstyle=\color{black},
+%	identifierstyle=\color{Blue},
+%	keywordstyle=\color{cyan},
+%	morekeywords={xmlns,version,type}% list your attributes here
+%	emph=[2]%
+%	{%
+%		DEFAULT,NULL,
+%	},
+%	emphstyle=[2]{\color{Red}},
+%	%
+%	emph=[3]% Variable Types
+%	{% 
+%		SIZE,
+%	},
+%	emphstyle=[3]{\color{Plum}},
+%}[keywords]%
+%
+%\lstdefinelanguage{XML}
+%{
+%  morestring=[b]",
+%  morestring=[s]{>}{<},
+%  morecomment=[s]{<?}{?>},
+%  stringstyle=\color{black},
+%  identifierstyle=\color{Blue},
+%  keywordstyle=\color{cyan},
+%  columns=fullflexible,
+%  showstringspaces=false,
+%  morekeywords={xmlns,version,type}% list your attributes here
+%}
+%
+%\colorlet{numb}{magenta!60!black}
+
+%\lstdefinelanguage{JSON}{
+%    stepnumber=1,
+%    numbersep=8pt,
+%    showstringspaces=false,
+%    breaklines=true,
+%    string=[s]{"}{"},
+%    comment=[l]{:\ "},
+%    morecomment=[l]{:"},
+%literate=
+%        *{0}{{{\color{numb}0}}}{1}
+%         {1}{{{\color{numb}1}}}{1}
+%         {2}{{{\color{numb}2}}}{1}
+%         {3}{{{\color{numb}3}}}{1}
+%         {4}{{{\color{numb}4}}}{1}
+%         {5}{{{\color{numb}5}}}{1}
+%         {6}{{{\color{numb}6}}}{1}
+%         {7}{{{\color{numb}7}}}{1}
+%         {8}{{{\color{numb}8}}}{1}
+%         {9}{{{\color{numb}9}}}{1}
+%}
+
+%\lstdefinelanguage{INI}
+%{
+%    morecomment=[s][\color{Orchid}\bfseries]{[}{]},
+%    morecomment=[l]{\#},
+%    morecomment=[l]{;},
+%    commentstyle=\color{gray}\ttfamily,
+%    morekeywords={},
+%    otherkeywords={=,:},
+%    keywordstyle={\color{Green}\bfseries}
+%}
 
 
+\makeatletter
+\bidi@AtBeginEnvironment{latin}{\linespread{1}}
+\makeatother
 
-
+%% تغییر عنوان part به پاره و شماره آن به شماره گذاری حروفی.
+\makeatletter
+\renewcommand\thepart{\ifnum\value{part}=1 نخست \else \tartibi{part}\fi}
+\makeatother
+\def\partname{پاره}
+\renewcommand{\partautorefname}{پاره}

@@ -22,3 +22,24 @@
    \end{tikzpicture}
   }
 %\titlespacing*{\chapter}{0pt}{50pt}{-60pt}
+\makeatletter
+\bidi@patchcmd{\@makechapterhead}%
+{\huge\bfseries\@chapapp\space\thechapter}%
+{}%
+{}
+{}
+
+\bidi@patchcmd{\@chapter}%
+{\addcontentsline{toc}{chapter}{\protect\numberline{\thechapter}#1}}%
+{\addcontentsline{toc}{chapter}{#1}}%
+{}
+{}
+
+\bidi@patchcmd{\@part}{%
+  \addcontentsline{toc}{part}{\thepart\hspace{1em}#1}%%
+}{%
+  \addtocontents{toc}{\bfseries\protect\centering\thepart\hspace{1em}#1\par}%
+}{}{}
+\makeatother
+
+
