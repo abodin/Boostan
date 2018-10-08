@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (Web2C 2011)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: e.aux
+The style file: ieeetr-fa.bst
+Database file #1: myref.bib
+-- ieeetr-fa.bst version 0.6 (2011/07/01) 
+-- This is a BibTeX style for XePersian: http://www.parsilatex.com
+Warning--empty publisher in Beasley
+
+Done.
+You've used 2 entries,
+            2349 wiz_defined-function locations,
+            617 strings with 4930 characters,
+and the built_in function-call counts, 600 in all, are:
+= -- 55
+> -- 15
+< -- 0
++ -- 6
+- -- 4
+* -- 42
+:= -- 78
+add.period$ -- 4
+call.type$ -- 2
+change.case$ -- 2
+chr.to.int$ -- 0
+cite$ -- 3
+duplicate$ -- 26
+empty$ -- 50
+format.name$ -- 4
+if$ -- 156
+int.to.chr$ -- 0
+int.to.str$ -- 2
+missing$ -- 17
+newline$ -- 22
+num.names$ -- 2
+pop$ -- 9
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 15
+stack$ -- 0
+substring$ -- 32
+swap$ -- 10
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 4
+type$ -- 0
+warning$ -- 1
+while$ -- 5
+width$ -- 3
+write$ -- 30
+(There was 1 warning)

@@ -1,0 +1,1109 @@
+This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014) (preloaded format=xelatex 2014.7.7)  21 AUG 2014 00:32
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**document.tex
+(./document.tex
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/algorithms/algorithm.sty
+Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count89
+\float@exts=\toks14
+\float@box=\box26
+\@float@everytoks=\toks15
+\@floatcapt=\box27
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks16
+\c@algorithm=\count90
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/algorithmicx/algcompatible.sty
+Package: algcompatible 
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count91
+\c@ALG@rem=\count92
+\c@ALG@nested=\count93
+\ALG@tlm=\skip43
+\ALG@thistlm=\skip44
+\c@ALG@Lnr=\count94
+\c@ALG@blocknr=\count95
+\c@ALG@storecount=\count96
+\c@ALG@tmpcounter=\count97
+\ALG@tmplength=\skip45
+)
+Document Style - algorithmic compatible environments for the `algorithmicx' sty
+le
+) (/usr/local/texlive/2014/texmf-dist/tex/xelatex/xepersian/xepersian.sty
+Package: xepersian 2014/07/18 v14.1 Persian typesetting in XeLaTeX
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2014/06/21 v2.4a Font selection for XeLaTeX and LuaLaTeX
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2014/07/20 v5241 L3 programming layer (loader) 
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2014/07/20 v5241 L3 programming layer (code) 
+L3 Module: l3bootstrap 2014/05/26 v4889 L3 Bootstrap code
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count98
+)
+L3 Module: l3names 2014/06/02 v4993 L3 Namespace for primitives
+L3 Module: l3basics 2014/07/09 v5187 L3 Basic definitions
+L3 Module: l3expan 2014/06/16 v5146 L3 Argument expansion
+L3 Module: l3tl 2014/07/17 v5214 L3 Token lists
+L3 Module: l3str 2014/06/19 v5158 L3 Strings
+L3 Module: l3seq 2014/07/18 v5232 L3 Sequences and stacks
+L3 Module: l3int 2014/07/11 v5197 L3 Integers
+\c_max_int=\count99
+\l_tmpa_int=\count100
+\l_tmpb_int=\count101
+\g_tmpa_int=\count102
+\g_tmpb_int=\count103
+L3 Module: l3quark 2014/05/26 v4889 L3 Quarks
+L3 Module: l3prg 2014/05/04 v4728 L3 Control structures
+\g__prg_map_int=\count104
+L3 Module: l3clist 2014/07/19 v5237 L3 Comma separated lists
+L3 Module: l3token 2014/05/26 v4889 L3 Experimental token manipulation
+L3 Module: l3prop 2014/07/17 v5215 L3 Property lists
+L3 Module: l3msg 2014/05/30 v4943 L3 Messages
+L3 Module: l3file 2014/07/09 v5188 L3 File and I/O operations
+\l_iow_line_count_int=\count105
+\l__iow_target_count_int=\count106
+\l__iow_current_line_int=\count107
+\l__iow_current_word_int=\count108
+\l__iow_current_indentation_int=\count109
+L3 Module: l3skip 2014/07/17 v5211 L3 Dimensions and skips
+\c_zero_dim=\dimen103
+\c_max_dim=\dimen104
+\l_tmpa_dim=\dimen105
+\l_tmpb_dim=\dimen106
+\g_tmpa_dim=\dimen107
+\g_tmpb_dim=\dimen108
+\c_zero_skip=\skip46
+\c_max_skip=\skip47
+\l_tmpa_skip=\skip48
+\l_tmpb_skip=\skip49
+\g_tmpa_skip=\skip50
+\g_tmpb_skip=\skip51
+\c_zero_muskip=\muskip10
+\c_max_muskip=\muskip11
+\l_tmpa_muskip=\muskip12
+\l_tmpb_muskip=\muskip13
+\g_tmpa_muskip=\muskip14
+\g_tmpb_muskip=\muskip15
+L3 Module: l3keys 2014/06/12 v5121 L3 Key-value interfaces
+\g__keyval_level_int=\count110
+\l_keys_choice_int=\count111
+L3 Module: l3fp 2014/07/18 v5223 L3 Floating points
+\c__fp_leading_shift_int=\count112
+\c__fp_middle_shift_int=\count113
+\c__fp_trailing_shift_int=\count114
+\c__fp_big_leading_shift_int=\count115
+\c__fp_big_middle_shift_int=\count116
+\c__fp_big_trailing_shift_int=\count117
+\c__fp_Bigg_leading_shift_int=\count118
+\c__fp_Bigg_middle_shift_int=\count119
+\c__fp_Bigg_trailing_shift_int=\count120
+L3 Module: l3box 2014/05/31 v4974 L3 Experimental boxes
+\c_empty_box=\box28
+\l_tmpa_box=\box29
+\l_tmpb_box=\box30
+\g_tmpa_box=\box31
+\g_tmpb_box=\box32
+L3 Module: l3coffins 2014/05/28 v4899 L3 Coffin code layer
+\l__coffin_internal_box=\box33
+\l__coffin_internal_dim=\dimen109
+\l__coffin_offset_x_dim=\dimen110
+\l__coffin_offset_y_dim=\dimen111
+\l__coffin_x_dim=\dimen112
+\l__coffin_y_dim=\dimen113
+\l__coffin_x_prime_dim=\dimen114
+\l__coffin_y_prime_dim=\dimen115
+\c_empty_coffin=\box34
+\l__coffin_aligned_coffin=\box35
+\l__coffin_aligned_internal_coffin=\box36
+\l_tmpa_coffin=\box37
+\l_tmpb_coffin=\box38
+\l__coffin_display_coffin=\box39
+\l__coffin_display_coord_coffin=\box40
+\l__coffin_display_pole_coffin=\box41
+\l__coffin_display_offset_dim=\dimen116
+\l__coffin_display_x_dim=\dimen117
+\l__coffin_display_y_dim=\dimen118
+L3 Module: l3color 2014/04/30 v4712 L3 Experimental color support
+L3 Module: l3candidates 2014/07/18 v5232 L3 Experimental additions to l3kernel
+\l__box_top_dim=\dimen119
+\l__box_bottom_dim=\dimen120
+\l__box_left_dim=\dimen121
+\l__box_right_dim=\dimen122
+\l__box_top_new_dim=\dimen123
+\l__box_bottom_new_dim=\dimen124
+\l__box_left_new_dim=\dimen125
+\l__box_right_new_dim=\dimen126
+\l__box_internal_box=\box42
+\l__coffin_bounding_shift_dim=\dimen127
+\l__coffin_left_corner_dim=\dimen128
+\l__coffin_right_corner_dim=\dimen129
+\l__coffin_bottom_corner_dim=\dimen130
+\l__coffin_top_corner_dim=\dimen131
+\l__coffin_scaled_total_height_dim=\dimen132
+\l__coffin_scaled_width_dim=\dimen133
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/l3kernel/l3unicode-data.def
+File: l3unicode-data.def 2014/06/30 v5166 L3 Unicode data
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def
+File: l3xdvidpfmx.def 2014/07/18 v5232 L3 Experimental driver: xdvipdfmx
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2014/07/20 v5241 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count121
+\l__xparse_m_args_int=\count122
+\l__xparse_mandatory_args_int=\count123
+\l__xparse_processor_int=\count124
+\l__xparse_v_nesting_int=\count125
+)
+\l_fontspec_script_int=\count126
+\l_fontspec_language_int=\count127
+\l_fontspec_strnum_int=\count128
+\l__fontspec_tmpa_dim=\dimen134
+\l__fontspec_tmpb_dim=\dimen135
+\l__fontspec_tmpc_dim=\dimen136
+Variant \tl_gset:cV already defined; not changing it on line 71
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/fontspec/fontspec-patches.sty
+Package: fontspec-patches 2014/06/21 v2.4a Font selection for XeLaTeX and LuaLa
+TeX
+LaTeX Info: Redefining \em on input line 38.
+LaTeX Info: Redefining \emph on input line 46.
+LaTeX Info: Redefining \- on input line 49.
+
+*************************************************
+* LaTeX warning: "xparse/redefine-command"
+* 
+* Redefining document command \oldstylenums with arg. spec. 'm' on line 144.
+*************************************************
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \liningnums with arg. spec. 'm' on line 148.
+.................................................
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2014/06/21 v2.4a Font selection for XeLaTeX and LuaLaTe
+X
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/euenc/eu1enc.def
+File: eu1enc.def 2010/05/27 v0.1h Experimental Unicode font encodings
+)
+LaTeX Font Info:    Try loading font information for EU1+lmr on input line 100.
+
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/euenc/eu1lmr.fd
+File: eu1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
+(/usr/local/texlive/2014/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many 
+other characters in Unicode lower plane
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tipa/t3enc.def
+File: t3enc.def 2001/12/31 T3 encoding
+LaTeX Font Info:    Try loading font information for EU1+lmss on input line 357
+.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/euenc/eu1lmss.fd
+File: eu1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
+\tipaTiiicode=\count129
+\tipasavetokens=\toks17
+\tipachecktokens=\toks18
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: xetex.def on input line 91.
+
+(/usr/local/texlive/2014/texmf-dist/tex/xelatex/xetex-def/xetex.def
+File: xetex.def 2014/07/25 v4.03 LaTeX color/graphics driver for XeTeX (RRM/JK)
+
+))
+\Gin@req@height=\dimen137
+\Gin@req@width=\dimen138
+))
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \fontspec with arg. spec. 'O{}mO{}' on line 41.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmainfont with arg. spec. 'O{}mO{}' on line 47.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setsansfont with arg. spec. 'O{}mO{}' on line 53.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmonofont with arg. spec. 'O{}mO{}' on line 59.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmathrm with arg. spec. 'O{}mO{}' on line 68.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setboldmathrm with arg. spec. 'O{}mO{}' on line
+. 72.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmathsf with arg. spec. 'O{}mO{}' on line 76.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmathtt with arg. spec. 'O{}mO{}' on line 80.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontfamily with arg. spec. 'mO{}mO{}' on line
+. 99.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontface with arg. spec. 'mO{}mO{}' on line
+. 103.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \defaultfontfeatures with arg. spec. 't+om' on
+. line 112.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \addfontfeatures with arg. spec. 'm' on line 170.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontfeature with arg. spec. 'mm' on line 181.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newAATfeature with arg. spec. 'mmmm' on line 189.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newopentypefeature with arg. spec. 'mmm' on line
+. 197.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \aliasfontfeature with arg. spec. 'mm' on line
+. 226.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \aliasfontfeatureoption with arg. spec. 'mmm' on
+. line 228.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontscript with arg. spec. 'mm' on line 233.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontlanguage with arg. spec. 'mm' on line 259.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareFontsExtensions with arg. spec. 'm' on
+. line 279.
+.................................................
+Variant \prop_gput:cnV already defined; not changing it on line 662
+Variant \prop_gput:cnx already defined; not changing it on line 663
+\l__fontspec_tmp_int=\count130
+LaTeX Info: Redefining \itshape on input line 2193.
+LaTeX Info: Redefining \slshape on input line 2198.
+LaTeX Info: Redefining \scshape on input line 2203.
+LaTeX Info: Redefining \upshape on input line 2208.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2014/texmf-dist/tex/xelatex/xepersian/xepersian-persiancal.
+sty
+Package: xepersian-persiancal 2012/07/25 v0.2 provides Persian calendar
+\XePersian@i=\count131
+\XePersian@y=\count132
+\XePersian@m=\count133
+\XePersian@d=\count134
+\XePersian@latini=\count135
+\XePersian@persiani=\count136
+\XePersian@latinii=\count137
+\XePersian@persianii=\count138
+\XePersian@latiniii=\count139
+\XePersian@persianiii=\count140
+\XePersian@latiniv=\count141
+\XePersian@persianiv=\count142
+\XePersian@latinv=\count143
+\XePersian@persianv=\count144
+\XePersian@latinvi=\count145
+\XePersian@persianvi=\count146
+\XePersian@latinvii=\count147
+\XePersian@persianvii=\count148
+\XePersian@latinviii=\count149
+\XePersian@persianviii=\count150
+\XePersian@latinix=\count151
+\XePersian@persianix=\count152
+\XePersian@latinx=\count153
+\XePersian@persianx=\count154
+\XePersian@latinxi=\count155
+\XePersian@persianxi=\count156
+\XePersian@latinxii=\count157
+\XePersian@persianxii=\count158
+\XePersian@persianxiii=\count159
+\XePersian@temp=\count160
+\XePersian@temptwo=\count161
+\XePersian@tempthree=\count162
+\XePersian@yModHundred=\count163
+\XePersian@thirtytwo=\count164
+\XePersian@dn=\count165
+\XePersian@sn=\count166
+\XePersian@mminusone=\count167
+)
+(/usr/local/texlive/2014/texmf-dist/tex/xelatex/xepersian/xepersian-mathsdigits
+pec.sty
+Package: xepersian-mathsdigitspec 2014/07/13 v1.0.7 Unicode Persian maths digit
+s in XeLaTeX
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \new@mathbf with arg. spec. 'm' on line 145.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \new@mathit with arg. spec. 'm' on line 153.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \new@mathrm with arg. spec. 'm' on line 161.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \new@mathsf with arg. spec. 'm' on line 169.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \new@mathtt with arg. spec. 'm' on line 177.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmathsfdigitfont with arg. spec. 'O{}m' on line
+. 207.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmathttdigitfont with arg. spec. 'O{}m' on line
+. 212.
+.................................................
+) (/usr/local/texlive/2014/texmf-dist/tex/xelatex/bidi/bidi.sty
+Package: bidi 2014/07/19 v15.2 Bidirectional typesetting in plain TeX and LaTeX
+
+
+****************************************************
+* 
+* bidi package (Bidirectional typesetting in
+* plain TeX and LaTeX, using XeTeX engine)
+* 
+* Description: A convenient interface for
+* typesetting bidirectional texts in plain TeX
+* and LaTeX. The package includes adaptations
+* for use with many other commonly-used packages.
+* 
+* Copyright © 2009–2014 Vafa Khalighi
+* 
+* 2014/07/19, v15.2
+* 
+* License: LaTeX Project Public License, version
+* 1.3c or higher (your choice)
+* 
+* Location on CTAN: /macros/xetex/latex/bidi
+* 
+* Issue tracker: https://github.com/vafa/bidi/issues
+* 
+* Support: persian-tex@tug.org
+****************************************************
+(/usr/local/texlive/2014/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2013/04/04 v0.2 Provides if(tex) conditional for PDFTeX, XeTeX, 
+and LuaTeX
+)
+(/usr/local/texlive/2014/texmf-dist/tex/xelatex/bidi/biditools.sty
+Package: biditools 2013/04/10 v0.2 Programming tools for bidi package
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/zref-abspage.sty
+Package: zref-abspage 2012/04/04 v2.24 Module abspage for zref (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/zref-base.sty
+Package: zref-base 2012/04/04 v2.24 Module base for zref (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 759.
+Package zref Info: New property: default on input line 760.
+Package zref Info: New property: page on input line 761.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+)
+\c@abspage=\count168
+Package zref Info: New property: abspage on input line 62.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/xelatex/bidi/latex-xetex-bidi.def
+File: latex-xetex-bidi.def 2013/10/10 v1.1.5 bidi adaptations for `latex.ltx' f
+or XeTeX engine
+\bidi@n@everypar=\toks20
+
+(/usr/local/texlive/2014/texmf-dist/tex/xelatex/bidi/footnote-xetex-bidi.def
+File: footnote-xetex-bidi.def 2013/04/26 v0.8 bidi footnote macros for XeTeX en
+gine
+\c@footdir@label=\count169
+\footdir@toks=\toks21
+)
+(/usr/local/texlive/2014/texmf-dist/tex/xelatex/bidi/report-xetex-bidi.def
+File: report-xetex-bidi.def 2011/08/26 v0.6 bidi adaptations for standard repor
+t class for XeTeX engine
+)
+(/usr/local/texlive/2014/texmf-dist/tex/xelatex/bidi/float-xetex-bidi.def
+File: float-xetex-bidi.def 2013/04/04 v0.2 bidi adaptations for float package f
+or XeTeX engine
+)
+(/usr/local/texlive/2014/texmf-dist/tex/xelatex/bidi/graphicx-xetex-bidi.def
+File: graphicx-xetex-bidi.def 2012/01/01 v0.4 bidi adaptations for graphicx pac
+kage for XeTeX engine
+))
+(/usr/local/texlive/2014/texmf-dist/tex/xelatex/bidi/loadingorder-xetex-bidi.de
+f
+File: loadingorder-xetex-bidi.def 2013/05/22 v0.95 making sure that bidi is the
+ last package loaded
+))
+****************************************************
+* 
+* xepersian package (Persian for LaTeX, using XeTeX engine)
+* 
+* Description: The package supports Persian
+* typesetting, using fonts provided in the
+* distribution.
+* 
+* Copyright © 2008–2013 Vafa Khalighi
+* 
+* v14.1, 2014/07/18
+* 
+* License: LaTeX Project Public License, version
+* 1.3c or higher (your choice)
+* 
+* Location on CTAN: /macros/xetex/latex/xepersian
+* 
+* Issue tracker: https://github.com/vafa/xepersian/issues
+* 
+* Support: persian-tex@tug.org
+****************************************************
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \settextfont with arg. spec. 'O{}m' on line 110.
+.................................................
+\g__file_internal_ior=\read1
+\g__fontspec_family_persian-modern-regular_int=\count170
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'persian-modern-regular(0)' created for font
+. 'persian-modern-regular' with options
+. [Script=Parsi,Language=Parsi,Mapping=parsidigits,ExternalLocation,BoldFont={p
+ersian-modern-bold},BoldItalicFont={persian-modern-bolditalic},ItalicFont={pers
+ian-modern-italic},SlantedFont={persian-modern-oblique},BoldSlantedFont={persia
+n-modern-boldoblique}].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. 
+. <->"[persian-modern-regular]/OT:script=arab;language=FAR;mapping=parsidigits;
+"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+. 
+. * 'bold' with NFSS spec.:
+. <->"[persian-modern-bold]/OT:script=arab;language=FAR;mapping=parsidigits;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+. 
+. * 'italic' with NFSS spec.:
+. 
+. <->"[persian-modern-italic]/OT:script=arab;language=FAR;mapping=parsidigits;"
+
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+. 
+. * 'sl/,' with NFSS spec.:
+. 
+. <->"[persian-modern-oblique]/OT:script=arab;language=FAR;mapping=parsidigits;
+"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+. 
+. * 'bold italic' with NFSS spec.:
+. 
+. <->"[persian-modern-bolditalic]/OT:script=arab;language=FAR;mapping=parsidigi
+ts;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+. 
+. * 'sl/,' with NFSS spec.:
+. 
+. <->"[persian-modern-boldoblique]/OT:script=arab;language=FAR;mapping=parsidig
+its;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'persian-modern-regular(1)' created for font
+. 'persian-modern-regular' with options
+. [Mapping=parsidigits,ExternalLocation,BoldFont={persian-modern-bold},BoldItal
+icFont={persian-modern-bolditalic},ItalicFont={persian-modern-italic},SlantedFo
+nt={persian-modern-oblique},BoldSlantedFont={persian-modern-boldoblique}].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. 
+. <->"[persian-modern-regular]/OT:script=latn;language=DFLT;mapping=parsidigits
+;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+. 
+. * 'bold' with NFSS spec.:
+. 
+. <->"[persian-modern-bold]/OT:script=latn;language=DFLT;mapping=parsidigits;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+. 
+. * 'italic' with NFSS spec.:
+. 
+. <->"[persian-modern-italic]/OT:script=latn;language=DFLT;mapping=parsidigits;
+"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+. 
+. * 'sl/,' with NFSS spec.:
+. 
+. <->"[persian-modern-oblique]/OT:script=latn;language=DFLT;mapping=parsidigits
+;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+. 
+. * 'bold italic' with NFSS spec.:
+. 
+. <->"[persian-modern-bolditalic]/OT:script=latn;language=DFLT;mapping=parsidig
+its;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+. 
+. * 'sl/,' with NFSS spec.:
+. 
+. <->"[persian-modern-boldoblique]/OT:script=latn;language=DFLT;mapping=parsidi
+gits;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+.................................................
+Package xepersian-mathsdigitspec Info: DefiningthedefaultPersianmathsdigitsfont
+as'persian-modern-regular' on input line 112.
+\symOPERATORS=\mathgroup4
+\symnew@mathbf@font@digits=\mathgroup5
+\symnew@mathit@font@digits=\mathgroup6
+\symnew@mathrm@font@digits=\mathgroup7
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setlatintextfont with arg. spec. 'O{}m' on line
+. 121.
+.................................................
+\g__fontspec_family_lmroman10-regular_int=\count171
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'lmroman10-regular(0)' created for font 'lmroman10-regular' with
+. options
+. [Mapping=tex-text,ExternalLocation,BoldFont={lmroman10-bold},BoldItalicFont={
+lmroman10-bolditalic},ItalicFont={lmroman10-italic},SmallCapsFont={lmromancaps1
+0-regular},SlantedFont={lmromanslant10-regular},BoldSlantedFont={lmromanslant10
+-bold}].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"[lmroman10-regular]/OT:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'small caps' with NFSS spec.:
+. <->"[lmromancaps10-regular]/OT:script=latn;language=DFLT;mapping=tex-text;"
+. and font adjustment code:
+. 
+. 
+. * 'bold' with NFSS spec.:
+. <->"[lmroman10-bold]/OT:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. <->"[lmromancaps10-regular]/OT:script=latn;language=DFLT;mapping=tex-text;"
+. and font adjustment code:
+. 
+. 
+. * 'italic' with NFSS spec.:
+. <->"[lmroman10-italic]/OT:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'small caps' with NFSS spec.:
+. <->"[lmromancaps10-regular]/OT:script=latn;language=DFLT;mapping=tex-text;"
+. and font adjustment code:
+. 
+. 
+. * 'sl/,' with NFSS spec.:
+. 
+. <->"[lmromanslant10-regular]/OT:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'small caps' with NFSS spec.:
+. <->"[lmromancaps10-regular]/OT:script=latn;language=DFLT;mapping=tex-text;"
+. and font adjustment code:
+. 
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"[lmroman10-bolditalic]/OT:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. <->"[lmromancaps10-regular]/OT:script=latn;language=DFLT;mapping=tex-text;"
+. and font adjustment code:
+. 
+. 
+. * 'sl/,' with NFSS spec.:
+. <->"[lmromanslant10-bold]/OT:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. <->"[lmromancaps10-regular]/OT:script=latn;language=DFLT;mapping=tex-text;"
+. and font adjustment code:
+. 
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \defpersianfont with arg. spec. 'mO{}m' on line
+. 133.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \deflatinfont with arg. spec. 'mO{}m' on line 142.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setpersiansansfont with arg. spec. 'O{}m' on line
+. 176.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setpersianmonofont with arg. spec. 'O{}m' on line
+. 180.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setnavarfont with arg. spec. 'O{}m' on line 184.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setpookfont with arg. spec. 'O{}m' on line 188.
+.................................................
+\g__fontspec_family_persian-modern-outline_int=\count172
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'persian-modern-outline(0)' created for font
+. 'persian-modern-outline' with options
+. [Script=Parsi,Language=Parsi,Mapping=parsidigits,ExternalLocation,ItalicFont=
+{persian-modern-italicoutline},SlantedFont={persian-modern-obliqueoutline}].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. 
+. <->"[persian-modern-outline]/OT:script=arab;language=FAR;mapping=parsidigits;
+"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+. 
+. * 'italic' with NFSS spec.:
+. 
+. <->"[persian-modern-italicoutline]/OT:script=arab;language=FAR;mapping=parsid
+igits;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+. 
+. * 'sl/,' with NFSS spec.:
+. 
+. <->"[persian-modern-obliqueoutline]/OT:script=arab;language=FAR;mapping=parsi
+digits;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setsayehfont with arg. spec. 'O{}m' on line 193.
+.................................................
+\g__fontspec_family_persian-modern-shadow_int=\count173
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'persian-modern-shadow(0)' created for font
+. 'persian-modern-shadow' with options
+. [Script=Parsi,Language=Parsi,Mapping=parsidigits,ExternalLocation,ItalicFont=
+{persian-modern-italicshadow},SlantedFont={persian-modern-obliqueshadow}].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. 
+. <->"[persian-modern-shadow]/OT:script=arab;language=FAR;mapping=parsidigits;"
+
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+. 
+. * 'italic' with NFSS spec.:
+. 
+. <->"[persian-modern-italicshadow]/OT:script=arab;language=FAR;mapping=parsidi
+gits;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+. 
+. * 'sl/,' with NFSS spec.:
+. 
+. <->"[persian-modern-obliqueshadow]/OT:script=arab;language=FAR;mapping=parsid
+igits;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setiranicfont with arg. spec. 'O{}m' on line 198.
+.................................................
+\g__fontspec_family_persian-modern-oblique_int=\count174
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'persian-modern-oblique(0)' created for font
+. 'persian-modern-oblique' with options
+. [Script=Parsi,Language=Parsi,Mapping=parsidigits,ExternalLocation,BoldFont={p
+ersian-modern-boldoblique}].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. 
+. <->"[persian-modern-oblique]/OT:script=arab;language=FAR;mapping=parsidigits;
+"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+. 
+. * 'bold' with NFSS spec.:
+. 
+. <->"[persian-modern-boldoblique]/OT:script=arab;language=FAR;mapping=parsidig
+its;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+.................................................
+
+(/usr/local/texlive/2014/texmf-dist/tex/xelatex/xepersian/loadingorder-xepersia
+n.def
+File: loadingorder-xepersian.def 2012/01/01 v0.3 making sure that xepersian is 
+the last package loaded
+)
+(/usr/local/texlive/2014/texmf-dist/tex/xelatex/xepersian/fontspec-xetex-xepers
+ian.def
+File: fontspec-xetex-xepersian.def 2014/10/07 v0.1 fixes for fontspec-xetex pac
+kage
+
+*************************************************
+* LaTeX warning: "xparse/redefine-command"
+* 
+* Redefining document command \aliasfontfeature with arg. spec. 'mm' on line
+* 73.
+*************************************************
+)
+(/usr/local/texlive/2014/texmf-dist/tex/xelatex/xepersian/algorithm-xepersian.d
+ef
+File: algorithm-xepersian.def 2010/07/25 v0.2 adaptations for algorithm package
+
+)
+(/usr/local/texlive/2014/texmf-dist/tex/xelatex/xepersian/footnote-xepersian.de
+f
+File: footnote-xepersian.def 2013/04/26 v0.4 footnote macros for xepersian pack
+age
+)
+(/usr/local/texlive/2014/texmf-dist/tex/xelatex/xepersian/report-xepersian.def
+File: report-xepersian.def 2010/07/25 v0.2 adaptations for standard report clas
+s
+)
+(/usr/local/texlive/2014/texmf-dist/tex/xelatex/xepersian/localise-xepersian.de
+f
+File: localise-xepersian.def 2014/07/10 v0.2b Persian localisation of LaTeX2e
+
+(/usr/local/texlive/2014/texmf-dist/tex/xelatex/xepersian/latex-localise-comman
+ds-xepersian.def
+File: latex-localise-commands-xepersian.def 2014/02/05 v0.3 Persian localisatio
+n of LaTeX2e commands
+)
+(/usr/local/texlive/2014/texmf-dist/tex/xelatex/xepersian/xepersian-localise-co
+mmands-xepersian.def
+File: xepersian-localise-commands-xepersian.def 2012/07/25 v0.2 Persian localis
+ation of XePersian commands
+)
+(/usr/local/texlive/2014/texmf-dist/tex/xelatex/xepersian/latex-localise-enviro
+nments-xepersian.def
+File: latex-localise-environments-xepersian.def 2010/07/25 v0.2 Persian localis
+ation of LaTeX2e environments
+)
+(/usr/local/texlive/2014/texmf-dist/tex/xelatex/xepersian/xepersian-localise-en
+vironments-xepersian.def
+File: xepersian-localise-environments-xepersian.def 2010/07/25 v0.1 Persian loc
+alisation of XePersian and bidi environments
+)
+(/usr/local/texlive/2014/texmf-dist/tex/xelatex/xepersian/latex-localise-messag
+es-xepersian.def
+File: latex-localise-messages-xepersian.def 2011/03/01 v0.1 localising LaTeX2e 
+messages
+)
+(/usr/local/texlive/2014/texmf-dist/tex/xelatex/xepersian/latex-localise-misc-x
+epersian.def
+File: latex-localise-misc-xepersian.def 2012/01/01 v0.2 miscellaneous Persian l
+ocalisation of LaTeX2e
+)
+(/usr/local/texlive/2014/texmf-dist/tex/xelatex/xepersian/packages-localise-xep
+ersian.def
+File: packages-localise-xepersian.def 2013/04/24 v0.2 localising LaTeX2e Packag
+es
+))) (./document.aux)
+\openout1 = `document.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 6.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 6.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tipa/t3cmr.fd
+File: t3cmr.fd 2001/12/31 TIPA font definitions
+)
+LaTeX Font Info:    ... okay on input line 6.
+\AtBeginShipoutBox=\box43
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 15.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 15.
+ [1
+
+]
+(./document.aux) ) 
+Here is how much of TeX's memory you used:
+ 16810 strings out of 493727
+ 338401 string characters out of 6145933
+ 388335 words of memory out of 5000000
+ 19927 multiletter control sequences out of 15000+600000
+ 3944 words of font info for 52 fonts, out of 8000000 for 9000
+ 1328 hyphenation exceptions out of 8191
+ 53i,4n,60p,10397b,318s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on document.pdf (1 page).

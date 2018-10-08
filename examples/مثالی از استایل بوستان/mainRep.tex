@@ -1,0 +1,243 @@
+\documentclass{report}
+
+\input{Boostan-UserManual}
+
+\input{Chapters/BWords}
+\input{Chapters/abbre}
+
+\title{گزارش پیاده‌سازی}
+\type{
+پروژه }
+\author{آقای}
+\logofile{Pic/idea}
+
+
+\begin{document}
+\pagenumbering{gobble}
+\Godpage
+\maketitle
+\pagenumbering{arabic}
+\tableofcontents
+\listoffigures
+\listoftables
+
+\chapter{سلام}
+\section{شبکه}
+این یک مثال است.
+\begin{equation}
+  f(x)=ax \qquad \text{and} \qquad g(x)=bx 
+\end{equation}
+
+\begin{equation}
+E = mC^2 
+\end{equation}
+
+این مثال\footnote{شبکه اقتضایی} و یا پاورقی انگلیسی\LTRfootnote{Salam}
+
+یک مثال از نوشتن ماتریس
+\begin{equation}
+\Theta =\begin{bmatrix}
+\lambda_{d}^{11} & \lambda_{d}^{12} & \ldots & \lambda_{d}^{1(N-1)} & \lambda_{d}^{1N} \\*[2mm]
+0 & \lambda_{d}^{22}  & \ldots & \lambda_{d}^{2(N-1)} & \lambda_{d}^{2N} \\
+\vdots & \vdots  & \ddots & \vdots & \vdots\\*[2mm]
+0 & 0 &  \ldots & \lambda_{d}^{(N-1)(N-1)} & \lambda_{d}^{(N-1)N}\\*[2mm]
+0 & 0 &  \ldots & 0 & \lambda_{d}^{NN}
+\end{bmatrix},
+\label{wqlsdskdksds}
+\end{equation}
+
+\chapter{مثال ها}
+مثالی از وارد کردن کد در متن
+\begin{latin}
+\lstinputlisting[language=Matlab]{Codes/code.m}
+\end{latin}
+در ضمن شما می توانید حتی در خود همین نوشتار اصلی خود کد مورد نظرتان را بنویسید. 
+\begin{latin}
+\begin{lstlisting}[mathescape=true]
+// calculate  $a_{ij}$
+$a_{ij} = a_{jj}/a_{ij} + \alpha$;
+\end{lstlisting}
+\end{latin}
+
+
+\chapter{محیط‌ها}
+چند محیط
+سلام این یک مثال است:
+
+\begin{note}
+شهر مردگان، شهر انسان های «بی دفاع» است. این تعبیر اقتباس از قرآن کریم است که «غیبت» را خوردن گوشت «مرده» خوانده است. 
+\begin{equation}
+A = B + \sin (x)
+\end{equation}
+در تفاسیر آمده است که خداوند «انسان بی دفاع» را که به دلیل عدم حضور در مجلس بدگویی نمی تواند از خود دفاع کند، «مرده» دانسته است. پس آنجا که نسبت های ناروا دادن مباح، و دفاع کردن ممنوع است، در حقیقت «شهر مردگان» است.
+\end{note}
+
+\begin{problem}
+شهر مردگان، شهر انسان های «بی دفاع» است. این تعبیر اقتباس از قرآن کریم است که «غیبت» را خوردن گوشت «مرده» خوانده است . در تفاسیر آمده است که خداوند «انسان بی دفاع» را که به دلیل عدم حضور در مجلس بدگویی نمی تواند از خود دفاع کند، «مرده» دانسته است. پس آنجا که نسبت های ناروا دادن مباح، و دفاع کردن ممنوع است، در حقیقت «شهر مردگان» است.
+
+
+\end{problem}
+
+
+\begin{refer}
+شهر مردگان، شهر انسان های «بی دفاع» است. این تعبیر اقتباس از قرآن کریم است که «غیبت» را خوردن گوشت «مرده» خوانده است.
+\begin{latin}
+\lstset{numbers=none,frame=none}
+\begin{lstlisting}
+for i:=maxint to 0 do
+begin
+{ do nothing }
+end;
+\end{lstlisting}
+\end{latin}
+  در تفاسیر آمده است که خداوند «انسان بی دفاع» را که به دلیل عدم حضور در مجلس بدگویی نمی تواند از خود دفاع کند، «مرده» دانسته است. پس آنجا که نسبت های ناروا دادن مباح، و دفاع کردن ممنوع است، در حقیقت «شهر مردگان» است.
+\end{refer}
+
+\begin{info}
+شهر مردگان، شهر انسان های «بی دفاع» است. این تعبیر اقتباس از قرآن کریم است که «غیبت» را خوردن گوشت «مرده» خوانده است . 
+در تفاسیر آمده است که خداوند «انسان بی دفاع» را که به دلیل عدم حضور در مجلس بدگویی نمی تواند از خود دفاع کند، «مرده» دانسته است. پس آنجا که نسبت های ناروا دادن مباح، و دفاع کردن ممنوع است، در حقیقت «شهر مردگان» است.
+\begin{equation}
+A = B + \sin (x)
+\end{equation}
+\end{info}
+
+\begin{warning}{نکات مهم}
+شهر مردگان، شهر انسان های «بی دفاع» است. این تعبیر اقتباس از قرآن کریم است که «غیبت» را خوردن گوشت «مرده» خوانده است . در تفاسیر آمده است که خداوند «انسان بی دفاع» را که به دلیل عدم حضور در مجلس بدگویی نمی تواند از خود دفاع کند، «مرده» دانسته است. پس آنجا که نسبت های ناروا دادن مباح، و دفاع کردن ممنوع است، در حقیقت «شهر مردگان» است.
+\end{warning}
+
+
+\begin{goal}{نکات مهم}
+شهر مردگان، شهر انسان های «بی دفاع» است. این تعبیر اقتباس از قرآن کریم است که «غیبت» را خوردن گوشت «مرده» خوانده است . 
+
+در تفاسیر آمده است که خداوند «انسان بی دفاع» را که به دلیل عدم حضور در مجلس بدگویی نمی تواند از خود دفاع کند، «مرده» دانسته است.
+
+  پس آنجا که نسبت های ناروا دادن مباح، و دفاع کردن ممنوع است، در حقیقت «شهر مردگان» است.
+\end{goal}
+
+\begin{ntpoint}{قضیه شانون}
+شهر مردگان،
+\end{ntpoint}
+و چند حالت دیگر
+\begin{ntdefinition}{حریم}
+شهر مردگان،
+\end{ntdefinition}
+
+\begin{nttheorem}{قضیه شانون}
+شهر مردگان،
+\end{nttheorem}
+
+\begin{theorem}{قضیه شانون}
+شهر مردگان،
+\end{theorem}
+
+\begin{lemma}{قضیه شانون}
+شهر مردگان،
+\end{lemma}
+
+
+
+\chapter{مثال‌های دیگر}
+
+\begin{figure}[ht]
+\centering
+\begin{subfigure}[b]{0.3\textwidth}\centering
+\rule{2cm}{2cm}
+\caption{A gull}
+\label{fig:gull}
+\end{subfigure}
+\begin{subfigure}[b]{0.3\textwidth}\centering
+\rule{2cm}{2cm}
+\caption{A tiger}
+\label{fig:tiger}
+\end{subfigure}
+\begin{subfigure}[b]{0.3\textwidth}\centering
+\rule{2cm}{2cm}
+\caption{A mouse}
+\label{fig:mouse}
+\end{subfigure}
+\begin{subfigure}[b]{0.3\textwidth}\centering
+\rule{2cm}{2cm}
+\caption{A mouse}
+\label{fig:mouse}
+\end{subfigure}
+\caption{یک زیرنویس کلی برای شکل}
+\label{fig:animals}
+\end{figure}
+اگر شما تنظیم نکنید از هرجایی که نشد شکل بعدی را می برد خط بعدی.  برای زیرهم انداختن این طوری عمل کنید:
+\begin{figure}[ht]
+\centering
+\begin{subfigure}[b]{0.3\textwidth}\centering
+\rule{2cm}{2cm}
+\caption{A gull}
+\label{fig:gull}
+\end{subfigure}
+\begin{subfigure}[b]{0.3\textwidth}\centering
+\rule{2cm}{2cm}
+\caption{A tiger}
+\label{fig:tiger}
+\end{subfigure}\\*[5mm]
+\begin{subfigure}[b]{0.3\textwidth}\centering
+\rule{2cm}{2cm}
+\caption{A mouse}
+\label{fig:mouse}
+\end{subfigure}
+\begin{subfigure}[b]{0.3\textwidth}\centering
+\rule{2cm}{2cm}
+\caption{A mouse}
+\label{fig:mouse}
+\end{subfigure}
+\caption{یک زیرنویس کلی برای شکل}
+\label{fig:dddd}
+\end{figure}
+
+\chapter{وارد کردن مراجع}
+برای مثال مرجع {\cite{Beasley}} در مورد شبکه .... . و این هم مرجع دوم {\cite{Meyer2004}} 
+
+و سپس مرجع سوم {\cite{Rafsanjani2010}} و یا یک مرجع فارسی
+\cite{Unknown1389}
+
+برای آوردن مراجع باید مراحل زیر را انجام دهید.
+\begin{itemize}
+\begin{LTRitems}
+\item
+\verb+ xelatex -interaction=nonstopmode -synctex=-1 %.tex+
+\item
+\verb+ bibtex8 -W -c cp1256fa % +
+\item
+\verb+ xelatex -interaction=nonstopmode -synctex=-1 %.tex+
+\item
+\verb+ xelatex -interaction=nonstopmode -synctex=-1 %.tex+
+\end{LTRitems}
+\end{itemize}
+اگر از ویرایشگر {\lr{TexStudio}} استفاده می‌کنید، دستور اولی، سومی و چهارمی همان {\lr{Quick Build}} است. یعنی اگر دکمه {\lr{Quick Build}} را بزنید، انگار دستور مورد اشاره را اجرا کرده اید. در مورد دستور دوم، در {\lr{TexStudio}} همان دستور {\lr{bibtex}} است. در اکثر ویرایشگرها چنین چیزی وجود دارد.  اگر نشد از منوی ‎\lr{Tool}‎ دستور
+\lr{Biblography}
+را اجرا کنید. 
+
+% انواع دیگر استایل ها در راهنمای persian-bib آمده است. 
+
+
+\begin{table}
+\caption{جدول نمادها}
+\label{table:asas}
+\begin{tabular}{|c|c|c|c|c|c}\hline
+\verb|\mathrm{E}| & \verb|\mathbb{E}|& \verb|\mathcal{E}|& \verb|\mathit{E}|\\\hline
+$\mathrm{E}$ & $\mathbb{E}$ & $\mathcal{E}$ & $\mathit{E}$\\\hline
+$\mathrm{R}$ & $\mathbb{R}$ & $\mathcal{R}$ & $\mathit{R}$\\\hline
+\end{tabular}
+\end{table}
+
+
+\chapter{واژه نامه}
+چند مثال 
+\gls{AbsoluteMinimum} و \gls{AcceptableCell}
+ و یا اختصارات
+\gls{ACLC} و \gls{ACIR}
+
+و دوباره واژه‌ها
+\gls{SamplePath}
+
+\bibliography{Chapters/myref.bib}
+\printglossary
+\printabbreviation
+
+\end{document}

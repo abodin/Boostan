@@ -1,0 +1,133 @@
+\documentclass{report} 
+
+% برای تنظیم حاشیه صفحات
+\usepackage[top=3cm, bottom=2.5cm, left=2cm, right=2.5cm]{geometry}
+
+%% برای رنگی کردن متن و استفاده از رنگ در متن این دو بسته مورد نیاز است.
+\usepackage[usenames,dvipsnames]{color,xcolor}
+%% بسته ای برای وارد کردن کدهای برنامه نویسی (MATLAB، JAVA و ...( در متن
+%% بارگذاری بسته listings باید قبل از hyperref باشد و گرنه با خطا مواجه خواهیم شد.
+\usepackage{listings}
+
+%%زی‌پرشین (به انگلیسی: XePersian) یک بسته حروف‌چینی رایگان و متن‌باز برای نگارش مستندات پارسی/انگلیسی با زی‌لاتک است.
+%% در واقع، زی‌پرشین، کمک می‌کند تا به آسانی، مستندات را به پارسی، حروف‌چینی کرد. این بسته را وفا خلیقی نوشته است،
+%% و به طور منظم، آن را بروز‌رسانی کرده و باگ‌های آن را رفع می‌کند.
+%% نکته مهم این جا است که بسته Xepersian برای پشتیبانی از زبان فارسی آورده شده است، و 
+%% می بایست آخرین بسته ای باشد که شما وارد می کنید، دقت کنید: آخرین بسته
+\usepackage{xepersian}
+\settextfont[Scale=1.25]{IRNazanin}
+\setlatintextfont[Scale=1]{Linux Libertine}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%==================== تنظیمات listing
+
+%%  در این قسمت تمام ابزارهای مورد نیاز در نوشتن برنامه ها اورده شده 
+%%  است. با استفاده از این ابزارهای می‌توان برنامه های مورد نیاز را در مستند جای داد.
+\definecolor{listinggray}{gray}{.98}
+%% انتخاب رنگ پشت زمینه 
+\lstset{% general command to set parameter(s)
+% زبان برنامه نویسی که به طور پیش فرض انتخاب می شود.
+language=Java,
+% رنگ پیش فرض برای پیش زمینه
+backgroundcolor=\color{listinggray},
+%% میزان طول محیط listings را مشخص می کند، به صورت پیش فرض \textwidth است. 
+%linewidth=\textwidth ,
+%% نوع قالب دور محیط listings را تعیین می کند. 
+frameround=fttt,
+frame=trBL,
+%% is selected at the beginning of each listing. You could use \footnotesize,
+%% \small, \itshape, \ttfamily, or something like that. The last token of
+%% basic style must not read any following characters.
+basicstyle=\ttfamily, % print whole listing small
+%%   با این دستور استایل keyword ها را مشخص می کنیم. مثلا در این حالت گفته ایم که keyword ها را با رنگ آبی مشخص کند، و آن ها را bold‌کند. دقت کنید که keyword های زبان‌هایی که این بسته پشتیبانی می‌کند، 
+%% در این بسته تعریف شده است. مثلا در JAVA کلمه main به صورت پیش فرض تعریف شده است و در صورت وجود آن در کد شما آن را Latex آبی رنگ می‌کند. 
+keywordstyle=\color{blue}\bfseries,
+% underlined bold black keywords
+%identifierstyle=, % nothing happens
+%framexleftmargin=5mm, frame=shadowbox, rulesepcolor=\color{red}
+%% استایل String را در متن مشخص می کند. مثلا در این جا گفته شده است که رشته ها را با رنگ قرمز و به صورت ایتالیک نمایش بده.
+stringstyle=\ttfamily\color{red}, % typewriter type for strings
+%% نحوه استایل comment را مشخص می کند. دقت کنید که رنگ انتخاب شده نوعی رنگ سبز است، برای این که این رنگ شناخته شود می بایست دو بسته color و xcolor به صورتی که فراخوانی شده است، فراخوانی شود. 
+commentstyle=\color{LimeGreen},
+lineskip = .5pt,
+%% سه دستور بعدی نحوه نمایش شماره خطوط را مشخص می کند. 
+numberstyle=\footnotesize, 
+%% تعیین فاصله بین شماره خطوط و محیط listings
+numbersep=10pt,
+%% محل قرارگیری شماره خطوط
+numbers=left,
+%% تعیین محل قرارگیری caption محیط. بطور پیش فرض در بالای محیط است که به پایین محیط تغییر داده شده است. 
+captionpos=b, 
+%% توسط breakline می توانید خاصیت شکسته شدن خطوط بلند را در محیط listings فعال و یا غیرفعال کنید.
+%% activates or deactivates automatic line breaking of long lines.
+breaklines=true,
+%% باعث می شود که فاصله های بین رشته های نمایان شود.
+%% lets blank spaces in strings appear  or as blank spaces
+showstringspaces=true}
+
+%% البته شما می توانید این موارد پیش فرض را به ازای هر کد تغییر دهید. به عنوان مثال، ما یک کد در پوشه Code در شاخه فعلی قرار دادیم، می خواهیم آن را وارد متن کنیم، کافی است که خطوط زیر را در محل مناسبی که می خواهیم کد را قرار دهیم وارد کنیم. در این مثال یک فایل کد JAVA به نام myCode.java را می خواهیم وارد کنیم. 
+%%\begin{latin}
+%%\lstinputlisting[breaklines=true,numbers=left,language=Java, basicstyle=\ttfamily, numberstyle=\footnotesize, numbersep=10pt, captionpos=b, frame=single, breakatwhitespace=false]{Code/myCode.java}
+%%\end{latin}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\baselineskip = .9cm
+برای وارد کردن کدهای برنامه نویسی خود در محیط لاتک، بسته \lr{listings} یکی از بهترین بسته های موجود است. برای استفاده از این بسته فقط به نکات زیر دقت کنید:
+\begin{itemize}
+\item
+در شروع امر بسته \lr{listings} را  با دستور \lr{usepackage} فراخوانی کنید. دقت کنید که این بسته را با بسته \lr{listing} اشتباه نکنید.
+\item
+در مرحله بعدی می توانید توسط دستور \lr{lstset} هرجایی از متن که خواستید تنظیمات این بسته را تغییر دهید. 
+\item
+در هنگام استفاده از این بسته فقط دقت داشته باشید که محیط آن باید بین محیط \lr{latin}‌قرار گیرد. 
+\item
+دو راهنمایی خوب برای این بسته یکی سایت \lr{http://en.wikibooks.org/wiki/LaTeX/Packages/Listings}‌ ودیگری راهنمای این بسته است. 
+\item
+برای فهم بهتر این مثال بهتر است که مثال را از فایل \lr{tex} دنبال کنید نه از فایل \lr{pdf} چراکه بسیاری از توضیحات به صورت \lr{comment} در فایل \lr{tex} داده شده است. 
+\end{itemize}
+
+
+مثالی از نوشتن کد مطلب درون یک نوشتار:
+
+\begin{latin}
+\lstinputlisting[language=Matlab]{Code/code3.m}
+\end{latin}
+
+در این مثال یک کد \lr{MATLAB} دیگر وارد می کنیم، با این تفاوت که می خواهیم یکسری از کلمات کلیدی را مشخص کنیم که لاتک آن ها را با رنگی به خصوصی نشان دهد. 
+\begin{latin}
+\lstset{emph={binornd},emphstyle=\color{Magenta}}
+\lstinputlisting[language=Matlab, morekeywords={ksdensity}]{Code/prog3.m}
+\end{latin}
+
+مثالی دیگر از نوشتن کد مطلب در یک نوشتار. فقط در این حالت می خواهیم برخی از تنظیمات پیش فرض را که قبل از شروع نوشتار تعیین کرده ایم، تغییر دهیم. 
+\begin{latin}
+\lstinputlisting[numbers=right,language=Matlab, framexleftmargin=5mm, frame=shadowbox,rulesepcolor=\color{Yellow}]{Code/code4.m}
+\end{latin}
+
+مثالی از نوشتن یک کد {\lr{JAVA}} درون یک نوشتار:
+
+\definecolor{codeColor}{rgb}{0.9,0.9,0.9}
+\begin{latin}
+\lstset{emph={pMax,pMin,transP,waitingUser,waitQueue},emphstyle=\color{red},backgroundcolor=\color{codeColor},lineskip=.2cm}
+\lstinputlisting[language=Java]{Code/threadQueue.java}
+\end{latin}
+
+
+در ضمن شما می توانید حتی در خود همین نوشتار اصلی خود کد مورد نظرتان را بنویسید. 
+\begin{latin}
+\begin{lstlisting}[mathescape=true]
+// calculate  $a_{ij}$
+$a_{ij} = a_{jj}/a_{ij} + \alpha$;
+\end{lstlisting}
+\end{latin}
+
+
+
+
+\end{document}
+
+
