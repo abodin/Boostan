@@ -1,1 +1,1 @@
-Please read Manual for Boostan style in the Manual folder.
+Please read Manual for Boostan style in the manual folder.
