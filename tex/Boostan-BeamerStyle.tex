@@ -17,6 +17,8 @@
 
 \usepackage{cutwin}
 \usepackage{pdfpages}
+\usepackage{ctable}
+\usepackage{wasysym}
 
 %%% تمام بسته های مورد نیاز برای  کارهای ریاضیاتی به صورت کامل اینجا آورده شده است در صورتی که بخواهید از بسته های دیگر استفاده کنید بهتر است که آن‌ها را به گونه ای انتخاب کنید که با این بسته ها تداخل نداشته باشد. به نظر من استفاده از همین بسته ها کافی است.
 %%% amsthm: It introduces the proof environment and the \theoremstyle command.
@@ -24,11 +26,13 @@
 %%% amsmath: It contains the advanced math extensions for LaTeX. The complete documentation should be in your LaTeX distribution; the file is called amsdoc, and can be dvi or pdf.
 
 \usepackage{amsthm,amsmath,amssymb}
-
 %%% بسته‌ای برای رسم اشکال و تصاویر با Latex
 \usepackage{tikz}
 
+
 \RequirePackage[framemethod=TikZ]{mdframed}
+
+
 %%% بسته ای برای استفاده از اشکال برای آیتم‌ها
 \usepackage{pifont}
 
@@ -55,7 +59,7 @@
 %%% نکته مهم این جا است که بسته Xepersian برای پشتیبانی از زبان فارسی آورده شده است، و 
 %%% می بایست آخرین بسته ای باشد که شما وارد می کنید، دقت کنید: آخرین بسته 
 
-\usepackage{xepersian}
+\usepackage[extrafootnotefeatures]{xepersian}
 
 
 
@@ -147,6 +151,9 @@
 }%
 \makeatother
 
+\newlength{\baselineskipVar}
+\setlength{\baselineskipVar}{0.9cm}
+
 %%% 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 
 
@@ -156,8 +163,8 @@
 \expandafter\let\csname beamer@@tmpop@itemize subitem@default\endcsname\relax
 \expandafter\let\csname beamer@@tmpop@itemize subsubitem@default\endcsname\relax
 
-\defbeamertemplate*{itemize item}{default}{\scriptsize\raise1.25pt\hbox{\donotcoloroutermaths$\blacktriangleleft$}}
-\defbeamertemplate*{itemize subitem}{default}{\tiny\raise1.5pt\hbox{\donotcoloroutermaths$\blacktriangleleft$}}
+\defbeamertemplate*{itemize item}{default}{\scriptsize\raise6.25pt\hbox{\donotcoloroutermaths$\blacktriangleleft$}}
+\defbeamertemplate*{itemize subitem}{default}{\tiny\raise6.5pt\hbox{\donotcoloroutermaths$\blacktriangleleft$}}
 \defbeamertemplate*{itemize subsubitem}{default}{\tiny\raise1.5pt\hbox{\donotcoloroutermaths$\blacktriangleleft$}}
 
 \bidi@patchcmd{\@listi}{\leftmargin}{\rightmargin}{}{}
@@ -453,7 +460,7 @@
 \setbeamertemplate{navigation symbols}{}
 
 %برای صفحه به نام خدا
-\defpersianfont\godFont[Scale=18]{Far.Symbol8}
+%\defpersianfont\godFont[Scale=18]{Far.Symbol8}
 
 
 
@@ -494,8 +501,9 @@
 
 
 
-\newfontfamily\nastali[Scale=5,Script=Parsi,Language=Parsi,Mapping=farsidigits]{Majiid Shaded Mazar}
+%\newfontfamily\nastali[Scale=5,Script=Parsi,Language=Parsi,Mapping=farsidigits]{Majiid Shaded Mazar}
 
+\newcommand{\indep}{\rotatebox[origin=c]{90}{$\models$}}
 
 
 

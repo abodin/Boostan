@@ -1,4 +1,4 @@
-%% Date: 22 Sep 2018
+%% Date: 13 Apr 2019
 %
 %% فایل  Boostan-LoadBasicPackage یکسری بسته‌های پایه را به استایل اضافه می‌کند. اگر بسته‌ای وجود دارد که در اکثر نوشتارهای خود از آن استفاده می‌کنید، بهتر است آن را در این فایل وارد کنید. 
 %%یکسری قوانین برای وارد کردن بسته‌ها وجود دارد که در ابتدای فایل مورد نظر ذکر شده است. 
@@ -222,15 +222,6 @@
 \input{Boostan-TitleStyle}
 
 %%% 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
-
-%%% تنظیم فاصله خطوط در متن اصلی
-\newlength{\baselineskipVar}
-\setlength{\baselineskipVar}{0.9cm}
-
-%% تنظیم فاصله خطوط در فهرست‌ها
-\newlength{\listlineskipVar}
-\setlength{\listlineskipVar}{0.9cm}
-%%============================ پاورقی
 %% این دستو موجب می‌شود که پاورقی شما به صورت دو ستونه خورده شود.
 \twocolumnfootnotes
 %% تنظیم‌های مربوط به پاورقی: فاصله پاورقی با متن + فاصله بین خطوط در پاورقی
@@ -277,8 +268,8 @@
 
 
 %% تنظیم کننده فاصله بین خطوط (ردیف‌ها) در یک جدول
-\renewcommand{\arraystretch}{1.3}
-%% تنظیم کننده ضخامت خطوط جدول
+\renewcommand{\arraystretch}{.9}
+%% تنظیم کننده ضخامت خطوط جد
 %%\renewcommand{\arrayrulewidth}{.55pt}
 %% تنظیم فاصله بین خطوط دو خطه (||) و یا (حالت افقی ||)
 %%\renewcommand{\doublerulesep}{1pt}
@@ -295,8 +286,13 @@
 \bidi@patchcmd{\list}{\parskip\parsep}{\parskip-3pt}{\typeout{Suceeded}}{\typeout{Failed}}
 \makeatother
 
+\newcommand{\BaseLineSpreadFA}{2}
+\linespread{\BaseLineSpreadFA}
 
-
+\newcommand{\BaseLineSpreadEN}{1.9}
+\makeatletter
+\bidi@AtBeginEnvironment{latin}{\linespread{1.7}}
+\makeatother
 
 
 %%% 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
@@ -312,8 +308,6 @@
 	\olddocument
 	%% تنظیم استایل سرفصل
 	\pagestyle{plain}
-	%% تنظیم فاصله بین خطوط با دستور \baselineskip
-	\baselineskip = \baselineskipVar
 	\pagenumbering{arabic}
 	\SetWatermarkText{}
 }{%
@@ -343,11 +337,7 @@
 %%  تنظیمات مربوط به فهرست مطالب، بازنویسی محیط فهرست مطالب برای تعیین فاصله خطوط، قرار دادن در bookmark ها
 \let\Oldtableofcontents\tableofcontents
 \renewcommand{\tableofcontents}{
-%% تنظیم کننده فاصله بین خطوط در این قسمت
-	\baselineskip = \listlineskipVar
 	\Oldtableofcontents\clearpage
-%% تنظیم کننده فاصله بین خطوط در این قسمت
-	\baselineskip = \baselineskipVar
 }%
 
 % با این دستور در فهرست مطالب در هنگام آوردن شماره و عنوان فصل در ابتدای آن یک کلمه فصل می گذارد یعنی مثلا می نویسد: (فصل اول: مقدمه ای بر شبکه ..................... ۱)
@@ -379,14 +369,12 @@
 %% محیط اندکی کم شده است، ولی دوباره بعد از آوردن این محیط به حالت اولیه برگشته است. در ضمن از شماره گذاری حرفی برای این محیط استفاده شده است. 
 \let\Oldlistoffigures\listoffigures
 \renewcommand{\listoffigures}{
-	\baselineskip = \listlineskipVar
 	\cleardoublepage
 	\phantomsection
 	\addcontentsline{toc}{chapter}{فهرست اشکال}
 	\lofimagetrue
 	\Oldlistoffigures\clearpage
 	\lofimagefalse
-	\baselineskip = \baselineskipVar
 }%
 
 %%% 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
@@ -395,14 +383,10 @@
 %% محیط اندکی کم شده است، ولی دوباره بعد از آوردن این محیط به حالت اولیه برگشته است. در ضمن از شماره گذاری حرفی برای این محیط استفاده شده است. 
 \let\Oldlistoftables\listoftables
 \renewcommand{\listoftables}{
-%% تنظیم کننده فاصله بین خطوط در این قسمت
-	\baselineskip = \listlineskipVar
 	\cleardoublepage
 	\phantomsection
 	\addcontentsline{toc}{chapter}{فهرست جداول}
 	\Oldlistoftables\clearpage
-%% تنظیم کننده فاصله بین خطوط در این قسمت
-	\baselineskip = \baselineskipVar
 }%
 
 %%% 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
@@ -416,7 +400,7 @@
 \newcommand{\printabbreviation}{
 	\cleardoublepage
 	\phantomsection
-	\baselineskip=.75cm
+	\linespread{1.1}
 %% با این دستور عنوان فهرست اختصارات به فهرست مطالب اضافه می‌شود. 
 	\addcontentsline{toc}{chapter}{فهرست اختصارات}
 	\setglossarystyle{myAbbrlist}
@@ -425,7 +409,7 @@
 	\Oldprintglossary[type=acronym]	
 	\end{LTR}
 	\clearpage
-	\baselineskip = \baselineskipVar
+	\linespread{\BaseLineSpreadFA}
 }%
 
 \newcommand{\printacronyms}{\printabbreviation}
@@ -434,7 +418,7 @@
 
 %\newcommand{\printnotation}{
 %%% تنظیم کننده فاصله بین خطوط در این قسمت
-%	\baselineskip = \listlineskipVar
+%	\linespread{\prev}
 %	\cleardoublepage
 %	\phantomsection
 %%% با این دستور عنوان فهرست نمادها به فهرست مطالب اضافه می‌شود. 
@@ -443,7 +427,7 @@
 %	\Oldprintglossary[type=symbols]
 %	\clearpage
 %%% تنظیم کننده فاصله بین خطوط در این قسمت
-%	\baselineskip = \baselineskipVar
+%	\linespread{\post}
 %}%
 
 %%% 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
@@ -452,7 +436,7 @@
 \RenewDocumentCommand{\bibliography}{g g}{
 	\let\appendix\relax
 	%% تنظیم کننده فاصله بین خطوط در این قسمت
-	\baselineskip=.5cm
+	\linespread{1.1}
 %% با این دستور عنوان این قسمت به (مراجع) تغییر پیدا می‌کند. 
 	\renewcommand{\bibname}{مراجع}
 	\clearpage
@@ -465,6 +449,7 @@
 			\bibliographystyle{ieeetr-fa}
 			\Oldbibliography{#1}
 	}%%
+	\linespread{\BaseLineSpreadFA}
 }%
 
 %%% 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
@@ -474,7 +459,7 @@
 \renewcommand{\printglossary}{
 	\let\appendix\relax
 %% تنظیم کننده فاصله بین خطوط در این قسمت
-	\baselineskip=.75cm
+	\linespread{1.1}
 	\clearpage
 	\phantomsection
 %% این دستور موجب این می‌شود که واژه‌نامه‌ها در  حالت دو ستونی نوشته شود. 
@@ -491,7 +476,7 @@
 	\setglossarystyle{myFaToEn}
 	\Oldprintglossary[type=persian]
 	\onecolumn{}
-	\baselineskip = \baselineskipVar
+	\linespread{\BaseLineSpreadFA}
 }%
 
 
@@ -500,13 +485,14 @@
 \RenewDocumentCommand{\printindex}{g g}{
 	\let\appendix\relax
 	%% تنظیم کننده فاصله بین خطوط در این قسمت
-	\baselineskip=.85cm
+	\linespread{1.1}
 	%% با این دستور عنوان این قسمت به (مراجع) تغییر پیدا می‌کند. 
 	\clearpage
 	\phantomsection
 	\addcontentsline{toc}{chapter}{نمایه}
 	\Oldprintindex
 	\defaultFont
+	\linespread{\BaseLineSpreadFA}
 }%
 
 %%% 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
@@ -635,9 +621,7 @@ literate=
 }
 
 
-\makeatletter
-\bidi@AtBeginEnvironment{latin}{\linespread{1}}
-\makeatother
+
 
 %% تغییر عنوان part به پاره و شماره آن به شماره گذاری حروفی.
 \makeatletter

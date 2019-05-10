@@ -99,7 +99,7 @@
 \newdimen\errorsize \errorsize=0.2pt
 % Frame with a label at top
 \newcommand{\LabFrame}[2]{
-	\baselineskip=.4cm
+	\linespread{1.1}
 	\fboxrule=\FrameRule
 	\fboxsep=-\errorsize
 	\textcolor{FrameColor}{
@@ -154,7 +154,7 @@
 \newenvironment{myshadowbox}{%
 	\begin{lrbox}{\mybox}
 	\begin{minipage}{\dimexpr(\textwidth-2\fboxsep-2\fboxrule-\shadowsize)}
-	\baselineskip=.90cm
+	\linespread{1.5}
 }{%
 	\end{minipage}
 	\end{lrbox}
@@ -381,7 +381,7 @@
 	}{
 		\IfFileExists{home.png}{\begin{minipage}{.85\textwidth}}{\begin{minipage}{.93\textwidth}}
 	}%%
-	\baselineskip=\baselineskipVar
+	\linespread{1.5}
 	\begin{RTL}
 }{%
 	\end{RTL}
@@ -590,7 +590,8 @@ backgroundcolor=ntsec,
       ] at (P) {\rl{نکته~\thentcounter}};
         \draw[white,fill=white] ($(P)-(0pt,1.65mm)$) -- ($(P)-(0pt,8.8mm)$) -- ($(P)-(7pt,5.225mm)$) -- cycle;
       },
-]\baselineskip=\baselineskipVar\refstepcounter{ntcounter}
+]\linespread{1.5}
+\refstepcounter{ntcounter}
 \textbf{\ifx\empty#1\hspace*{1.9cm}\relax\else\hspace*{1.65cm}(#1)\fi}%\\[.2cm]%
 \noindent\ignorespaces%
 \noindent}{\end{mdframed}\par\vspace*{.4ex}}
@@ -650,7 +651,7 @@ middlelinecolor=ntexp,
       ] at (P) {\rl{مثال~\thentexample}};
       },
 ]
-\baselineskip=\baselineskipVar
+\linespread{1.5}
 \refstepcounter{ntexample}
 \hspace*{1.8cm}\textbf{\ifx\empty#1\space\relax\else\space\textcolor{nttitle}{#1}\space \ \fi}%\\[.2cm]%
 %\noindent\ignorespaces%
@@ -703,7 +704,7 @@ middlelinecolor=ntexp,
       ] at (P) {\rl{مثال}};
       },
 ]
-\baselineskip=\baselineskipVar
+	\linespread{1.5}
 \hspace*{1.8cm}\textbf{\ifx\empty#1\space\relax\else\space\textcolor{nttitle}{#1}\space \ \fi}%\\[.2cm]%
 %\noindent\ignorespaces%
 }{\end{mdframed}\par}
@@ -754,7 +755,7 @@ middlelinecolor=ForestGreen,
       ] at (P) {\rl{یادآوری}};
       },
 ]
-\baselineskip=\baselineskipVar
+	\linespread{1.5}
 \hspace*{1.8cm}\textbf{\ifx\empty#1\space\relax\else\space\textcolor{nttitle}{#1}\space \ \fi}%\\[.2cm]%
 %\noindent\ignorespaces%
 }{\end{mdframed}\par}
@@ -805,7 +806,7 @@ middlelinecolor=ntdef,
       ] at (P) {\rl{تعریف~\thedefinition}};
       },
 ]
-\baselineskip=\baselineskipVar
+	\linespread{1.5}
 \refstepcounter{definition}
 \hspace*{1.8cm}\textbf{\ifx\empty#1\space\relax\else\space\textcolor{nttitle}{#1}\space \ \fi}%
 %\noindent\ignorespaces%
@@ -823,7 +824,7 @@ outermargin=-1pt,
 middlelinewidth=8pt,
 middlelinecolor=nttitle,
 ]
-\baselineskip=\baselineskipVar
+	\linespread{1.5}
 \textbf{\textcolor{nttitle}{حل}}\ \
 \noindent}{\end{mdframed}\par}
 
