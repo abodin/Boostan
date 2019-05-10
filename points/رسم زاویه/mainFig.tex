@@ -1,0 +1,27 @@
+\documentclass{article}
+
+\usepackage[usenames,dvipsnames]{color,xcolor}
+
+\usepackage{tikz}
+\usetikzlibrary{calc,shapes}
+
+\usepackage[active,tightpage]{preview}
+\PreviewEnvironment{tikzpicture}
+\setlength\PreviewBorder{1mm}%
+
+\begin{document}
+
+\begin{tikzpicture}[rotate=20]
+
+ \draw[-latex](0,0)--(8,0)node[below,midway,rotate=20]{$\overrightarrow{v}$};
+ 
+ \draw[-latex,blue](0,0)--(3,0) node[below,midway,rotate=20]{$\overrightarrow{v}||\overrightarrow{u}$};
+ 
+  \draw[-latex,blue](3,0)--(3,4) node[midway,sloped,above,rotate=20]{$\overrightarrow{v}\bot \overrightarrow{u}$};
+  
+\draw[xshift=3cm](0,0)rectangle(.3,.3);
+
+\draw (0,0) ++(45:.8) arc (45:-45:.8);
+\end{tikzpicture}
+
+\end{document}

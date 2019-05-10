@@ -1,0 +1,43 @@
+\documentclass[journal,10pt]{IEEEtran}
+
+\usepackage{amsmath,amssymb}
+
+\usepackage{booktabs}
+\setlength{\heavyrulewidth}{1.5pt}
+\setlength{\abovetopsep}{4pt}
+
+
+\begin{document}
+
+\begin{table*}
+	\centering
+\renewcommand{\arraystretch}{1.5}
+\caption{List of notations used in the paper}
+\begin{tabular}{cp{7.2cm}cp{7.2cm}}
+\toprule
+Notation & Description & Notation & Description\\
+\midrule
+$\mathrm{Pr}\{A\}$ & The probability that event A occurs & $\mathbb{E}\{\Re\}$ & Expected value of the RV $\Re$  \\
+$\mathrm{H}(\Re)$ & Entropy of  RV $\Re$& $f_{\Re}$ & The PDF of RV $\Re$\\
+$\mathbb{R}^{++}$ & The set of positive real numbers  excluded zero&$\mathbb{N}$ & The set of natural numbers\\
+\midrule
+$\lambda_{g}^{i}$  & Arrival rate  of $i$-th application & $\lambda_{g}$ & The discrete RV denoting the application rate $\in\Lambda_g$\\
+ $\hat{\lambda}_{g}$ & The adversary's estimation for $\lambda_{g}$ & $\lambda_{d}^{ij}$ & Augmenting rate of  dummy packets  in mapping application $i$ to $j$ \\
+$\mu_{g}$ & Original packets service rate  &
+$\gamma$ & Packets departure rate  \\
+$t_{l}$ & The $l$-th packet  arrival time &
+$d_{l}$ & The $l$-th packet  departure time \\
+\midrule
+$\Lambda_{g}$ & The set of ordered sequence of the rates of all applications at the host. &
+$\Theta_{i*}$ &  The set of candidate dummy rates $\lambda_{d}^{ij}$ such that satisfies $\lambda_{g}^{i}+\lambda_{d}^{ij} \in \Lambda_{g}$, where $\lambda_{g}^{i}$ is the $i$-th application rate. \\
+$P_{e}$ & The adversary's estimation error probability &$M$& Stationary marked point process\\
+$M_0$ & Synchronous stationary marked point process &  $N$ & The number of  applications in the source\\
+ $p_{ij}$ &  The probability of changing the rate of application $i$ to the rate of application $j$ & $\alpha$ &  Weighting parameter of the trade-off between communication cost and privacy degree  \\
+ $\psi_{ij}= f(\lambda_{d}^{ij})$ & The cost of transmitting dummy packets with rate $\lambda_{d}^{ij}=\gamma^{j}-\lambda_{g}^{i}$ & & \\
+\bottomrule 
+\end{tabular}
+\label{tab:symbols}
+\end{table*}
+
+
+\end{document}

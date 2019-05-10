@@ -1,0 +1,66 @@
+\documentclass{report}
+
+\usepackage{subcaption}
+\usepackage{xepersian}
+\settextfont[Scale=1.2]{XB Niloofar}
+\setlatintextfont[Scale=1]{Times New Roman}
+
+\begin{document}
+
+\begin{figure}[ht]
+\centering
+\begin{subfigure}[b]{0.3\textwidth}\centering
+\rule{2cm}{2cm}
+\caption{A gull}
+\label{fig:gull}
+\end{subfigure}
+\begin{subfigure}[b]{0.3\textwidth}\centering
+\rule{2cm}{2cm}
+\caption{A tiger}
+\label{fig:tiger}
+\end{subfigure}
+\begin{subfigure}[b]{0.3\textwidth}\centering
+\rule{2cm}{2cm}
+\caption{A mouse}
+\label{fig:mouse}
+\end{subfigure}
+\begin{subfigure}[b]{0.3\textwidth}\centering
+\rule{2cm}{2cm}
+\caption{A mouse}
+\label{fig:mouse}
+\end{subfigure}
+\caption{یک زیرنویس کلی برای شکل}
+\label{fig:animals}
+\end{figure}
+اگر شما تنظیم نکنید از هرجایی که نشد شکل بعدی را می برد خط بعدی.  برای زیرهم انداختن این طوری عمل کنید:
+\begin{figure}[ht]
+\centering
+\begin{subfigure}[b]{0.3\textwidth}\centering
+\rule{2cm}{2cm}
+\caption{A gull}
+\label{fig:gull}
+\end{subfigure}
+\begin{subfigure}[b]{0.3\textwidth}\centering
+\rule{2cm}{2cm}
+\caption{A tiger}
+\label{fig:tiger}
+\end{subfigure}\\*[5mm]
+\begin{subfigure}[b]{0.3\textwidth}\centering
+\rule{2cm}{2cm}
+\caption{A mouse}
+\label{fig:mouse}
+\end{subfigure}
+\begin{subfigure}[b]{0.3\textwidth}\centering
+\rule{2cm}{2cm}
+\caption{A mouse}
+\label{fig:mouse}
+\end{subfigure}
+\caption{یک زیرنویس کلی برای شکل}
+\label{fig:dddd}
+\end{figure}
+\end{document}
+
+
+
+
+

@@ -1,0 +1,23 @@
+\begin{thenomenclature} 
+
+ \nomgroup{A}
+
+  \item [{CDMA}]\begingroup Code division multiple access\nomeqref {0}
+		\nompageref{1}
+  \item [{FM}]\begingroup Frequency Modulation\nomeqref {0}
+		\nompageref{2}
+  \item [{GSM}]\begingroup Global System for Mobile\nomeqref {0}
+		\nompageref{1}
+  \item [{OVSF}]\begingroup Orthogonal Variable Spreading Factor\nomeqref {0}
+		\nompageref{2}
+  \item [{PTT}]\begingroup Push To Talk\nomeqref {0}\nompageref{2}
+  \item [{QoE}]\begingroup Quality of end-user Experience\nomeqref {0}
+		\nompageref{2}
+  \item [{QoS}]\begingroup Quality of Service\nomeqref {0}
+		\nompageref{2}
+  \item [{UMTS}]\begingroup Universal Mobile Telecommunications System\nomeqref {0}
+		\nompageref{1}
+  \item [{WLAN}]\begingroup Wireless Local Area Network\nomeqref {0}
+		\nompageref{2}
+
+\end{thenomenclature}

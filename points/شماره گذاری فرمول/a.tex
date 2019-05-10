@@ -1,0 +1,36 @@
+\documentclass{article}
+\usepackage{amsmath}
+
+%زی‌پرشین (به انگلیسی: XePersian) یک بسته حروف‌چینی رایگان و متن‌باز برای نگارش مستندات پارسی/انگلیسی با زی‌لاتک است.
+% در واقع، زی‌پرشین، کمک می‌کند تا به آسانی، مستندات را به پارسی، حروف‌چینی کرد. این بسته را وفا خلیقی نوشته است،
+% و به طور منظم، آن را بروز‌رسانی کرده و باگ‌های آن را رفع می‌کند.
+% نکته مهم این جا است که بسته Xepersian برای پشتیبانی از زبان فارسی آورده شده است، و 
+% می بایست آخرین بسته ای باشد که شما وارد می کنید، دقت کنید: آخرین بسته
+\usepackage{xepersian}
+
+%%  با دستور زیر می توانید فونتی مخصوص عبارات فارسی تعیین کنید:
+\settextfont[Scale=1.2]{XB Niloofar}
+%% شما با دستور زیر بعد از فراخوانی بسته xepersian می توانید فونت انگلیسی را تعیین کنید
+%% دقت کنید که عبارات انگلیسی شما باید در دستور \lr{} قرار گیرد تا xepersian بتواند بفمهد که این عبارات انگلیسی است
+\setlatintextfont[Scale=1]{Times New Roman}
+
+
+\begin{document}
+\section{شبکه} \subsection{اقتضایی}
+این یک معادله است. 
+\begin{equation}
+  f(x)=ax \qquad \text{and} \qquad g(x)=bx 
+\end{equation}
+
+\begin{equation}
+E = mC^2 
+\end{equation}
+\begin{equation}
+E = mC^2 
+\tag{\theequation\lr{b}}
+\end{equation}
+\begin{equation}
+E = mC^2 
+\tag{\theequation\lr{c}}
+\end{equation}
+\end{document}​

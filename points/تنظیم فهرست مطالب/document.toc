@@ -1,0 +1,17 @@
+\addvspace {25\p@ }
+\addvspace {25\p@ }
+\contentsline {chapter}{\numberline {1}شبکه}{3}% 
+\addvspace {4\p@ }
+\contentsline {section}{\numberline {1.1}سلولی}{3}% 
+\addvspace {4\p@ }
+\contentsline {subsection}{\numberline {1.1.1}نسل دو}{3}% 
+\addvspace {4\p@ }
+\contentsline {subsection}{\numberline {1.1.2}نسل سه}{3}% 
+\addvspace {4\p@ }
+\contentsline {section}{\numberline {1.2}موردی}{3}% 
+\addvspace {25\p@ }
+\contentsline {chapter}{\numberline {2}شبکه های کلی}{5}% 
+\addvspace {4\p@ }
+\contentsline {section}{\numberline {2.1}فراهم‌آورنده خدمات}{5}% 
+\addvspace {4\p@ }
+\contentsline {section}{\numberline {2.2}فراهم‌آورنده اینترنت}{5}% 

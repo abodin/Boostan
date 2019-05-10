@@ -1,0 +1,43 @@
+\documentclass{article}
+
+% بسته ای برای تنظیم حاشیه صفحات
+\usepackage[top=3cm, bottom=2.5cm, left=2cm, right=2.5cm]{geometry}
+% بسته ای برای وارد کردن Watermarking
+\usepackage{draftwatermark}
+% بسته ای برای رنگی کردن لینک ها و فعال سازی لینک ها در یک نوشتار، بسته hyperref باید جزو آخرین بسته‌هایی باشد که فراخوانی می‌شود. 
+\usepackage{hyperref}
+\hypersetup{ colorlinks=true,linkcolor=blue, anchorcolor=green, citecolor=magenta, urlcolor=cyan, filecolor=magenta, pdftoolbar=true, pdfpagemode=UseOutlines}
+
+% نکته مهم این جا است که بسته Xepersian برای پشتیبانی از زبان فارسی آورده شده است، و 
+% می بایست آخرین بسته ای باشد که شما وارد می کنید، دقت کنید: آخرین بسته 
+\usepackage{xepersian}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% تنظیمات مربوط به ایجاد watermarking
+% درصد روشنایی watermark
+\SetWatermarkLightness{.95}
+% زاویه متن Watermark
+%\SetWatermarkAngle{45}
+% اندازه watermark
+\SetWatermarkScale{1.5}
+% اگر بخواهید watermark شما یک رنگ دیگر داشته باشد، این سه خط را فعال کنید و رنگ مورد نظر خود را انتخاب کنید و خط بعدی آن را کامنت کنید.
+%\definecolor{orange}{RGB}{229,252,219} 
+\let\oldSetWatermarkText\SetWatermarkText
+% \renewcommand{\SetWatermarkText}[1]{\oldSetWatermarkText{\textbf{\textcolor{orange}{#1}}}}
+\renewcommand{\SetWatermarkText}[1]{\oldSetWatermarkText{\textbf{#1}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% متن watermark، این متن را شما می توانید در قبل از \begin{document}  مقداردهی کنید، به طور پیش فرض هیچ مقدار ندارد و هیچ گونه Watermark ای گذاشته نمی شود.
+\SetWatermarkText{\lr{Draft}}
+
+\begin{document}
+\baselineskip=.90cm
+
+برای ایجاد {\lr{Watermark}} از بسته {\lr{draftwatermark}} استفاده می کنیم. کار با این بسته بسیار ساده است. فقط کافی است خطوط بالایی را قبل از
+\verb+ \begin{document}+
+یا در فایل استایل خود وارد کنید.  یک دستور به نام {\lr{SetWatermarkText}} وجود دارد. به صورت پیش فرض هیچ گونه {\lr{watermark}}ای گذاشته نمی شود. مگر این که شما به آن مقدار دهید. برای مثال من مقدار آن را {\lr{Draft}} قرار دادم. 
+
+\end{document}
+
+

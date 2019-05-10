@@ -1,0 +1,29 @@
+\documentclass{report}
+\usepackage{array}
+\usepackage{geometry}
+\usepackage{multirow}
+\geometry{top=2.8cm, bottom=3cm, left=2.2cm, right=2.3cm}
+\renewcommand{\arraystretch}{1.3}
+\usepackage{xepersian}
+\settextfont[Scale=1.25]{BNazanin}
+
+\begin{document}
+
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+\textbf{هفته اول:}
+\begin{table} [h] \centering
+\begin{tabular}{|r |c |c |c | P{4cm} | c| c | c | }   \hline
+    & 8-10 &   10-12  &  12-14  &  14-16 &   16-18   &  18-20   &  \lr{ow} \\\hline
+  شنبه &  &  &  &  &  &  &   \\\hline
+ یکشنبه &  &  &  &  &  &  &   \\\hline
+ دوشنبه &  &  &  &  &  &  &   \\\hline
+ سه‌شنبه &  &  &  &  &  &  &   \\\hline
+چهارشنبه &  &  &  &  &  &  &   \\\hline
+پنجشنبه &  &  &  &  &  &  &   \\\hline
+جمعه &  &  &  &  &  &  &   \\\hline
+
+\end{tabular}
+\caption{1-7}
+\end{table}
+
+\end{document}

@@ -1,0 +1,104 @@
+\documentclass{article}
+
+% بسته ای برای تنظیم حاشیه صفحات
+\usepackage[top=3cm, bottom=2.5cm, left=2cm, right=2.5cm]{geometry}
+% بسته ای برای آوردن فهرست اختصارات در متن
+\usepackage[intoc]{nomencl}
+% بسته ای برای رنگی کردن لینک ها و فعال سازی لینک ها در یک نوشتار، بسته hyperref باید جزو آخرین بسته‌هایی باشد که فراخوانی می‌شود. 
+\usepackage{hyperref}
+\hypersetup{ colorlinks=true,linkcolor=blue, anchorcolor=green, citecolor=magenta, urlcolor=cyan, filecolor=magenta, pdftoolbar=true, pdfpagemode=UseOutlines}
+
+% نکته مهم این جا است که بسته Xepersian برای پشتیبانی از زبان فارسی آورده شده است، و 
+% می بایست آخرین بسته ای باشد که شما وارد می کنید، دقت کنید: آخرین بسته 
+\usepackage{xepersian}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% دستوراتی برای قرار دادن فهرست اختصارات 
+%% برای وارد کردن فهرست اختصارات  نیازمند بسته nomencl هستیم که در قسمت usepackage وارد شد. 
+%% توسط این دستور عنوان را تعیین می کنید مثلا: (فهرست اختصارات)
+\renewcommand{\nomname}{فهرست اختصارات}
+% همانند ساخت واژه نامه و ساخت نمایه این دستور برای شروع ساخت فهرست اختصارات الزامی است.
+\makenomenclature
+%% دستور \nomitemsep برای تنظیم فاصله بین item های فهرست اختصارات 
+\setlength{\nomitemsep}{-7pt}
+%% این دستور هم برای این است که محیط فهرست اختصارات یک محیط لاتین است ولی عنوان آن فارسی است.
+%% محیط لاتین باید در سمت چپ و عنوان باید در سمت راست وجود داشته باشد
+\renewcommand{\nompreamble}{\begin{latin}}
+\renewcommand{\nompostamble}{\end{latin}}
+%% تعریف یک دستور برای قرار دادن در پاورقی و اضافه کردن به لیست فهرست اختصارات 
+\def\inpabr #1#2{\lr{#1\LTRfootnote{#2}}\nomenclature{#1}{#2}}
+%% همانند دستور بالا تنها تفاوت در این است که دیگر در پاورقی آورده نمی‌شود. 
+\def\inabr #1#2{\lr{#1}\nomenclature{#1}{#2}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+\baselineskip=.90cm
+
+برای تولید فهرست اختصارات از بسته {\lr{nomencl}} استفاده کنید. مراحل تولید فهرست اختصارات بسیار ساده و راحت است. این مراحل به شرح زیر می باشد. 
+\begin{itemize}
+\item
+وارد کردن بسته {\lr{nomencl}} به صورت زیر:
+\begin{LTR}
+\verb+\usepackage[intoc]{nomencl}+
+\end{LTR}
+\item
+قرار دادن دستور {\verb+ \makenomenclature +} قبل از {\verb+ \begin{document}+}.
+\item
+دستور {\lr{inpabr}} اختصار را در داخل متن قرار داده و باز شده آن را در پاورقی می آورد و در ضمن آن را به فهرست اختصارات نیز اضافه می کند، مثل {\inpabr{UMTS}{Universal Mobile Telecommunications System}}.
+
+ دستور {\lr{inabr}} دیگر باز شده در پاورقی نمی گذارد، فقط اختصار را در متن ظاهر و در فهرست واژگان اضافه می کند، مثل {\inabr{GSM}{Global System for Mobile}}.
+ 
+  دستور {\lr{nomenclature}} تنها اختصار و باز شده آن را در فهرست واژگان می آورد و اصلا در متن ظاهر نمی شود، مثل {\nomenclature{CDMA}{Code division multiple access}}
+\item
+ در هر جایی که می خواهید فهرست اختصارات وارد شود دستور {\lr{printnomenclature}} را تایپ کنید. این دستور باید به صورت زیر باشد:
+\begin{LTR}
+\verb+ \markboth{\nomname}{\nomname}+
+
+\verb+ \printnomenclature[70pt]+
+\end{LTR}
+آرگومان این دستور فاصله بین اختصار و بازشده آن را تعیین می کند. در این جا یعنی فاصله بین اختصار و بازشده آن در فهرست اختصارات ۷۰ پوینت است. 
+\item
+در انتهای نیز دنباله زیر را برای تولید فهرست اختصارات انجام دهید:
+\begin{LTR}
+\begin{itemize}
+\item
+\verb+ xelatex -interaction=nonstopmode -synctex=-1 %.tex+
+\item
+\verb+ makeindex %.nlo -s nomencl.ist -o %.nls +
+\item
+\verb+ xelatex -interaction=nonstopmode -synctex=-1 %.tex+
+\item
+\verb+ xelatex -interaction=nonstopmode -synctex=-1 %.tex+
+\end{itemize}
+\end{LTR}
+\end{itemize}
+
+برای تولید فهرست اختصارات کافی است از همین فایل مثال استفاده کنید، و خطوط قبل از {\lr{begin{document}} و خطوط انتهایی را در متن خود وارد کنید و به روش یاد شده کامپایل را انجام دهید.  در ضمن با آوردن بسته {\lr{hyperref}} فهرست اختصارات به صورت مستقیم وارد {\lr{bookmark}} و فهرست مطالب می شود و نیازی به وارد کردن دستی آن نیست.
+
+مثال های دیگر:
+
+نوع اول:
+\inpabr{OVSF}{Orthogonal Variable Spreading Factor},
+\inpabr{QoS}{Quality of Service}
+
+نوع دوم:
+\inabr{FM}{Frequency Modulation},
+\inabr{QoE}{Quality of end-user Experience}
+
+نوع سوم: 
+\nomenclature{WLAN}{Wireless Local Area Network},
+\nomenclature{PTT}{Push To Talk}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+\markboth{\nomname}{\nomname}% maybe with \MakeUppercase
+%	%  معمولا فهرست اختصارات  در گزارشات تخصصی بعد از فهرست ها قرار می دهند. ما هم از همین رویه استفاده کردیم	
+%	% دستور \printnomenclature برای وارد کردن واژه نامه. option بعد از آن یعنی [70pt] نشان‌دهنده میزان فاصله بین کلمات و توضیح آن ها می‌باشد. 
+\printnomenclature[70pt]\clearpage
+
+\end{document}
+
+
