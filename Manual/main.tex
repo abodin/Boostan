@@ -1,0 +1,85 @@
+\documentclass{report}
+
+\input{Boostan-articleManual}
+
+\begin{document}
+
+بوستان مجموعه‌ای از استایل‌های لاتک است که به منظور نوشتن هرچه‌ساده‌تر یک گزارش و یا یک کتاب تهیه و تدوین شده است. این استایل در
+\lr{TexLive2018} و \lr{TexLive2019}
+قابل بکارگیری است. برای استفاده از استایل، می‌بایست مراحل زیر را انجام دهید:
+\begin{description}
+\item[گام اول]
+
+
+نخست با استفاده از دستور زیر فایل‌های موجود در مخزن را بارگیری نمایید:
+\begin{lstlisting}[language=bash]
+git clone git@github.com:abodin/Boostan.git
+\end{lstlisting}
+
+ با اجرای این دستور در مسیری که مشخص کردید، شاخه‌ای به نام Boostan ایجاد می‌شود و فایل‌ها در آن قرار داده می‌گردد.
+\item[گام دوم]
+در گام بعدی برای این‌که لازم نباشد هر بار مسیر کامل استایل‌ها زده شود، در مسیر نصب ‎‎\lr{TexLive} فایل ‎\lr{texmf.cnf}‎ را بازگشایی نمایید. به عنوان مثال در ‎\lr{Ubuntu}‎ دستور زیر را برای بازگشایی این فایل تایپ کنید:
+\begin{lstlisting}[language=bash]
+sudo gedit /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf
+\end{lstlisting}
+در ویندوز به صورت پیش‌فرض این فایل در مسیر زیر قرار دارد:
+\begin{lstlisting}[language=bash]
+ C:\texlive\2018\texmf-dist\web2c\texmf.cnf
+\end{lstlisting}
+در فایل
+\lr{texmf.cnf}
+خط
+\begin{lstlisting}[language=bash]
+TEXMF = {$TEXMFAUXTREES$TEXMFCONFIG,$TEXMFVAR,$TEXMFHOME,!!$TEXMFLOCAL,!!$TEXMFSYSCONFIG,!!$TEXMFSYSVAR,!!$TEXMFDIST}
+\end{lstlisting}
+ را بیابید و مسیر شاخه Boostan را به آن اضافه کنید.
+\begin{lstlisting}[language=bash]
+TEXMF={$TEXMFAUXTREES$TEXMFCONFIG,$TEXMFVAR,$TEXMFHOME,!!$TEXMFLOCAL,!!$TEXMFSYSCONFIG,!!$TEXMFSYSVAR,!!$TEXMFDIST,/home/abolfazl/Documents/Boostan}
+\end{lstlisting}
+دقت کنید که بین کاما و مسیر وارد شده هیچ‌گونه
+\lr{Space}
+نباید بگذارید. در ضمن فایل‌های استایل باید در یک زیرپوشه به نام
+\lr{tex}
+در شاخه 
+\lr{Boostan}
+قرار داشته باشد، و شما می‌بایست مسیر را تا همین شاخه در فایل
+\lr{texmf.cnf}
+ اضافه کنید. بعد از اضافه کردن این مسیر، در 
+\lr{Ubuntu} یک \lr{Terminal} و یا در ویندوز یک \lr{cmd}
+باز کنید و دستور
+\lr{texhash}
+را اجرا کنید. منتظر بمانید تا این دستور به صورت کامل اجرا شود. دقت کنید که در لینوکس این دستور باید با 
+\lr{sudo}
+اجرا شود. در ویندوز هم باید 
+\lr{cmd}
+با دسترسی 
+\lr{Administrator}
+باز شود. 
+\begin{lstlisting}[language=bash]
+➜  ~ sudo texhash
+[sudo] password for abolfazl: 
+texhash: Updating /usr/local/texlive/2019/texmf-config/ls-R... 
+texhash: Updating /usr/local/texlive/2019/texmf-dist/ls-R... 
+texhash: Updating /usr/local/texlive/2019/texmf-var/ls-R... 
+texhash: Updating /usr/local/texlive/texmf-local/ls-R... 
+texhash: Done.
+➜  ~ 
+\end{lstlisting}
+
+\item[گام سوم]
+فونت‌های موجود در پوشه fonts را نصب کنید.
+
+\item[گام چهارم]
+فایل نمونه به نام
+\lr{sample} که در پوشه \lr{examples/simplesample}
+قرار دارد، را کامپایل کنید. می‌بایست این کامپایل با موفقیت به پایان برسد. اگر در کامپایل خطایی دارید، سعی کنید اول علت خطا را پیدا کنید. معمولا علت خطا به دلیل نشناختن مسیر استایل و یا به دلیل عدم نصب فونت‌ها است. 
+\begin{warning}
+دقت کنید در صورت بروز خطا به‌هیچ‌وجه فایل‌های استایل را تغییر ندهید، آن‌ها درست هستند. مشکل حتما به جوانب کار (به مانند عدم نصب فونت و ... ) بر می‌گردد. 
+\end{warning}
+\begin{note}
+برای آشنایی با امکانات 
+\lr{Boostan} به مثال قرار داده شده در مسیر \lr{examples/BoostanSample}
+مراجعه کنید. 
+\end{note}
+\end{description}
+\end{document}
