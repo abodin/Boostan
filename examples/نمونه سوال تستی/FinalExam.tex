@@ -1,0 +1,53 @@
+\documentclass{article}
+
+\input{gozineh}
+
+\newcount\myn
+\begin{document}
+\baselineskip=.7cm
+
+\loop
+\advance\myn by 1
+\ifnum\myn>3
+\else
+
+\begin{table}[H]
+	\begin{tabular}{|p{5cm}|p{3cm}|p{3cm}|c|}\hline
+نام و نام خانوادگی & شماره دانشجویی & تاریخ  & شماره برگه 
+			\\\hline
+		& & 1396/11/19& \the \myn
+		\\\hline
+	\end{tabular}
+\end{table}
+\begin{goal}{نکات}
+الف) این امتحان نمره منفی دارد.
+
+ب) دقت کنید که نام و نام‌خانوادگی خود را بر روی تمامی برگه‌ها بنویسید.
+
+ج) در صورتی که احساس می‌کنید سوالی غلط است یا دو جواب دارد فرض خود را در کنار سوال بنویسید. البته قاعدتا یک جا دارید اشتباه می کنید و هر سوال فقط یک جواب دارد.
+\end{goal}
+%\begin{problem}
+%روش برخورد 
+%\lr{TCP Reno}
+%با 
+%\lr{three duplicate ACKs}
+%را توضیح دهید؟ (در پایان سوالات تستی به این سوال تشریحی نیز پاسخ دهید.)
+%\end{problem}
+
+
+ \renewcommand*{\arraystretch}{1.9}
+ \begin{tabular}{|p{5cm}p{6cm}p{5cm}|}\hline
+ 	\multicolumn{3}{|r|}{ در سوالاتی که در ادامه می‌آید، پارامترهای زیر را در نظر بگیرید.}\\
+ 	$L$: طول بسته  & $R$: \mygls{LinkCapacity} & $D$: \mygls{Distance} \\
+ 	$a$: میانگین نرخ رسیدن بسته‌ها & $S$: \mygls{PropagationSpeed} موج & \\\hline
+ \end{tabular}
+ \vskip 6mm
+\setcounter{question}{0}
+\begin{mcquestions}
+\randomquestionsfrombank{bankA.tex}{7}
+\end{mcquestions}
+\clearpage
+\ifthenelse{\isodd{\thepage}}{}{\clearpage\mbox{}\clearpage}
+\repeat
+
+\end{document}

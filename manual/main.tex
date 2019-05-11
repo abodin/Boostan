@@ -1,12 +1,19 @@
 \documentclass{report}
 
+\usepackage{bidihl}
 \input{Boostan-articleManual}
 
 \begin{document}
 
-بوستان مجموعه‌ای از استایل‌های لاتک است که به منظور نوشتن هرچه‌ساده‌تر یک گزارش و یا یک کتاب تهیه و تدوین شده است. این استایل در
+بوستان مجموعه‌ای از استایل‌های لاتک است که به منظور نوشتن هرچه‌ساده‌تر یک گزارش، پایان‌نامه و یا یک کتاب تهیه و تدوین شده است. این استایل در
 \lr{TexLive2018} و \lr{TexLive2019}
-قابل بکارگیری است. برای استفاده از استایل، می‌بایست مراحل زیر را انجام دهید:
+قابل بکارگیری است. بدین‌سان فرض می‌شود که شما یک کامپایلر 
+\lr{\TeX} به مانند \lr{TexLive}
+و یک ویرایشگر به مانند
+\lr{TexStudio}
+بر روی رایانه خود با موفقیت نصب کرده‌اید. برای راهنمایی در این موضوع به 
+\href{http://www.parsilatex.com/wiki/%D8%A8%D8%B1%D8%A7%DB%8C_%DA%A9%D8%A7%D8%B1_%D8%A8%D8%A7_%D9%84%D8%A7%D8%AA%DA%A9_%DA%86%D9%87_%DA%86%DB%8C%D8%B2%D9%87%D8%A7%DB%8C%DB%8C_%D9%86%DB%8C%D8%A7%D8%B2_%D8%AF%D8%A7%D8%B1%DB%8C%D9%85%D8%9F}{این پیوند}
+مراجعه کنید. برای استفاده از استایل، می‌بایست مراحل زیر را انجام دهید:
 \begin{description}
 \item[گام اول]
 
@@ -17,6 +24,11 @@ git clone git@github.com:abodin/Boostan.git
 \end{lstlisting}
 
  با اجرای این دستور در مسیری که مشخص کردید، شاخه‌ای به نام Boostan ایجاد می‌شود و فایل‌ها در آن قرار داده می‌گردد.
+\begin{lstlisting}[language=bash]
+-> Boostan git:(master) ✗ ls 
+examples  fonts  manual README.md  tex
+\end{lstlisting}
+
 \item[گام دوم]
 در گام بعدی برای این‌که لازم نباشد هر بار مسیر کامل استایل‌ها زده شود، در مسیر نصب ‎‎\lr{TexLive} فایل ‎\lr{texmf.cnf}‎ را بازگشایی نمایید. به عنوان مثال در ‎\lr{Ubuntu}‎ دستور زیر را برای بازگشایی این فایل تایپ کنید:
 \begin{lstlisting}[language=bash]
@@ -36,13 +48,14 @@ TEXMF = {$TEXMFAUXTREES$TEXMFCONFIG,$TEXMFVAR,$TEXMFHOME,!!$TEXMFLOCAL,!!$TEXMFS
 \begin{lstlisting}[language=bash]
 TEXMF={$TEXMFAUXTREES$TEXMFCONFIG,$TEXMFVAR,$TEXMFHOME,!!$TEXMFLOCAL,!!$TEXMFSYSCONFIG,!!$TEXMFSYSVAR,!!$TEXMFDIST,/home/abolfazl/Documents/Boostan}
 \end{lstlisting}
+\bidihl{
 دقت کنید که بین کاما و مسیر وارد شده هیچ‌گونه
-\lr{Space}
-نباید بگذارید. در ضمن فایل‌های استایل باید در یک زیرپوشه به نام
+{\lr{Space}}
+نباید بگذارید.}‎ در ضمن فایل‌های استایل باید در یک زیرپوشه به نام
 \lr{tex}
 در شاخه 
 \lr{Boostan}
-قرار داشته باشد، و شما می‌بایست مسیر را تا همین شاخه در فایل
+قرار داشته باشد، و شما می‌بایست مسیر را تا همین شاخه \lr{Boostan} در فایل
 \lr{texmf.cnf}
  اضافه کنید. بعد از اضافه کردن این مسیر، در 
 \lr{Ubuntu} یک \lr{Terminal} و یا در ویندوز یک \lr{cmd}

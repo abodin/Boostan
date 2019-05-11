@@ -1,0 +1,28 @@
+\tikzset{
+lineStyle/.style = {draw=gray!90},
+lineNStyle/.style={pos=-.005,circle,fill=blue!10,text width = 1.1cm,align=center},
+abovenot/.style={midway,above},
+belownot/.style={midway,below,blue},
+nodestyl/.style={Green,fill=white,text width=2.6cm,align=center,draw=YellowOrange,rounded corners = 5pt},
+timerLsty/.style={latex-latex,Magenta,dashed,sloped},
+timerNsty/.style={midway,Magenta,above},
+circlehelpsty/.style={circle,fill=yellow!80,draw=none},
+circlehelpNodesty/.style={circle,fill=yellow!60,draw=none,xshift=1.65cm},
+}
+
+\def\linelen{-12}
+
+\def\msLoc{0}
+\def\btsLoc{6}
+\def\bscLoc{12}
+
+\draw [lineStyle] (\msLoc   ,0) -- (\msLoc,\linelen) node[lineNStyle] {MS};
+\draw [lineStyle] (\btsLoc   ,0) -- (\btsLoc,\linelen) node[lineNStyle] {BTS};
+\draw [lineStyle] (\bscLoc  ,0) -- (\bscLoc,\linelen) node[lineNStyle] {BSC};
+
+\def\aaa{-1.6}
+\def\bscTimerplace{123 mm}
+
+\def\nex{-1}
+\newcounter{countw};
+\newcounter{FCCH};

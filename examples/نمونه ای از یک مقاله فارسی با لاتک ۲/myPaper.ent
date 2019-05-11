@@ -1,0 +1,20 @@
+\@LTRdoanenote {1}
+macro:->\latinfont
+Anchor
+Node
+\@endanenote 
+\@doanenote {2}
+macro:->\if@RTL@footnote
+\else
+\latinfont
+\fi
+در
+واقع
+منظور
+ما
+...
+\@endanenote 
+\@LTRdoanenote {3}
+macro:->\latinfont
+Sensor
+\@endanenote 

@@ -1,0 +1,57 @@
+\relax 
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand*\HyPL@Entry[1]{}
+\citation{Amintoosi08reconstruction}
+\citation{Amintoosi09regional}
+\citation{Amintoosi08reconstruction}
+\citation{Wang04image}
+\citation{Amintoosi08reconstruction}
+\citation{Amintoosi08reconstruction}
+\citation{Amintoosi09regional}
+\citation{Amintoosi08reconstruction}
+\HyPL@Entry{0<</S/D>>}
+\@writefile{toc}{\contentsline {section}{\numberline {1‏-‏}مقدمه}{1}{section.1}}
+\@writefile{brf}{\backcite{Amintoosi08reconstruction,Amintoosi09regional}{{1}{1‏-‏}{section.1}}}
+\@writefile{brf}{\backcite{Amintoosi08reconstruction}{{1}{1}{Item.1}}}
+\@writefile{brf}{\backcite{Wang04image}{{1}{1}{Item.1}}}
+\@writefile{brf}{\backcite{Amintoosi08reconstruction}{{1}{1}{Item.1}}}
+\@writefile{brf}{\backcite{Amintoosi08reconstruction,Amintoosi09regional}{{1}{2}{Item.2}}}
+\@writefile{toc}{\contentsline {section}{\numberline {2‏-‏}شیوه‌ی پیشنهادی}{1}{section.2}}
+\newlabel{Sec:TheProposedMethod}{{2‏-‏}{1}{شیوه‌ی پیشنهادی\relax }{section.2}{}}
+\@writefile{brf}{\backcite{Amintoosi08reconstruction}{{1}{2‏-‏}{section.2}}}
+\citation{Lucas81iterative}
+\citation{Baker04lucas-kanade20part1}
+\citation{Lucas81iterative}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces چارچوب کلی شیوه‌ی پیشنهادی.}}{2}{figure.1}}
+\newlabel{fig:OneLR_oneHR}{{1}{2}{چارچوب کلی شیوه‌ی پیشنهادی}{figure.1}{}}
+\@writefile{brf}{\backcite{Lucas81iterative}{{2}{2‏-‏}{figure.1}}}
+\@writefile{brf}{\backcite{Baker04lucas-kanade20part1}{{2}{2‏-‏}{figure.1}}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2‏-‏1‏-‏}الگوریتم لوکاس-کاناد}{2}{subsection.2.1}}
+\@writefile{brf}{\backcite{Lucas81iterative}{{2}{2‏-‏1‏-‏}{subsection.2.1}}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces الگوریتم ثبت تصویر لوکاس-کاناد مبتنی بر بهینه‌سازی گوس-نیوتون \pLRE {\latinfont  (LK-GN)}.}}{2}{algorithm.1}}
+\newlabel{alg1}{{1}{2}{الگوریتم لوکاس-کاناد\relax }{algorithm.1}{}}
+\newlabel{line:Hessian}{{7}{2}{الگوریتم لوکاس-کاناد\relax }{ALC@unique.7}{}}
+\newlabel{alg1:deltap}{{9}{2}{الگوریتم لوکاس-کاناد\relax }{ALC@unique.9}{}}
+\newlabel{eq:SSD_L2Norm}{{1}{2}{الگوریتم لوکاس-کاناد\relax }{equation.2.1}{}}
+\newlabel{eq:SSD_L2Norm_deltap}{{2}{2}{الگوریتم لوکاس-کاناد\relax }{equation.2.2}{}}
+\newlabel{eq:Hessian}{{4}{2}{الگوریتم لوکاس-کاناد\relax }{equation.2.4}{}}
+\bibstyle{ieeetr-fa}
+\bibdata{SR_References}
+\bibcite{Amintoosi08reconstruction}{1}
+\bibcite{Amintoosi09regional}{2}
+\bibcite{Wang04image}{3}
+\bibcite{Lucas81iterative}{4}
+\bibcite{Baker04lucas-kanade20part1}{5}

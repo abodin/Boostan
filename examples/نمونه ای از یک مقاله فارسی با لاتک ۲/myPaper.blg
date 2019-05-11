@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/W32TeX)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: myPaper.aux
+The style file: ieeetr-fa.bst
+Database file #1: lib.bib
+-- ieeetr-fa.bst version 0.9 (2015/05/09) 
+-- This is a BibTeX style for XePersian: http://www.parsilatex.com
+Warning--empty publisher in Durrett2012Essentials
+
+Done.
+You've used 6 entries,
+            2349 wiz_defined-function locations,
+            643 strings with 5696 characters,
+and the built_in function-call counts, 1651 in all, are:
+= -- 157
+> -- 53
+< -- 0
++ -- 20
+- -- 14
+* -- 97
+:= -- 208
+add.period$ -- 12
+call.type$ -- 6
+change.case$ -- 11
+chr.to.int$ -- 0
+cite$ -- 7
+duplicate$ -- 75
+empty$ -- 145
+format.name$ -- 14
+if$ -- 446
+int.to.chr$ -- 0
+int.to.str$ -- 6
+missing$ -- 53
+newline$ -- 51
+num.names$ -- 6
+pop$ -- 27
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 43
+stack$ -- 0
+substring$ -- 72
+swap$ -- 24
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 4
+type$ -- 0
+warning$ -- 1
+while$ -- 12
+width$ -- 7
+write$ -- 79
+(There was 1 warning)

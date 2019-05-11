@@ -1,0 +1,150 @@
+
+%%==================== تنظیمات listing
+%%  در این قسمت تمام ابزارهای مورد نیاز در نوشتن برنامه ها اورده شده  است. با استفاده از این ابزارهای می‌توان برنامه های مورد نیاز را در مستند جای داد.
+%% مطالب بیشتر در مورد وارد کردن کد در متن را در صفحه زیر مطالعه کنید.
+%%%http://www.parsilatex.com/mediawiki/index.php?title=%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C_%D9%88%D8%A7%D8%B1%D8%AF_%DA%A9%D8%B1%D8%AF%D9%86_%DA%A9%D8%AF_%D8%AF%D8%B1_%D9%85%D8%AA%D9%86
+
+\lstset{% general command to set parameter(s)
+	% زبان برنامه نویسی که به طور پیش فرض انتخاب می شود.
+	%language=Java,
+	% رنگ پیش فرض برای پیش زمینه
+	%backgroundcolor=\color{gray!10},
+	%% میزان طول محیط listings را مشخص می کند، به صورت پیش فرض \textwidth است. 
+	%linewidth=\textwidth ,
+	%% نوع قالب دور محیط listings را تعیین می کند. 
+	frameround=fttt,
+	frame=single,
+	aboveskip=5mm,
+	belowskip=4mm,
+	%% is selected at the beginning of each listing. You could use \footnotesize,
+	%% \small, \itshape, \ttfamily, or something like that. The last token of
+	%% basic style must not read any following characters.
+	basicstyle=\setLTR\ttfamily, % print whole listing small
+	%%   با این دستور استایل keyword ها را مشخص می کنیم. مثلا در این حالت گفته ایم که keyword ها را با رنگ آبی مشخص کند، و آن ها را bold‌کند. دقت کنید که keyword های زبان‌هایی که این بسته پشتیبانی می‌کند، 
+	%% در این بسته تعریف شده است. مثلا در JAVA کلمه main به صورت پیش فرض تعریف شده است و در صورت وجود آن در کد شما آن را Latex آبی رنگ می‌کند. 
+	keywordstyle=\color{blue}\bfseries,
+	% underlined bold black keywords
+	%identifierstyle=, % nothing happens
+	%framexleftmargin=5mm, frame=shadowbox, rulesepcolor=\color{red}
+	%% استایل String را در متن مشخص می کند. مثلا در این جا گفته شده است که رشته ها را با رنگ قرمز و به صورت ایتالیک نمایش بده.
+	stringstyle=\ttfamily\color{red}, % typewriter type for strings
+	%% نحوه استایل comment را مشخص می کند. دقت کنید که رنگ انتخاب شده نوعی رنگ سبز است، برای این که این رنگ شناخته شود می بایست دو بسته color و xcolor به صورتی که فراخوانی شده است، فراخوانی شود. 
+	commentstyle=\color{Green},
+	lineskip = 1mm,
+	%% سه دستور بعدی نحوه نمایش شماره خطوط را مشخص می کند. 
+	numberstyle=\footnotesize, 
+	%% تعیین فاصله بین شماره خطوط و محیط listings
+	numbersep=10pt,
+	%% محل قرارگیری شماره خطوط
+	numbers=left,
+	xleftmargin=1pt,aboveskip=7mm,belowskip=6mm,
+	%% تعیین محل قرارگیری caption محیط. بطور پیش فرض در بالای محیط است که به پایین محیط تغییر داده شده است. 
+	%captionpos=b, 
+	%% توسط breakline می توانید خاصیت شکسته شدن خطوط بلند را در محیط listings فعال و یا غیرفعال کنید.
+	%% activates or deactivates automatic line breaking of long lines.
+	breaklines=true,
+	%% باعث می شود که فاصله های بین رشته های نمایان شود.
+	%% lets blank spaces in strings appear  or as blank spaces
+	%showstringspaces=true
+	captiondirection=RTL
+}%
+
+\lstdefinestyle{customc}{
+	belowcaptionskip=1\baselineskip,
+	breaklines=true,
+	frame=L,
+	backgroundcolor=\color{white}
+	xleftmargin=\parindent,
+	language=C,
+	showstringspaces=false,
+	basicstyle=\setLTR\small\ttfamily,
+	keywordstyle=\bfseries\color{green!40!black},
+	commentstyle=\itshape\color{purple!40!black},
+	stringstyle=\color{orange},
+	numbers=none
+}
+
+\renewcommand{\lstlistingname}{\rl{کد}}
+
+% البته شما می توانید این موارد پیش فرض را به ازای هر کد تغییر دهید. به عنوان مثال، ما یک کد در پوشه Code در شاخه فعلی قرار دادیم، می خواهیم آن را وارد متن کنیم، کافی است که خطوط زیر را در محل مناسبی که می خواهیم کد را قرار دهیم وارد کنیم. در این مثال یک فایل کد JAVA به نام myCode.java را می خواهیم وارد کنیم. 
+%\begin{latin}
+%\lstinputlisting[breaklines=true,numbers=left,language=Java, basicstyle=\ttfamily, numberstyle=\footnotesize, numbersep=10pt, captionpos=b, frame=single, breakatwhitespace=false]{Code/myCode.java}
+%\end{latin}
+
+
+%%                                                       -*- LaTeX -*-
+%% Language definition of ASN.1 for listings package
+%%
+
+%% ASN.1
+\lstdefinelanguage[]{asn.1}%
+{keywords=%
+	{DEFINITIONS,SEQUENCE,OCTET,INTEGER,BEGIN,END,OPTIONAL,STRING,ENUMERATED,CHOICE,BOOLEAN},
+	sensitive=true,
+	morestring=[b]",
+	morestring=[s]{>}{<},
+	morecomment=[l]{--},
+	morecomment=[s]{<?}{?>},
+	stringstyle=\color{black},
+	identifierstyle=\color{Blue},
+	keywordstyle=\color{cyan},
+	morekeywords={xmlns,version,type}% list your attributes here
+	emph=[2]%
+	{%
+		DEFAULT,NULL,
+	},
+	emphstyle=[2]{\color{Red}},
+	%
+	emph=[3]% Variable Types
+	{% 
+		SIZE,
+	},
+	emphstyle=[3]{\color{Plum}},
+}[keywords]%
+
+\lstdefinelanguage{XML}
+{
+  morestring=[b]",
+  morestring=[s]{>}{<},
+  morecomment=[s]{<?}{?>},
+  stringstyle=\color{black},
+  identifierstyle=\color{Blue},
+  keywordstyle=\color{cyan},
+  columns=fullflexible,
+  showstringspaces=false,
+  morekeywords={xmlns,version,type}% list your attributes here
+}
+%
+\colorlet{numb}{magenta!60!black}
+
+\lstdefinelanguage{JSON}{
+    stepnumber=1,
+    numbersep=8pt,
+    showstringspaces=false,
+    breaklines=true,
+    string=[s]{"}{"},
+    comment=[l]{:\ "},
+    morecomment=[l]{:"},
+literate=
+        *{0}{{{\color{numb}0}}}{1}
+         {1}{{{\color{numb}1}}}{1}
+         {2}{{{\color{numb}2}}}{1}
+         {3}{{{\color{numb}3}}}{1}
+         {4}{{{\color{numb}4}}}{1}
+         {5}{{{\color{numb}5}}}{1}
+         {6}{{{\color{numb}6}}}{1}
+         {7}{{{\color{numb}7}}}{1}
+         {8}{{{\color{numb}8}}}{1}
+         {9}{{{\color{numb}9}}}{1}
+}
+
+\lstdefinelanguage{INI}
+{
+    morecomment=[s][\color{Orchid}\bfseries]{[}{]},
+    morecomment=[l]{\#},
+    morecomment=[l]{;},
+    commentstyle=\color{gray}\ttfamily,
+    morekeywords={},
+    otherkeywords={=,:},
+    keywordstyle={\color{Green}\bfseries}
+}

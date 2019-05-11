@@ -1,0 +1,47 @@
+\documentclass{article}
+
+\usepackage[usenames,dvipsnames]{color,xcolor}
+
+\usepackage{tikz}
+\usetikzlibrary{shadows,shapes,arrows,snakes,chains,decorations.pathreplacing}
+
+\usepackage[active,tightpage]{preview}
+\PreviewEnvironment{tikzpicture}
+\setlength\PreviewBorder{1mm}%
+
+\usepackage{fontspec}
+\setmainfont[Scale=.9]{Linux Libertine}
+
+\newcommand{\MyN}{ \pgfmathparse{subtract(\nex,1.3)}; \def\nex{ \pgfmathresult};}
+\newcommand{\MyM}[1]{ \addtocounter{countw}{1}; \setcounter{#1}{\value{countw}};}
+
+\begin{document}
+\begin{tikzpicture}
+
+\input{config}
+
+\MyM{FCCH}\MyN\draw [-latex,dashed] (\btsLoc,\nex) -- (\msLoc,\nex) 
+node[abovenot] {\small \textcolor{red}{FCCH:} Send with Frequency Correction Burst} node[circlehelpsty,at start] {\arabic{countw}};
+
+ \MyN \node at (\msLoc,\nex) [nodestyl] {Scan Send with Frequency Correction Burst Send with };
+
+\MyM{FCCH}\MyN \draw [-latex] (\msLoc,\nex) -- (\btsLoc,\nex) 
+node[abovenot] {\small \textcolor{red}{SCH:} Send with Synchronization Burst} node[circlehelpsty,at start] {\arabic{countw}};
+
+\MyM{FCCH} \MyN\node at (\msLoc,\nex) [nodestyl] {Synchronization};
+\node at (\msLoc,\nex) [circlehelpNodesty] {\arabic{countw}};
+
+\MyM{FCCH} \MyN\draw [-latex] (\btsLoc,\nex) -- (\msLoc,\nex) 
+node[abovenot] {\small \textcolor{red}{BCCH}} node[circlehelpsty,at start] {\arabic{countw}};
+
+\MyM{FCCH} \MyN\node at (\msLoc,\nex) [nodestyl] {Decode BCCH};
+\node at (\msLoc,\nex) [circlehelpNodesty] {\arabic{countw}};
+
+\MyM{FCCH}\MyN \node at (\msLoc,\nex) [nodestyl] {PLMN Selection};
+\node at (\msLoc,\nex) [circlehelpNodesty] {\arabic{countw}};
+
+\MyN \node at (\msLoc,\nex) [nodestyl] {Suitable Cell};
+\node at (\msLoc,\nex) [circlehelpNodesty] {\arabic{countw}};
+
+\end{tikzpicture}
+\end{document}
