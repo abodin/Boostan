@@ -1,0 +1,28 @@
+@book{Kesidis2007Introduction,
+address = {Hoboken, NJ, USA},
+author = {Kesidis, George},
+doi = {10.1002/9780470168684},
+isbn = {9780470168684},
+month = jun,
+publisher = {John Wiley \& Sons, Inc.},
+title = {{An Introduction to Communication Network Analysis}},
+year = {2007}
+}
+
+@book{cover2006elements,
+author = {Cover, T M and Thomas, J A},
+isbn = {9781118585771},
+publisher = {Wiley},
+title = {{Elements of Information Theory}},
+year = {2006}
+}
+
+@book{baccelli2003elements,
+author = {Baccelli, F and Bremaud, P},
+isbn = {9783540660880},
+publisher = {Springer},
+series = {Applications of mathematics : stochastic modelling and applied probability},
+title = {{Elements of Queueing Theory: Palm Martingale Calculus and Stochastic Recurrences}},
+url = {http://books.google.com/books?id=REcVXcy2sb0C},
+year = {2003}
+}

@@ -1,0 +1,106 @@
+\chapter{حفظ \glsentrytext{Privacy} \glsentrytext{Rate}}
+\label{chap:ratePrivacy}
+\begin{abstract}
+
+\end{abstract}
+
+
+\section{مثال انگیزه‌بخش}
+\label{sec:motivatingExample}
+
+
+\section{\glsentrytext{SystemModel}}
+\label{sec:systemModel}
+در این بخش به بیان 
+\gls{SystemModel}
+خواهیم پرداخت. مدل
+\gls{SourceNode} (\lr{Alice}) و \gls{Adversary} (\lr{Eve})
+به ترتیب در 
+\autoref{subsec:sourceNode} و \autoref{subsec:Adversary}
+ارایه می‌شود. در ضمن مجموعه‌ای از نمادهای پر کاربرد  در این فصل در 
+\autoref{tab:symbols}
+ارایه شده است. 
+
+\begin{table}
+\renewcommand{\arraystretch}{1.8}
+\caption{فهرستی از نمادهای بکار رفته در این فصل}
+\begin{tabular}{cp{12.5cm}}
+\toprule
+نماد & توضیح
+\\\midrule
+$\mathrm{Pr}\{A\}$ & 
+احتمال رخداد رویداد
+$A$\\
+ $\mathbb{E}\{\Re\}$ &  \gls*{ExpectedValue} \gls*{RandomVariable} $\Re$\\
+$\mathrm{H}(\Re)$ & \gls*{Entropy}  \gls*{RandomVariable} $\Re$\\
+$f_{\Re}$ & 
+\gls*{ProbabilityDensityFunction} \gls*{RandomVariable} $\Re$\\
+$\mathbb{R}^{++}$ & 
+مجموعه اعداد حقیقی مثبت بدون حضور صفر
+\\
+$\mathbb{R}^{+}$ & 
+مجموعه اعداد حقیقی مثبت با حضور صفر
+\\
+$\mathbb{N}$ & 
+مجموعه اعداد طبیعی
+\\\midrule
+$\lambda_{g}^{i}$  & 
+\gls*{ArrivalRate} \glspl*{Packet}ی \gls*{Application} $i$ ام\\
+$\lambda_{g}$ & \gls*{RandomVariable}
+گسسته  که نمونه‌های آن متعلق به مجموعه
+$\Lambda_g$ است. \\
+ $\hat{\lambda}_{g}$ & 
+تخمین 
+\gls*{Adversary}
+از 
+$\lambda_{g}$ \\
+$\lambda_{d}^{ij}$ & 
+نرخ 
+\glspl*{DummyPacket}
+اضافه شده برای نگاشت
+\gls*{Application} $i$ ام  به $j$ ام\\
+$\mu_{g}^i$ & \gls*{ServiceRate} \glspl*{OriginalPacket} \gls*{Application} $i$ ام.\\
+$\gamma^j$ & \gls*{DepartureRate} $j$ ام که در این فصل آن را به صورت $\gamma^j=\lambda_g^j$
+در نظر می‌گیریم. \\
+$\gamma$ & \gls*{RandomVariable}
+گسسته \gls*{DepartureRate} بسته‌ها که نمونه‌های آن متعلق به مجموعه
+$\Lambda_g$ است. \\
+$t_{l}$ & \gls*{ArrivalTime} \gls*{Packet} $l$ ام\\
+$\tau_{l}$ & انتقال داده شده $t_{l}$ به‌گونه‌ای که $\tau_0=0$ باشد.\\
+$d_{l}$ & \gls*{DepartureTime} \gls*{Packet} $l$ ام\\
+\midrule
+$N$ & تعداد کل \glspl*{Application}ی اجرا شده بر روی \gls*{SourceNode}\\
+$\Lambda_{g}$ & 
+مجموعه مرتب‌شده از تمامی 
+$\lambda_g^i$ ها
+و نیز داریم
+$|\lambda_g^i|=N$.\\
+$\Theta_{i*}$ &  
+مجموعه تمامی  
+\glspl*{DummyRate} ($\lambda_{d}^{ij}$) برای \gls*{Application} $i$ ام
+به گونه‌ای که 
+ $\lambda_{g}^{i}+\lambda_{d}^{ij} \in \Lambda_{g}$.\\
+$P_{e}$ & \gls*{AdversarysErrorProbability} که به صورت $\mathrm{Pr}\{\hat{\lambda}_{g}\neq \lambda_{g}\}$
+تعریف می‌شود.\\
+$M$& \gls*{StationaryMarkedPointProcess} که به صورت $\{t_{l},s_{l}\}_{l=-\infty}^{\infty}$
+تعریف می‌شود. \\
+$M_0$ & \gls*{SynchronousStationaryMarkedPointProcess} که به صورت
+$\{\tau_{l},s_{l}\}_{l=-\infty}^{\infty}$
+در نظر گرفته می‌شود.\\
+$p_{ij}$ &  
+احتمال نگاشت 
+\gls*{Rate} \gls*{Application} $i$ ام به \gls*{Rate} \gls*{Application} $j$ ام\\
+$\xi$ & \gls*{LowerBound} برای \gls*{AdversarysBestEstimationErrorProbability}که از  \gls*{FanoSInequality}
+بدست می‌آید.\\
+ $\alpha$ &  
+پارامتر وزن در 
+\gls*{TradeOff} بین \gls*{CommunicationCost} و \gls*{PrivacyDegree}\\
+ $\psi_{ij}$ & \gls*{Cost} ارسال \glspl*{DummyPacket}
+که به صورت تابعی از 
+$\lambda_{d}^{ij}$
+تعریف می‌شود
+($ \psi_{ij}= f(\lambda_{d}^{ij})$).\\
+\bottomrule 
+\end{tabular}
+\label{tab:symbols}
+\end{table}

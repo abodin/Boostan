@@ -1,0 +1,33 @@
+\section{اثبات \autoref{lemma:stabiolityproof}}
+\label{sec:proofoflemmastability}
+برای اثبات این لم، بدترین شرایط را در نظر گرفته و ثابت می‌کنیم که
+\gls{System} 
+پایداری خود را در این شرایط نیز از دست نمی دهد. پارامتر آزاد مساله 
+ $\lambda_{d}^{ij}$
+ است و با توجه به 
+ \eqref{eq:stabilityequation}
+ هر چه مقدار این پارامتر بزرگتر باشد، \gls{System} به سمت ناپایداری بیشتر سوق پیدا می‌کند. بنابراین بدترین شرایط زمانی که 
+  $\lambda_{d}^{ij}$
+ بیشترین مقدار خود را داشته‌باشد، و این حالت زمانی رخ می‌دهد که 
+ \gls{Application} $i$ به \gls{Application} $N$ ام (\gls{Application} با بیشترین نرخ)
+ نگاشته شود. به عبارت‌دیگر
+$\lambda_{d}^{ij}=\lambda_{g}^{N}-\lambda_{g}^{i}$.
+با قراردادن
+\eqref{Eq:stabilityefffqR} در \eqref{eq:stabilityequation}
+خواهیم داشت:
+\begin{equation}
+\frac{\lambda_{g}^{i}}{\mu_{g}^{i}} + \frac{\lambda_{d}^{ij}}{\mu_d^{ij}} =
+\frac{\lambda_{g}^{i}}{\mu_{g}^{i}} +  \frac{\lambda_{d}^{ij}}{
+\frac{\mu_{g}^{i}}{\mu_{g}^{i}-\lambda_{g}^{i}}\lambda_{d}^{ij}+\varepsilon} 	 \stackrel{\lambda_{d}^{ij}= \lambda_{g}^{N}-\lambda_{g}^{i}}{\Longrightarrow} 
+\frac{\lambda_{g}^{i}}{\mu_{g}^{i}} +  \frac{\lambda_{g}^{N}-\lambda_{g}^{i}}{
+\frac{\mu_{g}^{i}}{\mu_{g}^{i}-\lambda_{g}^{i}}(\lambda_{g}^{N}-\lambda_{g}^{i})+\varepsilon}
+\label{dddsrrfgrr}
+\end{equation}
+بعد از مقداری ساده‌سازی 
+\eqref{dddsrrfgrr}
+به صورت زیر در خواهد آمد.
+\begin{align}
+\frac{\lambda_{g}^{i}}{\mu_{g}^{i}} +  \frac{\lambda_{g}^{N}-\lambda_{g}^{i}}{
+\frac{\mu_{g}^{i}}{\mu_{g}^{i}-\lambda_{g}^{i}}(\lambda_{g}^{N}-\lambda_{g}^{i})+\varepsilon} & = 	\frac{\lambda_{g}^{i}}{\mu_{g}^{i}} + \frac{\mu_{g}^{i}-\lambda_{g}^{i}}{\mu_{g}^{i}+\varepsilon'}\nonumber\\
+& < \frac{\lambda_{g}^{i}}{\mu_{g}^{i}} + 1 - \frac{\lambda_{g}^{i}}{\mu_{g}^{i}}=1.
+\end{align}

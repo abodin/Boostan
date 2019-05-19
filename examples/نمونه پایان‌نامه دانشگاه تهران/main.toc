@@ -1,0 +1,35 @@
+\contentsline {chapter}{فهرست اشکال}{ه}{section*.5}% 
+\contentsline {chapter}{فهرست جداول}{ز}{section*.7}% 
+\contentsline {chapter}{فهرست اختصارات}{ط}{section*.9}% 
+\contentsline {chapter}{فصل\nobreakspace {}\numberline {1}\nobreakspace {}\nobreakspace {}\nobreakspace {} مقدمه}{1}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}از امنیت تا حریم‌خصوصی زمانی و آماری}{2}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}کاربردهای حریم‌خصوصی زمانی و آماری}{2}{section.1.2}% 
+\contentsline {subsection}{\numberline {1.2.1}حریم خصوصی کاربر در حوزه طبقه‌بندی ترافیک}{3}{subsection.1.2.1}% 
+\contentsline {subsection}{\numberline {1.2.2}حریم‌خصوصی زمانی و آماری در شبکه‌های حسگر بی‌سیم}{4}{subsection.1.2.2}% 
+\contentsline {subsection}{\numberline {1.2.3}حریم‌خصوصی زمانی و آماری در WBAN}{5}{subsection.1.2.3}% 
+\contentsline {subsection}{\numberline {1.2.4}تشخیص ناهنجاری}{6}{subsection.1.2.4}% 
+\contentsline {section}{\numberline {1.3}نوآوری‌ها}{7}{section.1.3}% 
+\contentsline {section}{\numberline {1.4}ساختار رساله}{8}{section.1.4}% 
+\contentsline {chapter}{فصل\nobreakspace {}\numberline {2}\nobreakspace {}\nobreakspace {}\nobreakspace {} کارهای پیشین}{9}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}حریم‌خصوصی زمانی و آماری}{10}{section.2.1}% 
+\contentsline {chapter}{فصل\nobreakspace {}\numberline {3}\nobreakspace {}\nobreakspace {}\nobreakspace {} حفظ حریم خصوصی نرخ}{11}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}مثال انگیزه‌بخش}{12}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}مدل سامانه}{12}{section.3.2}% 
+\contentsline {chapter}{فصل\nobreakspace {}\numberline {4}\nobreakspace {}\nobreakspace {}\nobreakspace {} حفظ حریم خصوصی ویژگی‌ها}{14}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}انگیزه}{15}{section.4.1}% 
+\contentsline {chapter}{فصل\nobreakspace {}\numberline {5}\nobreakspace {}\nobreakspace {}\nobreakspace {} حریم خصوصی در سامانه‌های ذخیره‌سازی}{16}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}مثال انگیزه‌بخش}{19}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}نوآوری‌ها}{19}{section.5.2}% 
+\contentsline {section}{\numberline {5.3}مدل سامانه}{19}{section.5.3}% 
+\contentsline {section}{\numberline {5.4}روش پیشنهادی}{19}{section.5.4}% 
+\contentsline {section}{\numberline {5.5}شبیه‌سازی و تحلیل عددی}{19}{section.5.5}% 
+\contentsline {chapter}{فصل\nobreakspace {}\numberline {6}\nobreakspace {}\nobreakspace {}\nobreakspace {} حریم خصوصی در شبکه‌های WBSN}{20}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}مثال انگیزش‌بخش}{21}{section.6.1}% 
+\contentsline {chapter}{فصل\nobreakspace {}\numberline {7}\nobreakspace {}\nobreakspace {}\nobreakspace {} نتیجه‌گیری و کارهای آینده}{22}{chapter.7}% 
+\contentsline {section}{\numberline {7.1}نتیجه‌گیری}{23}{section.7.1}% 
+\contentsline {chapter}{پیوست\nobreakspace {}\numberline {1}\nobreakspace {}\nobreakspace {}\nobreakspace {} اثبات قضایا و لم‌ها}{24}{appendix.Alph1}% 
+\contentsline {section}{\numberline {آ.1}اثبات \autoref {lemma:stabiolityproof}}{24}{appendix.Alph1.1}% 
+\contentsline {chapter}{مراجع}{25}{section*.18}% 
+\contentsline {chapter}{واژه نامه انگلیسی به فارسی}{26}{section*.20}% 
+\contentsline {chapter}{واژه نامه فارسی به انگلیسی}{29}{section*.23}% 
+\contentsline {chapter}{نمایه}{32}{section*.26}% 

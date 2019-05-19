@@ -1,0 +1,44 @@
+\documentclass{standalone}
+
+\usepackage[usenames,dvipsnames]{xcolor}
+
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric,calc}
+
+
+%\usepackage{fontspec}
+%\setmainfont[Scale=1]{Linux Libertine}
+
+
+\begin{document}
+\begin{tikzpicture}
+\draw[draw=Green,dashed,fill=Green!10,line width=.4mm](5,0)circle (5cm);
+\node at (5,0)[](AP){\includegraphics[width=14mm]{Pic/AP}};
+\node at (2.5,-4)[](User){\includegraphics[width=9mm]{Pic/user}};
+\node at (15,0)[](Sever){\includegraphics[width=17mm]{Pic/server}};
+\node at (15,1.1)[]{Server};
+\node at (12,-1.3)[](Att){\includegraphics[width=10mm]{Pic/attacker}};
+\node at(12,-2.4)[align=center,text width=4cm]{The adversary overhears the channel};
+
+\draw[Red,xshift=15.1cm,yshift=-1.5cm](0,0)rectangle(.5,.5)node[midway]{A};
+\draw[Blue,xshift=14.5cm,yshift=-1.5cm](0,0)rectangle(.5,.5)node[midway]{B};
+\draw[Red,xshift=4.7cm,yshift=-1.5cm](0,0)rectangle(.5,.5)node[midway]{A};
+
+\draw[-latex](User)--(AP)node[above,midway,sloped]{User requests file B};
+\draw[-latex](4.4,-1.5)--($(User)+(.55,.3)$)node[below,midway,sloped]{AP sends file B};
+
+\node at(10,0)[cylinder,draw=Plum,thick,aspect=0.7,minimum height=8cm,minimum width=1cm,shape border rotate=180,cylinder uses custom fill, cylinder body fill=Plum!20,cylinder end fill=Plum!10] (A) {Channel};
+
+
+\draw[-latex](User)--(AP)node[above,midway,sloped]{User requests file B};
+\draw[-latex]($(AP)+(1,1.4)$)--($(Sever)+(-.8,1.4)$) 
+node[above,midway,sloped]{AP requests file B from the server};
+\draw[latex-]($(AP)+(.8,1.25)$)--($(Sever)+(-1,1.25)$) 
+node[below,midway,sloped]{The server sends file B to AP};
+
+
+
+
+\end{tikzpicture}
+
+\end{document}

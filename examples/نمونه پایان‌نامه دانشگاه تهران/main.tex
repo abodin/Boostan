@@ -1,0 +1,64 @@
+\documentclass[twoside]{report}
+\usepackage{algorithm}
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+\input{Boostan-UTThesis}
+
+%مخزن واژه‌نامه‌ها و اختصارات
+\input{./Chapters/BWords}
+\input{./Chapters/abbre}
+
+\title{
+بررسی و ارزیابی حفظ حریم زمانی  در شبکه‌های ارتباطی با استفاده از تئوری صف
+}
+\supervisor{دکتر احمد خونساری}
+\institute{دانشگاه تهران}
+\faculity{پرديس دانشکده های فنی}
+\group{دانشکده مهندسی برق و کامپيوتر}
+\forwhat{رساله برای دریافت درجه دکترای تخصصی}
+\field{در رشته مهندسی کامپیوتر گرایش نرم‌افزار}
+\author{ابوالفضل دیانت}
+\date{دی‌ماه 1395}
+
+\begin{document}
+\setlength{\belowdisplayskip}{2pt} \setlength{\belowdisplayshortskip}{2pt}
+\setlength{\abovedisplayskip}{2pt} \setlength{\abovedisplayshortskip}{2pt}
+\pagenumbering{gobble}
+\thesisStyleOO{./Pic/logo}{./Pic/logo2}
+\mbox{}\newpage
+\Godpage
+\mbox{}\newpage
+\input{./ETC/sign}
+\clearpage
+\input{./ETC/taahod}
+\input{./ETC/taghdim}
+\input{./ETC/monajat}
+\input{./ETC/abstract_fa}
+\pagenumbering{alph}
+\tableofcontents
+\listoffigures
+\listoftables
+\clearpage
+\printabbreviation
+\pagenumbering{arabic}
+
+\input{./Chapters/introduction}
+\input{./Chapters/relatedwork}
+\input{./Chapters/ratePriv}
+\input{./Chapters/extensionPriv}
+\input{./Chapters/cachePriv}
+\input{./Chapters/timeQueue}
+\input{./Chapters/conclusion}
+
+
+\appendix
+\chapter{اثبات قضایا و لم‌ها}
+\input{./Chapters/proofs}
+
+\bibliography{./ETC/library}
+\printglossary
+\printindex
+
+\input{./ETC/abstract_en}
+\input{./ETC/englishTitle}
+\end{document}

@@ -1,0 +1,82 @@
+\section{اثبات \autoref{cor:verdu}}
+\label{proof:verdu}
+پارامتر
+$\varrho^*$
+را به صورت زیر تعریف می‌کنیم. 
+\begin{equation}
+\varrho^* \stackrel{\Delta}{=} \max_{i,j} \frac{\pi_i p_{j|i}}{\sum_{k} \pi_{k}p_{j|k}}.
+\label{eq:alphastart}
+\end{equation}
+با استفاده از این تعریف،
+\eqref{sdsafdsafsdflps}
+به صورت زیر بازنویسی می‌گردد.
+\begin{equation}
+\label{eq:verdustar}
+P_e \ge  (1-\varrho^*) \Pr[P_{I|J}\le \varrho^*]
+\end{equation}
+در ضمن می‌دانیم که
+$\Pr(X)=\mathbb{E}\{\mathbf{1}(X)\}$
+که در آن 
+$\mathbf{1}(X)$
+نشانگر
+\gls{IndicatorFunction} $X$
+است که به صورت زیر تعریف می‌شود.
+\begin{equation}
+\mathbf{1}(X) = \left\{
+		\begin{array}{lr}
+		1 \quad & \text{\rl{اگر $ A $ برقرار باشد.}} \\
+		0 \quad & \text{سایر} \\
+		\end{array}
+		\right.
+\end{equation}
+بدین‌سان خواهیم داشت:
+\begin{align}
+P_e \ge &  (1-\varrho^*) \sum_{i,j} \pi_i p_{j|i} \mathbf{1}[\Pr(f^I=f^i|f^J=f^j)\le \varrho^*] \nonumber \\
+\stackrel{\text{(a)}}{=} & (1-\varrho^*) \sum_{i,j} \pi_i p_{j|i} \mathbf{1}[\frac{\pi_{i}p_{j|i}}{\sum_{k} \pi_{k} p_{j|k}}\le \varrho^*] \nonumber \\
+\stackrel{\text{(b)}}{=} & (1-\varrho^*) \sum_{i,j} \pi_i p_{j|i} \nonumber \\
+= & (1-\varrho^*)=1-\max_{i,j} \frac{\pi_i p_{j|i}}{\sum_{k} \pi_{k}p_{j|k}},
+\label{sdwsdwdw}
+\end{align}
+که در روابط فوق،
+\lr{(a)} 
+با استفاده از \gls{BayesianRule} بدست می‌آید؛ چراکه بر طبق این قانون داریم:
+\begin{equation*}
+\Pr(f^I=f^i|f^J=f^j)=\frac{\Pr(f^J=f^j|f^I=f^i) \Pr(f^I=f^i)}{\sum_{k} \Pr(f^J=f^j|f^I=f^k) \Pr(f^I=f^k)} = \frac{p_{i,j}p_{i}}{\sum_{k} p_{k,j}p_{k}}.
+\end{equation*}
+\lr{(b)}
+نیز با قرار دادن 
+$\varrho^*$
+در
+\eqref{eq:alphastart}
+حاصل می‌گردد. 
+
+\section{اثبات \autoref{cor:medard}}
+\label{proof:medard}
+با استفاده از 
+\cite[نتیجه 2]{Christiansen2013Bounds} و 
+برای 
+\gls{RandomVariable} $f^I$
+که از 
+\gls{UniformDistribution}
+تبعیت می‌کند، 
+\gls{MarkovChain}
+به صورت
+$ f^I\longrightarrow f^J \longrightarrow \hat{f^I} $
+در نظر می‌گیریم، که در آن
+$ \hat{f^I} $ \gls{Estimator} \gls{ML} برای $f^I$
+است. در این صورت 
+\gls{LowerBound} $P_e$
+به صورت زیر حاصل می‌گردد.
+\begin{align}
+P_e &\ge 1-\frac{1}{N} - \frac{\sqrt{(N-1)(\mathbb{E}[\frac{P_{I,J}}{\pi_I P^J}]-1)}}{N}\nonumber\\
+& \ge 1-\frac{1}{N} - \frac{\sqrt{(N-1)(\sum_{i,j} \frac{p_{j|i}\pi_i}{\pi_i \sum_{k}p_{j|k}\pi_k} p_{j|i}\pi_i -1)}}{N}\nonumber\\
+&
+\ge 1-\frac{1}{N} - \frac{\sqrt{(N-1)(\sum_{i,j}\frac{p_{j|i}^2}{ \sum_{k}p_{j|k}}-1)}}{N}.
+\end{align}
+
+
+
+
+
+
+

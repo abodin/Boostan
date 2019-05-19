@@ -1,0 +1,76 @@
+\documentclass[border={1mm 1mm 1mm 1mm}]{standalone}
+
+\usepackage[usenames,dvipsnames]{xcolor}
+
+\usepackage{tikz}
+\usetikzlibrary{decorations.pathreplacing,patterns}
+\usetikzlibrary{shapes.geometric,calc}
+
+\usepackage{xepersian}
+\settextfont[Scale=1.2]{XB Niloofar}
+\setlatintextfont[Scale=1.1]{Linux Libertine}
+
+\begin{document}
+
+\begin{tikzpicture}
+\def \w{4.5}
+\def\H{1.5}
+\draw[] (0,0)rectangle (\w,\H) node[midway]{\rl{لایه فیزیکی}};
+\draw[yshift={1*\H cm}] (0,0)rectangle (\w,\H) node[midway]{\rl{لایه پیوند داده}};
+\draw[yshift={2*\H cm},line width=.6mm,draw=Blue] (0,0)rectangle (\w,\H) node[midway]{\rl{لایه شبکه}};
+\draw[yshift={4*\H cm},pattern=crosshatch dots, pattern color=Plum!40] (0,0)rectangle (\w,\H) node[midway]{\rl{لایه کاربرد}};
+\draw[yshift={3*\H cm},line width=.6mm,draw=Red] (0,0)rectangle (\w,\H) node[midway]{\rl{لایه انتقال}};
+
+%\draw[decorate,decoration={brace,raise=3pt,amplitude=5pt}] (-.05,0)--(-.05,1.5) node[midway,sloped,above=6pt]{L1};
+%\draw[decorate,decoration={brace,raise=3pt,amplitude=5pt}] (-.05,1.5)--(-.05,3) node[midway,sloped,above=6pt]{L2};
+%\draw[decorate,decoration={brace,raise=3pt,amplitude=5pt}] (3.2,4)--(3.2,1) node[midway,above=5pt,sloped]{Transport};
+
+\node at(3.95,5.85)[cylinder,draw=Plum,thick,aspect=0.3,minimum height=1.1cm,minimum width=.5cm,shape border rotate=90,cylinder uses custom fill, cylinder body fill=Plum!20,cylinder end fill=Plum!10] (A) {\lr{TLS}};
+
+
+\begin{scope}[xshift=6cm,yshift=5.5cm,local bounding box=scope1]
+\draw[,line width=.5mm,draw=Red,pattern=crosshatch dots, pattern color=Plum!40](0,0)rectangle(1.7,.7)node[midway]{محتوا};
+\draw[yshift=.7cm,line width=.5mm,draw=Red](0,0)rectangle(1.7,.7)node[midway]{سربسته};
+\end{scope}
+
+\draw[-latex,line width=.5mm,draw=Red](4.5,5)to[in=180,out=0](scope1.200);
+
+
+\node at(11.5,6.2)[rectangle,rounded corners=4mm,draw=Red,fill=red!10,minimum height=2cm,minimum  width=3cm](n1){
+\rl{
+\begin{tabular}{r}
+\lr{DPI} و \lr{SPI}
+از سربسته  لایه انتقال
+ \\*[5mm]
+برای طبقه‌بندی ترافیک  استفاده می‌کند.
+\end{tabular}
+}
+};
+
+\begin{scope}[xshift=6cm,yshift=3cm,local bounding box=scope2]
+\draw[-latex,draw=Blue](0,0)--(4.5,0);
+\pgfmathsetseed{1338}
+\foreach \n in {1,2,...,4}{
+	\pgfmathsetmacro{\Xa}{random(100)}
+	\draw[draw=Blue,fill=Blue] ({\Xa/100*3.3},-3pt) rectangle ({\Xa/100*3.3+.16},3.08pt);
+}
+\draw[decorate,decoration={brace,raise=2pt,amplitude=3pt},line width=.5pt] (1.05,.1)--(2.17,.1);
+\draw [-latex,draw=Blue] (1.58,.3)--(1.84,.65);
+\node at (1.7,.9)[Blue]{\small \rl{زمان‌مابین بسته‌ها}};
+\end{scope}
+
+\node at(11.52,1.6)[rectangle,rounded corners=4mm,draw=Blue,fill=blue!10,minimum height=1cm,minimum  width=3cm](n1){
+\rl{
+\begin{tabular}{r}
+در طبقه‌بندی ترافیک آماری، از  آمارگان
+ \\*[5mm]
+زمان مابین بسته‌ها استفاده می‌کنیم.
+\end{tabular}
+}
+};
+\draw[-latex,line width=.5mm,draw=Blue](4.5,3.5)to[in=190,out=20](scope2.195);
+
+\end{tikzpicture}
+
+
+\end{document}
