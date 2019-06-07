@@ -17,6 +17,29 @@
 
 %%% =========================================================================================================================
 
+%برای تعریف دوباره یک operator در LateX
+\makeatletter
+\newcommand\RedeclareMathOperator{%
+  \@ifstar{\def\rmo@s{m}\rmo@redeclare}{\def\rmo@s{o}\rmo@redeclare}%
+}
+% this is taken from \renew@command
+\newcommand\rmo@redeclare[2]{%
+  \begingroup \escapechar\m@ne\xdef\@gtempa{{\string#1}}\endgroup
+  \expandafter\@ifundefined\@gtempa
+     {\@latex@error{\noexpand#1undefined}\@ehc}%
+     \relax
+  \expandafter\rmo@declmathop\rmo@s{#1}{#2}}
+% This is just \@declmathop without \@ifdefinable
+\newcommand\rmo@declmathop[3]{%
+  \DeclareRobustCommand{#2}{\qopname\newmcodes@#1{#3}}%
+}
+\@onlypreamble\RedeclareMathOperator
+\makeatother
+
+%اضافه کردن برخی دستورات ریاضیاتی
+\RedeclareMathOperator*{\min}{min}
+
+
 %%% اضافه کردن نماد استقلال به علایم ریاضی
 \newcommand{\Perp}{\perp \! \! \! \perp}
 \newcommand{\independent}{\protect\mathpalette{\protect\independenT}{\perp}} \def\independenT#1#2{\mathrel{\rlap{$#1#2$}\mkern2mu{#1#2}}}
