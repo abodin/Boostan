@@ -304,7 +304,7 @@
 	\IfValueTF{#2}{
 		\IfFileExists{#2}{\begin{minipage}{.85\textwidth}}{\begin{minipage}{.93\textwidth}}
 	}{%%
-		\IfFileExists{referO.pdf}{\begin{minipage}{.85\textwidth}}{\begin{minipage}{.93\textwidth}}
+		\IfFileExists{referO.png}{\begin{minipage}{.85\textwidth}}{\begin{minipage}{.93\textwidth}}
 	}%%
 	\baselineskip=.95cm
 	\begin{RTL}
@@ -318,7 +318,7 @@
 		{\node[fancytitle3, left=3pt,   rounded corners] at (box.west) {\includegraphics[width=.07\textwidth]{#2}}; }
 		{\node[fancytitle2,  rounded corners] at (box.west) {\envBS};}			
 	}{%%
-		\IfFileExists{referO.pdf}
+		\IfFileExists{referO.png}
 		{\node[fancytitle3, left=3pt,   rounded corners] at (box.west) {\includegraphics[width=.07\textwidth]{referO}}; }
 		{\node[fancytitle2,  rounded corners] at (box.west) {\envBS};}
 	}%%
@@ -341,7 +341,7 @@
 	\node [mybox1] (box)\bgroup
 	\IfValueTF{#2}{
 		\IfFileExists{#2}{\begin{minipage}{.85\textwidth}}{\begin{minipage}{.93\textwidth}}
-	}{
+	}{%%
 		\IfFileExists{infoRR.png}{\begin{minipage}{.85\textwidth}}{\begin{minipage}{.93\textwidth}}
 	}%%
 	\baselineskip=.95cm
@@ -355,7 +355,7 @@
 		\IfFileExists{#2}
 		{\node[fancytitle3, left=3pt,   rounded corners] at (box.west) {\includegraphics[width=.07\textwidth]{#2}}; }
 		{\node[fancytitle2,  rounded corners] at (box.west) {\twoBS};}			
-	}{
+	}{%%
 		\IfFileExists{infoRR.png}
 		{\node[fancytitle3, left=3pt,   rounded corners] at (box.west) {\includegraphics[width=.07\textwidth]{infoRR}}; }
 		{\node[fancytitle2,  rounded corners] at (box.west) {\twoBS};}
@@ -378,7 +378,7 @@
 	\node [mybox1] (box)\bgroup
 	\IfValueTF{#2}{
 		\IfFileExists{#2}{\begin{minipage}{.85\textwidth}}{\begin{minipage}{.93\textwidth}}
-	}{
+	}{%%
 		\IfFileExists{home.png}{\begin{minipage}{.85\textwidth}}{\begin{minipage}{.93\textwidth}}
 	}%%
 	\linespread{1.5}
@@ -392,7 +392,7 @@
 		\IfFileExists{#2}
 		{\node[fancytitle3, left=3pt,   rounded corners] at (box.west) {\includegraphics[width=.07\textwidth]{#2}}; }
 		{\node[fancytitle2,  rounded corners] at (box.west) {\twoBS};}			
-	}{
+	}{%%
 		\IfFileExists{home.png}
 		{\node[fancytitle3, left=3pt,   rounded corners] at (box.west) {\includegraphics[width=.07\textwidth]{home}}; }
 		{\node[fancytitle2,  rounded corners] at (box.west) {\teleBS};}
