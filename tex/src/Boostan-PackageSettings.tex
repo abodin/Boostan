@@ -1,0 +1,154 @@
+%% Last Update: 25 Jul 2019
+%
+
+%% ==============================================================================
+% تنظیمات بسته geometry که مربوط به حاشیه صفحه می‌شود. 
+\makeatletter
+\ifthenelse{\equal{\@docStyle}{Report}}{\geometry{a4paper,top=2.4cm, bottom=2.6cm, left=2cm, right=2.1cm}}{
+  \ifthenelse{\equal{\@docStyle}{Pres}}  {\geometry{a4paper,landscape,top=1.8cm,bottom=.7cm,left=1cm,right=1cm,includefoot,verbose,nohead,footskip=.5cm,bmargin=8mm}}{
+    \geometry{a4paper,top=2.4cm, bottom=2.6cm, left=2cm, right=2.1cm} %Default
+  }
+}
+\makeatother
+% در Latex انواع مختلفی از اندازه‌ها برای ابعاد کاغذ وجود دارد. گرچه شما می‌توانید به دلخواه ابعاد مختلفی به کاغذ بدهید. 
+%a0paper, a1paper, a2paper, a3paper, a4paper, a5paper, a6paper,b0paper, b1paper, b2paper, b3paper, b4paper, b5paper, b6paper, c0paper, c1paper, c2paper, c3paper, c4paper, c5paper, c6paper, b0j, b1j, b2j, b3j, b4j, b5j, b6j, ansiapaper, ansibpaper, ansicpaper, ansidpaper, ansiepaper, letterpaper, executivepaper, legalpaper
+
+
+%% ===============================================================================
+% تنظیمات listing مربوط به وارد کردن کد در متن
+\input{Boostan-Listings-settings}
+
+
+%% ===============================================================================
+%تنظیمات hyperref
+
+% برای وارد کردن کلمه (بخش) در فهرست مطالب بسته hyperref برای حالت فارسی یک مشکل دارد. بدین منظور این 
+% مشکل را به صورت دستی حل شده است. برای این که رنگ keywordstyle که تعیین کننده رنگ کل قسمت فهرست مطالب
+% نیز هست یکسان در آید یک پارامتر رنگ برای keywordstyle این جا تعریف می‌کنیم، و سپس از آن هم در تنظمیات hypperref 
+% و هم در اون کدهایی که به صورت دستی وارد شده است، استفاده می‌شود.  مطالب بیشتر در مورد این بسته را در سایت زیر مطالعه کنید.
+% http://en.wikibooks.org/wiki/LaTeX/Hyperlinks
+
+% در این قسمت تنظیمات بسته hyperref را قرار می دهیم.
+% این تنظیمات شامل موارد زیر است:
+\hypersetup{
+	pdfmenubar=false,			% show or hide Acrobat’s menu
+	pdftoolbar=true,			%show or hide Acrobat’s toolbar
+%% موقعی که فایل پی دی اف خروجی را باز می کنید صفحه به صورت عریض و بزرگ باز می شود.
+	pdfstartview=FitH, 
+	%% مواردی که برای فعال سازی این که شماره اشکال را به صورت ارجاعی نشان دهد
+	%hyperfigures=true,
+	%% به جای استفاده از مربع قرمز دور موارد ارجاعی از لینک های رنگی استفاده کند.
+	colorlinks=true, 
+	%% رنگ برخی از لینک ها در زیر تعریف شده است. 
+	linkcolor=blue, 
+	anchorcolor=green, 
+	citecolor=magenta, 
+	urlcolor=cyan, 
+	filecolor=magenta, 
+	bookmarkstype=toc,
+	unicode = true			%allows to use characters of non-Latin based languages in Acrobat’s bookmarks
+	%bookmarksopen = true,
+	%bookmarksopenlevel = 1
+	%%% اگر این option را true‌ بکنیم، آن‌گاه در کنار bookmark شماره فصل و بخش و زیربخش نیز می آید. مثلا می‌نویسد: ۱.۲ طراحی شبکه
+	%bookmarksnumbered = true,
+	%hidelinks			%hide links (removing color and border)
+} % M
+
+
+%%% گاهی اوقات مطلبی را در یک بخش، فصل و ... می‌نویسیم، وقتی این مطلب را در متن ارجاع می دهیم، مثلا می نویسیم بخش ‎\ref{seclabel}‎، اما ممکن است به هر علتی مطلب ما از بخش به فصل و یا به یک زیربخش تنزل پیدا کند.بدین‌منظور به جای دستور ref از autoref استفاده می‌کنیم. در این صورت خود latex می‌فهمد که این مطالب در ‎چه قسمتی است و خودش کلمه فصل، بخش و یا ... را قبل از شماره آن اضافه می‌کند. دستورات زیر می‌گوید در هر یک  از سطوح متن چه کلمه‌ای‌ قرار گیرد. لازم به ذکر است که برای این کار به بسته hyperref نیاز است. 
+\def\partname{پاره}
+\renewcommand{\partautorefname}{پاره}
+\def\sectionautorefname{بخش}
+\def\subsectionautorefname{زیربخش}
+\def\subsubsectionautorefname{زیربخش}
+\def\equationautorefname{رابطه}
+\def\figureautorefname{شکل}
+\def\tableautorefname{جدول}
+\def\lemmaautorefname{لم}
+
+
+%% =============================================================================
+%% تنظیمات tikz
+%% لازم به ذکر است که کتابخانه های بسته tikz به صورت پیش فرض فعال نشده است، و کاربر به دلخواه خود اگر به مراتب به آن نیاز دارد باید آن را فعال کند. 
+%\usetikzlibrary{mindmap,backgrounds,shadows,trees,arrows,shapes,positioning,shadings}
+\usetikzlibrary{calc}
+
+
+%% ==============================================================================
+%%==================== تنظیمات algorithm و algorithmic
+%\floatname{algorithm}{الگوریتم}
+
+
+%% =========================================================================================================================
+%%==================== تنظیمات graphicx
+% برای اضافه کردن تصاویر به متن این امکان وجود دارد که تصاویر را در پوشه‌های متفاوت قرار داد. با این کار از زیاد شدن پرونده‌ها در مسیر مستند جلوگیری می شود. علاوه بر این دسته‌ای از تصاویر وجود دارد که بین همه مستندها مشترک است
+% برای نمونه نماد پژوهشکده که بین همه مشترک است.  از این رو تعداد مسیر به عنوان مسیرهای پیش فرض برای جستجوی تصاویر تعیین شده است.
+%\graphicspath{{../../Pic/}{./Pic/}}
+
+
+%% ========================================================================================================================= 
+%%==================== تنظیمات مربوط به ایجاد watermarking
+
+%% زاویه متن Watermark
+\SetWatermarkAngle{45}
+%% اندازه watermark
+\SetWatermarkScale{1.5}
+
+\let\oldSetWatermarkText\SetWatermarkText
+%% اگر بخواهید watermark شما یک رنگ دیگر داشته باشد، این دو خط را فعال کنید و رنگ مورد نظر خود را انتخاب کنید
+%\definecolor{orange}{RGB}{229,252,219} 
+%\renewcommand{\SetWatermarkText}[1]{\oldSetWatermarkText{\textcolor{orange}{#1}}}
+
+\DeclareDocumentCommand{\SetWatermarkText}{m g}{
+	\oldSetWatermarkText{#1}
+	\IfValueTF{#2}{
+		\SetWatermarkLightness{#2}
+	}{%%
+		\SetWatermarkLightness{.94}
+	}%%
+}%
+
+
+%% ========================================================================================================================= 
+% تنظیم فونت. 
+%برای دانستن اطلاعات بیشتر در مورد تنظیم فونت به لینک زیر مراجعه کنید.
+%http://www.parsilatex.com/mediawiki/index.php?title=%D9%81%D9%88%D9%86%D8%AA_%D8%AF%D8%B1_xepersian
+% دقت شود که در این استایل از فونت های زیر استفاده می‌شود، بدین‌سان لازم است فونت هایی که فعال هستند (comment نیستند) توسط کاربر در سیستم عامل نصب شود.
+%سعی شده است از فونت های استاندارد IR‌ که حاصل کار شورای عالی اطلاع رسانی هست، استفاده شود، کاربران می‌توانند فونت های یاد شده را از لینک زیر دانلود کنند.
+% http://www.scict.ir/portal/Home/Default.aspx?CategoryID=b50ee619-ce53-4c25-bf53-b0f0332c1777
+
+% تعریف یک دستور به عنوان فونت پیش فرض
+\makeatletter
+\newcommand{\defaultFont}{
+% با دستور زیر می توانید فونتی مخصوص عبارات فارسی تعیین کنید:
+	\ifthenelse{\equal{\@docStyle}{Report}} {\settextfont[Scale=1.25]{IRNazanin}}{
+	\ifthenelse{\equal{\@docStyle}{Pres}}   {\settextfont[Scale=1.25]{IRNazanin}}{
+	\ifthenelse{\equal{\@docStyle}{Article}}{\settextfont[Scale=1.25]{IRNazanin}}{}}
+	}
+% شما با دستور زیر بعد از فراخوانی بسته xepersian می توانید فونت انگلیسی را تعیین کنید
+% دقت کنید که عبارات انگلیسی شما باید در دستور \lr{} قرار گیرد تا xepersian بتواند بفمهد که این عبارات انگلیسی است
+	\ifthenelse{\equal{\@docStyle}{Report}} {\setlatintextfont[Scale=1.1]{Linux Libertine}}{
+	\ifthenelse{\equal{\@docStyle}{Pres}}   {\setlatintextfont[Scale=1.1]{Linux Libertine}}{
+	\ifthenelse{\equal{\@docStyle}{Article}}{\setlatintextfont[Scale=1.1]{Linux Libertine}}{}}
+	}
+% تعریف برای فونت اعداد و ارقام
+	%\setdigitfont[Scale=1.1]{XB Zar}
+} % M
+\makeatother
+
+\defaultFont
+
+%%  با استفاده از این دستور می‌توان فونت و فارسی و یا انگلیسی بودن اعداد در فرمول‌ها را به حالت اولیه (یعنی پیش‌فرض لاتک) برگرداند.
+\DefaultMathsDigits
+
+%% نحوه تغییر اندازه فونت عبارات ریاضی و فرمول‌ها. این کار توسط دستور زیر انجام می‌شود. 
+%%\DeclareMathSizes{textsize}{mathsize}{scriptsize}{scriptscriptsize}
+%% گزینه اول: این برای چه دسته فونتی است. پیش فرض استایل ما فونت 10pt است. 
+%% گزینه دوم: اندازه فونت توابع و موجودات ریاضی درون متن.
+%% گزینه سوم: برای اسکریپت ها، اندازه زیرنویس و بالانویس.
+%% گزینه چهارم: برای زیرنویس زیرنویس.
+
+%% در دستورات زیر ما برای سه حالت، اندازه‌های مورد نظر را تعریف کرده ایم. 
+%%\DeclareMathSizes{10}{11}{9}{8}   % For size 10 text
+%%\DeclareMathSizes{11}{12}{11}{10}   % For size 11 text
+%%\DeclareMathSizes{12}{13}{12}{11}  % For size 12 text

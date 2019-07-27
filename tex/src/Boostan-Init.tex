@@ -1,0 +1,22 @@
+%% Last Update: 25 Jul 2019
+%
+
+%% ============================================================================
+%تعریف یک متغیر برای این‌که نوع document را مشخص کند.
+%Report, Article, Book, Pres, Thesis
+\makeatletter
+\gdef\@docStyle{Report}
+\def\docStyle#1{\gdef\@docStyle{#1}}
+\makeatother
+
+%عمق شمارنده‌های قضایا، مثال ها، تعاریف و ...
+\makeatletter
+\gdef\@depRe{chapter}
+\def\depRe#1{\gdef\@depRe{#1}}
+\makeatother
+
+%نوع صفحه عنوان را مشخص می‌کند. 
+\makeatletter
+\gdef\@titleStyle{lshort}
+\def\titleStyle#1{\gdef\@titleStyle{#1}}
+\makeatother

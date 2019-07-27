@@ -1,4 +1,7 @@
+%% Date: 24 Jul 2019
+%
 
+%%% =========================================================================================================================
 %%==================== تنظیمات listing
 %%  در این قسمت تمام ابزارهای مورد نیاز در نوشتن برنامه ها اورده شده  است. با استفاده از این ابزارهای می‌توان برنامه های مورد نیاز را در مستند جای داد.
 %% مطالب بیشتر در مورد وارد کردن کد در متن را در صفحه زیر مطالعه کنید.
@@ -72,9 +75,9 @@
 %\end{latin}
 
 
-%%                                                       -*- LaTeX -*-
-%% Language definition of ASN.1 for listings package
-%%
+
+%%% =========================================================================================================================
+%تعریف و تکمیل Syntaxhighlight برای برخی از زبان‌های برنامه‌نویسی. 
 
 %% ASN.1
 \lstdefinelanguage[]{asn.1}%
@@ -102,6 +105,8 @@
 	emphstyle=[3]{\color{Plum}},
 }[keywords]%
 
+
+%% XML
 \lstdefinelanguage{XML}
 {
   morestring=[b]",
@@ -113,10 +118,11 @@
   columns=fullflexible,
   showstringspaces=false,
   morekeywords={xmlns,version,type}% list your attributes here
-}
-%
-\colorlet{numb}{magenta!60!black}
+}%
 
+
+%% JSON
+\colorlet{numb}{magenta!60!black}
 \lstdefinelanguage{JSON}{
     stepnumber=1,
     numbersep=8pt,
@@ -136,8 +142,10 @@ literate=
          {7}{{{\color{numb}7}}}{1}
          {8}{{{\color{numb}8}}}{1}
          {9}{{{\color{numb}9}}}{1}
-}
+}%
 
+
+%% INI
 \lstdefinelanguage{INI}
 {
     morecomment=[s][\color{Orchid}\bfseries]{[}{]},
@@ -147,8 +155,10 @@ literate=
     morekeywords={},
     otherkeywords={=,:},
     keywordstyle={\color{Green}\bfseries}
-}
+}%
 
+
+%% QT
 \lstdefinelanguage{QT}
 {
     language=C++,
@@ -157,7 +167,5 @@ literate=
     keywordstyle=[3]\color{Orange},
     keywords=[2]{uint64_t,uint32_t,uint16_t,uint8_t,QByteArray,QObject,QString,QTimer,QSqlDatabase,QSqlQuery,QProcess,QSettings,QFileInfo,QJsonDocument,QStateMachine,QTextCodec,QJsonObject,QRegularExpression,QDomDocument,QXmlStreamReader,QRegExp,QHostAddress,QTextCodec,QMessageBox,QFile,QMainWindow,QDebug,QTime,QThreadPool},
     keywords=[3]{nullptr}
-}
-
-
+}%
 

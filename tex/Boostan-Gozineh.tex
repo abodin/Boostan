@@ -1,11 +1,7 @@
 \usepackage{catchfile,environ}
 \usepackage{multicol}
-
-\input{Boostan-articleManual}
-
+\input{Boostan-Article}
 \usetikzlibrary{calc}
-
-\DeclareMathSizes{10}{11}{10}{9}
 
 \makeatletter% Taken from http://tex.stackexchange.com/q/109619/5764
 \def\declarenumlist#1#2#3{%
@@ -68,8 +64,6 @@
 			\expandafter\xdef\csname pgfmath@randomlist@#1\endcsname{\pgfmath@randomlistlength}%
 		}%  
 	}
-	
-	
 	\makeatother
 	
 	
@@ -320,7 +314,7 @@
 
 \newcommand\tline[2]{$\underset{\text{#1}}{\text{\underline{#2}}}$}
 
-\geometry{a4paper,top=1cm, bottom=1.5cm, left=.9cm, right=.6cm}
+\geometry{a4paper,top=1.3cm,bottom=1.2cm,left=.9cm,right=.9cm,verbose,nohead,nofoot}
 
 %\newcommand{\insertName}{
 %		\baselineskip = .8cm

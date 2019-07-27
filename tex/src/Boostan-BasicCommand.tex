@@ -1,3 +1,7 @@
+%% Last Update: 24 Jul 2019
+%
+
+%% =================================================================
 %% توسط دستور \myData می توانید تاریخ و ساعت را وارد متن خود کنید. 
 \newcommand{\myData}{
 	\newcount \hour
@@ -14,9 +18,7 @@
 } %M
 
 
-
-%%% =========================================================================================================================
-
+%% =================================================================
 %برای تعریف دوباره یک operator در LateX
 \makeatletter
 \newcommand\RedeclareMathOperator{%
@@ -36,21 +38,25 @@
 \@onlypreamble\RedeclareMathOperator
 \makeatother
 
-%اضافه کردن برخی دستورات ریاضیاتی
+
+%% =================================================================
+%%% Math
+%اضافه کردن برخی دستورات ریاضیاتی که وجود ندارد. 
 \RedeclareMathOperator*{\min}{min}
 
-
-%%% اضافه کردن نماد استقلال به علایم ریاضی
+% اضافه کردن نماد استقلال به علایم ریاضی
 \newcommand{\Perp}{\perp \! \! \! \perp}
 \newcommand{\independent}{\protect\mathpalette{\protect\independenT}{\perp}} \def\independenT#1#2{\mathrel{\rlap{$#1#2$}\mkern2mu{#1#2}}}
 
-%%% این دستور به این خاطر تعریف می‌شود، که اگر بخواهیم مثلا یک کلمه در واژه نامه را Index‌کنیم، مثلا بنویسیم، ‎\index{\glspl{Water}‎}‎، این دستور index درست عمل نمی‌کند. نویسنده بسته glossaries در این باره این طور گفته است.
-%%%If you inspect the .idx file you will see that it contains the following:
-%%%\indexentry{\glsentryplural{StrictlyStable}|hyperpage}{1}
-%%%\index doesn't expand its argument when writing to the .idx file and since xindy doesn't understand (La)TeX commands the index won't be correctly sorted. This is a feature of \index and is not connected with glossaries.
-%%%You could try something like
-%%%\expandafter\index\expandafter{\glsentryplural{StrictlyStable}}
-%%% توسط دستور تعیین شده می‌توان این مشکل را حل کرد. دقت کنید که این دستور می‌بایست حتما برای واژه‌نامه ها فقط تعریف شود.
+
+%% =================================================================
+% این دستور به این خاطر تعریف می‌شود، که اگر بخواهیم مثلا یک کلمه در واژه نامه را Index‌کنیم، مثلا بنویسیم، ‎\index{\glspl{Water}‎}‎، این دستور index درست عمل نمی‌کند. نویسنده بسته glossaries در این باره این طور گفته است.
+%If you inspect the .idx file you will see that it contains the following:
+%\indexentry{\glsentryplural{StrictlyStable}|hyperpage}{1}
+%\index doesn't expand its argument when writing to the .idx file and since xindy doesn't understand (La)TeX commands the index won't be correctly sorted. This is a feature of \index and is not connected with glossaries.
+%You could try something like
+%\expandafter\index\expandafter{\glsentryplural{StrictlyStable}}
+% توسط دستور تعیین شده می‌توان این مشکل را حل کرد. دقت کنید که این دستور می‌بایست حتما برای واژه‌نامه ها فقط تعریف شود.
 
 %\let\oldindex\index
 %\renewcommand{\index}[1]{
@@ -62,17 +68,13 @@
 	%}
 %}
 
-%%% گاهی اوقات مطلبی را در یک بخش، فصل و ... می‌نویسیم، وقتی این مطلب را در متن ارجاع می دهیم، مثلا می نویسیم بخش ‎\ref{seclabel}‎، اما ممکن است به هر علتی مطلب ما از بخش به فصل و یا به یک زیربخش تنزل پیدا کند.
-%%% بدین‌منظور به جای دستور ref از autoref استفاده می‌کنیم. در این صورت خود latex می‌فهمد که این مطالب در ‎چه قسمتی است و خودش کلمه فصل، بخش و یا ... را قبل از شماره آن اضافه می‌کند. دستورات زیر می‌گوید در هر یک 
-%%% از سطوح متن چه کلمه‌ای‌ قرار گیرد. 
-\def\sectionautorefname{بخش}
-\def\subsectionautorefname{زیربخش}
-\def\subsubsectionautorefname{زیربخش}
 
-
+%% =================================================================
 % حل شدن مشکل part
-%%%% تعریف یکسری دستور به منظور حل مشکل قرار دادن part در متن و آمدن آن در فهرست مطالب. 
+% تعریف یکسری دستور به منظور حل مشکل قرار دادن part در متن و آمدن آن در فهرست مطالب. 
 \makeatletter
+\ifthenelse{\equal{\@docStyle}{Report}}
+{%
 \renewcommand*\l@part[2]{
 	\ifnum \c@tocdepth >-2\relax
 	\addpenalty{-\@highpenalty}
@@ -89,9 +91,7 @@
 	\everypar{\global\@nobreakfalse\everypar{}}
 	\endgroup
 	\fi}
-\makeatother
 
-\makeatletter
 \def\@chapter[#1]#2{\ifnum \c@secnumdepth >\m@ne
 	\if@mainmatter
 	\refstepcounter{chapter}%
@@ -114,15 +114,18 @@
 	\@afterheading
 	\fi}
 %\renewcommand*\l@section{\@dottedtocline{1}{4.5em}{2.3em}}
-%\renewcommand*\l@subsection{\@dottedtocline{2}{6.5em}{3.2em}} 
+%\renewcommand*\l@subsection{\@dottedtocline{2}{6.5em}{3.2em}}
+}{}
 \makeatother
 
-%%% این دستور به این خاطر تعریف می‌شود، که اگر بخواهیم مثلا یک کلمه در واژه نامه را Index‌کنیم، مثلا بنویسیم، ‎\index{\glspl{Water}‎}‎، این دستور index درست عمل نمی‌کند. نویسنده بسته glossaries در این باره این طور گفته است.
+
+%% =================================================================
+% این دستور به این خاطر تعریف می‌شود، که اگر بخواهیم مثلا یک کلمه در واژه نامه را Index‌کنیم، مثلا بنویسیم، ‎\index{\glspl{Water}‎}‎، این دستور index درست عمل نمی‌کند. نویسنده بسته glossaries در این باره این طور گفته است.
 %%%If you inspect the .idx file you will see that it contains the following:
 %%%\indexentry{\glsentryplural{StrictlyStable}|hyperpage}{1}
 %%%\index doesn't expand its argument when writing to the .idx file and since xindy doesn't understand (La)TeX commands the index won't be correctly sorted. This is a feature of \index and is not connected with glossaries.
 %%%You could try something like
 %%%\expandafter\index\expandafter{\glsentryplural{StrictlyStable}}
-%%% توسط دستور تعیین شده می‌توان این مشکل را حل کرد. دقت کنید که این دستور می‌بایست حتما برای واژه‌نامه ها فقط تعریف شود. 
+% توسط دستور تعیین شده می‌توان این مشکل را حل کرد. دقت کنید که این دستور می‌بایست حتما برای واژه‌نامه ها فقط تعریف شود. 
 \newcommand{\indexglspl}[1]{\expandafter\index\expandafter{\glsentryplural{#1}}}
 \newcommand{\indexgls}[1]{\expandafter\index\expandafter{\glsentryname{#1}}}

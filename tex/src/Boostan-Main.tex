@@ -1,0 +1,384 @@
+%% Last Update: 25 Jul 2019
+%
+
+%% ============================================================================
+% فایل  Boostan-LoadBasicPackage یکسری بسته‌های پایه را به استایل اضافه می‌کند. اگر بسته‌ای وجود دارد که در اکثر نوشتارهای خود از آن استفاده می‌کنید، بهتر است آن را در این فایل وارد کنید. 
+\input{src/Boostan-LoadBasicPackage}
+
+% یکسری فر امین اصلی نیز در فایل Boostan-BasicCommand ارایه شده است. 
+\input{src/Boostan-BasicCommand}
+
+% تنظیمات مربوط به بسته‌ها
+\input{src/Boostan-PackageSettings}
+
+% فایل  Environments  در برگیرنده تعریف یکسری محیط نوین است. 
+\input{src/Boostan-Environments}
+
+% فایل  ChapterStyle  در برگیرنده تعریف یکسری استایل برای فصل‌ها است. 
+\input{src/Boostan-ChapterStyle}
+
+% تعریف یکسری استایل برای صفحه شروع 
+\input{src/Boostan-TitleStyle}
+
+%% دستورات لازم برای واژه‌نامه‌ها، فهرست اختصارات و فهرست نمادها در  فایل (Gloss) آورده شده است.
+\input{src/Boostan-Gloss}
+
+
+%% ================================================================================
+% این دستو موجب می‌شود که پاورقی شما به صورت دو ستونه خورده شود.
+\twocolumnfootnotes
+% تنظیم‌های مربوط به پاورقی: فاصله پاورقی با متن + فاصله بین خطوط در پاورقی
+%\setlength{\footnotesep}{0.6cm}
+%\setlength{\skip\footins}{2cm}
+
+
+%% ================================================================================
+% این دستور تعیین می‌کند که در متن تا چه عمقی شماره‌گذاری انجام شود. 
+\setcounter{secnumdepth}{3}
+%%\part{part}	     				        -1	not in letters
+%%\chapter{chapter}		 	                   0	only books and reports
+%%\section{section}		 	                   1	not in letters
+%%\subsection{subsection}		         2	not in letters
+%%\subsubsection{subsubsection}	         3	not in letters
+%%\paragraph{paragraph}		                   4	not in letters
+%%\subparagraph{subparagraph}	         5	not in letters
+
+
+%% ==============================================================================
+% باز تعریف محیط شکل
+\makeatletter
+% این دستور centering در این قسمت موجب می‌شود که عکس شما در وسط متن قرار گیرد. 
+\bidi@AtBeginEnvironment{figure}{
+\def\@floatboxreset{\reset@font\centering\@setminipage}%
+}
+\makeatother
+% تغییر اندازه فاصله بین خطوط در محیط caption برای figure. برای اضافه کردن این دستور نیاز به وارد کردن بسته caption هست.
+\makeatletter
+\ifthenelse{\equal{\@docStyle}{Pres}}
+{\captionsetup*[figure]{font={stretch=1.7, LARGE}}}{\captionsetup*[figure]{font={stretch=1.7,small}}}
+\makeatother
+
+
+%% ===============================================================================
+% بازنویسی محیط جدول
+\makeatletter
+\bidi@AtBeginEnvironment{table}{
+\def\@floatboxreset{\reset@font\centering
+	\settextfont[Scale=1.25]{IRNazanin} 
+	\setlatintextfont[Scale=1]{Linux Libertine}
+\@setminipage}%
+}
+\makeatother
+% تنظیم کننده فاصله بین خطوط (ردیف‌ها) در یک جدول
+\renewcommand{\arraystretch}{1.2}
+% تنظیم کننده ضخامت خطوط جدول
+%%\renewcommand{\arrayrulewidth}{.55pt}
+% تنظیم فاصله بین خطوط دو خطه (||) و یا (حالت افقی ||)
+%%\renewcommand{\doublerulesep}{1pt}
+% تغییر اندازه فاصله بین خطوط در محیط caption برای table. برای اضافه کردن این دستور نیاز به وارد کردن بسته caption هست. 
+\captionsetup*[table]{font={stretch=1.7,small}} 
+
+
+%% ===============================================================================
+%% تنظیمات مربوط به enumerate و itemize
+%\setlist[enumerate]{itemsep=0mm}
+%\setlist[itemize]{itemsep=0mm}
+\makeatletter
+\ifthenelse{\equal{\@docStyle}{Pres}}{\setlength{\leftmargini}{12mm}}{}
+\makeatother
+
+\makeatletter
+\bidi@patchcmd{\list}{\parskip\parsep}{\parskip-3pt}{\typeout{Suceeded}}{\typeout{Failed}}
+\makeatother
+
+
+%% ===============================================================================
+%تنظیم فاصله بین خطوط
+\newcommand{\BaseLineSpreadForList}{1.1}
+\newcommand{\BaseLineSpreadFA}{1.9}
+\linespread{\BaseLineSpreadFA}
+
+%\makeatletter
+%\bidi@AtBeginEnvironment{latin}{\linespread{1.7}}
+%\makeatother
+
+
+%% ==================================================================================
+% باز تعریف محیط document، هر دستوری که می خواهید در ابتدای برنامه اجرا شود را در این قسمت بنویسید.
+\makeatletter
+\let\olddocument\document
+\let\endolddocument\enddocument
+\renewenvironment{document}{
+	\olddocument
+	% تنظیم استایل سرفصل
+	\pagestyle{plain}
+	\pagenumbering{arabic}
+	\SetWatermarkText{}
+     \ifthenelse{\equal{\@docStyle}{Pres}}{\relscale{1.7}}{}
+}{%
+	\endolddocument
+}%
+\makeatother
+
+
+%% ==============================================================================
+% محیطی برای قرار دادن abstract در گزارش و یا  در ابتدای هر فصل. در صورت استفاده از این محیط، متون داخل آن با فونتی متفاوت با فونت متن نوشته شده و در ابتدای متن نیز یک کلمه چکیده اضافه می شود.
+\makeatletter
+\ifthenelse{\equal{\@docStyle}{Report} \OR \equal{\@docStyle}{Thesis}}{
+	\renewenvironment{abstract}{%
+		\section*{چکیده}
+		\settextfont[Scale=1.2]{IRNazanin} 
+		\setlatintextfont[Scale=1]{Linux Libertine}
+	}{%
+		\clearpage
+	} % M
+}{}
+\makeatother
+
+
+%% ==============================================================================
+% این دستور تعیین می‌کند که چه تا چه عمقی شماره‌گذاری شود. در خود متن نه در فهرست مطالب دقت کنید که برای تعیین این که در فهرست مطالب تا چه عمقی شماره گذاری صورت بگیرد باید از دستور
+% \setcounter{tocdepth}{....}
+% استفاده کرد که در ادامه می آید. 
+\makeatletter
+\ifthenelse{\equal{\@docStyle}{Report} \OR \equal{\@docStyle}{Thesis}}
+{\setcounter{tocdepth}{2}}
+{\ifthenelse{\equal{\@docStyle}{Pres}}{\setcounter{tocdepth}{1}}{\setcounter{tocdepth}{2}}}
+\makeatother
+%  تنظیمات مربوط به فهرست مطالب، بازنویسی محیط فهرست مطالب برای تعیین فاصله خطوط، قرار دادن در bookmark ها
+\let\Oldtableofcontents\tableofcontents
+\renewcommand{\tableofcontents}{
+	\Oldtableofcontents\clearpage
+}%
+
+
+%% ============================================================================
+% تنظمیات محیط فهرست اشکال
+
+% این دستورات موجب می‌شود که یک تصویر بند انگشتی در فهرست مطالب ظاهر شود. برای این کار می‌بایست در قسمت caption به صورت زیر فایل تصویر نیز وارد شود. 
+% ٍExample: \caption{\lofimage{/Introduction/Person/Shannon} \lr{Claude Shannon}}
+
+\newlength{\lofthumbsize}
+\setlength{\lofthumbsize}{2em}
+
+\newif\iflofimage
+\DeclareRobustCommand*{\lofimage}[2][]{%
+  \iflofimage
+    $\vcenter to \lofthumbsize{\vss%
+      \hbox to \lofthumbsize{\hss\includegraphics[{width=\lofthumbsize,height=\lofthumbsize,keepaspectratio=true,#1}]{#2}\hss}%
+    \vss}$%
+    \quad
+  \fi
+  \ignorespaces
+}
+%% در دستورات زیر محیط فهرست اشکال باز تعریف شده و اولا این محیط به bookmark اضافه شده و ثانیا مشکل صفحات اضافی حل شده است. ثالثا فاصله خطوط برای زیبایی در این 
+%% محیط اندکی کم شده است، ولی دوباره بعد از آوردن این محیط به حالت اولیه برگشته است. در ضمن از شماره گذاری حرفی برای این محیط استفاده شده است. 
+\let\Oldlistoffigures\listoffigures
+\renewcommand{\listoffigures}{
+	\cleardoublepage
+	\phantomsection
+	\addcontentsline{toc}{chapter}{فهرست اشکال}
+	\lofimagetrue
+	\Oldlistoffigures\clearpage
+	\lofimagefalse
+}%
+
+
+%% ===============================================================================
+% در دستورات زیر محیط فهرست جداول باز تعریف شده و اولا این محیط به bookmark اضافه شده و ثانیا مشکل صفحات اضافی حل شده است. ثالثا فاصله خطوط برای زیبایی در این 
+% محیط اندکی کم شده است، ولی دوباره بعد از آوردن این محیط به حالت اولیه برگشته است. در ضمن از شماره گذاری حرفی برای این محیط استفاده شده است. 
+\let\Oldlistoftables\listoftables
+\renewcommand{\listoftables}{
+	\cleardoublepage
+	\phantomsection
+	\addcontentsline{toc}{chapter}{فهرست جداول}
+	\Oldlistoftables\clearpage
+}%
+
+
+%% =================================================================================
+% دستور برای قرار دادن فهرست اختصارات 
+\newcommand{\printabbreviation}{
+	\cleardoublepage
+	\phantomsection
+	\linespread{\BaseLineSpreadForList}
+% با این دستور عنوان فهرست اختصارات به فهرست مطالب اضافه می‌شود. 
+	\addcontentsline{toc}{chapter}{فهرست اختصارات}
+	\setglossarystyle{myAbbrlist}
+	
+	\begin{LTR}
+	\Oldprintglossary[type=acronym]	
+	\end{LTR}
+	\clearpage
+	\linespread{\BaseLineSpreadFA}
+}%
+
+\newcommand{\printacronyms}{\printabbreviation}
+
+
+%% ================================================================================
+%\newcommand{\printnotation}{
+% تنظیم کننده فاصله بین خطوط در این قسمت
+%	\linespread{\BaseLineSpreadForList}
+%	\cleardoublepage
+%	\phantomsection
+% با این دستور عنوان فهرست نمادها به فهرست مطالب اضافه می‌شود. 
+%	\addcontentsline{toc}{chapter}{فهرست نمادها}
+%	\glossarystyle{mylistNotation}
+%	\Oldprintglossary[type=symbols]
+%	\clearpage
+% تنظیم کننده فاصله بین خطوط در این قسمت
+%	\linespread{\BaseLineSpreadFA}
+%}%
+
+
+%% ==============================================================================
+%تنظیمات مربوط به مراجع
+\let\Oldbibliography\bibliography
+\RenewDocumentCommand{\bibliography}{g g}{
+	\let\appendix\relax
+% تنظیم کننده فاصله بین خطوط در این قسمت
+	\linespread{\BaseLineSpreadForList}
+% با این دستور عنوان این قسمت به (مراجع) تغییر پیدا می‌کند. 
+	\renewcommand{\bibname}{مراجع}
+	\clearpage
+	\phantomsection
+	\addcontentsline{toc}{chapter}{مراجع}
+	\IfValueTF{#2}{
+			\bibliographystyle{#2}
+			\Oldbibliography{#1}
+	}{%%
+			\bibliographystyle{ieeetr-fa}
+			\Oldbibliography{#1}
+	}%%
+	\linespread{\BaseLineSpreadFA}
+}%
+
+
+%% ==========================================================================
+% در این جا محیط هر دو واژه نامه را باز تعریف کرده ایم، تا اولا مشکل قرار دادن صفحه اضافی را حل کنیم، ثانیا عنوان واژه نامه ها را با دستور addcontentlist وارد فهرست مطالب کرده ایم.
+\let\Oldprintglossary\printglossary
+\renewcommand{\printglossary}{
+	\let\appendix\relax
+% تنظیم کننده فاصله بین خطوط در این قسمت
+	\linespread{\BaseLineSpreadForList}
+	\clearpage
+	\phantomsection
+% این دستور موجب این می‌شود که واژه‌نامه‌ها در  حالت دو ستونی نوشته شود. 
+	\twocolumn{}
+% با این دستور عنوان واژه‌نامه به فهرست مطالب اضافه می‌شود. 
+	\addcontentsline{toc}{chapter}{واژه نامه انگلیسی به فارسی}
+	\setglossarystyle{myEntoFa}
+	\Oldprintglossary[type=english]
+	
+	\clearpage
+	\phantomsection
+% با این دستور عنوان واژه‌نامه به فهرست مطالب اضافه می‌شود. 
+	\addcontentsline{toc}{chapter}{واژه نامه فارسی به انگلیسی}
+	\setglossarystyle{myFaToEn}
+	\Oldprintglossary[type=persian]
+	\onecolumn{}
+	\linespread{\BaseLineSpreadFA}
+}%
+
+
+%% =============================================================================
+
+\let\Oldprintindex\printindex
+\RenewDocumentCommand{\printindex}{g g}{
+	\let\appendix\relax
+	% تنظیم کننده فاصله بین خطوط در این قسمت
+	\linespread{\BaseLineSpreadForList}
+	% با این دستور عنوان این قسمت به (مراجع) تغییر پیدا می‌کند. 
+	\clearpage
+	\phantomsection
+	\addcontentsline{toc}{chapter}{نمایه}
+	\Oldprintindex
+	\defaultFont
+	\linespread{\BaseLineSpreadFA}
+}%
+
+
+%% =============================================================================
+% دستوری برای رنگ‌آمیزی محیط  Item در dinglist
+\newcommand{\itemcolor}[1]{\renewcommand{\makelabel}[1]{\color{#1}\hfil ##1}}
+
+
+%% ==============================================================================
+% begin appendix autoref patch [\autoref subsections in appendix](http://tex.stackexchange.com/questions/149807/autoref-subsections-in-appendix)
+% این کد برای حل مشکل appendix قرار داده شده است. هنگامی که در متن از دستور autoref استفاده کنیم و به یک بخش در داخل appendix ارجاع دهیم می نویسد پیوست ۱.۱ نه بخش ۱.۱
+\def\appendixautorefname{پیوست}
+
+\makeatletter
+\patchcmd{\hyper@makecurrent}{%
+    \ifx\Hy@param\Hy@chapterstring
+        \let\Hy@param\Hy@chapapp
+    \fi
+}{%
+    \iftoggle{inappendix}{%true-branch
+        % list the names of all sectioning counters here
+        \@checkappendixparam{chapter}%
+        \@checkappendixparam{section}%
+        \@checkappendixparam{subsection}%
+        \@checkappendixparam{subsubsection}%
+        \@checkappendixparam{paragraph}%
+        \@checkappendixparam{subparagraph}%
+    }{}%
+}{}{\errmessage{failed to patch}}
+
+\newcommand*{\@checkappendixparam}[1]{%
+    \def\@checkappendixparamtmp{#1}%
+    \ifx\Hy@param\@checkappendixparamtmp
+        \let\Hy@param\Hy@appendixstring
+    \fi
+}
+\makeatother
+
+\newtoggle{inappendix}
+\togglefalse{inappendix}
+
+\apptocmd{\appendix}{\toggletrue{inappendix}}{}{\errmessage{failed to patch}}
+% end appendix autoref patch
+
+
+%% =============================================================================
+% تغییر شماره part به شماره گذاری حروفی.
+\makeatletter
+\renewcommand\thepart{\ifnum\value{part}=1 نخست \else \tartibi{part}\fi}
+\makeatother
+
+
+%% ==============================================================================
+%تعریف دکمه برای قراردادن در manual های کاربری
+\usetikzlibrary{shadows}
+\newcommand*\keystroke[1]{%
+  \tikz[baseline=(key.base)]
+    \node[%
+      draw=Red,Red,
+      fill=white,
+      drop shadow={shadow xshift=0.25ex,shadow yshift=-0.25ex,fill=black,opacity=0.75},
+      rectangle,
+      rounded corners=2pt,
+      inner sep=1pt,
+      line width=0.5pt,
+	  text height=3mm,
+      font=\small\sffamily,
+	anchor=south
+    ](key) {#1\strut};
+}
+
+\newcommand*\buttonstroke[2]{%
+  \tikz[baseline=(key.base)]
+    \node[%
+      draw=none,
+      fill=#2,
+      drop shadow={shadow xshift=0.25ex,shadow yshift=-0.25ex,fill=white,opacity=0.75},
+      rectangle,
+      rounded corners=2pt,
+      inner sep=2pt,
+      line width=0.5pt,
+	  text height=3mm,
+      font=\small\sffamily,
+	anchor=south
+    ](key) {\textcolor{white}{#1}\strut};
+}
