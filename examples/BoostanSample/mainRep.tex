@@ -1,5 +1,7 @@
 \documentclass{report}
 
+\usepackage{ptext}
+\usepackage{lipsum}
 \input{Boostan-UserManual}
 
 \input{Chapters/BWords}
@@ -148,7 +150,7 @@ A = B + \sin (x)
 \begin{subfigure}[b]{0.3\textwidth}\centering
 \rule{2cm}{2cm}
 \caption{A tiger}
-\label{fig:tiger}
+\label{fig:tiger2}
 \end{subfigure}
 \begin{subfigure}[b]{0.3\textwidth}\centering
 \rule{2cm}{2cm}
@@ -158,7 +160,7 @@ A = B + \sin (x)
 \begin{subfigure}[b]{0.3\textwidth}\centering
 \rule{2cm}{2cm}
 \caption{A mouse}
-\label{fig:mouse}
+\label{fig:mouse2}
 \end{subfigure}
 \caption{یک زیرنویس کلی برای شکل}
 \label{fig:animals}
@@ -169,7 +171,7 @@ A = B + \sin (x)
 \begin{subfigure}[b]{0.3\textwidth}\centering
 \rule{2cm}{2cm}
 \caption{A gull}
-\label{fig:gull}
+\label{fig:gull2}
 \end{subfigure}
 \begin{subfigure}[b]{0.3\textwidth}\centering
 \rule{2cm}{2cm}
@@ -179,12 +181,12 @@ A = B + \sin (x)
 \begin{subfigure}[b]{0.3\textwidth}\centering
 \rule{2cm}{2cm}
 \caption{A mouse}
-\label{fig:mouse}
+\label{fig:mouse3}
 \end{subfigure}
 \begin{subfigure}[b]{0.3\textwidth}\centering
 \rule{2cm}{2cm}
 \caption{A mouse}
-\label{fig:mouse}
+\label{fig:mouse4}
 \end{subfigure}
 \caption{یک زیرنویس کلی برای شکل}
 \label{fig:dddd}
@@ -214,8 +216,6 @@ A = B + \sin (x)
 را اجرا کنید. 
 
 % انواع دیگر استایل ها در راهنمای persian-bib آمده است. 
-
-
 \begin{table}
 \caption{جدول نمادها}
 \label{table:asas}
@@ -226,7 +226,6 @@ $\mathrm{R}$ & $\mathbb{R}$ & $\mathcal{R}$ & $\mathit{R}$\\\hline
 \end{tabular}
 \end{table}
 
-
 \chapter{واژه نامه}
 چند مثال 
 \gls{AbsoluteMinimum} و \gls{AcceptableCell}
@@ -235,6 +234,39 @@ $\mathrm{R}$ & $\mathbb{R}$ & $\mathcal{R}$ & $\mathit{R}$\\\hline
 
 و دوباره واژه‌ها
 \gls{SamplePath}
+
+\chapter{تنظیم فاصله خطوط}
+\ptext[1]
+\begin{latin}
+\lipsum[1]
+\end{latin}
+\ptext[2]
+\begin{latin}
+\lipsum[2]
+\end{latin}
+\begin{table}
+\centering
+\caption{جدول نمادها}
+\label{table:asas2}
+\begin{tabular}{|c|c|c|c|c|c}\hline
+\verb|\mathrm{E}| & \verb|\mathbb{E}|& \verb|\mathcal{E}|& \verb|\mathit{E}|\\\hline
+$\mathrm{E}$ & $\mathbb{E}$ & $\mathcal{E}$ & $\mathit{E}$\\\hline
+$\mathrm{R}$ & $\mathbb{R}$ & $\mathcal{R}$ & $\mathit{R}$\\\hline
+\end{tabular}
+\end{table}
+
+\begin{table}
+\centering
+\caption{جدول نمادها}
+\label{table:asase3}
+\begin{latin}
+\begin{tabular}{|c|c|c|c|c|c}\hline
+\verb|\mathrm{E}| & \verb|\mathbb{E}|& \verb|\mathcal{E}|& \verb|\mathit{E}|\\\hline
+$\mathrm{E}$ & $\mathbb{E}$ & $\mathcal{E}$ & $\mathit{E}$\\\hline
+$\mathrm{R}$ & $\mathbb{R}$ & $\mathcal{R}$ & $\mathit{R}$\\\hline
+\end{tabular}
+\end{latin}
+\end{table}
 
 \bibliography{Chapters/myref.bib}
 \printglossary

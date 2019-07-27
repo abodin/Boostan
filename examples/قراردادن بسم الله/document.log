@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.6)  10 MAY 2019 12:47
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.7.20)  25 JUL 2019 17:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -29,10 +29,10 @@ Package: xepersian 2019/05/01 v22.7 Persian typesetting in XeLaTeX
 (/usr/local/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec.sty
 (/usr/local/texlive/2019/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 (/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2019-05-05 L3 programming layer (loader) 
+Package: expl3 2019-07-01 L3 programming layer (loader) 
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2019-05-05 L3 programming layer (code)
+Package: expl3 2019-07-01 L3 programming layer (code)
 \c_max_int=\count89
 \l_tmpa_int=\count90
 \l_tmpb_int=\count91
@@ -89,49 +89,50 @@ Package: expl3 2019-05-05 L3 programming layer (code)
 \l__sort_A_int=\count123
 \l__sort_B_int=\count124
 \l__sort_C_int=\count125
-\l__tl_analysis_normal_int=\count126
-\l__tl_analysis_index_int=\count127
-\l__tl_analysis_nesting_int=\count128
-\l__tl_analysis_type_int=\count129
-\l__regex_internal_a_int=\count130
-\l__regex_internal_b_int=\count131
-\l__regex_internal_c_int=\count132
-\l__regex_balance_int=\count133
-\l__regex_group_level_int=\count134
-\l__regex_mode_int=\count135
-\c__regex_cs_in_class_mode_int=\count136
-\c__regex_cs_mode_int=\count137
-\l__regex_catcodes_int=\count138
-\l__regex_default_catcodes_int=\count139
-\c__regex_catcode_L_int=\count140
-\c__regex_catcode_O_int=\count141
-\c__regex_catcode_A_int=\count142
-\c__regex_all_catcodes_int=\count143
-\l__regex_show_lines_int=\count144
-\l__regex_min_state_int=\count145
-\l__regex_max_state_int=\count146
-\l__regex_left_state_int=\count147
-\l__regex_right_state_int=\count148
-\l__regex_capturing_group_int=\count149
-\l__regex_min_pos_int=\count150
-\l__regex_max_pos_int=\count151
-\l__regex_curr_pos_int=\count152
-\l__regex_start_pos_int=\count153
-\l__regex_success_pos_int=\count154
-\l__regex_curr_char_int=\count155
-\l__regex_curr_catcode_int=\count156
-\l__regex_last_char_int=\count157
-\l__regex_case_changed_char_int=\count158
-\l__regex_curr_state_int=\count159
-\l__regex_step_int=\count160
-\l__regex_min_active_int=\count161
-\l__regex_max_active_int=\count162
-\l__regex_replacement_csnames_int=\count163
-\l__regex_match_count_int=\count164
-\l__regex_min_submatch_int=\count165
-\l__regex_submatch_int=\count166
-\l__regex_zeroth_submatch_int=\count167
-\g__regex_trace_regex_int=\count168
+\l__str_internal_int=\count126
+\l__tl_analysis_normal_int=\count127
+\l__tl_analysis_index_int=\count128
+\l__tl_analysis_nesting_int=\count129
+\l__tl_analysis_type_int=\count130
+\l__regex_internal_a_int=\count131
+\l__regex_internal_b_int=\count132
+\l__regex_internal_c_int=\count133
+\l__regex_balance_int=\count134
+\l__regex_group_level_int=\count135
+\l__regex_mode_int=\count136
+\c__regex_cs_in_class_mode_int=\count137
+\c__regex_cs_mode_int=\count138
+\l__regex_catcodes_int=\count139
+\l__regex_default_catcodes_int=\count140
+\c__regex_catcode_L_int=\count141
+\c__regex_catcode_O_int=\count142
+\c__regex_catcode_A_int=\count143
+\c__regex_all_catcodes_int=\count144
+\l__regex_show_lines_int=\count145
+\l__regex_min_state_int=\count146
+\l__regex_max_state_int=\count147
+\l__regex_left_state_int=\count148
+\l__regex_right_state_int=\count149
+\l__regex_capturing_group_int=\count150
+\l__regex_min_pos_int=\count151
+\l__regex_max_pos_int=\count152
+\l__regex_curr_pos_int=\count153
+\l__regex_start_pos_int=\count154
+\l__regex_success_pos_int=\count155
+\l__regex_curr_char_int=\count156
+\l__regex_curr_catcode_int=\count157
+\l__regex_last_char_int=\count158
+\l__regex_case_changed_char_int=\count159
+\l__regex_curr_state_int=\count160
+\l__regex_step_int=\count161
+\l__regex_min_active_int=\count162
+\l__regex_max_active_int=\count163
+\l__regex_replacement_csnames_int=\count164
+\l__regex_match_count_int=\count165
+\l__regex_min_submatch_int=\count166
+\l__regex_submatch_int=\count167
+\l__regex_zeroth_submatch_int=\count168
+\g__regex_trace_regex_int=\count169
 \c_empty_box=\box27
 \l_tmpa_box=\box28
 \l_tmpb_box=\box29
@@ -176,39 +177,39 @@ Package: expl3 2019-05-05 L3 programming layer (code)
 \l__coffin_display_x_dim=\dimen133
 \l__coffin_display_y_dim=\dimen134
 \g__file_internal_ior=\read1
-\l__seq_internal_a_int=\count169
-\l__seq_internal_b_int=\count170
-\c__deprecation_minus_one=\count171
+\l__seq_internal_a_int=\count170
+\l__seq_internal_b_int=\count171
+\c__deprecation_minus_one=\count172
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def
-File: l3xdvipdfmx.def 2019-04-06 v L3 Experimental driver: xdvipdfmx
-\g__driver_image_int=\count172
-\l__driver_pdf_tmp_box=\box45
-\g__driver_pdf_object_int=\count173
-\g__driver_pdf_annotation_int=\count174
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
+File: l3backend-xdvipdfmx.def 2019-04-06 v L3 Experimental backend support: xdv
+ipdfmx
+\g__graphics_track_int=\count173
+\l__pdf_internal_box=\box45
+\g__pdf_backend_object_int=\count174
+\g__pdf_backend_annotation_int=\count175
 ))
-Package: xparse 2019-05-03 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count175
-\g__xparse_grabber_int=\count176
-\l__xparse_m_args_int=\count177
-\l__xparse_v_nesting_int=\count178
+Package: xparse 2019-05-28 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count176
+\g__xparse_grabber_int=\count177
+\l__xparse_m_args_int=\count178
+\l__xparse_v_nesting_int=\count179
 )
 Package: fontspec 2019/03/15 v2.7c Font selection for XeLaTeX and LuaLaTeX
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
 Package: fontspec-xetex 2019/03/15 v2.7c Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count179
-\l__fontspec_language_int=\count180
-\l__fontspec_strnum_int=\count181
-\l__fontspec_tmp_int=\count182
-\l__fontspec_tmpa_int=\count183
-\l__fontspec_tmpb_int=\count184
-\l__fontspec_tmpc_int=\count185
-\l__fontspec_em_int=\count186
-\l__fontspec_emdef_int=\count187
-\l__fontspec_strong_int=\count188
-\l__fontspec_strongdef_int=\count189
+\l__fontspec_script_int=\count180
+\l__fontspec_language_int=\count181
+\l__fontspec_strnum_int=\count182
+\l__fontspec_tmp_int=\count183
+\l__fontspec_tmpa_int=\count184
+\l__fontspec_tmpb_int=\count185
+\l__fontspec_tmpc_int=\count186
+\l__fontspec_em_int=\count187
+\l__fontspec_emdef_int=\count188
+\l__fontspec_strong_int=\count189
+\l__fontspec_strongdef_int=\count190
 \l__fontspec_tmpa_dim=\dimen135
 \l__fontspec_tmpb_dim=\dimen136
 \l__fontspec_tmpc_dim=\dimen137
@@ -231,50 +232,50 @@ LaTeX Info: Redefining \emph on input line 4121.
 (/usr/local/texlive/2019/texmf-dist/tex/xelatex/xepersian/xepersian-persiancal.
 sty
 Package: xepersian-persiancal 2012/07/25 v0.2 provides Persian calendar
-\XePersian@i=\count190
-\XePersian@y=\count191
-\XePersian@m=\count192
-\XePersian@d=\count193
-\XePersian@latini=\count194
-\XePersian@persiani=\count195
-\XePersian@latinii=\count196
-\XePersian@persianii=\count197
-\XePersian@latiniii=\count198
-\XePersian@persianiii=\count199
-\XePersian@latiniv=\count266
-\XePersian@persianiv=\count267
-\XePersian@latinv=\count268
-\XePersian@persianv=\count269
-\XePersian@latinvi=\count270
-\XePersian@persianvi=\count271
-\XePersian@latinvii=\count272
-\XePersian@persianvii=\count273
-\XePersian@latinviii=\count274
-\XePersian@persianviii=\count275
-\XePersian@latinix=\count276
-\XePersian@persianix=\count277
-\XePersian@latinx=\count278
-\XePersian@persianx=\count279
-\XePersian@latinxi=\count280
-\XePersian@persianxi=\count281
-\XePersian@latinxii=\count282
-\XePersian@persianxii=\count283
-\XePersian@persianxiii=\count284
-\XePersian@temp=\count285
-\XePersian@temptwo=\count286
-\XePersian@tempthree=\count287
-\XePersian@yModHundred=\count288
-\XePersian@thirtytwo=\count289
-\XePersian@dn=\count290
-\XePersian@sn=\count291
-\XePersian@mminusone=\count292
+\XePersian@i=\count191
+\XePersian@y=\count192
+\XePersian@m=\count193
+\XePersian@d=\count194
+\XePersian@latini=\count195
+\XePersian@persiani=\count196
+\XePersian@latinii=\count197
+\XePersian@persianii=\count198
+\XePersian@latiniii=\count199
+\XePersian@persianiii=\count266
+\XePersian@latiniv=\count267
+\XePersian@persianiv=\count268
+\XePersian@latinv=\count269
+\XePersian@persianv=\count270
+\XePersian@latinvi=\count271
+\XePersian@persianvi=\count272
+\XePersian@latinvii=\count273
+\XePersian@persianvii=\count274
+\XePersian@latinviii=\count275
+\XePersian@persianviii=\count276
+\XePersian@latinix=\count277
+\XePersian@persianix=\count278
+\XePersian@latinx=\count279
+\XePersian@persianx=\count280
+\XePersian@latinxi=\count281
+\XePersian@persianxi=\count282
+\XePersian@latinxii=\count283
+\XePersian@persianxii=\count284
+\XePersian@persianxiii=\count285
+\XePersian@temp=\count286
+\XePersian@temptwo=\count287
+\XePersian@tempthree=\count288
+\XePersian@yModHundred=\count289
+\XePersian@thirtytwo=\count290
+\XePersian@dn=\count291
+\XePersian@sn=\count292
+\XePersian@mminusone=\count293
 )
 (/usr/local/texlive/2019/texmf-dist/tex/xelatex/xepersian/xepersian-mathsdigits
 pec.sty
 Package: xepersian-mathsdigitspec 2018/12/16 v1.1.7 Unicode Persian maths digit
 s in XeLaTeX
 ) (/usr/local/texlive/2019/texmf-dist/tex/xelatex/bidi/bidi.sty
-Package: bidi 2019/05/01 v35.8 Bidirectional typesetting in plain TeX and LaTeX
+Package: bidi 2019/06/14 v35.9 Bidirectional typesetting in plain TeX and LaTeX
 
 
 ****************************************************
@@ -289,7 +290,7 @@ Package: bidi 2019/05/01 v35.8 Bidirectional typesetting in plain TeX and LaTeX
 * 
 * Copyright (c) 2009--2019 Vafa Khalighi
 * 
-* v35.8, 2019/05/01
+* v35.9, 2019/06/14
 * 
 * License: LaTeX Project Public License, version
 * 1.3c or higher (your choice)
@@ -307,16 +308,16 @@ and LuaTeX
 Package: biditools 2018/12/11 v1.9 Programming tools for bidi package
 \@bidi@envbody=\toks14
 \@bidi@emptytoks=\toks15
-\bidi@tempcountb=\count293
+\bidi@tempcountb=\count294
 \bidi@temptoksa=\toks16
 \bidi@temptoksb=\toks17
-\bidi@dummies=\count294
+\bidi@dummies=\count295
 \bidi@are@these@correct=\toks18
 \bidi@toks@lista=\toks19
 \bidi@toks@listb=\toks20
-\bidi@stack@length=\count295
+\bidi@stack@length=\count296
 \bidi@empty@stack=\toks21
-\bidi@looprepeat@depth=\count296
+\bidi@looprepeat@depth=\count297
 )
 (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/zref-abspage.sty
 Package: zref-abspage 2018/11/21 v2.27 Module abspage for zref (HO)
@@ -366,7 +367,7 @@ Package zref Info: New property: page on input line 761.
 (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 )
-\c@abspage=\count297
+\c@abspage=\count298
 Package zref Info: New property: abspage on input line 62.
 )
 (/usr/local/texlive/2019/texmf-dist/tex/latex/xkeyval/xkeyval.sty
@@ -378,7 +379,7 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@tempa@toks=\toks23
 
 (/usr/local/texlive/2019/texmf-dist/tex/generic/xkeyval/keyval.tex))
-\XKV@depth=\count298
+\XKV@depth=\count299
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 \@bidi@copyins@=\insert252
@@ -387,12 +388,12 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 File: latex-xetex-bidi.def 2019/03/03 v1.3.7 bidi adaptations for `latex.ltx' f
 or XeTeX engine
 \bidi@n@everypar=\toks24
-\bidi@column@check@number=\count299
+\bidi@column@check@number=\count300
 
 (/usr/local/texlive/2019/texmf-dist/tex/xelatex/bidi/footnote-xetex-bidi.def
 File: footnote-xetex-bidi.def 2017/08/09 v1.1 bidi footnote macros for XeTeX en
 gine
-\c@footdir@label=\count300
+\c@footdir@label=\count301
 \footdir@toks=\toks25
 )
 (/usr/local/texlive/2019/texmf-dist/tex/xelatex/bidi/report-xetex-bidi.def
@@ -404,7 +405,7 @@ f
 File: loadingorder-xetex-bidi.def 2017/12/29 v0.97 making sure that bidi is the
  last package loaded
 )
-\bidi@digits=\count301
+\bidi@digits=\count302
 \bidi@digits@charclass=\XeTeXcharclass1
 \bidi@sepmark@charclass=\XeTeXcharclass2
 )
@@ -428,7 +429,7 @@ File: loadingorder-xetex-bidi.def 2017/12/29 v0.97 making sure that bidi is the
 * Issue tracker: https://github.com/vafa-ac/xepersian/issues
 * 
 ****************************************************
-\xepersian@tcl=\count302
+\xepersian@tcl=\count303
 \xepersian@ilg=\dimen138
 \xepersian@strutilg=\dimen139
 
@@ -549,24 +550,6 @@ Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
 (fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 
 LaTeX Info: Redefining \latinfont on input line 6.
- (./document.aux)
-\openout1 = `document.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-\AtBeginShipoutBox=\box46
 
 
 Package fontspec Warning: Font "Far.Symbol8" does not contain requested Script
@@ -587,34 +570,6 @@ Package fontspec Info: Could not resolve font "Far.Symbol8/I" (it probably
 
 Package fontspec Info: Font family 'Far.Symbol8(0)' created for font
 (fontspec)             'Far.Symbol8' with options
-(fontspec)             [Script=Persian,Ligatures=PersianTeX].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"Far.Symbol8/OT:mapping=persian-tex-text;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-
-
-Package fontspec Warning: Font "Far.Symbol8" does not contain requested Script
-(fontspec)                "Persian".
-
-
-Package fontspec Info: Could not resolve font "Far.Symbol8/BI" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: Could not resolve font "Far.Symbol8/B" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: Could not resolve font "Far.Symbol8/I" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: Font family 'Far.Symbol8(1)' created for font
-(fontspec)             'Far.Symbol8' with options
 (fontspec)             [Script=Persian,Ligatures=PersianTeX,Scale=40].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
@@ -624,51 +579,42 @@ Package fontspec Info: Font family 'Far.Symbol8(1)' created for font
 (fontspec)             <->s*[40]"Far.Symbol8/OT:mapping=persian-tex-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
-LaTeX Font Info:    Font shape `TU/Far.Symbol8(1)/m/n' will be
-(Font)              scaled to size 400.0pt on input line 10.
+(./document.aux)
+\openout1 = `document.aux'.
 
-Overfull \hbox (81.0pt too wide) in paragraph at lines 12--13
- []\TU/Far.Symbol8(1)/m/n/10 f[] 
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+\AtBeginShipoutBox=\box46
+LaTeX Font Info:    Font shape `TU/Far.Symbol8(0)/m/n' will be
+(Font)              scaled to size 400.0pt on input line 11.
+
+Overfull \hbox (54.20001pt too wide) in paragraph at lines 11--12
+ []\TU/Far.Symbol8(0)/m/n/10 a[] 
  []
 
 [1
 
-]
-
-Package fontspec Info: Font family 'XBNiloofar(1)' created for font 'XB
-(fontspec)             Niloofar' with options
-(fontspec)             [Script=Persian,Ligatures=PersianTeX].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"XB
-(fontspec)             Niloofar/OT:script=arab;language=DFLT;mapping=persian-te
-x-text;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (bx/n) with NFSS spec.: <->"XB
-(fontspec)             Niloofar/B/OT:script=arab;language=DFLT;mapping=persian-
-tex-text;"
-(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"XB
-(fontspec)             Niloofar/I/OT:script=arab;language=DFLT;mapping=persian-
-tex-text;"
-(fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.: 
-(fontspec)             - 'bold italic' (bx/it) with NFSS spec.: <->"XB
-(fontspec)             Niloofar/BI/OT:script=arab;language=DFLT;mapping=persian
--tex-text;"
-(fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
-
-LaTeX Info: Redefining \persianfont on input line 16.
- [2
+] [2
 
 ] (./document.aux) ) 
 Here is how much of TeX's memory you used:
- 14393 strings out of 492916
- 320081 string characters out of 6133346
- 418824 words of memory out of 5000000
- 18329 multiletter control sequences out of 15000+600000
- 532626 words of font info for 60 fonts, out of 8000000 for 9000
+ 14830 strings out of 492909
+ 329696 string characters out of 6132923
+ 430424 words of memory out of 5000000
+ 18768 multiletter control sequences out of 15000+600000
+ 532610 words of font info for 58 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  60i,4n,69p,1094b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 

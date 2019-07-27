@@ -7,7 +7,8 @@
 \contentsline {chapter}{فصل\nobreakspace {}\numberline {4}\nobreakspace {}\nobreakspace {}\nobreakspace {} مثال‌های دیگر}{9}{chapter.4}% 
 \contentsline {chapter}{فصل\nobreakspace {}\numberline {5}\nobreakspace {}\nobreakspace {}\nobreakspace {} وارد کردن مراجع}{10}{chapter.5}% 
 \contentsline {chapter}{فصل\nobreakspace {}\numberline {6}\nobreakspace {}\nobreakspace {}\nobreakspace {} واژه نامه}{11}{chapter.6}% 
-\contentsline {chapter}{مراجع}{12}{section*.9}% 
-\contentsline {chapter}{واژه نامه انگلیسی به فارسی}{13}{section*.11}% 
-\contentsline {chapter}{واژه نامه فارسی به انگلیسی}{14}{section*.14}% 
-\contentsline {chapter}{فهرست اختصارات}{15}{section*.17}% 
+\contentsline {chapter}{فصل\nobreakspace {}\numberline {7}\nobreakspace {}\nobreakspace {}\nobreakspace {} تنظیم فاصله خطوط}{12}{chapter.7}% 
+\contentsline {chapter}{مراجع}{14}{section*.11}% 
+\contentsline {chapter}{واژه نامه انگلیسی به فارسی}{15}{section*.13}% 
+\contentsline {chapter}{واژه نامه فارسی به انگلیسی}{16}{section*.16}% 
+\contentsline {chapter}{فهرست اختصارات}{17}{section*.19}% 

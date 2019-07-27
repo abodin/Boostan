@@ -1,6 +1,12 @@
 \documentclass{article}
 
-\input{gozineh}
+\input{Boostan-Gozineh}
+
+%تعریف برخی واژه‌ها
+\newword{Distance}{Distance}{فاصله}{}
+\newword{LinkCapacity}{Link Capacity}
+{ظرفیت پیوند}{}
+\newword{PropagationSpeed}{Propagation Speed}{سرعت انتشار}{}
 
 \newcount\myn
 \begin{document}
@@ -33,13 +39,11 @@
 %\lr{three duplicate ACKs}
 %را توضیح دهید؟ (در پایان سوالات تستی به این سوال تشریحی نیز پاسخ دهید.)
 %\end{problem}
+تعریف برخی از پارامترها:
 
-
- \renewcommand*{\arraystretch}{1.9}
- \begin{tabular}{|p{5cm}p{6cm}p{5cm}|}\hline
- 	\multicolumn{3}{|r|}{ در سوالاتی که در ادامه می‌آید، پارامترهای زیر را در نظر بگیرید.}\\
+ \begin{tabular}{p{5cm}p{6cm}p{5cm}}
  	$L$: طول بسته  & $R$: \mygls{LinkCapacity} & $D$: \mygls{Distance} \\
- 	$a$: میانگین نرخ رسیدن بسته‌ها & $S$: \mygls{PropagationSpeed} موج & \\\hline
+ 	$a$: میانگین نرخ رسیدن بسته‌ها & $S$: \mygls{PropagationSpeed} موج & \\
  \end{tabular}
  \vskip 6mm
 \setcounter{question}{0}
