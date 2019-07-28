@@ -1,4 +1,4 @@
-%% Last Update: 26 Jul 2019
+%% Last Update: 27 Jul 2019
 %
 
 %% =================================================================================
@@ -25,9 +25,7 @@
 	\renewenvironment{theglossary}{}{}
 	\renewcommand*{\glsgroupskip}{\vskip 10mm}
 	\renewcommand*{\glsgroupheading}[1]{\subsection*{\glsgetgrouptitle{##1}}}
-	\renewcommand*{\glossentry}[2]{\noindent\glsentryname{##1}\dotfill\space \glsentrytext{##1}
-		
-	}
+	\renewcommand*{\glossentry}[2]{\noindent\glsentryname{##1}\dotfill\space\glsentrytext{##1}\\}
 }
 
 % تعریف استایل برای واژه نامه انگلیسی به فارسی، در این استایل واژه‌های فارسی در سمت راست و واژه‌های انگلیسی در سمت چپ خواهند آمد. از حالت گروه ‌بندی استفاده می‌کنیم، 
@@ -44,11 +42,9 @@
 % عنوان بخش همان نام حرفی است که هر واژه در آن گروه با آن شروع شده است. 
 \renewenvironment{theglossary}{}{}
 \renewcommand*{\glsgroupskip}{\vskip 10mm}
-\renewcommand*{\glsgroupheading}[1]{\begin{LTR}\subsection*{\glsgetgrouptitle{##1}} \end{LTR}}
+\renewcommand*{\glsgroupheading}[1]{\begin{LTR}\subsection*{\glsgetgrouptitle{##1}}\end{LTR}}
 % در این دستور نحوه نمایش واژه‌ها می‌آید. در این جا واژه فارسی در سمت راست و واژه انگلیسی در سمت چپ قرار داده شده است، و بین آن با نقطه پر می‌شود. 
-	\renewcommand*{\glossentry}[2]{\noindent\glsentrytext{##1}\dotfill\space \glsentryname{##1}
-		
-	}
+\renewcommand*{\glossentry}[2]{\noindent\glsentrytext{##1}\dotfill\space \glsentryname{##1}\\}
 }
 
 % تعیین استایل برای فهرست اختصارات
@@ -57,11 +53,9 @@
 	% عنوان بخش همان نام حرفی است که هر اختصار در آن گروه با آن شروع شده است. 
 	\renewenvironment{theglossary}{}{}
 	\renewcommand*{\glsgroupskip}{\vskip 10mm}
-	\renewcommand*{\glsgroupheading}[1]{\begin{LTR} \subsection*{\glsgetgrouptitle{##1}} \end{LTR}}
+	\renewcommand*{\glsgroupheading}[1]{\begin{LTR}\subsection*{\glsgetgrouptitle{##1}}\end{LTR}}
 	% در این دستور نحوه نمایش اختصارات می‌آید. در این جا حالت کوچک اختصار در سمت چپ و حالت بزرگ در سمت راست قرار داده شده است، و بین آن با نقطه پر می‌شود. 
-	\renewcommand*{\glossentry}[2]{\noindent\glsentrytext{##1}\dotfill\space \Glsentrylong{##1}
-		
-		}
+	\renewcommand*{\glossentry}[2]{\noindent\glsentrytext{##1}\dotfill\space \Glsentrylong{##1}\\}
 		% تغییر نام محیط abbreviation به فهرست اختصارات
 	\renewcommand*{\acronymname}{\raggedleft\rl{\textcolor{white}{فهرست اختصارات}}}
 }
