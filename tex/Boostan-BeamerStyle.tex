@@ -1,0 +1,508 @@
+%% Data:  2016-01-17
+
+%% در مورد تقدم و تاخر وارد کردن بسته ها تنها باید به چند نکته دقت کرد:
+%% الف) بسته xepersian حتما حتما باید آخرین بسته ای باشد که فراخوانی می شود، به استثنای بسته  های bidi
+%% ب) بسته hyperref جزو آخرین بسته هایی باید باشد که فراخوانی می شود.
+%% ج) بسته glossaries حتما باید بعد از hyperref فراخوانی شود. 
+%% د) بسته listings باید حتما قبل از  hyperref فراخوانی شود. 
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\useinnertheme{default}
+\usefonttheme{professionalfonts}
+\usefonttheme[stillsansserifmath]{serif}
+%\setbeamertemplate{navigation symbols}{}
+%\setbeamertemplate{caption}[numbered]
+
+
+\usepackage{cutwin}
+\usepackage{pdfpages}
+\usepackage{ctable}
+\usepackage{wasysym}
+
+%%% تمام بسته های مورد نیاز برای  کارهای ریاضیاتی به صورت کامل اینجا آورده شده است در صورتی که بخواهید از بسته های دیگر استفاده کنید بهتر است که آن‌ها را به گونه ای انتخاب کنید که با این بسته ها تداخل نداشته باشد. به نظر من استفاده از همین بسته ها کافی است.
+%%% amsthm: It introduces the proof environment and the \theoremstyle command.
+%%%  amssymb: It adds new symbols in to be used in math mode.
+%%% amsmath: It contains the advanced math extensions for LaTeX. The complete documentation should be in your LaTeX distribution; the file is called amsdoc, and can be dvi or pdf.
+
+\usepackage{amsthm,amsmath,amssymb}
+%%% بسته‌ای برای رسم اشکال و تصاویر با Latex
+\usepackage{tikz}
+
+
+\RequirePackage[framemethod=TikZ]{mdframed}
+
+
+%%% بسته ای برای استفاده از اشکال برای آیتم‌ها
+\usepackage{pifont}
+
+
+%%% دوبسته برای اضافه کردن دستورات if و else به برنامه.
+\usepackage{xparse}
+\usepackage{ifthen}
+
+%%% در این قالب از بسته graphx برای انجام کارهای گرافیکی استفاده می‌شود. این بسته برای اضافه کردن تصویرها به متن استفاده شده است.
+\usepackage{graphicx}
+
+% بسته ای برای تنظیم فونت، اندازه و نحوه نمایش caption
+\usepackage{subcaption}
+
+%%% بسته ای برای رنگی کردن لینک ها و فعال سازی لینک ها در یک نوشتار، بسته hyperref باید جزو آخرین بسته‌هایی باشد که فراخوانی می‌شود. 
+\usepackage{hyperref}
+
+
+%%% بسته‌ای برای وارد کردن واژه نامه در متن، این بسته باید بعد از hyperref حتما صدا زده شود. 
+\usepackage[xindy,acronym,nonumberlist=true]{glossaries}
+%%%زی‌پرشین (به انگلیسی: XePersian) یک بسته حروف‌چینی رایگان و متن‌باز برای نگارش مستندات پارسی/انگلیسی با زی‌لاتک است.
+%%% در واقع، زی‌پرشین، کمک می‌کند تا به آسانی، مستندات را به پارسی، حروف‌چینی کرد. این بسته را وفا خلیقی نوشته است،
+%%% و به طور منظم، آن را بروز‌رسانی کرده و باگ‌های آن را رفع می‌کند.
+%%% نکته مهم این جا است که بسته Xepersian برای پشتیبانی از زبان فارسی آورده شده است، و 
+%%% می بایست آخرین بسته ای باشد که شما وارد می کنید، دقت کنید: آخرین بسته 
+
+\usepackage[extrafootnotefeatures]{xepersian}
+
+
+
+
+
+%%% 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+%%==================== تنظیمات hyperref
+
+%%% برای وارد کردن کلمه (بخش) در فهرست مطالب بسته hyperref برای حالت فارسی یک مشکل دارد. بدین منظور این 
+%%% مشکل را به صورت دستی حل شده است. برای این که رنگ keywordstyle که تعیین کننده رنگ کل قسمت فهرست مطالب
+%%% نیز هست یکسان در آید یک پارامتر رنگ برای keywordstyle این جا تعریف می‌کنیم، و سپس از آن هم در تنظمیات hypperref 
+%%% و هم در اون کدهایی که به صورت دستی وارد شده است، استفاده می‌شود.  مطالب بیشتر در مورد این بسته را در سایت زیر مطالعه کنید.
+%%% http://en.wikibooks.org/wiki/LaTeX/Hyperlinks
+
+%% در این قسمت تنظیمات بسته hyperref را قرار می دهیم.
+%% این تنظیمات شامل موارد زیر است:
+\hypersetup{
+	pdfmenubar=false,			% show or hide Acrobat’s menu
+	pdftoolbar=true,			%show or hide Acrobat’s toolbar
+%% موقعی که فایل پی دی اف خروجی را باز می کنید صفحه به صورت عریض و بزرگ باز می شود.
+	pdfstartview=FitH, 
+	%% مواردی که برای فعال سازی این که شماره اشکال را به صورت ارجاعی نشان دهد
+	%hyperfigures=true,
+	%% به جای استفاده از مربع قرمز دور موارد ارجاعی از لینک های رنگی استفاده کند.
+	colorlinks=true, 
+	%% رنگ برخی از لینک ها در زیر تعریف شده است. 
+	linkcolor=blue, 
+	anchorcolor=green, 
+	citecolor=magenta, 
+	urlcolor=cyan, 
+	filecolor=magenta, 
+	bookmarkstype=toc,
+	unicode = true			%allows to use characters of non-Latin based languages in Acrobat’s bookmarks
+	%bookmarksopen = true,
+	%bookmarksopenlevel = 1
+	%%% اگر این option را true‌ بکنیم، آن‌گاه در کنار bookmark شماره فصل و بخش و زیربخش نیز می آید. مثلا می‌نویسد: ۱.۲ طراحی شبکه
+	%bookmarksnumbered = true,
+	%hidelinks			%hide links (removing color and border)
+} % M
+
+\addtobeamertemplate{footline}{\hypersetup{allcolors=.}}{}
+
+%% 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+%% تنظیم فونت. 
+%%برای دانستن اطلاعات بیشتر در مورد تنظیم فونت به لینک زیر مراجعه کنید.
+%%http://www.parsilatex.com/mediawiki/index.php?title=%D9%81%D9%88%D9%86%D8%AA_%D8%AF%D8%B1_xepersian
+%% دقت شود که در این استایل از فونت های زیر استفاده می‌شود، بدین‌سان لازم است فونت هایی که فعال هستند (comment نیستند) توسط کاربر در سیستم عامل نصب شود.
+%%سعی شده است از فونت های استاندارد IR‌ که حاصل کار شورای عالی اطلاع رسانی هست، استفاده شود، کاربران می‌توانند فونت های یاد شده را از لینک زیر دانلود کنند.
+%% http://www.scict.ir/portal/Home/Default.aspx?CategoryID=b50ee619-ce53-4c25-bf53-b0f0332c1777
+
+%%  با دستور زیر می توانید فونتی مخصوص عبارات فارسی تعیین کنید:
+\settextfont[Scale=.95]{XB Niloofar}
+%% شما با دستور زیر بعد از فراخوانی بسته xepersian می توانید فونت انگلیسی را تعیین کنید
+%% دقت کنید که عبارات انگلیسی شما باید در دستور \lr{} قرار گیرد تا xepersian بتواند بفمهد که این عبارات انگلیسی است
+\setlatintextfont[Scale=.9]{Linux Libertine}
+
+%%  با استفاده از این دستور می‌توان فونت و فارسی و یا انگلیسی بودن اعداد در فرمول‌ها را به حالت اولیه (یعنی پیش‌فرض لاتک) برگرداند.
+\DefaultMathsDigits
+
+
+%% 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+
+
+
+
+%% 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+
+\input{Boostan-Gloss}
+
+\input{Boostan-EnvironmentsBeamer}
+
+%% 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+
+
+
+\setbeamersize{text margin left=.6em,text margin right=.6em}
+
+%% باز تعریف محیط document، هر دستوری که می خواهید در ابتدای برنامه اجرا شود را در این قسمت بنویسید.
+
+%% بازنویسی محیط \begin{document}
+\let\olddocument\document
+\let\endolddocument\enddocument
+
+\makeatletter
+\renewenvironment{document}{
+	\olddocument
+	%% تنظیم فاصله بین خطوط با دستور \baselineskip
+	\baselineskip = .8cm
+}{%
+	\endolddocument
+}%
+\makeatother
+
+\newlength{\baselineskipVar}
+\setlength{\baselineskipVar}{0.9cm}
+
+%%% 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+
+
+%محیط‌های list مانند محیط‌های itemize، enumerate و ... بصورت ragged right چیده می‌شوند: این مشکل با تغییر \raggedright به \raggedleft در این محیط‌ها و همچنین تغییر \leftmargin به \rightmargin‍ حل می‌شود. 
+\makeatletter
+\expandafter\let\csname beamer@@tmpop@itemize item@default\endcsname\relax
+\expandafter\let\csname beamer@@tmpop@itemize subitem@default\endcsname\relax
+\expandafter\let\csname beamer@@tmpop@itemize subsubitem@default\endcsname\relax
+
+\defbeamertemplate*{itemize item}{default}{\scriptsize\raise6.25pt\hbox{\donotcoloroutermaths$\blacktriangleleft$}}
+\defbeamertemplate*{itemize subitem}{default}{\tiny\raise6.5pt\hbox{\donotcoloroutermaths$\blacktriangleleft$}}
+\defbeamertemplate*{itemize subsubitem}{default}{\tiny\raise1.5pt\hbox{\donotcoloroutermaths$\blacktriangleleft$}}
+
+\bidi@patchcmd{\@listi}{\leftmargin}{\rightmargin}{}{}
+\let\@listI\@listi
+\bidi@patchcmd{\@listii}{\leftmargin}{\rightmargin}{}{}
+\bidi@patchcmd{\@listiii}{\leftmargin}{\rightmargin}{}{}
+\bidi@patchcmd{\beamer@enum@}{\raggedright}{\raggedleft}{}{}
+\bidi@patchcmd{\@@description}{\raggedright}{\raggedleft}{}{}
+\bidi@patchcmd{\@@description}{\leftmargin}{\rightmargin}{}{}
+
+\renewcommand{\itemize}[1][]{%
+	\beamer@ifempty{#1}{}{\def\beamer@defaultospec{#1}}%
+	\ifnum \@itemdepth >2\relax\@toodeep\else
+	\advance\@itemdepth\@ne
+	\beamer@computepref\@itemdepth% sets \beameritemnestingprefix
+	\usebeamerfont{itemize/enumerate \beameritemnestingprefix body}%
+	\usebeamercolor[fg]{itemize/enumerate \beameritemnestingprefix body}%
+	\usebeamertemplate{itemize/enumerate \beameritemnestingprefix body begin}%
+	\list
+	{\usebeamertemplate{itemize \beameritemnestingprefix item}}
+	{\def\makelabel##1{%
+			{%
+				\hss\llap{{%
+						\usebeamerfont*{itemize \beameritemnestingprefix item}%
+						\usebeamercolor[fg]{itemize \beameritemnestingprefix item}##1}}%
+			}%
+		}%
+	}
+	\fi%
+	\beamer@cramped%
+	\raggedleft%
+	\beamer@firstlineitemizeunskip%
+}
+\makeatother
+
+
+%خطا دادن هنگام استفاده از دستورات زیرنویس. در کد زیر این مشکل حل شده است. به علاوه دستورات \footnote، \RTLfootnote و \LTRfootnote به درستی کار می‌کنند و خط زیرنویس خودکار نیز به درستی در مکان مناسب نمایش داده می‌شود:
+\makeatletter
+\bidi@undef\beamer@@tmpop@footnote@default
+
+\defbeamertemplate*{footnote}{default}
+{
+	\parindent 1em\noindent%
+	\raggedleft
+	\hbox to 1.8em{\hfil\insertfootnotemark}\insertfootnotetext\par%
+}
+
+\defbeamertemplate*{LTRfootnote}{default}
+{
+	\parindent 1em\noindent%
+	\raggedright
+	\hbox to 1.8em{\hfil\insertfootnotemark}\latinfont\insertfootnotetext\par%
+}
+\footdir@temp\footdir@ORG@bidi@beamer@framefootnotetext\beamer@framefootnotetext{R}
+\let\@footnotetext=\beamer@framefootnotetext
+\let\@RTLfootnotetext\@footnotetext
+
+\def\@makeLTRfntext#1{%
+	\def\insertfootnotetext{#1}%
+	\def\insertfootnotemark{\@makefnmark}%
+	\usebeamertemplate***{LTRfootnote}}
+
+\newcommand<>\beamer@frameLTRfootnotetext[1]{%
+	\global\setbox\beamer@footins\vbox{\@RTLfalse%
+		\hsize\framewidth
+		\textwidth\hsize
+		\columnwidth\hsize
+		\unvbox\beamer@footins
+		\reset@font\footnotesize
+		\@parboxrestore
+		\protected@edef\@currentlabel
+		{\csname p@footnote\endcsname\@thefnmark}%
+		\color@begingroup
+		\uncover#2{\@makeLTRfntext{%
+				\rule\z@\footnotesep\ignorespaces#1\@finalstrut\strutbox}}%
+		\color@endgroup}}
+
+
+\footdir@temp\footdir@ORG@bidi@beamer@frameLTRfootnotetext\beamer@frameLTRfootnotetext{L}
+\let\@LTRfootnotetext=\beamer@frameLTRfootnotetext
+\makeatother
+
+
+
+%محیط‌هایی همانند example، definition، theorem و ... بصورت چپ‌چین چیده می‌شوند و عنوان این محیط‌ها بصورت انگلیسی است. در اینجا هم مشکل از مقادیر \leftskip و \rightskip است که کد زیر مشکل را حل می‌کند:
+\makeatletter
+\renewenvironment{beamercolorbox}[2][]{%
+	\begingroup%
+	\def\beamer@colbox@coladd{0pt}%
+	\def\beamer@vmode{\leavevmode}%
+	\setkeys{beamercolbox}{%
+		wd=\textwidth,ht={},dp={},%
+		rightskip=0pt,leftskip=0pt plus1fil,%
+		sep=0pt,colsep=0pt,colsep*=0pt,%
+		shadow=false,rounded=false,ignorebg=false}%
+	\setkeys{beamercolbox}{#1}%
+	\ifbeamercolorempty[bg]{#2}{\@tempswafalse}{\@tempswatrue}%
+	\ifbeamer@colbox@ignorebg\@tempswafalse\fi%
+	\def\beamer@colbox@color{#2}%
+	\hsize=\beamer@colbox@wd%
+	\setbox\beamer@tempbox=\hbox\bgroup\vbox\bgroup%
+	\leftskip=\beamer@colbox@ls%
+	\advance\leftskip by\beamer@colbox@sep%
+	\rightskip=\beamer@colbox@rs%
+	\advance\rightskip by\beamer@colbox@sep%
+	\ifbeamer@colbox@ignorebg%
+	\colorlet{beamer@temp@color}{bg}%
+	\usebeamercolor[fg]{#2}%
+	\colorlet{bg}{beamer@temp@color}%
+	\else%
+	\usebeamercolor[fg]{#2}%
+	\fi%
+	\if@tempswa%
+	\advance\leftskip by\beamer@colbox@colsep%
+	\advance\rightskip by\beamer@colbox@colsep%
+	\ifdim\beamer@colbox@colsep=0pt\else\vskip\beamer@colbox@colsep\fi%
+	\ifdim\beamer@colbox@colseps=0pt\else\vskip\beamer@colbox@colseps\fi%
+	\fi%
+	\ifdim\beamer@colbox@sep=0pt\else\vskip\beamer@colbox@sep\fi%
+	\beamer@vmode\ignorespaces}{%
+	\ifdim\beamer@colbox@sep=0pt\else\vskip\beamer@colbox@sep\fi%
+	\if@tempswa\ifdim\beamer@colbox@colsep=0pt\else\vskip\beamer@colbox@colsep\fi\fi%
+	\if@tempswa\ifdim\beamer@colbox@colseps=0pt\else\vskip\beamer@colbox@colseps\fi\fi%
+	\egroup\egroup%
+	\wd\beamer@tempbox=\hsize%
+	\@tempdima=\wd\beamer@tempbox%
+	\ifx\beamer@colbox@ht\@empty%
+	\else%
+	\ht\beamer@tempbox=\beamer@colbox@ht%
+	\fi%
+	\ifx\beamer@colbox@dp\@empty%
+	\else%
+	\dp\beamer@tempbox=\beamer@colbox@dp%
+	\fi%
+	\ifbeamer@colbox@rounded%
+	\if@tempswa%
+	\begin{beamerboxesrounded}[%
+		shadow=\beamer@colbox@shadow,%
+		lower=\beamer@colbox@color,%
+		upper=normal text,%
+		width=\beamer@colbox@wd]{}%
+		\box\beamer@tempbox%
+	\end{beamerboxesrounded}%
+	\else%
+	\ifdim\@tempdima>\textwidth%
+	\setbox\beamer@tempbox=\hbox to\textwidth{\hss\box\beamer@tempbox\hss}%
+	\fi%
+	\box\beamer@tempbox%
+	\fi%
+	\else%
+	\if@tempswa\setbox\beamer@tempbox=\hbox{\vbox{%
+			\usebeamercolor{\beamer@colbox@color}%
+			\advance\hsize by \beamer@colbox@colseps\relax%
+			\advance\hsize by \beamer@colbox@colseps\relax%
+			\hskip-\beamer@colbox@colseps%
+			\fboxsep=0pt\colorbox{bg}{%
+				\hskip\beamer@colbox@colseps%
+				\hbox{\box\beamer@tempbox}%
+				\hskip\beamer@colbox@colseps%
+			}%
+			\hskip-\beamer@colbox@colseps%
+		}}\fi%
+		\ifdim\@tempdima>\textwidth%
+		\setbox\beamer@tempbox=\hbox to\textwidth{\hskip0pt minus\beamer@leftmargin\relax\box\beamer@tempbox\hskip0pt minus\beamer@rightmargin\relax}%
+		\fi%
+		\box\beamer@tempbox%
+		\fi%
+		\endgroup%
+	}
+\makeatother
+\providetranslation{Theorem}{قضیه}
+\providetranslation{Definition}{تعریف}
+\providetranslation{Example}{مثال}
+
+
+
+
+
+%ترتیب ستون‌ها چپ به راست است و همچنین متن بصورت چپ‌چین در هر یک از ستون‌ها قرار می‌گیرد:
+\makeatletter
+\long\def\beamer@newenvnoopt#1#2#3#4{%
+  \expandafter\renewcommand\expandafter<\expandafter>\csname#1\endcsname[#2]{#3}%<- here
+  \expandafter\long\expandafter\def\csname end#1\endcsname{#4}%
+}
+\long\def\beamer@newenvopt#1#2[#3]#4#5{%
+  \expandafter\renewcommand\expandafter<\expandafter>\csname#1\endcsname[#2][#3]{#4}%<- here
+  \expandafter\long\expandafter\def\csname end#1\endcsname{#5}%
+}
+
+\renewcommand<>\beamer@columncom[2][\beamer@colmode]{%
+  \beamer@colclose%
+  \def\beamer@colclose{\end{minipage}\hfill\end{actionenv}\ignorespaces}%
+\begin{actionenv}#3%
+  \setkeys{beamer@col}{#1}%
+  \begin{minipage}[\beamer@colalign]{#2}%
+    \leavevmode\raggedleft\beamer@colheadskip\ignorespaces}
+
+\renewenvironment<>{columns}[1][]{%
+  \begin{actionenv}#2%
+  \def\beamer@colentrycode{%
+    \hbox to\textwidth\bgroup%
+    \leavevmode%
+    \hskip-\beamer@leftmargin%
+    \nobreak%
+    \beamer@tempdim=\textwidth%
+    \advance\beamer@tempdim by\beamer@leftmargin%
+    \advance\beamer@tempdim by\beamer@rightmargin%
+    \hbox to\beamer@tempdim\bgroup%
+    \hbox{}\hfill\ignorespaces}%
+  \def\beamer@colexitcode{\egroup%
+    \nobreak%
+    \hskip-\beamer@rightmargin\egroup}%
+  \ifbeamer@centered\setkeys{beamer@col}{c}\else\setkeys{beamer@col}{t}\fi%
+  \setkeys{beamer@col}{#1}%
+  \par%
+  \leavevmode\beamer@colentrycode%
+  \def\beamer@colclose{}\ignorespaces}%
+  {\beamer@colclose\def\beamer@colclose{}\beamer@colexitcode\end{actionenv}}%
+
+\makeatother
+
+
+
+
+\setbeamerfont{footnote}{size=\tiny}
+
+
+
+%مشکل فهرست مطالب.
+\makeatletter
+\expandafter\let\csname beamer@@tmpop@subsection in toc@default\endcsname\relax
+\expandafter\let\csname beamer@@tmpop@subsubsection in toc@default\endcsname\relax
+\defbeamertemplate*{subsection in toc}{default}
+{\leavevmode\rightskip=1.5em\inserttocsubsection\par}
+
+\defbeamertemplate*{subsubsection in toc}{default}
+{\leavevmode\normalsize\usebeamerfont{subsection in toc}\rightskip=3em%
+  \usebeamerfont{subsubsection in toc}\inserttocsubsubsection\par}
+\makeatother
+
+
+
+\newcommand\glsT[1]{\gls*{#1} (\glsentryname{#1})}
+\newcommand\glsplT[1]{\glspl*{#1} (\glsentryname{#1})}
+
+\newcommand\glsU[1]{\lr{\gls*{#1} (\glsentrydesc{#1})}}
+
+
+
+%متن بصورت ragged right قرار می‌گیرد. این مشکل به این خاطر وجود دارد که دستور \raggedright در خط ۳۸۱ فایل beamer.cls وجود دارد و مشکل با قرار دادن \raggedleft (رونویسی \raggedrightی که کلاس beamer بصورت پیش‌فرض قرار می‌دهد) حل می‌شود:
+\raggedleft
+
+
+
+
+%قرار دادن لوگو در بالای صفحه
+
+\newcommand{\insertsuppervious}{Directed by:\\Director name}
+
+
+\makeatletter
+\newcommand\titlegraphicii[1]{\def\inserttitlegraphicii{#1}}
+\titlegraphicii{}
+\setbeamertemplate{title page}
+{
+  \vbox{}
+   {\usebeamercolor[fg]{titlegraphic}\inserttitlegraphic\hfill\inserttitlegraphicii\par}
+  \begin{centering}
+    \begin{beamercolorbox}[sep=8pt,center]{institute}
+      \usebeamerfont{institute}\insertinstitute
+    \end{beamercolorbox}
+    \begin{beamercolorbox}[sep=8pt,center]{title}
+      \usebeamerfont{title}\inserttitle\par%
+      \ifx\insertsubtitle\@empty%
+      \else%
+        \vskip0.25em%
+        {\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par}%
+      \fi%     
+    \end{beamercolorbox}%
+    \vskip1em\par
+    \begin{beamercolorbox}[sep=8pt,center]{author}
+      \usebeamerfont{author}\insertauthor
+    \end{beamercolorbox}
+    \begin{beamercolorbox}[sep=8pt,center]{date}
+      \usebeamerfont{date}\insertdate
+    \end{beamercolorbox}%\vskip0.5em
+  \end{centering}
+  %\vfill
+}
+\makeatother
+
+%gets rid of bottom navigation symbols
+\setbeamertemplate{navigation symbols}{}
+
+%برای صفحه به نام خدا
+\defpersianfont\godFont[Scale=18]{Far.Symbol8}
+
+
+
+\makeatletter
+\expandafter\let\csname beamer@@tmpop@section in toc@ball\endcsname\relax
+\defbeamertemplate{section in toc}{ball}
+{\leavevmode\rightskip=2.75ex%
+  \llap{%
+    \normalsize%
+    \begin{pgfpicture}{-1ex}{-0.7ex}{1ex}{1ex}
+      \pgftext{\beamer@usesphere{section number projected}{tocsphere}}
+      \pgftext{%
+        \usebeamerfont*{section number projected}%
+        \usebeamercolor{section number projected}%
+        \color{fg!90!bg}%
+        \inserttocsectionnumber}
+    \end{pgfpicture}%
+    \kern1.25ex}%
+  \inserttocsection\par
+}
+[action]
+{\setbeamerfont{section number projected}{size=\scriptsize}}
+\expandafter\let\csname beamer@@tmpop@subsection in toc@ball\endcsname\relax
+\defbeamertemplate{subsection in toc}{ball}
+{\leavevmode\rightskip=5ex%
+  \llap{\raise0.1ex\beamer@usesphere{subsection number projected}{bigsphere}\kern1ex}%
+  \inserttocsubsection\par%
+}
+\expandafter\let\csname beamer@@tmpop@subsubsection in toc@ball\endcsname\relax
+\defbeamertemplate{subsubsection in toc}{ball}
+{\leavevmode\normalsize\usebeamerfont{subsection in
+    toc}\rightskip=7ex\usebeamerfont{subsubsection in toc}%
+  \llap{\beamer@usesphere{subsubsection number projected}{bigsphere}\kern0.75ex}%
+  \inserttocsubsubsection\par%
+}
+\setbeamertemplate{sections/subsections in toc}[ball]
+\makeatother
+
+
+
+%\newfontfamily\nastali[Scale=5,Script=Parsi,Language=Parsi,Mapping=farsidigits]{Majiid Shaded Mazar}
+
+\newcommand{\indep}{\rotatebox[origin=c]{90}{$\models$}}
