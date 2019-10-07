@@ -1,3 +1,9 @@
+%% Last Update: 20 Sep 2019
+%
+
+%% =================================================================================
+\usepackage{comment}
+
 \input{src/Boostan-Init}
 %تخصیص مقدار به این دو متغیر حتما باید قبل از فراخوانی Boostan-Main باشد. 
 \docStyle{Pres}
@@ -27,7 +33,7 @@
 
 %% =============================================================================
 %تعریف دستور frametitle برای قراردادن عنوان اسلایدها
-\defpersianfont\titlefontr[Scale=1.6]{IRNazanin}
+\defpersianfont\titlefontr[Scale=1.7]{IRNazanin}
 \newcommand{\frametitle}[1]{
 \begin{tikzpicture}[remember picture,overlay]
 \node[fill=RoyalPurple!80,rounded corners=5mm,white, minimum height=1.5cm, minimum width={\paperwidth*0.99}] at ([yshift=-1cm]current page.north) {{\textbf{\rl{\titlefontr#1}}}};
@@ -45,9 +51,42 @@
 \fancyfoot[L]{\circled{\thepage}}
 \fancyfootoffset{0.5cm}
 
+
 %% ===============================================================================
 %افزایش اندازه فرمول‌ها
 \DeclareMathSizes{10}{18}{16}{15}   % For size 10 text
 \DeclareMathSizes{11}{16}{14}{13}   % For size 11 text
 \DeclareMathSizes{12}{18}{16}{15}  % For size 12 text
+\DeclareMathSizes{17.28}{22}{16}{15}   % For size 17.28 text
 
+
+%% ===============================================================================
+%افزایش اندازه فونت شماره footnote
+\makeatletter
+\bidi@appto{\LTRfoottextfont}{\Large}
+\makeatother
+
+
+%% ===============================================================================
+%برای تمایزگذاری محیط ‎Manual در هر صفحه
+\newif\ifshowPresNote
+\showPresNotetrue
+
+\newenvironment{presNote}
+{
+\clearpage
+\begin{tikzpicture}[remember picture, overlay]
+\draw [line width=3mm,Orange]
+(current page.south west)--++(15,0);
+\end{tikzpicture}
+\par
+\vskip -20mm
+}
+{}
+
+
+%% ===============================================================================
+%تعریف چند متغیر
+ % comment out to hide answers
+\newif\ifMyNote
+\MyNotetrue % comment out to hide answers

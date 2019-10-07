@@ -1,4 +1,4 @@
-%% Last Update: 25 Jul 2019
+%% Last Update: 22 Aug 2019
 %
 
 %% ============================================================================
@@ -58,6 +58,10 @@
 {\captionsetup*[figure]{font={stretch=1.7, LARGE}}}{\captionsetup*[figure]{font={stretch=1.7,small}}}
 \makeatother
 
+\makeatletter
+\g@addto@macro\@floatboxreset\centering
+\makeatother
+
 
 %% ===============================================================================
 % بازنویسی محیط جدول
@@ -94,9 +98,19 @@
 
 %% ===============================================================================
 %تنظیم فاصله بین خطوط
+\makeatletter
+\ifthenelse{\equal{\@docStyle}{Pres}}
+{
+\newcommand{\BaseLineSpreadForList}{1.4}
+\newcommand{\BaseLineSpreadFA}{2.2}
+\linespread{\BaseLineSpreadFA}
+}
+{
 \newcommand{\BaseLineSpreadForList}{1.1}
 \newcommand{\BaseLineSpreadFA}{1.9}
 \linespread{\BaseLineSpreadFA}
+}
+\makeatother
 
 %\makeatletter
 %\bidi@AtBeginEnvironment{latin}{\linespread{1.7}}
@@ -114,7 +128,7 @@
 	\pagestyle{plain}
 	\pagenumbering{arabic}
 	\SetWatermarkText{}
-     \ifthenelse{\equal{\@docStyle}{Pres}}{\relscale{1.7}}{}
+     \ifthenelse{\equal{\@docStyle}{Pres}}{\LARGE}{}
 }{%
 	\endolddocument
 }%
@@ -173,37 +187,46 @@
 }
 %% در دستورات زیر محیط فهرست اشکال باز تعریف شده و اولا این محیط به bookmark اضافه شده و ثانیا مشکل صفحات اضافی حل شده است. ثالثا فاصله خطوط برای زیبایی در این 
 %% محیط اندکی کم شده است، ولی دوباره بعد از آوردن این محیط به حالت اولیه برگشته است. در ضمن از شماره گذاری حرفی برای این محیط استفاده شده است. 
+\makeatletter
 \let\Oldlistoffigures\listoffigures
 \renewcommand{\listoffigures}{
 	\cleardoublepage
 	\phantomsection
-	\addcontentsline{toc}{chapter}{فهرست اشکال}
+	\ifthenelse{\equal{\@docStyle}{Pres}}
+	{\addcontentsline{toc}{section}{فهرست اشکال}}
+	{\addcontentsline{toc}{chapter}{فهرست اشکال}}
 	\lofimagetrue
 	\Oldlistoffigures\clearpage
 	\lofimagefalse
 }%
-
+\makeatother
 
 %% ===============================================================================
 % در دستورات زیر محیط فهرست جداول باز تعریف شده و اولا این محیط به bookmark اضافه شده و ثانیا مشکل صفحات اضافی حل شده است. ثالثا فاصله خطوط برای زیبایی در این 
 % محیط اندکی کم شده است، ولی دوباره بعد از آوردن این محیط به حالت اولیه برگشته است. در ضمن از شماره گذاری حرفی برای این محیط استفاده شده است. 
+\makeatletter
 \let\Oldlistoftables\listoftables
 \renewcommand{\listoftables}{
 	\cleardoublepage
 	\phantomsection
-	\addcontentsline{toc}{chapter}{فهرست جداول}
+	\ifthenelse{\equal{\@docStyle}{Pres}}
+	{\addcontentsline{toc}{section}{فهرست جداول}}
+	{\addcontentsline{toc}{chapter}{فهرست جداول}}
 	\Oldlistoftables\clearpage
 }%
-
+\makeatother
 
 %% =================================================================================
-% دستور برای قرار دادن فهرست اختصارات 
+% دستور برای قرار دادن فهرست اختصارات
+\makeatletter
 \newcommand{\printabbreviation}{
 	\cleardoublepage
 	\phantomsection
 	\linespread{\BaseLineSpreadForList}
 % با این دستور عنوان فهرست اختصارات به فهرست مطالب اضافه می‌شود. 
-	\addcontentsline{toc}{chapter}{فهرست اختصارات}
+	\ifthenelse{\equal{\@docStyle}{Pres}}
+	{\addcontentsline{toc}{section}{فهرست اختصارات}}
+	{\addcontentsline{toc}{chapter}{فهرست اختصارات}}
 	\setglossarystyle{myAbbrlist}
 	
 	\begin{LTR}
@@ -212,7 +235,7 @@
 	\clearpage
 	\linespread{\BaseLineSpreadFA}
 }%
-
+\makeatother
 \newcommand{\printacronyms}{\printabbreviation}
 
 
@@ -234,6 +257,7 @@
 
 %% ==============================================================================
 %تنظیمات مربوط به مراجع
+\makeatletter
 \let\Oldbibliography\bibliography
 \RenewDocumentCommand{\bibliography}{g g}{
 	\let\appendix\relax
@@ -243,7 +267,9 @@
 	\renewcommand{\bibname}{مراجع}
 	\clearpage
 	\phantomsection
-	\addcontentsline{toc}{chapter}{مراجع}
+	\ifthenelse{\equal{\@docStyle}{Pres}}
+	{\addcontentsline{toc}{section}{مراجع}}
+	{\addcontentsline{toc}{chapter}{مراجع}}
 	\IfValueTF{#2}{
 			\bibliographystyle{#2}
 			\Oldbibliography{#1}
@@ -253,10 +279,11 @@
 	}%%
 	\linespread{\BaseLineSpreadFA}
 }%
-
+\makeatother
 
 %% ==========================================================================
 % در این جا محیط هر دو واژه نامه را باز تعریف کرده ایم، تا اولا مشکل قرار دادن صفحه اضافی را حل کنیم، ثانیا عنوان واژه نامه ها را با دستور addcontentlist وارد فهرست مطالب کرده ایم.
+\makeatletter
 \let\Oldprintglossary\printglossary
 \renewcommand{\printglossary}{
 	\let\appendix\relax
@@ -267,23 +294,27 @@
 % این دستور موجب این می‌شود که واژه‌نامه‌ها در  حالت دو ستونی نوشته شود. 
 	\twocolumn{}
 % با این دستور عنوان واژه‌نامه به فهرست مطالب اضافه می‌شود. 
-	\addcontentsline{toc}{chapter}{واژه نامه انگلیسی به فارسی}
+	\ifthenelse{\equal{\@docStyle}{Pres}}
+	{\addcontentsline{toc}{section}{واژه نامه انگلیسی به فارسی}}
+	{\addcontentsline{toc}{chapter}{واژه نامه انگلیسی به فارسی}}
 	\setglossarystyle{myEntoFa}
 	\Oldprintglossary[type=english]
 	
 	\clearpage
 	\phantomsection
 % با این دستور عنوان واژه‌نامه به فهرست مطالب اضافه می‌شود. 
-	\addcontentsline{toc}{chapter}{واژه نامه فارسی به انگلیسی}
+	\ifthenelse{\equal{\@docStyle}{Pres}}
+	{\addcontentsline{toc}{section}{واژه نامه فارسی به انگلیسی}}
+	{\addcontentsline{toc}{chapter}{واژه نامه فارسی به انگلیسی}}
 	\setglossarystyle{myFaToEn}
 	\Oldprintglossary[type=persian]
 	\onecolumn{}
 	\linespread{\BaseLineSpreadFA}
 }%
-
+\makeatother
 
 %% =============================================================================
-
+\makeatletter
 \let\Oldprintindex\printindex
 \RenewDocumentCommand{\printindex}{g g}{
 	\let\appendix\relax
@@ -292,12 +323,14 @@
 	% با این دستور عنوان این قسمت به (مراجع) تغییر پیدا می‌کند. 
 	\clearpage
 	\phantomsection
-	\addcontentsline{toc}{chapter}{نمایه}
+		\ifthenelse{\equal{\@docStyle}{Pres}}
+	{\addcontentsline{toc}{section}{نمایه}}
+	{\addcontentsline{toc}{chapter}{نمایه}}
 	\Oldprintindex
 	\defaultFont
 	\linespread{\BaseLineSpreadFA}
 }%
-
+\makeatother
 
 %% =============================================================================
 % دستوری برای رنگ‌آمیزی محیط  Item در dinglist

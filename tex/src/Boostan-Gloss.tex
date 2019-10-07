@@ -1,4 +1,4 @@
-%% Last Update: 01 Aug 2019
+%% Last Update: 20 Sep 2019
 %
 
 %% =================================================================================
@@ -57,7 +57,7 @@
 	% در این دستور نحوه نمایش اختصارات می‌آید. در این جا حالت کوچک اختصار در سمت چپ و حالت بزرگ در سمت راست قرار داده شده است، و بین آن با نقطه پر می‌شود. 
 	\renewcommand*{\glossentry}[2]{\noindent\glsentrytext{##1}\dotfill\space \Glsentrylong{##1}\\}
 		% تغییر نام محیط abbreviation به فهرست اختصارات
-	\renewcommand*{\acronymname}{\raggedleft\rl{\textcolor{white}{فهرست اختصارات}}}
+	\renewcommand*{\acronymname}{\raggedleft\rl{فهرست اختصارات}}
 }
 % تعاریف مربوط به تولید واژه نامه و فهرست اختصارات و فهرست نمادها
 %  در این فایل یکسری دستورات عمومی برای وارد کردن واژه‌نامه آمده است.
@@ -67,12 +67,16 @@
 \let\oldglspl\glspl
 
 \renewrobustcmd*{\gls}{\@ifstar\@msgls\@mgls}
-\newcommand*{\@mgls}[1] {\ifthenelse{\equal{\glsentrytype{#1}}{english}}{\oldgls{#1}\glsuseri{f-#1}}{\lr{\oldgls{#1}}}}
-\newcommand*{\@msgls}[1]{\ifthenelse{\equal{\glsentrytype{#1}}{english}}{\glstext{#1}\glsuseri{f-#1}}{\lr{\glsentryname{#1}}\glsuseri{#1}}}
+\newcommand*{\@mgls}[1]%
+{\ifthenelse{\equal{\glsentrytype{#1}}{english}}{\oldgls{#1}\glsuseri{f-#1}}{\lr{\oldgls{#1}}}}
+\newcommand*{\@msgls}[1]%
+{\ifthenelse{\equal{\glsentrytype{#1}}{english}}{\glstext{#1}\glsuseri{f-#1}}{\lr{\glsentryname{#1}}\glsuseri{#1}}}
 
 \renewrobustcmd*{\glspl}{\@ifstar\@msglspl\@mglspl}
-\newcommand*{\@mglspl}[1] {\ifthenelse{\equal{\glsentrytype{#1}}{english}}{\oldglspl{#1}\glsuseri{f-#1}}{\oldglspl{#1}}}
-\newcommand*{\@msglspl}[1]{\ifthenelse{\equal{\glsentrytype{#1}}{english}}{\glsplural{#1}\glsuseri{f-#1}}{\glsentryplural{#1}}\glsuseri{#1}}
+\newcommand*{\@mglspl}[1]%
+{\ifthenelse{\equal{\glsentrytype{#1}}{english}}{\oldglspl{#1}\glsuseri{f-#1}}{\oldglspl{#1}}}
+\newcommand*{\@msglspl}[1]%
+{\ifthenelse{\equal{\glsentrytype{#1}}{english}}{\glsplural{#1}\glsuseri{f-#1}}{\glsentryplural{#1}}\glsuseri{#1}}
 \makeatother
 
 
@@ -85,17 +89,27 @@
 %arg4: این آرگومان حالت جمع arg3 است.
 %برای مثال کلمه Network معادل فارسیش می‌شود، شبکه و حالت جمع آن شبکه‌هااست. و یا کلمه Action معادل فارسیش می‌شود کنش و حالت جمع آن می شود کنش‌ها. لازم به ذکر است که اگر کلمه‌ای حالت جمع ندارد می‌توانید arg4 را خالی بگذارید.
 \newcommand{\newword}[4]{
-	\newglossaryentry{#1}     {type={english},name={\lr{#2}},plural={#4},text={#3},description={}}
+	\newglossaryentry{#1}   {type={english},name={\lr{#2}},plural={#4},text={#3},description={}}
 	\newglossaryentry{f-#1} {type={persian},name={#3},text={\lr{#2}},description={}}
 }
 
 % بر طبق این دستور، در اولین باری که واژه مورد نظر از واژه‌نامه وارد شود، پاورقی زده می‌شود. 
-\defglsentryfmt[english]{\glsgenentryfmt\ifglsused{\glslabel}{}{\LTRfootnote{\glsentryname{\glslabel}}}}
+\makeatletter
+\ifthenelse
+{\equal{\@docStyle}{Pres}}
+{\defglsentryfmt[english]{\glsgenentryfmt\ifglsused{\glslabel}{}{}}}
+{\defglsentryfmt[english]{\glsgenentryfmt\ifglsused{\glslabel}{}{\LTRfootnote{\glsentryname{\glslabel}}}}}
+
 
 % بر طبق این دستور، در اولین باری که واژه مورد نظر از فهرست اختصارات وارد شود، پاورقی زده می‌شود. 
-\defglsentryfmt[acronym]{\glsentryname{\glslabel}\ifglsused{\glslabel}{}{\LTRfootnote{\glsentrydesc{\glslabel}}}}
+\ifthenelse{\equal{\@docStyle}{Pres}}%
+{\defglsentryfmt[acronym]{\glsentryname{\glslabel}\ifglsused{\glslabel}{}{}}}%
+{\defglsentryfmt[acronym]{\glsentryname{\glslabel}\ifglsused{\glslabel}{}{\LTRfootnote{\glsentrydesc{\glslabel}}}}}
+\makeatother
+
 
 %دو دستور که با استفاده از آن علاوه بر این که معادل کلمه قرار داده می‌شود، معادل انگلیسی آن در پرانتز جلوی آن نوشته می‌شود. 
 \newcommand{\mygls}[1]{\gls*{#1} (\glsentryname{#1})}
 \newcommand{\myglspl}[1]{\glspl*{#1} (\glsentryname{#1})}
 \newcommand{\myglsab}[1]{\lr{\gls*{#1} (\glsentrydesc{#1})}}
+

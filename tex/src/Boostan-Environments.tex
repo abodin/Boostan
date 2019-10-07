@@ -1,4 +1,4 @@
-%% Last Update: 25 Jul 2019
+%% Last Update: 13 Sep 2019
 %
 
 %% ====================================================================================
@@ -22,7 +22,7 @@
 \newcommand{\hand}{\item[
 \ifthenelse{\equal{\@docStyle}{Pres}}{\huge}{\Large}\color{blue}\ding{45}]}
 \newcommand{\handO}{\noindent\textcolor{blue}{
-\ifthenelse{\equal{\@docStyle}{Pres}}{\huge}{\LARGE}
+\ifthenelse{\equal{\@docStyle}{Pres}}{\Huge}{\LARGE}
 \ding{45}}\;}
 % برای مواردی که: این موارد شامل .... می شود، توسط عناصر زیر مشخص می شود (شکل یک درخت)
 % برای نوشتن  پارامتر‌ها، 
@@ -567,9 +567,11 @@ theoremseparator={},
 needspace=4\baselineskip
 align=center,
 }
-\mdtheorem[style=theoremstyle]{nttheorem}[theorem]{\hspace*{1pt}قضیه}
-
 \makeatletter
+
+\ifthenelse{\equal{\@docStyle}{Pres}}{\mdtheorem[style=theoremstyle]{nttheorem}[theorem]{\hspace*{1pt}\LARGE قضیه}}
+{\mdtheorem[style=theoremstyle]{nttheorem}[theorem]{\hspace*{1pt}قضیه}}
+
 \newcounter{ntcounter}
 
 \ifthenelse{\equal{\@depRe}{chapter}}{
@@ -582,58 +584,113 @@ align=center,
 		\renewcommand\thentcounter{\arabic{ntcounter}}
 	}
 }
+\makeatother 
 
 
 %% ==========================================================================
-%تعریف محیط ntpoint
-\newenvironment{ntpoint}[1][\empty]{\par\begin{mdframed}[
-hidealllines=true,
-innertopmargin=9pt,
-skipabove=.9\baselineskip,
-innermargin=\dimexpr-\marginparwidth-\marginparsep\relax,
-innerbottommargin=9pt,
-innerrightmargin=5pt,innerleftmargin=5pt,
-backgroundcolor=ntsec,
-  singleextra={
-      \node[
-        overlay,
-        inner ysep=7pt,
-       inner xsep=9pt,
-        anchor=east,
-       % text width=1.2cm,
-       % align=left,
-        minimum height=4ex,
-        fill=nttitle,
-        yshift=-5.2mm,
-        xshift=0mm,
-        %rounded corners=3pt,
-        font=\color{white}\bfseries
-      ] at (P) {\rl{نکته~\thentcounter}};
-        \draw[white,fill=white] ($(P)-(0pt,1.65mm)$) -- ($(P)-(0pt,8.8mm)$) -- ($(P)-(7pt,5.225mm)$) -- cycle;
-      },
-   firstextra={
-      \node[
-       overlay,
-        inner ysep=7pt,
-       inner xsep=9pt,
-        anchor=east,
-       % text width=1.2cm,
-       % align=left,
-        minimum height=4ex,
-        fill=nttitle,
-        yshift=-5.2mm,
-        xshift=0mm,
-        %rounded corners=3pt,
-        font=\color{white}\bfseries
-      ] at (P) {\rl{نکته~\thentcounter}};
-        \draw[white,fill=white] ($(P)-(0pt,1.65mm)$) -- ($(P)-(0pt,8.8mm)$) -- ($(P)-(7pt,5.225mm)$) -- cycle;
-      },
-]
-\linespread{1.5}
-\refstepcounter{ntcounter}
-\textbf{\ifx\empty#1\hspace*{1.9cm}\relax\else\hspace*{1.65cm}(#1)\fi}%\\[.2cm]%
-\noindent\ignorespaces%
-\noindent}{\end{mdframed}\par}
+%تعریف محیط 
+%ntpoint
+\makeatletter
+\ifthenelse{\equal{\@docStyle}{Pres}}{
+	\newenvironment{ntpoint}[1][\empty]{\par\begin{mdframed}[
+	hidealllines=true,
+	innertopmargin=9pt,
+	skipabove=.9\baselineskip,
+	innermargin=\dimexpr-\marginparwidth-\marginparsep\relax,
+	innerbottommargin=9pt,
+	innerrightmargin=5pt,innerleftmargin=5pt,
+	backgroundcolor=ntsec,
+	  singleextra={
+	      \node[
+	        overlay,
+	        inner ysep=7pt,
+	       inner xsep=9pt,
+	        anchor=east,
+	       % text width=1.2cm,
+	       % align=left,
+	        minimum height=4ex,
+	        fill=nttitle,
+	        yshift=-5.2mm,
+	        xshift=0mm,
+	        %rounded corners=3pt,
+	        font=\color{white}\bfseries
+	      ] at (P) {\rl{نکته~\thentcounter}};
+	        \draw[white,fill=white] ($(P)-(0pt,1.65mm)$) -- ($(P)-(0pt,8.8mm)$) -- ($(P)-(7pt,5.225mm)$) -- cycle;
+	      },
+	   firstextra={
+	      \node[
+	       overlay,
+	        inner ysep=7pt,
+	       inner xsep=9pt,
+	        anchor=east,
+	       % text width=1.2cm,
+	       % align=left,
+	        minimum height=4ex,
+	        fill=nttitle,
+	        yshift=-5.2mm,
+	        xshift=0mm,
+	        %rounded corners=3pt,
+	        font=\color{white}\bfseries
+	      ] at (P) {\rl{نکته~\thentcounter}};
+	        \draw[white,fill=white] ($(P)-(0pt,1.65mm)$) -- ($(P)-(0pt,8.8mm)$) -- ($(P)-(7pt,5.225mm)$) -- cycle;
+	      },
+	]
+	\linespread{1.5}
+	\refstepcounter{ntcounter}
+	\textbf{\ifx\empty#1\hspace*{2.4cm}\relax\else\hspace*{1.95cm}(#1)\fi}%\\[.2cm]%
+	\noindent\ignorespaces%
+	\noindent}{\end{mdframed}\par}
+}
+{
+	\newenvironment{ntpoint}[1][\empty]{\par\begin{mdframed}[
+	hidealllines=true,
+	innertopmargin=9pt,
+	skipabove=.9\baselineskip,
+	innermargin=\dimexpr-\marginparwidth-\marginparsep\relax,
+	innerbottommargin=9pt,
+	innerrightmargin=5pt,innerleftmargin=5pt,
+	backgroundcolor=ntsec,
+	  singleextra={
+	      \node[
+	        overlay,
+	        inner ysep=7pt,
+	       inner xsep=9pt,
+	        anchor=east,
+	       % text width=1.2cm,
+	       % align=left,
+	        minimum height=4ex,
+	        fill=nttitle,
+	        yshift=-5.2mm,
+	        xshift=0mm,
+	        %rounded corners=3pt,
+	        font=\color{white}\bfseries
+	      ] at (P) {\rl{نکته~\thentcounter}};
+	        \draw[white,fill=white] ($(P)-(0pt,1.65mm)$) -- ($(P)-(0pt,8.8mm)$) -- ($(P)-(7pt,5.225mm)$) -- cycle;
+	      },
+	   firstextra={
+	      \node[
+	       overlay,
+	        inner ysep=7pt,
+	       inner xsep=9pt,
+	        anchor=east,
+	       % text width=1.2cm,
+	       % align=left,
+	        minimum height=4ex,
+	        fill=nttitle,
+	        yshift=-5.2mm,
+	        xshift=0mm,
+	        %rounded corners=3pt,
+	        font=\color{white}\bfseries
+	      ] at (P) {\rl{نکته~\thentcounter}};
+	        \draw[white,fill=white] ($(P)-(0pt,1.65mm)$) -- ($(P)-(0pt,8.8mm)$) -- ($(P)-(7pt,5.225mm)$) -- cycle;
+	      },
+	]
+	\linespread{1.5}
+	\refstepcounter{ntcounter}
+	\textbf{\ifx\empty#1\hspace*{2.2cm}\relax\else\hspace*{1.85cm}(#1)\fi}%\\[.2cm]%
+	\noindent\ignorespaces%
+	\noindent}{\end{mdframed}\par}
+}
 \ifthenelse{\equal{\@depRe}{none}}{}{\@addtoreset{ntcounter}{\@depRe}}
 \makeatother
 
@@ -750,57 +807,112 @@ middlelinecolor=ForestGreen,
 
 %% ======================================================================
 %
-\newenvironment{ntdefinition}[1][\empty]{\par\begin{mdframed}[roundcorner=10pt,align=right,
-skipabove=.5\baselineskip,
-skipbelow=.3\baselineskip,
-innertopmargin=10pt,
-innerbottommargin=12pt,
-usetwoside=false,
-innerrightmargin=10pt,
-rightmargin=3pt,
-innerleftmargin=0pt,
-%outermargin=1pt,
-%backgroundcolor=brown!25,
-topline=false,bottomline=false,leftline=false,
-middlelinewidth=8pt,
-%splittopskip=-15pt,
-splitbottomskip=5pt,
-middlelinecolor=ntdef,
-  singleextra={
-      \node[
-        overlay,
-        outer sep=0pt,
-        anchor=north west,
-        text width=2.1cm,
-        minimum height=4ex,
-        fill=ntdef,
-        yshift=-2mm,
-        xshift=-21mm,
-        %rounded corners=3pt,
-        font=\color{white}\bfseries
-      ]     at (P) {\rl{تعریف~\thedefinition}};
-      },
-   firstextra={
-      \node[
-        overlay,
-        outer sep=0pt,
-        anchor=north west,
-        text width=2.1cm,
-        minimum height=4ex, 
-        fill=ntdef,
-        yshift=-2mm,
-        xshift=-21mm,
-        %rounded corners=3pt,
-        font=\color{white}\bfseries
-      ] at (P) {\rl{تعریف~\thedefinition}};
-      },
-]
-\linespread{1.5}
-\refstepcounter{definition}
-\hspace*{1.8cm}\textbf{\ifx\empty#1\space\relax\else\space\textcolor{nttitle}{#1}\space \ \fi}%
-%\noindent\ignorespaces%
-}{\end{mdframed}\par}
-
+\makeatletter
+\ifthenelse{\equal{\@docStyle}{Pres}}{
+	\newenvironment{ntdefinition}[1][\empty]{\par\begin{mdframed}[roundcorner=10pt,align=right,
+	skipabove=.5\baselineskip,
+	skipbelow=.3\baselineskip,
+	innertopmargin=10pt,
+	innerbottommargin=12pt,
+	usetwoside=false,
+	innerrightmargin=10pt,
+	rightmargin=3pt,
+	innerleftmargin=0pt,
+	%outermargin=1pt,
+	%backgroundcolor=brown!25,
+	topline=false,bottomline=false,leftline=false,
+	middlelinewidth=8pt,
+	%splittopskip=-15pt,
+	splitbottomskip=5pt,
+	middlelinecolor=ntdef,
+	  singleextra={
+	      \node[
+	        overlay,
+	        outer sep=0pt,
+	        anchor=north west,
+	        text width=2.3cm,
+	        minimum height=4ex,
+	        fill=ntdef,
+	        yshift=-2mm,
+	        xshift=-21mm,
+	        %rounded corners=3pt,
+	        font=\color{white}\bfseries
+	      ]     at (P) {\rl{تعریف~\thedefinition}};
+	      },
+	   firstextra={
+	      \node[
+	        overlay,
+	        outer sep=0pt,
+	        anchor=north west,
+	        text width=2.3cm,
+	        minimum height=4ex, 
+	        fill=ntdef,
+	        yshift=-2mm,
+	        xshift=-21mm,
+	        %rounded corners=3pt,
+	        font=\color{white}\bfseries
+	      ] at (P) {\rl{تعریف~\thedefinition}};
+	      },
+	]
+	\linespread{1.5}
+	\refstepcounter{definition}
+	\hspace*{2.5cm}\textbf{\ifx\empty#1\space\relax\else\space\textcolor{nttitle}{#1}\space \ \fi}
+	%\noindent\ignorespaces%
+	}{\end{mdframed}\par}
+}
+{
+	\newenvironment{ntdefinition}[1][\empty]{\par\begin{mdframed}[roundcorner=10pt,align=right,
+	skipabove=.5\baselineskip,
+	skipbelow=.3\baselineskip,
+	innertopmargin=10pt,
+	innerbottommargin=12pt,
+	usetwoside=false,
+	innerrightmargin=10pt,
+	rightmargin=3pt,
+	innerleftmargin=0pt,
+	%outermargin=1pt,
+	%backgroundcolor=brown!25,
+	topline=false,bottomline=false,leftline=false,
+	middlelinewidth=8pt,
+	%splittopskip=-15pt,
+	splitbottomskip=5pt,
+	middlelinecolor=ntdef,
+	  singleextra={
+	      \node[
+	        overlay,
+	        outer sep=0pt,
+	        anchor=north west,
+	        text width=2.1cm,
+	        minimum height=4ex,
+	        fill=ntdef,
+	        yshift=-2mm,
+	        xshift=-21mm,
+	        %rounded corners=3pt,
+	        font=\color{white}\bfseries
+	      ]     at (P) {\rl{تعریف~\thedefinition}};
+	      },
+	   firstextra={
+	      \node[
+	        overlay,
+	        outer sep=0pt,
+	        anchor=north west,
+	        text width=2.1cm,
+	        minimum height=4ex, 
+	        fill=ntdef,
+	        yshift=-2mm,
+	        xshift=-21mm,
+	        %rounded corners=3pt,
+	        font=\color{white}\bfseries
+	      ] at (P) {\rl{تعریف~\thedefinition}};
+	      },
+	]
+	\linespread{1.5}
+	\refstepcounter{definition}
+	\hspace*{1.9cm}\textbf{\ifx\empty#1\space\relax\else\space\textcolor{nttitle}{#1}\space \ \fi}
+	%\noindent\ignorespaces%
+	}{\end{mdframed}\par}
+}
+\makeatother
 
 %% ==========================================================================
 % تعریف محیط ntsolution
