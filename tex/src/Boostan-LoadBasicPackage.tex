@@ -1,4 +1,4 @@
-%% Last Update: 22Aug 2019
+%% Last Update: 03 May 2020
 %
 
 %% =========================================================================================================================
@@ -9,8 +9,8 @@
 %% د) بسته listings باید حتما قبل از  hyperref فراخوانی شود. 
 
 %
-\usepackage{etex}
-\reserveinserts{28}
+%\usepackage{etex}
+%\reserveinserts{28}
 
 % تمام بسته های مورد نیاز برای  کارهای ریاضیاتی به صورت کامل اینجا آورده شده است در صورتی که بخواهید از بسته های دیگر استفاده کنید بهتر است که آن‌ها را به گونه ای انتخاب کنید که با این بسته ها تداخل نداشته باشد. به نظر من استفاده از همین بسته ها کافی است.
 % amsthm: It introduces the proof environment and the \theoremstyle command.
@@ -46,7 +46,7 @@
 \usepackage[usenames,dvipsnames]{xcolor}
 
 % بسته ای برای وارد کردن Watermarking
-\usepackage{draftwatermark}
+%\usepackage{draftwatermark}
 
 %برای قراردادن QR
 \usepackage{qrcode}
@@ -66,7 +66,9 @@
 \setlength{\abovetopsep}{4pt}
 
 % بسته‌ای برای رسم اشکال و تصاویر با Latex
+\usepackage{framed}
 \usepackage{tikz}
+\usetikzlibrary{calc}
 
 %بسته لازم برای تعریف برخی محیط‌ها به مانند note، refer, point و ...
 \RequirePackage[framemethod=TikZ]{mdframed}

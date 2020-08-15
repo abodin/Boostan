@@ -1,8 +1,12 @@
-\input{src/Boostan-Init}
+\ifx\MyPath\undefined
+\newcommand{\MyPath}{}
+\fi
+
+\input{\MyPath src/Boostan-Init}
 %تخصیص مقدار به این دو متغیر حتما باید قبل از فراخوانی Boostan-Main باشد. 
 \docStyle{Letter}
 \depRe{none}
-\input{src/Boostan-Main}
+\input{\MyPath src/Boostan-Main}
 
 % تعاریف برای استایل‌های کلی: مثل حل تکلیف، گزارش و ... 
 % دستورات اولیه برای ساختار تکالیف

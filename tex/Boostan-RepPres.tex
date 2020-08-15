@@ -1,15 +1,19 @@
-%% Last Update: 20 Sep 2019
+%% Last Update: 04 May 2020
 %
+
+\ifx\MyPath\undefined
+\newcommand{\MyPath}{}
+\fi
 
 %% =================================================================================
 \usepackage{comment}
 
-\input{src/Boostan-Init}
+\input{\MyPath src/Boostan-Init}
 %تخصیص مقدار به این دو متغیر حتما باید قبل از فراخوانی Boostan-Main باشد. 
 \docStyle{Pres}
 \titleStyle{presentation}
 \depRe{none}
-\input{src/Boostan-Main}
+\input{\MyPath src/Boostan-Main}
 
 
 %% ================================================================================
@@ -32,11 +36,22 @@
 
 
 %% =============================================================================
+%فونت شروع بخش‌ها
+\newfontfamily\secTitFont[Scale=3]{B Kamran Outline}
+\newcommand{\putSec}[1]{
+\clearpage
+\addcontentsline{toc}{section}{#1}
+\vspace*{\fill}
+\begin{center}\secTitFont\color{Plum}#1\end{center}
+\vspace*{\fill}
+}
+
+%% =============================================================================
 %تعریف دستور frametitle برای قراردادن عنوان اسلایدها
 \defpersianfont\titlefontr[Scale=1.7]{IRNazanin}
 \newcommand{\frametitle}[1]{
 \begin{tikzpicture}[remember picture,overlay]
-\node[fill=RoyalPurple!80,rounded corners=5mm,white, minimum height=1.5cm, minimum width={\paperwidth*0.99}] at ([yshift=-1cm]current page.north) {{\textbf{\rl{\titlefontr#1}}}};
+\node[fill=RoyalPurple!80,rounded corners=5mm,text=white, minimum height=1.5cm, minimum width={\paperwidth*0.99},fill=RoyalPurple!60] at ([yshift=-1cm]current page.north) {{\textbf{\rl{\titlefontr#1}}}};
 \end{tikzpicture}\par%
 }
 \newcommand{\continue}{(ادامه)}
@@ -44,12 +59,14 @@
 
 %% ===============================================================================
 %شماره‌گذاری اسلایدها
-\newcommand*\circled[1]{\tikz[baseline]{\node[shape=circle,draw=none,inner sep=4pt, draw=RoyalPurple!60, fill=RoyalPurple!60, white] (char) {\Large #1};}}
+\newcommand*\circled[1]{\tikz[baseline]{\node[shape=circle,draw=none,inner sep=4pt, draw=RoyalPurple!80,fill=Plum!80,text=white] (char) {\Large #1};}}
 \pagestyle{fancy}
 \fancyhf{}
 \renewcommand{\headrulewidth}{0pt}
 \fancyfoot[L]{\circled{\thepage}}
 \fancyfootoffset{0.5cm}
+
+\newcommand*\footBox[1]{\tikz[baseline]{\node[shape=rectangle,draw=none,inner sep=4pt,  fill=RoyalPurple!60, white,rounded corners=2mm] (char2) {\Large #1};}}
 
 
 %% ===============================================================================
@@ -76,8 +93,7 @@
 {
 \clearpage
 \begin{tikzpicture}[remember picture, overlay]
-\draw [line width=3mm,Orange]
-(current page.south west)--++(15,0);
+\draw [line width=3mm,Orange](current page.south west)--++(15,0);
 \end{tikzpicture}
 \par
 \vskip -20mm
@@ -90,3 +106,65 @@
  % comment out to hide answers
 \newif\ifMyNote
 \MyNotetrue % comment out to hide answers
+
+
+%% ===============================================================================
+% put color to \boxed math command
+\makeatletter
+\renewcommand{\boxed}[2]{%
+\tikz[baseline]\node [rectangle, minimum width=1ex,rounded corners=3mm,draw,fill=#1,draw=none,anchor=base] {$\displaystyle#2$};}
+ \makeatother
+
+
+%% ===============================================================================
+%تغییر حاشیه معادلات
+\AtBeginDocument{\setlength\abovedisplayskip{4pt}}
+\AtBeginDocument{\setlength\belowdisplayskip{4pt}}
+
+
+%% ===============================================================================
+
+\usetikzlibrary{decorations.pathmorphing,calc,shadows.blur,shadings}
+\pgfmathsetseed{1} % To have predictable results
+% Define a background layer, in which the parchment shape is drawn
+\pgfdeclarelayer{background}
+\pgfsetlayers{background,main}
+
+% This is the base for the fractal decoration. It takes a random point between the start and end, and
+% raises it a random amount, thus transforming a segment into two, connected at that raised point
+% This decoration can be applied again to each one of the resulting segments and so on, in a similar
+% way of a Koch snowflake.
+\pgfdeclaredecoration{irregular fractal line}{init}
+{
+  \state{init}[width=\pgfdecoratedinputsegmentremainingdistance]
+  {
+    \pgfpathlineto{\pgfpoint{random*\pgfdecoratedinputsegmentremainingdistance}{(random*\pgfdecorationsegmentamplitude-0.02)*\pgfdecoratedinputsegmentremainingdistance}}
+    \pgfpathlineto{\pgfpoint{\pgfdecoratedinputsegmentremainingdistance}{0pt}}
+  }
+}
+
+% define some styles
+\tikzset{
+   paper/.style={draw=black!10, blur shadow, 
+                 lower left=black!20, upper left=black!15, upper right=white, lower right=black!10},
+   irregular border/.style={decoration={irregular fractal line, amplitude=0.2},
+           decorate,
+     },
+   ragged border/.style={ decoration={random steps, segment length=7mm, amplitude=2mm},
+           decorate,
+   }
+}
+
+% Macro to draw the shape behind the text, when it fits completly in the
+% page
+\def\tornpaper#1{
+\tikz{
+  \node[inner sep=1em] (A) {#1};  % Draw the text of the node
+  \begin{pgfonlayer}{background}  % Draw the shape behind
+  \fill[paper] % recursively decorate the bottom border
+        decorate[irregular border]{decorate{decorate{decorate{decorate[ragged border]{
+        ($(A.south east) - (0, random*5mm)$) -- ($(A.south west) - (0, random*5mm)$)
+        }}}}}
+        -- (A.north west) -- (A.north east) -- cycle;
+  \end{pgfonlayer}}
+}

@@ -26,7 +26,8 @@
 \ding{45}}\;}
 % برای مواردی که: این موارد شامل .... می شود، توسط عناصر زیر مشخص می شود (شکل یک درخت)
 % برای نوشتن  پارامتر‌ها، 
-\newcommand{\tree}{\item[\Large\color{ForestGreen}\ding{171}]}
+\newcommand{\tree}{\item[
+\ifthenelse{\equal{\@docStyle}{Pres}}{\huge}{\Large}\color{ForestGreen}\ding{171}]}
 \newcommand{\treeO}{\noindent\textcolor{ForestGreen}{
 \ifthenelse{\equal{\@docStyle}{Pres}}{\Huge}{\Large}\ding{171}}\;}
 % برای این که چند مورد را تعریف کنیم (علامت دست که دو گرفته)
@@ -567,9 +568,33 @@ theoremseparator={},
 needspace=4\baselineskip
 align=center,
 }
+
+\mdfdefinestyle{theoremstylePres}{%
+hidealllines=true,
+frametitlerule=false,
+innerrightmargin=5pt,
+innerleftmargin=5pt,
+frametitlerulewidth=0pt,
+frametitlefont=\color{white}\large\bfseries,
+linewidth=2pt,%
+frametitlerule=true,%
+frametitlebackgroundcolor=nttitle,
+innertopmargin=\topskip,
+skipabove=.7\baselineskip,
+skipbelow=1.8\baselineskip,
+backgroundcolor=nttitle!15,
+startinnercode={\baselineskip=1.7cm},
+startcode={\vspace{.8\topsep}},
+splitbottomskip=10pt,
+theoremseparator={},
+needspace=4\baselineskip
+align=center,
+}
+
 \makeatletter
 
-\ifthenelse{\equal{\@docStyle}{Pres}}{\mdtheorem[style=theoremstyle]{nttheorem}[theorem]{\hspace*{1pt}\LARGE قضیه}}
+\ifthenelse{\equal{\@docStyle}{Pres}}
+{\mdtheorem[style=theoremstylePres]{nttheorem}[theorem]{\hspace*{1pt}\LARGE قضیه}}
 {\mdtheorem[style=theoremstyle]{nttheorem}[theorem]{\hspace*{1pt}قضیه}}
 
 \newcounter{ntcounter}
@@ -698,55 +723,109 @@ align=center,
 %% ==========================================================================
 % تعریف محیط ntexample
 \makeatletter
-\newenvironment{ntexample}[1][\empty]{\par\begin{mdframed}[roundcorner=10pt,,align=right,skipabove=.5\baselineskip,
-skipbelow=.3\baselineskip,
-innertopmargin=10pt,
-innerbottommargin=12pt,
-usetwoside=false,
-innerrightmargin=10pt,
-rightmargin=3pt,
-innerleftmargin=0pt,
-%outermargin=1pt,
-%backgroundcolor=brown!25,
- topline=false,bottomline=false,leftline=false,
-middlelinewidth=8pt,
-%splittopskip=-15pt,
-splitbottomskip=5pt,
-middlelinecolor=ntexp,
-  singleextra={
-      \node[
-        overlay,
-        outer sep=0pt,
-        anchor=north west,
-        text width=2.1cm,
-        minimum height=4ex,
-        fill=ntexp,
-        yshift=-2mm,
-        xshift=-21mm,
-        %rounded corners=3pt,
-        font=\color{white}\bfseries
-      ] at (P) {\rl{مثال~\theexample}};
-      },
-   firstextra={
-      \node[
-        overlay,
-        outer sep=0pt,
-        anchor=north west,
-        text width=2.1cm,
-        minimum height=4ex, 
-        fill=ntexp,
-        yshift=-2mm,
-        xshift=-21mm,
-        %rounded corners=3pt,
-        font=\color{white}\bfseries
-      ] at (P) {\rl{مثال~\theexample}};
-      },
-]
-\linespread{1.5}
-\refstepcounter{example}
-\hspace*{1.8cm}\textbf{\ifx\empty#1\space\relax\else\space\textcolor{nttitle}{#1}\space \ \fi}%\\[.2cm]%
-%\noindent\ignorespaces%
-}{\end{mdframed}\par}
+\ifthenelse{\equal{\@docStyle}{Pres}}
+{
+	\newenvironment{ntexample}[1][\empty]{\par\begin{mdframed}[roundcorner=10pt,,align=right,skipabove=.5\baselineskip,
+	skipbelow=.3\baselineskip,
+	innertopmargin=10pt,
+	innerbottommargin=12pt,
+	usetwoside=false,
+	innerrightmargin=10pt,
+	rightmargin=3pt,
+	innerleftmargin=0pt,
+	%outermargin=1pt,
+	%backgroundcolor=brown!25,
+	 topline=false,bottomline=false,leftline=false,
+	middlelinewidth=8pt,
+	%splittopskip=-15pt,
+	splitbottomskip=5pt,
+	middlelinecolor=ntexp,
+	  singleextra={
+	      \node[
+		overlay,
+		outer sep=0pt,
+		anchor=north west,
+		text width=2.4cm,
+		minimum height=4ex,
+		fill=ntexp,
+		yshift=-2mm,
+		xshift=-21mm,
+		%rounded corners=3pt,
+		font=\color{white}\bfseries
+	      ] at (P) {\rl{مثال~\theexample}};
+	      },
+	   firstextra={
+	      \node[
+		overlay,
+		outer sep=0pt,
+		anchor=north west,
+		text width=2.4cm,
+		minimum height=4ex, 
+		fill=ntexp,
+		yshift=-2mm,
+		xshift=-21mm,
+		%rounded corners=3pt,
+		font=\color{white}\bfseries
+	      ] at (P) {\rl{مثال~\theexample}};
+	      },
+	]
+	\linespread{1.5}
+	\refstepcounter{example}
+	\hspace*{1.95cm}\textbf{\ifx\empty#1\space\relax\else\space\textcolor{nttitle}{#1}\space \ \fi}%\\[.2cm]%
+	%\noindent\ignorespaces%
+	}{\end{mdframed}\par}
+}
+{
+	\newenvironment{ntexample}[1][\empty]{\par\begin{mdframed}[roundcorner=10pt,,align=right,skipabove=.5\baselineskip,
+	skipbelow=.3\baselineskip,
+	innertopmargin=10pt,
+	innerbottommargin=12pt,
+	usetwoside=false,
+	innerrightmargin=10pt,
+	rightmargin=3pt,
+	innerleftmargin=0pt,
+	%outermargin=1pt,
+	%backgroundcolor=brown!25,
+	 topline=false,bottomline=false,leftline=false,
+	middlelinewidth=8pt,
+	%splittopskip=-15pt,
+	splitbottomskip=5pt,
+	middlelinecolor=ntexp,
+	  singleextra={
+	      \node[
+		overlay,
+		outer sep=0pt,
+		anchor=north west,
+		text width=2.1cm,
+		minimum height=4ex,
+		fill=ntexp,
+		yshift=-2mm,
+		xshift=-21mm,
+		%rounded corners=3pt,
+		font=\color{white}\bfseries
+	      ] at (P) {\rl{مثال~\theexample}};
+	      },
+	   firstextra={
+	      \node[
+		overlay,
+		outer sep=0pt,
+		anchor=north west,
+		text width=2.1cm,
+		minimum height=4ex, 
+		fill=ntexp,
+		yshift=-2mm,
+		xshift=-21mm,
+		%rounded corners=3pt,
+		font=\color{white}\bfseries
+	      ] at (P) {\rl{مثال~\theexample}};
+	      },
+	]
+	\linespread{1.5}
+	\refstepcounter{example}
+	\hspace*{1.8cm}\textbf{\ifx\empty#1\space\relax\else\space\textcolor{nttitle}{#1}\space \ \fi}%\\[.2cm]%
+	%\noindent\ignorespaces%
+	}{\end{mdframed}\par}
+}
 \makeatother
 \def\ntexampleautorefname{مثال}
 

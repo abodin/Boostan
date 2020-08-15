@@ -1,4 +1,4 @@
-%% Last Update: 20 Sep 2019
+%% Last Update: 29 Oct 2019
 %
 
 %% =================================================================================
@@ -24,7 +24,7 @@
 \newglossarystyle{myFaToEn}{%
 	\renewenvironment{theglossary}{}{}
 	\renewcommand*{\glsgroupskip}{\vskip 10mm}
-	\renewcommand*{\glsgroupheading}[1]{\subsection*{\glsgetgrouptitle{##1}}}
+	\renewcommand*{\glsgroupheading}[1]{\subsection*{\rl{\glsgetgrouptitle{##1}}\\}}
 	\renewcommand*{\glossentry}[2]{\noindent\glsentryname{##1}\dotfill\space\glsentrytext{##1}\\}
 }
 
@@ -42,7 +42,7 @@
 % عنوان بخش همان نام حرفی است که هر واژه در آن گروه با آن شروع شده است. 
 \renewenvironment{theglossary}{}{}
 \renewcommand*{\glsgroupskip}{\vskip 10mm}
-\renewcommand*{\glsgroupheading}[1]{\begin{LTR}\subsection*{\glsgetgrouptitle{##1}}\end{LTR}}
+\renewcommand*{\glsgroupheading}[1]{\begin{latin}\subsection*{\glsgetgrouptitle{##1}}\end{latin}}
 % در این دستور نحوه نمایش واژه‌ها می‌آید. در این جا واژه فارسی در سمت راست و واژه انگلیسی در سمت چپ قرار داده شده است، و بین آن با نقطه پر می‌شود. 
 \renewcommand*{\glossentry}[2]{\noindent\glsentrytext{##1}\dotfill\space \glsentryname{##1}\\}
 }
@@ -53,7 +53,7 @@
 	% عنوان بخش همان نام حرفی است که هر اختصار در آن گروه با آن شروع شده است. 
 	\renewenvironment{theglossary}{}{}
 	\renewcommand*{\glsgroupskip}{\vskip 10mm}
-	\renewcommand*{\glsgroupheading}[1]{\begin{LTR}\subsection*{\glsgetgrouptitle{##1}}\end{LTR}}
+	\renewcommand*{\glsgroupheading}[1]{\begin{latin}\subsection*{\glsgetgrouptitle{##1}}\end{latin}}
 	% در این دستور نحوه نمایش اختصارات می‌آید. در این جا حالت کوچک اختصار در سمت چپ و حالت بزرگ در سمت راست قرار داده شده است، و بین آن با نقطه پر می‌شود. 
 	\renewcommand*{\glossentry}[2]{\noindent\glsentrytext{##1}\dotfill\space \Glsentrylong{##1}\\}
 		% تغییر نام محیط abbreviation به فهرست اختصارات

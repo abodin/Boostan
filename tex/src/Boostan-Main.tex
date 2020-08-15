@@ -1,27 +1,27 @@
-%% Last Update: 22 Aug 2019
+%% Last Update: 29 Oct 2019
 %
 
 %% ============================================================================
 % فایل  Boostan-LoadBasicPackage یکسری بسته‌های پایه را به استایل اضافه می‌کند. اگر بسته‌ای وجود دارد که در اکثر نوشتارهای خود از آن استفاده می‌کنید، بهتر است آن را در این فایل وارد کنید. 
-\input{src/Boostan-LoadBasicPackage}
+\input{\MyPath src/Boostan-LoadBasicPackage}
 
 % یکسری فر امین اصلی نیز در فایل Boostan-BasicCommand ارایه شده است. 
-\input{src/Boostan-BasicCommand}
+\input{\MyPath src/Boostan-BasicCommand}
 
 % تنظیمات مربوط به بسته‌ها
-\input{src/Boostan-PackageSettings}
+\input{\MyPath src/Boostan-PackageSettings}
 
 % فایل  Environments  در برگیرنده تعریف یکسری محیط نوین است. 
-\input{src/Boostan-Environments}
+\input{\MyPath src/Boostan-Environments}
 
 % فایل  ChapterStyle  در برگیرنده تعریف یکسری استایل برای فصل‌ها است. 
-\input{src/Boostan-ChapterStyle}
+\input{\MyPath src/Boostan-ChapterStyle}
 
 % تعریف یکسری استایل برای صفحه شروع 
-\input{src/Boostan-TitleStyle}
+\input{\MyPath src/Boostan-TitleStyle}
 
 %% دستورات لازم برای واژه‌نامه‌ها، فهرست اختصارات و فهرست نمادها در  فایل (Gloss) آورده شده است.
-\input{src/Boostan-Gloss}
+\input{\MyPath src/Boostan-Gloss}
 
 
 %% ================================================================================
@@ -66,15 +66,28 @@
 %% ===============================================================================
 % بازنویسی محیط جدول
 \makeatletter
-\bidi@AtBeginEnvironment{table}{
-\def\@floatboxreset{\reset@font\centering
-	\settextfont[Scale=1.25]{IRNazanin} 
-	\setlatintextfont[Scale=1]{Linux Libertine}
-\@setminipage}%
+\ifthenelse{\equal{\@docStyle}{Pres}}
+{%
+	\bidi@AtBeginEnvironment{table}{
+	\def\@floatboxreset{\reset@font\centering
+		\settextfont[Scale=2.25]{IRNazanin} 
+		\setlatintextfont[Scale=1.8]{Linux Libertine}
+% تنظیم کننده فاصله بین خطوط (ردیف‌ها) در یک جدول
+		\renewcommand{\arraystretch}{2.5}
+	\@setminipage}%
+	}
+}{%
+	\bidi@AtBeginEnvironment{table}{
+	\def\@floatboxreset{\reset@font\centering
+		\settextfont[Scale=1.25]{IRNazanin} 
+		\setlatintextfont[Scale=1]{Linux Libertine}
+% تنظیم کننده فاصله بین خطوط (ردیف‌ها) در یک جدول
+		\renewcommand{\arraystretch}{1.2}
+	\@setminipage}%
+	}
 }
 \makeatother
-% تنظیم کننده فاصله بین خطوط (ردیف‌ها) در یک جدول
-\renewcommand{\arraystretch}{1.2}
+
 % تنظیم کننده ضخامت خطوط جدول
 %%\renewcommand{\arrayrulewidth}{.55pt}
 % تنظیم فاصله بین خطوط دو خطه (||) و یا (حالت افقی ||)
@@ -127,7 +140,7 @@
 	% تنظیم استایل سرفصل
 	\pagestyle{plain}
 	\pagenumbering{arabic}
-	\SetWatermarkText{}
+%	\SetWatermarkText{}
      \ifthenelse{\equal{\@docStyle}{Pres}}{\LARGE}{}
 }{%
 	\endolddocument

@@ -16,7 +16,7 @@
 
 %% ==========================================================================
 % تنظیمات listing مربوط به وارد کردن کد در متن
-\input{Boostan-Listings-settings}
+\input{\MyPath src/Boostan-Listings-settings}
 
 
 %% ===========================================================================
@@ -87,26 +87,26 @@
 
 
 %% =======================================================================
-%% تنظیمات مربوط به ایجاد watermarking
-
-%% زاویه متن Watermark
-\SetWatermarkAngle{45}
-%% اندازه watermark
-\SetWatermarkScale{1.5}
-
-\let\oldSetWatermarkText\SetWatermarkText
-%% اگر بخواهید watermark شما یک رنگ دیگر داشته باشد، این دو خط را فعال کنید و رنگ مورد نظر خود را انتخاب کنید
-%\definecolor{orange}{RGB}{229,252,219} 
-%\renewcommand{\SetWatermarkText}[1]{\oldSetWatermarkText{\textcolor{orange}{#1}}}
-
-\DeclareDocumentCommand{\SetWatermarkText}{m g}{
-	\oldSetWatermarkText{#1}
-	\IfValueTF{#2}{
-		\SetWatermarkLightness{#2}
-	}{%%
-		\SetWatermarkLightness{.94}
-	}%%
-}%
+%%% تنظیمات مربوط به ایجاد watermarking
+%
+%%% زاویه متن Watermark
+%\SetWatermarkAngle{45}
+%%% اندازه watermark
+%\SetWatermarkScale{1.5}
+%
+%\let\oldSetWatermarkText\SetWatermarkText
+%%% اگر بخواهید watermark شما یک رنگ دیگر داشته باشد، این دو خط را فعال کنید و رنگ مورد نظر خود را انتخاب کنید
+%%\definecolor{orange}{RGB}{229,252,219} 
+%%\renewcommand{\SetWatermarkText}[1]{\oldSetWatermarkText{\textcolor{orange}{#1}}}
+%
+%\DeclareDocumentCommand{\SetWatermarkText}{m g}{
+%	\oldSetWatermarkText{#1}
+%	\IfValueTF{#2}{
+%		\SetWatermarkLightness{#2}
+%	}{%%
+%		\SetWatermarkLightness{.94}
+%	}%%
+%}%
 
 
 %% =========================================================================

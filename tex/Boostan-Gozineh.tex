@@ -1,6 +1,6 @@
 \usepackage{catchfile,environ}
 \usepackage{multicol}
-\input{Boostan-Article}
+\input{Boostan-Letter}
 \usetikzlibrary{calc}
 
 \makeatletter% Taken from http://tex.stackexchange.com/q/109619/5764
@@ -328,9 +328,8 @@
 %		\end{table}
 %	}
 
-\newcommand{\mygls}[1]{\glsentrytext{#1} (\glsentryname{#1})}
-\newcommand{\myabr}[1]{\glsentrytext{#1} (\lr{\glsentrydesc{#1}})}
 
+\newcommand{\myabr}[1]{\glsentrytext{#1} (\lr{\glsentrydesc{#1}})}
 
 \NewDocumentEnvironment{bb}{g g}{
 	\tikzstyle{mybox1} = [draw=YellowGreen, fill=white,very thick, rectangle, rounded corners, inner sep=10pt, inner ysep=20pt]
@@ -398,3 +397,4 @@
 }
 
 \newtheorem*{definition*}{تعریف}
+\newcommand{\putAnswer}[1]{\ifdefined\ShowAnswer\textcolor{Plum}{\textbf{پاسخ: }#1}\fi}

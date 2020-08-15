@@ -1,32 +1,31 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/W32TeX) (preloaded format=xelatex 2015.6.20)  23 NOV 2015 10:40
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.10.7)  15 OCT 2019 23:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./myPaper.tex
+**myPaper.tex
 (./myPaper.tex
-LaTeX2e <2015/01/01>
-Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+LaTeX2e <2019-10-01>
 (./CSICC2016.cls
 Document Class: CSICC2016 2015/10/04
-(c:/texlive/2015/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(c:/texlive/2015/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2019/08/27 v1.4j Standard LaTeX file (size option)
 )
-\c@part=\count79
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(c:/texlive/2015/texmf-dist/tex/latex/amscls/amsthm.sty
-Package: amsthm 2015/03/04 v2.20.2
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
 \thm@style=\toks14
 \thm@bodyfont=\toks15
 \thm@headfont=\toks16
@@ -37,61 +36,62 @@ Package: amsthm 2015/03/04 v2.20.2
 \thm@headsep=\skip45
 \dth@everypar=\toks19
 )
-(c:/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(c:/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks20
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(c:/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2013/01/14 v2.14 AMS math features
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2019/04/01 v2.17c AMS math features
 \@mathmargin=\skip46
 
 For additional information on amsmath, use the `?' option.
-(c:/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
 
-(c:/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks21
 \ex@=\dimen103
 ))
-(c:/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen104
 )
-(c:/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 1999/12/14 v2.01 operator names
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count87
-LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count88
-\leftroot@=\count89
-LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count90
-\DOTSCASE@=\count91
-LaTeX Info: Redefining \ldots on input line 378.
-LaTeX Info: Redefining \dots on input line 381.
-LaTeX Info: Redefining \cdots on input line 466.
-\Mathstrutbox@=\box26
-\strutbox@=\box27
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
 \big@size=\dimen105
-LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count92
-\c@MaxMatrixCols=\count93
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
 \dotsspace@=\muskip10
-\c@parentequation=\count94
-\dspbrk@lvl=\count95
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
 \tag@help=\toks22
-\row@=\count96
-\column@=\count97
-\maxfields@=\count98
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
 \andhelp@=\toks23
 \eqnshift@=\dimen106
 \alignsep@=\dimen107
@@ -103,20 +103,20 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \multlinegap=\skip47
 \multlinetaggap=\skip48
 \mathdisplay@stack=\toks25
-LaTeX Info: Redefining \[ on input line 2665.
-LaTeX Info: Redefining \] on input line 2666.
+LaTeX Info: Redefining \[ on input line 2855.
+LaTeX Info: Redefining \] on input line 2856.
 )
-(c:/texlive/2015/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2019/09/01 v1.3a Sub-captions (AR)
 
-(c:/texlive/2015/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2019/09/01 v3.3d Customizing captions (AR)
 
-(c:/texlive/2015/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 57.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2019/09/01 v1.8d caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
 
-(c:/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks26
 )
@@ -128,106 +128,105 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \caption@parindent=\dimen117
 \caption@hangindent=\dimen118
 )
-\c@ContinuedFloat=\count99
+\c@caption@flags=\count100
+\c@ContinuedFloat=\count101
 )
-\c@subfigure=\count100
-\c@subtable=\count101
+\c@subfigure=\count102
+\c@subtable=\count103
 )
-(c:/texlive/2015/texmf-dist/tex/latex/algorithms/algorithm.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/algorithms/algorithm.sty
 Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
 
-(c:/texlive/2015/texmf-dist/tex/latex/float/float.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count102
+\c@float@type=\count104
 \float@exts=\toks27
-\float@box=\box28
+\float@box=\box29
 \@float@everytoks=\toks28
-\@floatcapt=\box29
+\@floatcapt=\box30
 )
-(c:/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \@float@every@algorithm=\toks29
-\c@algorithm=\count103
+\c@algorithm=\count105
 )
-(c:/texlive/2015/texmf-dist/tex/latex/algorithms/algorithmic.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/algorithms/algorithmic.sty
 Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-\c@ALC@unique=\count104
-\c@ALC@line=\count105
-\c@ALC@rem=\count106
-\c@ALC@depth=\count107
+\c@ALC@unique=\count106
+\c@ALC@line=\count107
+\c@ALC@rem=\count108
+\c@ALC@depth=\count109
 \ALC@tlm=\skip49
 \algorithmicindent=\skip50
 )
-(c:/texlive/2015/texmf-dist/tex/latex/sttools/cuted.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/sttools/cuted.sty
 Package: cuted 2012/10/04 v1.5 Mixing onecolumn and twocolumn modes
 \At@ViperColsBreak=\toks30
-\v@aaa=\box30
-\v@ccc=\box31
+\v@aaa=\box31
+\v@ccc=\box32
 \lastskip@a=\skip51
 \lastskip@b=\skip52
 \lastskip@d=\skip53
-\lastbox@a=\box32
+\lastbox@a=\box33
 \stripsep=\skip54
-\@viper=\box33
-\viper@penalty=\count108
-\hold@viper=\box34
+\@viper=\box34
+\viper@penalty=\count110
+\hold@viper=\box35
 \ht@viper=\dimen119
 )
-(c:/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(c:/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/07/20 v1.3b Standard LaTeX Graphics (DPC,SPQR)
 
-(c:/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(c:/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: xetex.def on input line 94.
+Package graphics Info: Driver file: xetex.def on input line 105.
 
-(c:/texlive/2015/texmf-dist/tex/xelatex/xetex-def/xetex.def
-File: xetex.def 2015/03/25 v4.04 LaTeX color/graphics driver for XeTeX (TeX Liv
-e/RRM/JK)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
 ))
 \Gin@req@height=\dimen120
 \Gin@req@width=\dimen121
 )
-(c:/texlive/2015/texmf-dist/tex/latex/endnotes/endnotes.sty
-\c@endnote=\count109
+(/usr/local/texlive/2019/texmf-dist/tex/latex/endnotes/endnotes.sty
+\c@endnote=\count111
 \endnotesep=\dimen122
 \@enotes=\write3
 )
-(c:/texlive/2015/texmf-dist/tex/latex/preprint/authblk.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/preprint/authblk.sty
 Package: authblk 2001/02/27 1.3 (PWD)
 \affilsep=\skip55
 \@affilsep=\skip56
-\c@Maxaffil=\count110
-\c@authors=\count111
-\c@affil=\count112
+\c@Maxaffil=\count112
+\c@authors=\count113
+\c@affil=\count114
 )
-(c:/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2010/09/12 v5.6 Page Geometry
+(/usr/local/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
 
-(c:/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is not detected.
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
-(c:/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(c:/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count113
-\Gm@cntv=\count114
-\c@Gm@tempcnt=\count115
+\Gm@cnth=\count115
+\Gm@cntv=\count116
+\c@Gm@tempcnt=\count117
 \Gm@bindingoffset=\dimen123
 \Gm@wd@mp=\dimen124
 \Gm@odd@mp=\dimen125
@@ -238,174 +237,151 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen130
 \Gm@dimlist=\toks31
 )
-(c:/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2019/09/28 v7.00a Hypertext links for LaTeX
 
-(c:/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-(c:/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 Package hobsub Info: Skipping package `ifvtex' (already loaded).
-Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
 Package hobsub Info: Skipping package `ifpdf' (already loaded).
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
-Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
 )
-Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
-Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
 )
 Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
-Package: xcolor-patch 2011/01/30 xcolor patch
-Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
-Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
-Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
-Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-(c:/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
-Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-(c:/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen131
-\Hy@linkcounter=\count116
-\Hy@pagecounter=\count117
+\Hy@linkcounter=\count118
+\Hy@pagecounter=\count119
 
-(c:/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2019/09/28 v7.00a Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count118
+\Hy@SavedSpaceFactor=\count120
 
-(c:/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 4319.
-Package hyperref Info: Hyper figures OFF on input line 4443.
-Package hyperref Info: Link nesting OFF on input line 4448.
-Package hyperref Info: Hyper index ON on input line 4451.
-Package hyperref Info: Plain pages OFF on input line 4458.
-Package hyperref Info: Backreferencing ON on input line 4461.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4414.
+Package hyperref Info: Hyper figures OFF on input line 4540.
+Package hyperref Info: Link nesting OFF on input line 4545.
+Package hyperref Info: Hyper index ON on input line 4548.
+Package hyperref Info: Plain pages OFF on input line 4555.
+Package hyperref Info: Backreferencing ON on input line 4558.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4688.
+Package hyperref Info: Bookmarks ON on input line 4793.
 
-(c:/texlive/2015/texmf-dist/tex/latex/hyperref/backref.sty
-Package: backref 2012/07/25 v1.38 Bibliographical back referencing
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/backref.sty
+Package: backref 2016/05/21 v1.39 Bibliographical back referencing
 
-(c:/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
-Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
-Package rerunfilecheck Info: Feature \pdfmdfivesum is not available
-(rerunfilecheck)             (e.g. pdfTeX or LuaTeX with package `pdftexcmds').
-
-(rerunfilecheck)             Therefore file contents cannot be checked efficien
-tly
-(rerunfilecheck)             and the loading of the package is aborted.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
 ))
-\c@Hy@tempcnt=\count119
+\c@Hy@tempcnt=\count121
 
-(c:/texlive/2015/texmf-dist/tex/latex/url/url.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5041.
+LaTeX Info: Redefining \url on input line 5152.
 \XeTeXLinkMargin=\dimen132
-\Fld@menulength=\count120
+\Fld@menulength=\count122
 \Field@Width=\dimen133
 \Fld@charsize=\dimen134
-Package hyperref Info: Hyper figures OFF on input line 6295.
-Package hyperref Info: Link nesting OFF on input line 6300.
-Package hyperref Info: Hyper index ON on input line 6303.
-Package hyperref Info: backreferencing ON on input line 6308.
-Package hyperref Info: Link coloring ON on input line 6313.
-Package hyperref Info: Link coloring with OCG OFF on input line 6320.
-Package hyperref Info: PDF/A mode OFF on input line 6325.
-LaTeX Info: Redefining \ref on input line 6365.
-LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count121
-\c@Item=\count122
-\c@Hfootnote=\count123
+Package hyperref Info: Hyper figures OFF on input line 6423.
+Package hyperref Info: Link nesting OFF on input line 6428.
+Package hyperref Info: Hyper index ON on input line 6431.
+Package hyperref Info: backreferencing ON on input line 6436.
+Package hyperref Info: Link coloring ON on input line 6441.
+Package hyperref Info: Link coloring with OCG OFF on input line 6448.
+Package hyperref Info: PDF/A mode OFF on input line 6453.
+LaTeX Info: Redefining \ref on input line 6493.
+LaTeX Info: Redefining \pageref on input line 6497.
+\Hy@abspage=\count123
+\c@Item=\count124
+\c@Hfootnote=\count125
 )
+Package hyperref Info: Driver (autodetected): hxetex.
 
-Package hyperref Message: Driver (autodetected): hxetex.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2019/09/28 v7.00a Hyperref driver for XeTeX
 
-(c:/texlive/2015/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2012/11/06 v6.83m Hyperref driver for XeTeX
-
-(c:/texlive/2015/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2012/11/06 v6.83m Hyperref: PDF Unicode definition (HO)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2019/09/28 v7.00a Hyperref: PDF Unicode definition (HO)
 )
-(c:/texlive/2015/texmf-dist/tex/generic/oberdiek/stringenc.sty
-Package: stringenc 2011/12/02 v1.10 Convert strings between diff. encodings (HO
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/stringenc.sty
+Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
 )
 )
-\pdfm@box=\box35
-\c@Hy@AnnotLevel=\count124
-\HyField@AnnotCount=\count125
-\Fld@listcount=\count126
-\c@bookmark@seq@number=\count127
+\pdfm@box=\box36
+\c@Hy@AnnotLevel=\count126
+\HyField@AnnotCount=\count127
+\Fld@listcount=\count128
+\c@bookmark@seq@number=\count129
 \Hy@SectionHShift=\skip57
 )
-(c:/texlive/2015/texmf-dist/tex/xelatex/xepersian/xepersian.sty
-Package: xepersian 2015/04/30 v16.1 Persian typesetting in XeLaTeX
+(/usr/local/texlive/2019/texmf-dist/tex/xelatex/xepersian/xepersian.sty
+Package: xepersian 2019/05/01 v22.7 Persian typesetting in XeLaTeX
 
-(c:/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.sty
-Package: fontspec 2015/07/22 v2.4d Font selection for XeLaTeX and LuaLaTeX
+(/usr/local/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2019-10-11 L3 programming layer (loader) 
 
-(c:/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2015/07/30 v5724 L3 programming layer (loader) 
-
-(c:/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2015/07/30 v5724 L3 programming layer (code) 
-L3 Module: l3bootstrap 2015/07/30 v5721 L3 Bootstrap code
-L3 Module: l3names 2015/07/28 v5705 L3 Namespace for primitives
-L3 Module: l3basics 2015/01/27 v5500 L3 Basic definitions
-L3 Module: l3expan 2014/11/27 v5472 L3 Argument expansion
-L3 Module: l3tl 2015/07/14 v5659 L3 Token lists
-L3 Module: l3str 2015/07/14 v5659 L3 Strings
-L3 Module: l3seq 2015/07/24 v5681 L3 Sequences and stacks
-L3 Module: l3int 2015/07/14 v5659 L3 Integers
-\c_max_int=\count128
-\l_tmpa_int=\count129
-\l_tmpb_int=\count130
-\g_tmpa_int=\count131
-\g_tmpb_int=\count132
-L3 Module: l3quark 2015/07/14 v5659 L3 Quarks
-L3 Module: l3prg 2015/07/30 v5722 L3 Control structures
-\g__prg_map_int=\count133
-L3 Module: l3clist 2014/08/23 v5354 L3 Comma separated lists
-L3 Module: l3token 2014/09/15 v5422 L3 Experimental token manipulation
-L3 Module: l3prop 2014/08/23 v5354 L3 Property lists
-L3 Module: l3msg 2015/02/26 v5537 L3 Messages
-L3 Module: l3file 2015/07/30 v5714 L3 File and I/O operations
-\l_iow_line_count_int=\count134
-\l__iow_target_count_int=\count135
-\l__iow_current_line_int=\count136
-\l__iow_current_word_int=\count137
-\l__iow_current_indentation_int=\count138
-L3 Module: l3skip 2015/07/14 v5659 L3 Dimensions and skips
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2019-10-11 L3 programming layer (code)
+\c_max_int=\count130
+\l_tmpa_int=\count131
+\l_tmpb_int=\count132
+\g_tmpa_int=\count133
+\g_tmpb_int=\count134
+\l__seq_internal_a_int=\count135
+\l__seq_internal_b_int=\count136
+\g__kernel_prg_map_int=\count137
+\c__ior_term_noprompt_ior=\count138
+\c_log_iow=\count139
+\l_iow_line_count_int=\count140
+\l__iow_line_target_int=\count141
+\l__iow_one_indent_int=\count142
+\l__iow_indent_int=\count143
 \c_zero_dim=\dimen135
 \c_max_dim=\dimen136
 \l_tmpa_dim=\dimen137
@@ -424,332 +400,218 @@ L3 Module: l3skip 2015/07/14 v5659 L3 Dimensions and skips
 \l_tmpb_muskip=\muskip15
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
-L3 Module: l3keys 2015/07/26 v5684 L3 Key-value interfaces
-\g__keyval_level_int=\count139
-\l_keys_choice_int=\count140
-L3 Module: l3fp 2015/07/09 v5652 L3 Floating points
-\c__fp_leading_shift_int=\count141
-\c__fp_middle_shift_int=\count142
-\c__fp_trailing_shift_int=\count143
-\c__fp_big_leading_shift_int=\count144
-\c__fp_big_middle_shift_int=\count145
-\c__fp_big_trailing_shift_int=\count146
-\c__fp_Bigg_leading_shift_int=\count147
-\c__fp_Bigg_middle_shift_int=\count148
-\c__fp_Bigg_trailing_shift_int=\count149
-L3 Module: l3box 2014/08/23 v5354 L3 Experimental boxes
-\c_empty_box=\box36
-\l_tmpa_box=\box37
-\l_tmpb_box=\box38
-\g_tmpa_box=\box39
-\g_tmpb_box=\box40
-L3 Module: l3coffins 2014/08/23 v5354 L3 Coffin code layer
-\l__coffin_internal_box=\box41
-\l__coffin_internal_dim=\dimen141
-\l__coffin_offset_x_dim=\dimen142
-\l__coffin_offset_y_dim=\dimen143
-\l__coffin_x_dim=\dimen144
-\l__coffin_y_dim=\dimen145
-\l__coffin_x_prime_dim=\dimen146
-\l__coffin_y_prime_dim=\dimen147
-\c_empty_coffin=\box42
-\l__coffin_aligned_coffin=\box43
-\l__coffin_aligned_internal_coffin=\box44
-\l_tmpa_coffin=\box45
-\l_tmpb_coffin=\box46
-\l__coffin_display_coffin=\box47
-\l__coffin_display_coord_coffin=\box48
-\l__coffin_display_pole_coffin=\box49
-\l__coffin_display_offset_dim=\dimen148
-\l__coffin_display_x_dim=\dimen149
-\l__coffin_display_y_dim=\dimen150
-L3 Module: l3color 2014/08/23 v5354 L3 Experimental color support
-L3 Module: l3candidates 2015/07/22 v5677 L3 Experimental additions to l3kernel
-\l__box_top_dim=\dimen151
-\l__box_bottom_dim=\dimen152
-\l__box_left_dim=\dimen153
-\l__box_right_dim=\dimen154
-\l__box_top_new_dim=\dimen155
-\l__box_bottom_new_dim=\dimen156
-\l__box_left_new_dim=\dimen157
-\l__box_right_new_dim=\dimen158
-\l__box_internal_box=\box50
-\l__coffin_bounding_shift_dim=\dimen159
-\l__coffin_left_corner_dim=\dimen160
-\l__coffin_right_corner_dim=\dimen161
-\l__coffin_bottom_corner_dim=\dimen162
-\l__coffin_top_corner_dim=\dimen163
-\l__coffin_scaled_total_height_dim=\dimen164
-\l__coffin_scaled_width_dim=\dimen165
-L3 Module: l3luatex 2015/06/30 v5646 L3 Experimental LuaTeX-specific functions
-)
-(c:/texlive/2015/texmf-dist/tex/latex/l3kernel/l3unicode-data.def
-File: l3unicode-data.def 2015/07/20 v-1 L3 Unicode data
-)
-(c:/texlive/2015/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def
-File: l3xdvidpfmx.def 2015/06/30 v5646 L3 Experimental driver: xdvipdfmx
-))
-(c:/texlive/2015/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2015/07/28 v5700 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count150
-\l__xparse_m_args_int=\count151
-\l__xparse_mandatory_args_int=\count152
-\l__xparse_processor_int=\count153
-\l__xparse_v_nesting_int=\count154
-)
-\l_fontspec_script_int=\count155
-\l_fontspec_language_int=\count156
-\l_fontspec_strnum_int=\count157
-\l__fontspec_tmpa_dim=\dimen166
-\l__fontspec_tmpb_dim=\dimen167
-\l__fontspec_tmpc_dim=\dimen168
+\l_keys_choice_int=\count144
+\l__intarray_loop_int=\count145
+\c__intarray_sp_dim=\dimen141
+\g__intarray_font_int=\count146
+\c__fp_leading_shift_int=\count147
+\c__fp_middle_shift_int=\count148
+\c__fp_trailing_shift_int=\count149
+\c__fp_big_leading_shift_int=\count150
+\c__fp_big_middle_shift_int=\count151
+\c__fp_big_trailing_shift_int=\count152
+\c__fp_Bigg_leading_shift_int=\count153
+\c__fp_Bigg_middle_shift_int=\count154
+\c__fp_Bigg_trailing_shift_int=\count155
+\g__fp_array_int=\count156
+\l__fp_array_loop_int=\count157
+\l__sort_length_int=\count158
+\l__sort_min_int=\count159
+\l__sort_top_int=\count160
+\l__sort_max_int=\count161
+\l__sort_true_max_int=\count162
+\l__sort_block_int=\count163
+\l__sort_begin_int=\count164
+\l__sort_end_int=\count165
+\l__sort_A_int=\count166
+\l__sort_B_int=\count167
+\l__sort_C_int=\count168
+\l__str_internal_int=\count169
+\l__tl_analysis_normal_int=\count170
+\l__tl_analysis_index_int=\count171
+\l__tl_analysis_nesting_int=\count172
+\l__tl_analysis_type_int=\count173
+\l__regex_internal_a_int=\count174
+\l__regex_internal_b_int=\count175
+\l__regex_internal_c_int=\count176
+\l__regex_balance_int=\count177
+\l__regex_group_level_int=\count178
+\l__regex_mode_int=\count179
+\c__regex_cs_in_class_mode_int=\count180
+\c__regex_cs_mode_int=\count181
+\l__regex_catcodes_int=\count182
+\l__regex_default_catcodes_int=\count183
+\c__regex_catcode_L_int=\count184
+\c__regex_catcode_O_int=\count185
+\c__regex_catcode_A_int=\count186
+\c__regex_all_catcodes_int=\count187
+\l__regex_show_lines_int=\count188
+\l__regex_min_state_int=\count189
+\l__regex_max_state_int=\count190
+\l__regex_left_state_int=\count191
+\l__regex_right_state_int=\count192
+\l__regex_capturing_group_int=\count193
+\l__regex_min_pos_int=\count194
+\l__regex_max_pos_int=\count195
+\l__regex_curr_pos_int=\count196
+\l__regex_start_pos_int=\count197
+\l__regex_success_pos_int=\count198
+\l__regex_curr_char_int=\count199
+\l__regex_curr_catcode_int=\count266
+\l__regex_last_char_int=\count267
+\l__regex_case_changed_char_int=\count268
+\l__regex_curr_state_int=\count269
+\l__regex_step_int=\count270
+\l__regex_min_active_int=\count271
+\l__regex_max_active_int=\count272
+\l__regex_replacement_csnames_int=\count273
+\l__regex_match_count_int=\count274
+\l__regex_min_submatch_int=\count275
+\l__regex_submatch_int=\count276
+\l__regex_zeroth_submatch_int=\count277
+\g__regex_trace_regex_int=\count278
+\c_empty_box=\box37
+\l_tmpa_box=\box38
+\l_tmpb_box=\box39
+\g_tmpa_box=\box40
+\g_tmpb_box=\box41
+\l__box_top_dim=\dimen142
+\l__box_bottom_dim=\dimen143
+\l__box_left_dim=\dimen144
+\l__box_right_dim=\dimen145
+\l__box_top_new_dim=\dimen146
+\l__box_bottom_new_dim=\dimen147
+\l__box_left_new_dim=\dimen148
+\l__box_right_new_dim=\dimen149
+\l__box_internal_box=\box42
+\l__coffin_internal_box=\box43
+\l__coffin_internal_dim=\dimen150
+\l__coffin_offset_x_dim=\dimen151
+\l__coffin_offset_y_dim=\dimen152
+\l__coffin_x_dim=\dimen153
+\l__coffin_y_dim=\dimen154
+\l__coffin_x_prime_dim=\dimen155
+\l__coffin_y_prime_dim=\dimen156
+\c_empty_coffin=\box44
+\l__coffin_aligned_coffin=\box45
+\l__coffin_aligned_internal_coffin=\box46
+\l_tmpa_coffin=\box47
+\l_tmpb_coffin=\box48
+\g_tmpa_coffin=\box49
+\g_tmpb_coffin=\box50
+\l__coffin_bounding_shift_dim=\dimen157
+\l__coffin_left_corner_dim=\dimen158
+\l__coffin_right_corner_dim=\dimen159
+\l__coffin_bottom_corner_dim=\dimen160
+\l__coffin_top_corner_dim=\dimen161
+\l__coffin_scaled_total_height_dim=\dimen162
+\l__coffin_scaled_width_dim=\dimen163
+\c__coffin_empty_coffin=\box51
+\l__coffin_display_coffin=\box52
+\l__coffin_display_coord_coffin=\box53
+\l__coffin_display_pole_coffin=\box54
+\l__coffin_display_offset_dim=\dimen164
+\l__coffin_display_x_dim=\dimen165
+\l__coffin_display_y_dim=\dimen166
+\g__char_data_ior=\read1
 
-(c:/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-patches.sty
-Package: fontspec-patches 2015/07/22 v2.4d Font selection for XeLaTeX and LuaLa
-TeX
-LaTeX Info: Redefining \em on input line 49.
-LaTeX Info: Redefining \emph on input line 57.
-LaTeX Info: Redefining \- on input line 60.
-.................................................
-. LaTeX info: "xparse/redefine-command"
-. 
-. Redefining command \oldstylenums with sig. 'm' on line 155.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \liningnums with sig. 'm' on line 159.
-.................................................
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/l3deprecation.def
+File: l3deprecation.def 2019-04-06 v L3 Deprecated functions
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
+File: l3backend-xdvipdfmx.def 2019-04-06 L3 backend support: xdvipdfmx
+\g__graphics_track_int=\count279
+\l__pdf_internal_box=\box55
+\g__pdf_backend_object_int=\count280
+\g__pdf_backend_annotation_int=\count281
+))
+Package: xparse 2019-10-11 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count282
+\g__xparse_grabber_int=\count283
+\l__xparse_m_args_int=\count284
+\l__xparse_v_nesting_int=\count285
 )
-(c:/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
-Package: fontspec-xetex 2015/07/22 v2.4d Font selection for XeLaTeX and LuaLaTe
+Package: fontspec 2019/03/15 v2.7c Font selection for XeLaTeX and LuaLaTeX
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2019/03/15 v2.7c Font selection for XeLaTeX and LuaLaTe
 X
+\l__fontspec_script_int=\count286
+\l__fontspec_language_int=\count287
+\l__fontspec_strnum_int=\count288
+\l__fontspec_tmp_int=\count289
+\l__fontspec_tmpa_int=\count290
+\l__fontspec_tmpb_int=\count291
+\l__fontspec_tmpc_int=\count292
+\l__fontspec_em_int=\count293
+\l__fontspec_emdef_int=\count294
+\l__fontspec_strong_int=\count295
+\l__fontspec_strongdef_int=\count296
+\l__fontspec_tmpa_dim=\dimen167
+\l__fontspec_tmpb_dim=\dimen168
+\l__fontspec_tmpc_dim=\dimen169
 
-(c:/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
 
-(c:/texlive/2015/texmf-dist/tex/latex/euenc/eu1enc.def
-File: eu1enc.def 2010/05/27 v0.1h Experimental Unicode font encodings
-)
-LaTeX Font Info:    Try loading font information for EU1+lmr on input line 105.
-
-
-(c:/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmr.fd
-File: eu1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/tuenc.def
+File: tuenc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
 ))
-(c:/texlive/2015/texmf-dist/tex/xelatex/xunicode/xunicode.sty
-File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many 
-other characters in Unicode lower plane
-
-(c:/texlive/2015/texmf-dist/tex/latex/tipa/t3enc.def
-File: t3enc.def 2001/12/31 T3 encoding
-LaTeX Font Info:    Try loading font information for EU1+lmss on input line 357
-.
-
-(c:/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmss.fd
-File: eu1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+(/usr/local/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec.cfg)
+LaTeX Info: Redefining \itshape on input line 4051.
+LaTeX Info: Redefining \slshape on input line 4056.
+LaTeX Info: Redefining \scshape on input line 4061.
+LaTeX Info: Redefining \upshape on input line 4066.
+LaTeX Info: Redefining \em on input line 4096.
+LaTeX Info: Redefining \emph on input line 4121.
 ))
-\tipaTiiicode=\count158
-\tipasavetokens=\toks32
-\tipachecktokens=\toks33
-)
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \__fontspec_post_arg:w with sig. 'mmO{}' on line 42.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \fontspec with sig. 'om' on line 44.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setmainfont with sig. 'om' on line 54.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setsansfont with sig. 'om' on line 64.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setmonofont with sig. 'om' on line 74.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setmathrm with sig. 'om' on line 88.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setboldmathrm with sig. 'om' on line 96.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setmathsf with sig. 'om' on line 104.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setmathtt with sig. 'om' on line 112.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \newfontfamily with sig. 'mom' on line 126.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \newfontface with sig. 'mom' on line 141.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \defaultfontfeatures with sig. 't+om' on line 155.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \addfontfeatures with sig. 'm' on line 210.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \newfontfeature with sig. 'mm' on line 221.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \newAATfeature with sig. 'mmmm' on line 229.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \newopentypefeature with sig. 'mmm' on line 237.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \aliasfontfeature with sig. 'mm' on line 261.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \aliasfontfeatureoption with sig. 'mmm' on line 270.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \newfontscript with sig. 'mm' on line 275.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \newfontlanguage with sig. 'mm' on line 301.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \DeclareFontsExtensions with sig. 'm' on line 321.
-.................................................
-\l__fontspec_tmp_int=\count159
-LaTeX Info: Redefining \itshape on input line 2230.
-LaTeX Info: Redefining \slshape on input line 2235.
-LaTeX Info: Redefining \scshape on input line 2240.
-LaTeX Info: Redefining \upshape on input line 2245.
-
-(c:/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
-(c:/texlive/2015/texmf-dist/tex/xelatex/xepersian/xepersian-persiancal.sty
+(/usr/local/texlive/2019/texmf-dist/tex/xelatex/xepersian/xepersian-persiancal.
+sty
 Package: xepersian-persiancal 2012/07/25 v0.2 provides Persian calendar
-\XePersian@i=\count160
-\XePersian@y=\count161
-\XePersian@m=\count162
-\XePersian@d=\count163
-\XePersian@latini=\count164
-\XePersian@persiani=\count165
-\XePersian@latinii=\count166
-\XePersian@persianii=\count167
-\XePersian@latiniii=\count168
-\XePersian@persianiii=\count169
-\XePersian@latiniv=\count170
-\XePersian@persianiv=\count171
-\XePersian@latinv=\count172
-\XePersian@persianv=\count173
-\XePersian@latinvi=\count174
-\XePersian@persianvi=\count175
-\XePersian@latinvii=\count176
-\XePersian@persianvii=\count177
-\XePersian@latinviii=\count178
-\XePersian@persianviii=\count179
-\XePersian@latinix=\count180
-\XePersian@persianix=\count181
-\XePersian@latinx=\count182
-\XePersian@persianx=\count183
-\XePersian@latinxi=\count184
-\XePersian@persianxi=\count185
-\XePersian@latinxii=\count186
-\XePersian@persianxii=\count187
-\XePersian@persianxiii=\count188
-\XePersian@temp=\count189
-\XePersian@temptwo=\count190
-\XePersian@tempthree=\count191
-\XePersian@yModHundred=\count192
-\XePersian@thirtytwo=\count193
-\XePersian@dn=\count194
-\XePersian@sn=\count195
-\XePersian@mminusone=\count196
+\XePersian@i=\count297
+\XePersian@y=\count298
+\XePersian@m=\count299
+\XePersian@d=\count300
+\XePersian@latini=\count301
+\XePersian@persiani=\count302
+\XePersian@latinii=\count303
+\XePersian@persianii=\count304
+\XePersian@latiniii=\count305
+\XePersian@persianiii=\count306
+\XePersian@latiniv=\count307
+\XePersian@persianiv=\count308
+\XePersian@latinv=\count309
+\XePersian@persianv=\count310
+\XePersian@latinvi=\count311
+\XePersian@persianvi=\count312
+\XePersian@latinvii=\count313
+\XePersian@persianvii=\count314
+\XePersian@latinviii=\count315
+\XePersian@persianviii=\count316
+\XePersian@latinix=\count317
+\XePersian@persianix=\count318
+\XePersian@latinx=\count319
+\XePersian@persianx=\count320
+\XePersian@latinxi=\count321
+\XePersian@persianxi=\count322
+\XePersian@latinxii=\count323
+\XePersian@persianxii=\count324
+\XePersian@persianxiii=\count325
+\XePersian@temp=\count326
+\XePersian@temptwo=\count327
+\XePersian@tempthree=\count328
+\XePersian@yModHundred=\count329
+\XePersian@thirtytwo=\count330
+\XePersian@dn=\count331
+\XePersian@sn=\count332
+\XePersian@mminusone=\count333
 )
-(c:/texlive/2015/texmf-dist/tex/xelatex/xepersian/xepersian-mathsdigitspec.sty
-Package: xepersian-mathsdigitspec 2014/11/21 v1.1.0 Unicode Persian maths digit
+(/usr/local/texlive/2019/texmf-dist/tex/xelatex/xepersian/xepersian-mathsdigits
+pec.sty
+Package: xepersian-mathsdigitspec 2018/12/16 v1.1.7 Unicode Persian maths digit
 s in XeLaTeX
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \new@mathbf with sig. 'm' on line 132.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \new@mathit with sig. 'm' on line 140.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \new@mathrm with sig. 'm' on line 148.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \new@mathsf with sig. 'm' on line 156.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \new@mathtt with sig. 'm' on line 164.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setdigitfont with sig. 'om' on line 167.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setmathsfdigitfont with sig. 'om' on line 195.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setmathttdigitfont with sig. 'om' on line 204.
-.................................................
-) (c:/texlive/2015/texmf-dist/tex/xelatex/bidi/bidi.sty
-Package: bidi 2015/08/23 v17.6 Bidirectional typesetting in plain TeX and LaTeX
+) (/usr/local/texlive/2019/texmf-dist/tex/xelatex/bidi/bidi.sty
+Package: bidi 2019/06/14 v35.9 Bidirectional typesetting in plain TeX and LaTeX
 
 
 ****************************************************
@@ -762,108 +624,139 @@ Package: bidi 2015/08/23 v17.6 Bidirectional typesetting in plain TeX and LaTeX
 * and LaTeX. The package includes adaptations
 * for use with many other commonly-used packages.
 * 
-* Copyright (c) 2009--2015 Vafa Khalighi
+* Copyright (c) 2009--2019 Vafa Khalighi
 * 
-* 2015/08/23, v17.6
+* v35.9, 2019/06/14
 * 
 * License: LaTeX Project Public License, version
 * 1.3c or higher (your choice)
 * 
 * Location on CTAN: /macros/xetex/latex/bidi
 * 
-* Issue tracker: https://github.com/persian-tex/bidi/issues
+* Issue tracker: https://github.com/vafa-ac/bidi/issues
 * 
-* Support: persian-tex@tug.org
 ****************************************************
-(c:/texlive/2015/texmf-dist/tex/generic/iftex/iftex.sty
+(/usr/local/texlive/2019/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2013/04/04 v0.2 Provides if(tex) conditional for PDFTeX, XeTeX, 
 and LuaTeX
 )
-(c:/texlive/2015/texmf-dist/tex/xelatex/bidi/biditools.sty
-Package: biditools 2015/06/29 v0.5 Programming tools for bidi package
-)
-(c:/texlive/2015/texmf-dist/tex/latex/oberdiek/zref-abspage.sty
-Package: zref-abspage 2012/04/04 v2.24 Module abspage for zref (HO)
+(/usr/local/texlive/2019/texmf-dist/tex/xelatex/bidi/biditools.sty
+Package: biditools 2018/12/11 v1.9 Programming tools for bidi package
+\@bidi@envbody=\toks32
+\@bidi@emptytoks=\toks33
 
-(c:/texlive/2015/texmf-dist/tex/latex/oberdiek/zref-base.sty
-Package: zref-base 2012/04/04 v2.24 Module base for zref (HO)
+
+Package bidi Warning: Patching '\begin' failed!
+(bidi)                '\bidi@AtBeginEnvironment' will not work.
+
+
+Package bidi Warning: Patching '\end' failed!
+(bidi)                '\bidi@AtEndEnvironment' will not work.
+
+
+Package bidi Warning: Patching '\end' failed!
+(bidi)                '\bidi@AfterEndEnvironment' will not work.
+
+\bidi@tempcountb=\count334
+\bidi@temptoksa=\toks34
+\bidi@temptoksb=\toks35
+\bidi@dummies=\count335
+\bidi@are@these@correct=\toks36
+\bidi@toks@lista=\toks37
+\bidi@toks@listb=\toks38
+\bidi@stack@length=\count336
+\bidi@empty@stack=\toks39
+\bidi@looprepeat@depth=\count337
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/zref-abspage.sty
+Package: zref-abspage 2018/11/21 v2.27 Module abspage for zref (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/zref-base.sty
+Package: zref-base 2018/11/21 v2.27 Module base for zref (HO)
 Package zref Info: New property list: main on input line 759.
 Package zref Info: New property: default on input line 760.
 Package zref Info: New property: page on input line 761.
 )
-\c@abspage=\count197
+\c@abspage=\count338
 Package zref Info: New property: abspage on input line 62.
 )
-(c:/texlive/2015/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-(c:/texlive/2015/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(c:/texlive/2015/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks34
-\XKV@tempa@toks=\toks35
+(/usr/local/texlive/2019/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks40
+\XKV@tempa@toks=\toks41
 )
-\XKV@depth=\count198
+\XKV@depth=\count339
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(c:/texlive/2015/texmf-dist/tex/xelatex/bidi/latex-xetex-bidi.def
-File: latex-xetex-bidi.def 2015/02/01 v1.1.9 bidi adaptations for `latex.ltx' f
-or XeTeX engine
-\bidi@n@everypar=\toks36
+\@bidi@copyins@=\insert252
 
-(c:/texlive/2015/texmf-dist/tex/xelatex/bidi/footnote-xetex-bidi.def
-File: footnote-xetex-bidi.def 2013/04/26 v0.8 bidi footnote macros for XeTeX en
+(/usr/local/texlive/2019/texmf-dist/tex/xelatex/bidi/latex-xetex-bidi.def
+File: latex-xetex-bidi.def 2019/03/03 v1.3.7 bidi adaptations for `latex.ltx' f
+or XeTeX engine
+\bidi@n@everypar=\toks42
+\bidi@column@check@number=\count340
+
+(/usr/local/texlive/2019/texmf-dist/tex/xelatex/bidi/footnote-xetex-bidi.def
+File: footnote-xetex-bidi.def 2017/08/09 v1.1 bidi footnote macros for XeTeX en
 gine
-\c@footdir@label=\count199
-\footdir@toks=\toks37
+\c@footdir@label=\count341
+\footdir@toks=\toks43
 )
-(c:/texlive/2015/texmf-dist/tex/xelatex/bidi/article-xetex-bidi.def
-File: article-xetex-bidi.def 2010/07/25 v0.4 bidi adaptations for standard arti
+(/usr/local/texlive/2019/texmf-dist/tex/xelatex/bidi/article-xetex-bidi.def
+File: article-xetex-bidi.def 2017/06/09 v0.6 bidi adaptations for standard arti
 cle class for XeTeX engine
 )
-(c:/texlive/2015/texmf-dist/tex/xelatex/bidi/amsmath-xetex-bidi.def
-File: amsmath-xetex-bidi.def 2014/09/04 v0.9 bidi adaptations for amsmath packa
+(/usr/local/texlive/2019/texmf-dist/tex/xelatex/bidi/amsmath-xetex-bidi.def
+File: amsmath-xetex-bidi.def 2018/01/08 v1.1 bidi adaptations for amsmath packa
 ge for XeTeX engine
 )
-(c:/texlive/2015/texmf-dist/tex/xelatex/bidi/amstext-xetex-bidi.def
-File: amstext-xetex-bidi.def 2013/04/04 v0.1 bidi adaptations for amstext packa
+(/usr/local/texlive/2019/texmf-dist/tex/xelatex/bidi/amstext-xetex-bidi.def
+File: amstext-xetex-bidi.def 2016/09/12 v0.2 bidi adaptations for amstext packa
 ge for XeTeX engine
 )
-(c:/texlive/2015/texmf-dist/tex/xelatex/bidi/amsthm-xetex-bidi.def
+(/usr/local/texlive/2019/texmf-dist/tex/xelatex/bidi/amsthm-xetex-bidi.def
 File: amsthm-xetex-bidi.def 2010/07/25 v0.1 bidi adaptations for amsthm package
  for XeTeX engine
 )
-(c:/texlive/2015/texmf-dist/tex/xelatex/bidi/caption-xetex-bidi.def
+(/usr/local/texlive/2019/texmf-dist/tex/xelatex/bidi/caption-xetex-bidi.def
 File: caption-xetex-bidi.def 2010/07/25 v0.1 bidi adaptations for caption packa
 ge for XeTeX engine
 )
-(c:/texlive/2015/texmf-dist/tex/xelatex/bidi/caption3-xetex-bidi.def
+(/usr/local/texlive/2019/texmf-dist/tex/xelatex/bidi/caption3-xetex-bidi.def
 File: caption3-xetex-bidi.def 2013/04/01 v0.1 bidi adaptations for caption3 pac
 kage for XeTeX engine
 )
-(c:/texlive/2015/texmf-dist/tex/xelatex/bidi/cuted-xetex-bidi.def
-File: cuted-xetex-bidi.def 2013/04/10 v0.3 bidi adaptations for cuted package f
+(/usr/local/texlive/2019/texmf-dist/tex/xelatex/bidi/cuted-xetex-bidi.def
+File: cuted-xetex-bidi.def 2017/05/06 v0.6 bidi adaptations for cuted package f
 or XeTeX engine
 )
-(c:/texlive/2015/texmf-dist/tex/xelatex/bidi/float-xetex-bidi.def
+(/usr/local/texlive/2019/texmf-dist/tex/xelatex/bidi/float-xetex-bidi.def
 File: float-xetex-bidi.def 2013/04/04 v0.2 bidi adaptations for float package f
 or XeTeX engine
 )
-(c:/texlive/2015/texmf-dist/tex/xelatex/bidi/graphicx-xetex-bidi.def
-File: graphicx-xetex-bidi.def 2012/01/01 v0.4 bidi adaptations for graphicx pac
+(/usr/local/texlive/2019/texmf-dist/tex/xelatex/bidi/graphicx-xetex-bidi.def
+File: graphicx-xetex-bidi.def 2017/06/17 v0.5 bidi adaptations for graphicx pac
 kage for XeTeX engine
 )
-(c:/texlive/2015/texmf-dist/tex/xelatex/bidi/geometry-xetex-bidi.def
-File: geometry-xetex-bidi.def 2013/04/01 v0.1 bidi adaptations for geometry pac
+(/usr/local/texlive/2019/texmf-dist/tex/xelatex/bidi/geometry-xetex-bidi.def
+File: geometry-xetex-bidi.def 2017/01/14 v0.2 bidi adaptations for geometry pac
 kage for XeTeX engine
 )
-(c:/texlive/2015/texmf-dist/tex/xelatex/bidi/hyperref-xetex-bidi.def
-File: hyperref-xetex-bidi.def 2014/11/08 v0.8 bidi adaptations for hyperref pac
+(/usr/local/texlive/2019/texmf-dist/tex/xelatex/bidi/hyperref-xetex-bidi.def
+File: hyperref-xetex-bidi.def 2018/11/11 v1.1 bidi adaptations for hyperref pac
 kage for XeTeX engine
 ))
-(c:/texlive/2015/texmf-dist/tex/xelatex/bidi/loadingorder-xetex-bidi.def
-File: loadingorder-xetex-bidi.def 2013/05/22 v0.95 making sure that bidi is the
+(/usr/local/texlive/2019/texmf-dist/tex/xelatex/bidi/loadingorder-xetex-bidi.de
+f
+File: loadingorder-xetex-bidi.def 2017/12/29 v0.97 making sure that bidi is the
  last package loaded
-))
+)
+\bidi@digits=\count342
+\bidi@digits@charclass=\XeTeXcharclass1
+\bidi@sepmark@charclass=\XeTeXcharclass2
+)
 ****************************************************
 * 
 * xepersian package (Persian for LaTeX, using XeTeX engine)
@@ -872,377 +765,237 @@ File: loadingorder-xetex-bidi.def 2013/05/22 v0.95 making sure that bidi is the
 * typesetting, using fonts provided in the
 * distribution.
 * 
-* Copyright (c) 2008--2015 Vafa Khalighi
+* Copyright (c) 2008--2019 Vafa Khalighi
 * 
-* v16.1, 2015/04/30
+* v22.7, 2019/05/01
 * 
 * License: LaTeX Project Public License, version
 * 1.3c or higher (your choice)
 * 
 * Location on CTAN: /macros/xetex/latex/xepersian
 * 
-* Issue tracker: https://github.com/persian-tex/xepersian/issues
+* Issue tracker: https://github.com/vafa-ac/xepersian/issues
 * 
-* Support: persian-tex@tug.org
 ****************************************************
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \settextfont with sig. 'om' on line 101.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setlatintextfont with sig. 'om' on line 118.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \defpersianfont with sig. 'mom' on line 135.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \deflatinfont with sig. 'mom' on line 150.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setpersiansansfont with sig. 'om' on line 195.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setpersianmonofont with sig. 'om' on line 204.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setnavarfont with sig. 'om' on line 213.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setpookfont with sig. 'om' on line 222.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setsayehfont with sig. 'om' on line 231.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setiranicfont with sig. 'om' on line 240.
-.................................................
-(c:/texlive/2015/texmf-dist/tex/xelatex/xepersian/loadingorder-xepersian.def
-File: loadingorder-xepersian.def 2012/01/01 v0.3 making sure that xepersian is 
+\xepersian@tcl=\count343
+\xepersian@ilg=\dimen170
+\xepersian@strutilg=\dimen171
+
+(/usr/local/texlive/2019/texmf-dist/tex/xelatex/xepersian/loadingorder-xepersia
+n.def
+File: loadingorder-xepersian.def 2018/09/29 v0.5 making sure that xepersian is 
 the last package loaded
 )
-(c:/texlive/2015/texmf-dist/tex/xelatex/xepersian/algorithmic-xepersian.def
+(/usr/local/texlive/2019/texmf-dist/tex/xelatex/xepersian/footnote-xepersian.de
+f
+File: footnote-xepersian.def 2017/08/09 v0.6 footnote macros for xepersian pack
+age
+)
+(/usr/local/texlive/2019/texmf-dist/tex/xelatex/xepersian/algorithmic-xepersian
+.def
 File: algorithmic-xepersian.def 2010/07/25 v0.2 adaptations for algorithmic pac
 kage
 )
-(c:/texlive/2015/texmf-dist/tex/xelatex/xepersian/algorithm-xepersian.def
+(/usr/local/texlive/2019/texmf-dist/tex/xelatex/xepersian/algorithm-xepersian.d
+ef
 File: algorithm-xepersian.def 2010/07/25 v0.2 adaptations for algorithm package
 
 )
-(c:/texlive/2015/texmf-dist/tex/xelatex/xepersian/backref-xepersian.def
+(/usr/local/texlive/2019/texmf-dist/tex/xelatex/xepersian/backref-xepersian.def
 File: backref-xepersian.def 2010/07/25 v0.1 adaptations for backref package
 )
-(c:/texlive/2015/texmf-dist/tex/xelatex/xepersian/footnote-xepersian.def
-File: footnote-xepersian.def 2013/04/26 v0.4 footnote macros for xepersian pack
-age
-)
-(c:/texlive/2015/texmf-dist/tex/xelatex/xepersian/hyperref-xepersian.def
+(/usr/local/texlive/2019/texmf-dist/tex/xelatex/xepersian/hyperref-xepersian.de
+f
 File: hyperref-xepersian.def 2015/02/02 v0.6 bilingual captions for hyperref pa
 ckage
 )
-(c:/texlive/2015/texmf-dist/tex/xelatex/xepersian/article-xepersian.def
+(/usr/local/texlive/2019/texmf-dist/tex/xelatex/xepersian/article-xepersian.def
 File: article-xepersian.def 2010/07/25 v0.2 adaptations for standard article cl
 ass
 )
-\g__file_internal_ior=\read1
-\g__fontspec_family_lmroman10-regular_int=\count200
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'lmroman10-regular(0)' created for font 'lmroman10-regular' with
-. options
-. [Mapping=tex-text,ExternalLocation,BoldFont={lmroman10-bold},BoldItalicFont={
-lmroman10-bolditalic},ItalicFont={lmroman10-italic},SmallCapsFont={lmromancaps1
-0-regular},SlantedFont={lmromanslant10-regular},BoldSlantedFont={lmromanslant10
--bold}].
-. 
-. This font family consists of the following shapes:
-. 
-. * 'normal' with NFSS spec.:
-. <->"[lmroman10-regular]/OT:script=latn;language=DFLT;mapping=tex-text;"
-. 
-. * 'small caps' with NFSS spec.:
-. <->"[lmromancaps10-regular]/OT:script=latn;language=DFLT;mapping=tex-text;"
-. and font adjustment code:
-. 
-. 
-. * 'bold' with NFSS spec.:
-. <->"[lmroman10-bold]/OT:script=latn;language=DFLT;mapping=tex-text;"
-. 
-. * 'bold small caps' with NFSS spec.:
-. <->"[lmromancaps10-regular]/OT:script=latn;language=DFLT;mapping=tex-text;"
-. and font adjustment code:
-. 
-. 
-. * 'italic' with NFSS spec.:
-. <->"[lmroman10-italic]/OT:script=latn;language=DFLT;mapping=tex-text;"
-. 
-. * 'small caps' with NFSS spec.:
-. <->"[lmromancaps10-regular]/OT:script=latn;language=DFLT;mapping=tex-text;"
-. and font adjustment code:
-. 
-. 
-. * 'sl/,' with NFSS spec.:
-. 
-. <->"[lmromanslant10-regular]/OT:script=latn;language=DFLT;mapping=tex-text;"
-. 
-. * 'small caps' with NFSS spec.:
-. <->"[lmromancaps10-regular]/OT:script=latn;language=DFLT;mapping=tex-text;"
-. and font adjustment code:
-. 
-. 
-. * 'bold italic' with NFSS spec.:
-. <->"[lmroman10-bolditalic]/OT:script=latn;language=DFLT;mapping=tex-text;"
-. 
-. * 'bold small caps' with NFSS spec.:
-. <->"[lmromancaps10-regular]/OT:script=latn;language=DFLT;mapping=tex-text;"
-. and font adjustment code:
-. 
-. 
-. * 'sl/,' with NFSS spec.:
-. <->"[lmromanslant10-bold]/OT:script=latn;language=DFLT;mapping=tex-text;"
-. 
-. * 'bold small caps' with NFSS spec.:
-. <->"[lmromancaps10-regular]/OT:script=latn;language=DFLT;mapping=tex-text;"
-. and font adjustment code:
-. 
-.................................................
+(/usr/local/texlive/2019/texmf-dist/tex/xelatex/xepersian/fontspec-xepersian.de
+f
+File: fontspec-xepersian.def 2019/05/01 v0.4 fontspec changes
 )
-*************************************************
-* fontspec warning: "language-not-exist"
-* 
-* Language 'Parsi' not available for font 'IRMitra' with script 'Parsi'.
-* 'Default' language used instead.
-*************************************************
-\g__fontspec_family_IRMitra_int=\count201
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'IRMitra(0)' created for font 'IRMitra' with options
-. [Script=Parsi,Language=Parsi,Mapping=parsidigits,Scale=1].
-. 
-. This font family consists of the following shapes:
-. 
-. * 'normal' with NFSS spec.:
-. <->s*[1]"IRMitra/OT:script=arab;language=DFLT;mapping=parsidigits;"
-. 
-. * 'small caps' with NFSS spec.:
-. 
-. and font adjustment code:
-. 
-. 
-. * 'bold' with NFSS spec.:
-. <->s*[1]"IRMitra/B/OT:script=arab;language=DFLT;mapping=parsidigits;"
-. 
-. * 'bold small caps' with NFSS spec.:
-. 
-. and font adjustment code:
-. 
-. 
-. * 'italic' with NFSS spec.:
-. <->s*[1]"IRMitra/I/OT:script=arab;language=DFLT;mapping=parsidigits;"
-. 
-. * 'small caps' with NFSS spec.:
-. 
-. and font adjustment code:
-. 
-. 
-. * 'bold italic' with NFSS spec.:
-. <->s*[1]"IRMitra/BI/OT:script=arab;language=DFLT;mapping=parsidigits;"
-. 
-. * 'bold small caps' with NFSS spec.:
-. 
-. and font adjustment code:
-. 
-.................................................
-LaTeX Font Info:    Font shape `EU1/IRMitra(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 46.
-\g__fontspec_family_TimesNewRoman_int=\count202
-LaTeX Font Info:    Font shape `EU1/IRMitra(0)/m/n' will be
+
+Package fontspec Info: Font family 'lmroman10-regular(0)' created for font
+(fontspec)             'lmroman10-regular' with options
+(fontspec)             [Ligatures=TeX,Path,BoldFont={lmroman10-bold},BoldItalic
+Font={lmroman10-bolditalic},ItalicFont={lmroman10-italic},SmallCapsFont={lmroma
+ncaps10-regular},SlantedFont={lmromanslant10-regular},BoldSlantedFont={lmromans
+lant10-bold}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[lmroman10-regular]/OT:script=latn;language=DFLT;map
+ping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=DFLT
+;mapping=tex-text;"
+(fontspec)             - 'bold' (bx/n) with NFSS spec.:
+(fontspec)             <->"[lmroman10-bold]/OT:script=latn;language=DFLT;mappin
+g=tex-text;"
+(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.:
+(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=DFLT
+;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[lmroman10-italic]/OT:script=latn;language=DFLT;mapp
+ing=tex-text;"
+(fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.:
+(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=DFLT
+;mapping=tex-text;"
+(fontspec)             - 'slanted' (m/sl) with NFSS spec.:
+(fontspec)             <->"[lmromanslant10-regular]/OT:script=latn;language=DFL
+T;mapping=tex-text;"
+(fontspec)             - 'slanted small caps'  (m/slsc) with NFSS spec.:
+(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=DFLT
+;mapping=tex-text;"
+(fontspec)             - 'bold italic' (bx/it) with NFSS spec.:
+(fontspec)             <->"[lmroman10-bolditalic]/OT:script=latn;language=DFLT;
+mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
+(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=DFLT
+;mapping=tex-text;"
+(fontspec)             - 'bold slanted' (bx/sl) with NFSS spec.:
+(fontspec)             <->"[lmromanslant10-bold]/OT:script=latn;language=DFLT;m
+apping=tex-text;"
+(fontspec)             - 'bold slanted small caps'  (bx/slsc) with NFSS spec.:
+(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=DFLT
+;mapping=tex-text;"
+
+)
+
+Package fontspec Info: Font family 'IRMitra(0)' created for font 'IRMitra'
+(fontspec)             with options
+(fontspec)             [Script=Persian,Ligatures=PersianTeX,Scale=1].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"IRMitra/OT:script=arab;language=DFLT;mapping=pe
+rsian-tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (bx/n) with NFSS spec.:
+(fontspec)             <->s*[1]"IRMitra/B/OT:script=arab;language=DFLT;mapping=
+persian-tex-text;"
+(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"IRMitra/I/OT:script=arab;language=DFLT;mapping=
+persian-tex-text;"
+(fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.: 
+(fontspec)             - 'bold italic' (bx/it) with NFSS spec.:
+(fontspec)             <->s*[1]"IRMitra/BI/OT:script=arab;language=DFLT;mapping
+=persian-tex-text;"
+(fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
+
+LaTeX Font Info:    Font shape `TU/IRMitra(0)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 47.
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'TimesNewRoman(0)' created for font 'Times New Roman' with
-. options [Mapping=tex-text,Scale=.88].
-. 
-. This font family consists of the following shapes:
-. 
-. * 'normal' with NFSS spec.:
-. <->s*[.88]"Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
-. 
-. * 'small caps' with NFSS spec.:
-. 
-. and font adjustment code:
-. 
-. 
-. * 'bold' with NFSS spec.:
-. <->s*[.88]"Times New Roman/B/OT:script=latn;language=DFLT;mapping=tex-text;"
-. 
-. * 'bold small caps' with NFSS spec.:
-. 
-. and font adjustment code:
-. 
-. 
-. * 'italic' with NFSS spec.:
-. <->s*[.88]"Times New Roman/I/OT:script=latn;language=DFLT;mapping=tex-text;"
-. 
-. * 'small caps' with NFSS spec.:
-. 
-. and font adjustment code:
-. 
-. 
-. * 'bold italic' with NFSS spec.:
-. <->s*[.88]"Times New
-. Roman/BI/OT:script=latn;language=DFLT;mapping=tex-text;"
-. 
-. * 'bold small caps' with NFSS spec.:
-. 
-. and font adjustment code:
-. 
-.................................................
-LaTeX Info: Redefining \latinfont on input line 47.
-*************************************************
-* fontspec warning: "language-not-exist"
-* 
-* Language 'Parsi' not available for font 'IRMitra Bold' with script 'Parsi'.
-* 'Default' language used instead.
-*************************************************
-\g__fontspec_family_IRMitraBold_int=\count203
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font IRMitra Bold/B (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'IRMitraBold(0)' created for font 'IRMitra Bold' with options
-. [Script=Parsi,Language=Parsi,Mapping=parsidigits,Scale=1.5].
-. 
-. This font family consists of the following shapes:
-. 
-. * 'normal' with NFSS spec.:
-. <->s*[1.5]"IRMitra Bold/OT:script=arab;language=DFLT;mapping=parsidigits;"
-. 
-. * 'small caps' with NFSS spec.:
-. 
-. and font adjustment code:
-. 
-. 
-. * 'italic' with NFSS spec.:
-. <->s*[1.5]"IRMitra Bold/I/OT:script=arab;language=DFLT;mapping=parsidigits;"
-. 
-. * 'small caps' with NFSS spec.:
-. 
-. and font adjustment code:
-. 
-. 
-. * 'bold italic' with NFSS spec.:
-. <->s*[1.5]"IRMitra
-. Bold/BI/OT:script=arab;language=DFLT;mapping=parsidigits;"
-. 
-. * 'bold small caps' with NFSS spec.:
-. 
-. and font adjustment code:
-. 
-.................................................
-*************************************************
-* fontspec warning: "language-not-exist"
-* 
-* Language 'Parsi' not available for font 'IRMitra Bold' with script 'Parsi'.
-* 'Default' language used instead.
-*************************************************
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font IRMitra Bold/B (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'IRMitraBold(1)' created for font 'IRMitra Bold' with options
-. [Script=Parsi,Language=Parsi,Mapping=parsidigits,Scale=.95].
-. 
-. This font family consists of the following shapes:
-. 
-. * 'normal' with NFSS spec.:
-. <->s*[.95]"IRMitra Bold/OT:script=arab;language=DFLT;mapping=parsidigits;"
-. 
-. * 'small caps' with NFSS spec.:
-. 
-. and font adjustment code:
-. 
-. 
-. * 'italic' with NFSS spec.:
-. <->s*[.95]"IRMitra Bold/I/OT:script=arab;language=DFLT;mapping=parsidigits;"
-. 
-. * 'small caps' with NFSS spec.:
-. 
-. and font adjustment code:
-. 
-. 
-. * 'bold italic' with NFSS spec.:
-. <->s*[.95]"IRMitra
-. Bold/BI/OT:script=arab;language=DFLT;mapping=parsidigits;"
-. 
-. * 'bold small caps' with NFSS spec.:
-. 
-. and font adjustment code:
-. 
-.................................................
-\c@theorem=\count204
-\c@principle=\count205
-\c@lemma=\count206
-\c@proposition=\count207
-\c@definition=\count208
-\c@corollary=\count209
-\c@remark=\count210
+
+Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
+(fontspec)             New Roman' with options [Ligatures=TeX,Scale=.88].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[.88]"Times New
+(fontspec)             Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (bx/n) with NFSS spec.: <->s*[.88]"Times New
+(fontspec)             Roman/B/OT:script=latn;language=DFLT;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->s*[.88]"Times New
+(fontspec)             Roman/I/OT:script=latn;language=DFLT;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.: 
+(fontspec)             - 'bold italic' (bx/it) with NFSS spec.:
+(fontspec)             <->s*[.88]"Times New
+(fontspec)             Roman/BI/OT:script=latn;language=DFLT;mapping=tex-text;"
+
+(fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
+
+LaTeX Info: Redefining \latinfont on input line 48.
+
+Package fontspec Info: Could not resolve font "IRMitra Bold/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Font family 'IRMitraBold(0)' created for font 'IRMitra
+(fontspec)             Bold' with options
+(fontspec)             [Script=Persian,Ligatures=PersianTeX,Scale=1.5].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1.5]"IRMitra
+(fontspec)             Bold/OT:script=arab;language=DFLT;mapping=persian-tex-te
+xt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->s*[1.5]"IRMitra
+(fontspec)             Bold/I/OT:script=arab;language=DFLT;mapping=persian-tex-
+text;"
+(fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.: 
+(fontspec)             - 'bold italic' (bx/it) with NFSS spec.:
+(fontspec)             <->s*[1.5]"IRMitra
+(fontspec)             Bold/BI/OT:script=arab;language=DFLT;mapping=persian-tex
+-text;"
+(fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
+
+
+Package fontspec Info: Could not resolve font "IRMitra Bold/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Font family 'IRMitraBold(1)' created for font 'IRMitra
+(fontspec)             Bold' with options
+(fontspec)             [Script=Persian,Ligatures=PersianTeX,Scale=.95].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[.95]"IRMitra
+(fontspec)             Bold/OT:script=arab;language=DFLT;mapping=persian-tex-te
+xt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->s*[.95]"IRMitra
+(fontspec)             Bold/I/OT:script=arab;language=DFLT;mapping=persian-tex-
+text;"
+(fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.: 
+(fontspec)             - 'bold italic' (bx/it) with NFSS spec.:
+(fontspec)             <->s*[.95]"IRMitra
+(fontspec)             Bold/BI/OT:script=arab;language=DFLT;mapping=persian-tex
+-text;"
+(fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
+
+\c@theorem=\count344
+\c@principle=\count345
+\c@lemma=\count346
+\c@proposition=\count347
+\c@definition=\count348
+\c@corollary=\count349
+\c@remark=\count350
 ) (./myPaper.aux)
 \openout1 = `myPaper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 32.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 32.
- (c:/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
-File: t3cmr.fd 2001/12/31 TIPA font definitions
-)
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1282,311 +1035,265 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box51
-(c:/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+\AtBeginShipoutBox=\box56
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-(c:/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: xetex.def on input line 142.
+Package color Info: Driver file: xetex.def on input line 147.
 )
-Package hyperref Info: Link coloring ON on input line 32.
+Package hyperref Info: Link coloring ON on input line 31.
 
-(c:/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
-(c:/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count211
+\c@section@level=\count351
 )
-LaTeX Info: Redefining \ref on input line 32.
-LaTeX Info: Redefining \pageref on input line 32.
-LaTeX Info: Redefining \nameref on input line 32.
+LaTeX Info: Redefining \ref on input line 31.
+LaTeX Info: Redefining \pageref on input line 31.
+LaTeX Info: Redefining \nameref on input line 31.
 
 (./myPaper.out) (./myPaper.out)
 \@outlinefile=\write4
 \openout4 = `myPaper.out'.
 
-LaTeX Font Info:    Font shape `EU1/IRMitra(0)/m/n' will be
-(Font)              scaled to size 17.28pt on input line 34.
-LaTeX Font Info:    Font shape `EU1/IRMitraBold(0)/m/n' will be
-(Font)              scaled to size 25.92pt on input line 34.
-LaTeX Font Info:    Font shape `EU1/IRMitra(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 34.
-LaTeX Font Info:    Try loading font information for U+msa on input line 34.
+LaTeX Font Info:    Font shape `TU/IRMitra(0)/m/n' will be
+(Font)              scaled to size 17.28pt on input line 33.
+LaTeX Font Info:    Font shape `TU/IRMitraBold(0)/m/n' will be
+(Font)              scaled to size 25.92pt on input line 33.
+LaTeX Font Info:    Font shape `TU/IRMitra(0)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 33.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 33.
 
-(c:/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 34.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 33.
 
-(c:/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-LaTeX Font Warning: Font shape `EU1/IRMitra(0)/m/sc' undefined
-(Font)              using `EU1/IRMitra(0)/m/n' instead on input line 34.
+LaTeX Font Warning: Font shape `TU/IRMitra(0)/m/sc' undefined
+(Font)              using `TU/IRMitra(0)/m/n' instead on input line 33.
 
-LaTeX Font Info:    Font shape `EU1/IRMitra(0)/m/sc' will be
-(Font)              scaled to size 10.0pt on input line 34.
-LaTeX Font Info:    Font shape `EU1/IRMitra(0)/m/sc' will be
-(Font)              scaled to size 7.0pt on input line 34.
-LaTeX Font Info:    Font shape `EU1/IRMitra(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 34.
-LaTeX Font Info:    Font shape `EU1/IRMitra(0)/bx/n' will be
-(Font)              scaled to size 10.0pt on input line 34.
-LaTeX Font Info:    Font shape `EU1/IRMitra(0)/bx/n' will be
-(Font)              scaled to size 14.4pt on input line 34.
-LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/bx/n' will be
-(Font)              scaled to size 8.80005pt on input line 35.
+LaTeX Font Info:    Font shape `TU/IRMitra(0)/m/sc' will be
+(Font)              scaled to size 10.0pt on input line 33.
+LaTeX Font Info:    Font shape `TU/IRMitra(0)/m/sc' will be
+(Font)              scaled to size 7.0pt on input line 33.
+LaTeX Font Info:    Font shape `TU/IRMitra(0)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 33.
+LaTeX Font Info:    Font shape `TU/IRMitra(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 33.
+LaTeX Font Info:    Font shape `TU/IRMitra(0)/bx/n' will be
+(Font)              scaled to size 10.0pt on input line 33.
+LaTeX Font Info:    Font shape `TU/IRMitra(0)/bx/n' will be
+(Font)              scaled to size 14.4pt on input line 33.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/bx/n' will be
+(Font)              scaled to size 8.80005pt on input line 34.
 Missing character: There is no ­ in font IRMitra Bold/OT:script=arab;language=D
-FLT;mapping=parsidigits;!
+FLT;mapping=persian-tex-text;!
 Extra height:0.0pt when 0.0pt
 (2)Left:0.0pt Right:0.0pt Output:0.0pt
 - LAST -
 Left:0.0pt
 Right:0.0pt
 Output:0.0pt
-LaTeX Font Info:    Font shape `EU1/IRMitra(0)/bx/n' will be
-(Font)              scaled to size 10.95pt on input line 37.
+LaTeX Font Info:    Font shape `TU/IRMitra(0)/bx/n' will be
+(Font)              scaled to size 10.95pt on input line 36.
 Extra height:0.0pt when 0.0pt
 (2)Left:0.0pt Right:0.0pt Output:0.0pt
 - LAST -
 Left:0.0pt
 Right:0.0pt
 Output:0.0pt
-LaTeX Font Info:    Font shape `EU1/IRMitra(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 41.
-(c:/texlive/2015/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
-File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
+LaTeX Font Info:    Font shape `TU/IRMitra(0)/m/n' will be
+(Font)              scaled to size 14.4pt on input line 40.
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
+File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 )
-LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 9.63605pt on input line 42.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
+(Font)              scaled to size 9.63605pt on input line 41.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 42.
+(Font)              size <5> substituted on input line 41.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 42.
+(Font)              size <5> substituted on input line 41.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 42.
+(Font)              size <5> substituted on input line 41.
 
-LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 6.42403pt on input line 42.
-
-Overfull \vbox (207.97496pt too high) has occurred while \output is active []
-
-
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
+(Font)              scaled to size 6.42403pt on input line 41.
 [1
 
 
 ]
-LaTeX Font Info:    Font shape `EU1/IRMitra(0)/bx/n' will be
-(Font)              scaled to size 12.0pt on input line 76.
+LaTeX Font Info:    Font shape `TU/IRMitra(0)/bx/n' will be
+(Font)              scaled to size 12.0pt on input line 75.
 Missing character: There is no ­ in font IRMitra Bold/OT:script=arab;language=D
-FLT;mapping=parsidigits;!
+FLT;mapping=persian-tex-text;!
 Missing character: There is no ­ in font IRMitra Bold/OT:script=arab;language=D
-FLT;mapping=parsidigits;!
+FLT;mapping=persian-tex-text;!
 Missing character: There is no ­ in font IRMitra Bold/OT:script=arab;language=D
-FLT;mapping=parsidigits;!
+FLT;mapping=persian-tex-text;!
  [2]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 132.
-LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/bx/n' will be
-(Font)              scaled to size 9.63605pt on input line 135.
+put line 131.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/bx/n' will be
+(Font)              scaled to size 9.63605pt on input line 134.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 138.
+(Font)              size <5> substituted on input line 137.
 
-LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 7.92004pt on input line 141.
-File: Images/flowchar.pdf Graphic file (type QTm)
-<use  "Images/flowchar.pdf" >
-File: Images/sumXYPlot.pdf Graphic file (type QTm)
- <use  "Images/sumXYPlot.pdf" >
-File: ./Images/famk.pdf Graphic file (type QTm)
-
-<use  "./Images/famk.pdf" >
-File: ./Images/saml.pdf Graphic file (type QTm)
- <use  "./Images/saml.pdf" >
-File: ./Images/EntropyVersus.pdf Graphic file (type QTm)
-
-<use  "./Images/EntropyVersus.pdf" > [3]
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
+(Font)              scaled to size 7.92004pt on input line 140.
+File: Images/flowchar.pdf Graphic file (type pdf)
+<use Images/flowchar.pdf>
+File: Images/sumXYPlot.pdf Graphic file (type pdf)
+<use Images/sumXYPlot.pdf>
+File: ./Images/famk.pdf Graphic file (type pdf)
+<use ./Images/famk.pdf>
+File: ./Images/saml.pdf Graphic file (type pdf)
+<use ./Images/saml.pdf>
+File: ./Images/EntropyVersus.pdf Graphic file (type pdf)
+<use ./Images/EntropyVersus.pdf>
+[3]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Missing character: There is no ­ in font IRMitra/OT:script=arab;language=DFLT;m
-apping=parsidigits;!
+apping=persian-tex-text;!
 Missing character: There is no ­ in font IRMitra/OT:script=arab;language=DFLT;m
-apping=parsidigits;!
+apping=persian-tex-text;!
 Missing character: There is no ­ in font IRMitra/OT:script=arab;language=DFLT;m
-apping=parsidigits;!
+apping=persian-tex-text;!
 Missing character: There is no ­ in font IRMitra/OT:script=arab;language=DFLT;m
-apping=parsidigits;!
+apping=persian-tex-text;!
 Missing character: There is no ­ in font IRMitra/OT:script=arab;language=DFLT;m
-apping=parsidigits;!
+apping=persian-tex-text;!
  [4]
 Missing character: There is no ­ in font IRMitra/OT:script=arab;language=DFLT;m
-apping=parsidigits;!
-LaTeX Font Info:    Font shape `EU1/IRMitra(0)/m/n' will be
-(Font)              scaled to size 7.3pt on input line 246.
+apping=persian-tex-text;!
+LaTeX Font Info:    Font shape `TU/IRMitra(0)/m/n' will be
+(Font)              scaled to size 7.3pt on input line 245.
 \openout3 = `myPaper.ent'.
 
 
-Underfull \hbox (badness 1057) in paragraph at lines 246--247
-[]\EU1/IRMitra(0)/m/n/10.95 تردید كلمه «پردازش» زیباتر از «پروسس» است، و یا كلم
-ه «ریزپردازنده» از[]
+Underfull \hbox (badness 1057) in paragraph at lines 245--246
+[]\TU/IRMitra(0)/m/n/10.95 تردید كلمه «پردازش» زیباتر از «پروسس» است، و یا كلمه
+ «ریزپردازنده» از[]
  []
 
 Missing character: There is no ­ in font IRMitra/OT:script=arab;language=DFLT;m
-apping=parsidigits;!
+apping=persian-tex-text;!
 Missing character: There is no ­ in font IRMitra/OT:script=arab;language=DFLT;m
-apping=parsidigits;!
+apping=persian-tex-text;!
 Missing character: There is no ­ in font IRMitra/OT:script=arab;language=DFLT;m
-apping=parsidigits;!
+apping=persian-tex-text;!
 Missing character: There is no ­ in font IRMitra/OT:script=arab;language=DFLT;m
-apping=parsidigits;!
+apping=persian-tex-text;!
 Missing character: There is no ­ in font IRMitra/OT:script=arab;language=DFLT;m
-apping=parsidigits;!
+apping=persian-tex-text;!
 Missing character: There is no ­ in font IRMitra/OT:script=arab;language=DFLT;m
-apping=parsidigits;!
+apping=persian-tex-text;!
 Missing character: There is no ­ in font IRMitra/OT:script=arab;language=DFLT;m
-apping=parsidigits;!
+apping=persian-tex-text;!
 Missing character: There is no ­ in font IRMitra/OT:script=arab;language=DFLT;m
-apping=parsidigits;!
+apping=persian-tex-text;!
 Missing character: There is no ­ in font IRMitra Bold/OT:script=arab;language=D
-FLT;mapping=parsidigits;!
+FLT;mapping=persian-tex-text;!
 Missing character: There is no ­ in font IRMitra/OT:script=arab;language=DFLT;m
-apping=parsidigits;!
+apping=persian-tex-text;!
 Missing character: There is no ­ in font IRMitra/OT:script=arab;language=DFLT;m
-apping=parsidigits;!
+apping=persian-tex-text;!
 Missing character: There is no ­ in font IRMitra/OT:script=arab;language=DFLT;m
-apping=parsidigits;!
+apping=persian-tex-text;!
 Missing character: There is no ­ in font IRMitra/OT:script=arab;language=DFLT;m
-apping=parsidigits;!
+apping=persian-tex-text;!
 [5]
-LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/bx/n' will be
-(Font)              scaled to size 12.67206pt on input line 311.
-LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 315
-.
- (c:/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmtt.fd
-File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `EU1/IRMitra(0)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 347.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/bx/n' will be
+(Font)              scaled to size 12.67206pt on input line 310.
+LaTeX Font Info:    Font shape `TU/IRMitra(0)/m/it' will be
+(Font)              scaled to size 10.95pt on input line 346.
 Missing character: There is no ‎ in font cmr9!
  [6]
-LaTeX Font Info:    Font shape `EU1/IRMitra(0)/bx/it' will be
-(Font)              scaled to size 10.95pt on input line 408.
+LaTeX Font Info:    Font shape `TU/IRMitra(0)/bx/it' will be
+(Font)              scaled to size 10.95pt on input line 407.
 
-*************************************************
-* fontspec warning: "language-not-exist"
-* 
-* Language 'Parsi' not available for font 'IRMitra' with script 'Parsi'.
-* 'Default' language used instead.
-*************************************************
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'IRMitra(1)' created for font 'IRMitra' with options
-. [Script=Parsi,Language=Parsi,Mapping=parsidigits,Scale=.9].
-. 
-. This font family consists of the following shapes:
-. 
-. * 'normal' with NFSS spec.:
-. <->s*[.9]"IRMitra/OT:script=arab;language=DFLT;mapping=parsidigits;"
-. 
-. * 'small caps' with NFSS spec.:
-. 
-. and font adjustment code:
-. 
-. 
-. * 'bold' with NFSS spec.:
-. <->s*[.9]"IRMitra/B/OT:script=arab;language=DFLT;mapping=parsidigits;"
-. 
-. * 'bold small caps' with NFSS spec.:
-. 
-. and font adjustment code:
-. 
-. 
-. * 'italic' with NFSS spec.:
-. <->s*[.9]"IRMitra/I/OT:script=arab;language=DFLT;mapping=parsidigits;"
-. 
-. * 'small caps' with NFSS spec.:
-. 
-. and font adjustment code:
-. 
-. 
-. * 'bold italic' with NFSS spec.:
-. <->s*[.9]"IRMitra/BI/OT:script=arab;language=DFLT;mapping=parsidigits;"
-. 
-. * 'bold small caps' with NFSS spec.:
-. 
-. and font adjustment code:
-. 
-.................................................
-LaTeX Info: Redefining \persianfont on input line 439.
-LaTeX Font Info:    Font shape `EU1/IRMitra(1)/m/n' will be
-(Font)              scaled to size 9.85492pt on input line 439.
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'TimesNewRoman(1)' created for font 'Times New Roman' with
-. options [Mapping=tex-text,Scale=.8].
-. 
-. This font family consists of the following shapes:
-. 
-. * 'normal' with NFSS spec.:
-. <->s*[.8]"Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
-. 
-. * 'small caps' with NFSS spec.:
-. 
-. and font adjustment code:
-. 
-. 
-. * 'bold' with NFSS spec.:
-. <->s*[.8]"Times New Roman/B/OT:script=latn;language=DFLT;mapping=tex-text;"
-. 
-. * 'bold small caps' with NFSS spec.:
-. 
-. and font adjustment code:
-. 
-. 
-. * 'italic' with NFSS spec.:
-. <->s*[.8]"Times New Roman/I/OT:script=latn;language=DFLT;mapping=tex-text;"
-. 
-. * 'small caps' with NFSS spec.:
-. 
-. and font adjustment code:
-. 
-. 
-. * 'bold italic' with NFSS spec.:
-. <->s*[.8]"Times New Roman/BI/OT:script=latn;language=DFLT;mapping=tex-text;"
-. 
-. * 'bold small caps' with NFSS spec.:
-. 
-. and font adjustment code:
-. 
-.................................................
-LaTeX Info: Redefining \latinfont on input line 439.
-(./myPaper.bbl (./myPaper.brf)
+Package fontspec Info: Font family 'IRMitra(1)' created for font 'IRMitra'
+(fontspec)             with options
+(fontspec)             [Script=Persian,Ligatures=PersianTeX,Scale=.9].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[.9]"IRMitra/OT:script=arab;language=DFLT;mapping=p
+ersian-tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (bx/n) with NFSS spec.:
+(fontspec)             <->s*[.9]"IRMitra/B/OT:script=arab;language=DFLT;mapping
+=persian-tex-text;"
+(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[.9]"IRMitra/I/OT:script=arab;language=DFLT;mapping
+=persian-tex-text;"
+(fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.: 
+(fontspec)             - 'bold italic' (bx/it) with NFSS spec.:
+(fontspec)             <->s*[.9]"IRMitra/BI/OT:script=arab;language=DFLT;mappin
+g=persian-tex-text;"
+(fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
+
+LaTeX Info: Redefining \persianfont on input line 438.
+LaTeX Font Info:    Font shape `TU/IRMitra(1)/m/n' will be
+(Font)              scaled to size 9.85492pt on input line 438.
+
+Package fontspec Info: Font family 'TimesNewRoman(1)' created for font 'Times
+(fontspec)             New Roman' with options [Ligatures=TeX,Scale=.8].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[.8]"Times New
+(fontspec)             Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (bx/n) with NFSS spec.: <->s*[.8]"Times New
+(fontspec)             Roman/B/OT:script=latn;language=DFLT;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->s*[.8]"Times New
+(fontspec)             Roman/I/OT:script=latn;language=DFLT;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.: 
+(fontspec)             - 'bold italic' (bx/it) with NFSS spec.:
+(fontspec)             <->s*[.8]"Times New
+(fontspec)             Roman/BI/OT:script=latn;language=DFLT;mapping=tex-text;"
+
+(fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
+
+LaTeX Info: Redefining \latinfont on input line 438.
+ (./myPaper.bbl (./myPaper.brf)
 \tf@brf=\write5
 \openout5 = `myPaper.brf'.
 
-LaTeX Font Info:    Font shape `EU1/IRMitra(1)/m/n' will be
+LaTeX Font Info:    Font shape `TU/IRMitra(1)/m/n' will be
 (Font)              scaled to size 12.9599pt on input line 4.
-LaTeX Font Info:    Font shape `EU1/IRMitra(1)/bx/n' will be
+LaTeX Font Info:    Font shape `TU/IRMitra(1)/bx/n' will be
 (Font)              scaled to size 12.9599pt on input line 4.
-LaTeX Font Info:    Font shape `EU1/TimesNewRoman(1)/m/n' will be
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/m/n' will be
 (Font)              scaled to size 8.76003pt on input line 7.
-LaTeX Font Info:    Font shape `EU1/TimesNewRoman(1)/m/it' will be
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/m/it' will be
 (Font)              scaled to size 8.76003pt on input line 12.
 
 
@@ -1598,7 +1305,7 @@ Package hyperref Warning: Suppressing empty link on input line 21.
 
 Package hyperref Warning: Suppressing empty link on input line 30.
 
-LaTeX Font Info:    Font shape `EU1/IRMitra(1)/m/it' will be
+LaTeX Font Info:    Font shape `TU/IRMitra(1)/m/it' will be
 (Font)              scaled to size 9.85492pt on input line 40.
 
 Package hyperref Warning: Suppressing empty link on input line 40.
@@ -1611,31 +1318,29 @@ Package hyperref Warning: Suppressing empty link on input line 56.
 
 
 Underfull \hbox (badness 1742) in paragraph at lines 56--56
-\EU1/TimesNewRoman(1)/m/it/10.95 Transactions on Communications\EU1/TimesNewRom
-an(1)/m/n/10.95 , vol.43, no.2, pp.1566–
+[]\TU/TimesNewRoman(1)/m/it/10.95 Transactions on Communications\TU/TimesNewRom
+an(1)/m/n/10.95 , vol.43, no.2, pp.1566–[]
  []
 
 )
-*************************************************
-* fontspec warning: "language-not-exist"
-* 
-* Language 'Parsi' not available for font 'IRMitra' with script 'Parsi'.
-* 'Default' language used instead.
-*************************************************
-LaTeX Info: Redefining \persianfont on input line 439.
+LaTeX Info: Redefining \persianfont on input line 438.
 LaTeX Info: Redefining \latinfont on input line 439.
-LaTeX Font Info:    Font shape `EU1/IRMitra(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 441.
-(./myPaper.ent
-LaTeX Font Info:    Font shape `EU1/IRMitra(0)/m/n' will be
+LaTeX Font Info:    Font shape `TU/IRMitra(0)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 440.
+ (./myPaper.ent
+LaTeX Font Info:    Font shape `TU/IRMitra(0)/m/n' will be
 (Font)              scaled to size 6.0pt on input line 2.
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 442.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 441.
  [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 442.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 441.
  (./myPaper.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 442.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 442.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 441.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 441.
+Package rerunfilecheck Info: File `myPaper.out' has not changed.
+(rerunfilecheck)             Checksum: 0189272D563A0B855209C08CDA142F56.
+Package rerunfilecheck Info: File `myPaper.brf' has not changed.
+(rerunfilecheck)             Checksum: F8DE4016C5754F62ED82F084387AB3DC.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1644,15 +1349,15 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 442.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 441.
  ) 
 Here is how much of TeX's memory you used:
- 25743 strings out of 493706
- 475837 string characters out of 6148913
- 564070 words of memory out of 5000000
- 28708 multiletter control sequences out of 15000+600000
- 17968 words of font info for 126 fonts, out of 8000000 for 9000
- 1328 hyphenation exceptions out of 8191
- 50i,14n,75p,10399b,777s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25861 strings out of 492482
+ 491983 string characters out of 6129471
+ 654361 words of memory out of 5000000
+ 30003 multiletter control sequences out of 15000+600000
+ 546358 words of font info for 134 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 59i,14n,77p,1294b,803s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on myPaper.pdf (7 pages).
