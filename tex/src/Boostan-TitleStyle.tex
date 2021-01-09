@@ -253,30 +253,29 @@
 %% ==============================================================================
 %استایل مربوط به پایان‌نامه با یک لوگو
 \newcommand{\thesisStyleO}[1]{
-	\ignorespaces
-	\begin{center}
-	\thispagestyle{empty}
-	\begin{table}
-		\begin{tabular}{ccc}
-& \includegraphics[width=.2\textwidth]{#1} & \\
-			&
-			\begin{minipage}{0.55\linewidth}
-				\vskip 0.6cm
-				\begin{center}
-					\@institute\\* [0.4cm]
-					\@faculity\\ [0.4cm]
-					\@group \\*[1cm]
-				\end{center}
-			\end{minipage}
-			&
-			
-		\end{tabular}
-	\end{table}
-	\vspace*{\stretch{1}}
-	\textbf{\LARGE{\@title}}
-	\vspace*{\stretch{1}}
-	\vskip 1cm
-	\large{\@forwhat}\\[.4cm]
+\ignorespaces
+\begin{center}
+\thispagestyle{empty}
+\begin{table}
+\begin{tabular}{ccc}
+& \includegraphics[width=\@logoScale]{\@logofile} & \\
+&
+\begin{minipage}{0.55\linewidth}
+\vskip 0.6cm
+\begin{center}
+%\@institute\\* [0.4cm]
+\@faculity\\ [0.4cm]
+\@group \\*[1cm]
+\end{center}
+\end{minipage}
+&
+\end{tabular}
+\end{table}
+\vspace*{\stretch{1}}
+\textbf{{\fontsize{15pt}{50pt}\selectfont\@title}}
+\vspace*{\stretch{1}}
+\vskip 1cm
+\large{\@forwhat}\\[.4cm]
 	\large{\@field}
 	\vspace*{\stretch{1}}
 	\vskip 1cm
@@ -284,7 +283,7 @@
 	\vskip 1.5cm
 	\Large{
 	استاد راهنما:}
-	 \\ [0.4cm] \Large{\@supervisor}
+	 \\ [0.1cm] \Large{\@supervisor}
 	\vskip 2cm
 	\large{\@date}
 	\end{center}
