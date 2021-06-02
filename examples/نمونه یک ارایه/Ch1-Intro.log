@@ -1,0 +1,2967 @@
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.31)  2 JUN 2021 23:49
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Ch1-Intro.tex
+(./Ch1-Intro.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-05-27>
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/base/report
+.cls
+Document Class: report 2020/04/10 v1.4m Standard LaTeX document class
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/base/size10
+.clo
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count177
+\c@chapter=\count178
+\c@section=\count179
+\c@subsection=\count180
+\c@subsubsection=\count181
+\c@paragraph=\count182
+\c@subparagraph=\count183
+\c@figure=\count184
+\c@table=\count185
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/epigraph/ep
+igraph.sty
+Package: epigraph 2020/01/02 v1.5e typesetting epigraphs
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/nextpage/ne
+xtpage.sty
+Package: nextpage 2009/09/03 v1.1a additional page commands
+)
+\beforeepigraphskip=\skip49
+\afterepigraphskip=\skip50
+\epigraphwidth=\skip51
+\epigraphrule=\skip52
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/lobster2/Lo
+bsterTwo.sty
+Package: LobsterTwo 2020/07/31 (Bob Tennent) Supports Lobster Two fonts for all
+ LaTeX engines. 
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/iftex/ifx
+etex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/iftex/ift
+ex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/iftex/ifl
+uatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/base/textco
+mp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/xkeyval/xke
+yval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/xkeyval/x
+keyval.tex
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/xkeyval/x
+kvutils.tex
+\XKV@toks=\toks15
+\XKV@tempa@toks=\toks16
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/xkeyval/k
+eyval.tex))
+\XKV@depth=\count186
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/fontspec/fo
+ntspec.sty
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/l3packages/
+xparse/xparse.sty
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/l3kernel/ex
+pl3.sty
+Package: expl3 2021-05-27 L3 programming layer (loader) 
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/l3backend/l
+3backend-xetex.def
+File: l3backend-xetex.def 2021-05-07 L3 backend support: XeTeX
+ (|extractbb --version)
+\c__kernel_sys_dvipdfmx_version_int=\count187
+\l__color_backend_stack_int=\count188
+\g__color_backend_stack_int=\count189
+\g__graphics_track_int=\count190
+\l__pdf_internal_box=\box47
+\g__pdf_backend_object_int=\count191
+\g__pdf_backend_annotation_int=\count192
+\g__pdf_backend_link_int=\count193
+))
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/l3packages/
+xparse/xparse-2020-10-01.sty
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/l3packages/
+xparse/xparse-generic.tex)))
+Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/fontspec/fo
+ntspec-xetex.sty
+Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count194
+\l__fontspec_language_int=\count195
+\l__fontspec_strnum_int=\count196
+\l__fontspec_tmp_int=\count197
+\l__fontspec_tmpa_int=\count198
+\l__fontspec_tmpb_int=\count199
+\l__fontspec_tmpc_int=\count266
+\l__fontspec_em_int=\count267
+\l__fontspec_emdef_int=\count268
+\l__fontspec_strong_int=\count269
+\l__fontspec_strongdef_int=\count270
+\l__fontspec_tmpa_dim=\dimen139
+\l__fontspec_tmpb_dim=\dimen140
+\l__fontspec_tmpc_dim=\dimen141
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/base/fonten
+c.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/fontspec/fo
+ntspec.cfg)))
+Requested font "[LobsterTwo-Regular.otf]/OT" at 9.99997pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/opentype/imp
+allari/lobster2/LobsterTwo-Regular.otf
+Requested font "[LobsterTwo-Regular.otf]/OT" at 10.00003pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/opentype/imp
+allari/lobster2/LobsterTwo-Regular.otf
+Requested font "[LobsterTwo-Regular.otf]/OT:script=latn;language=dflt;" at 10.0
+0003pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/opentype/imp
+allari/lobster2/LobsterTwo-Regular.otf
+Requested font "[LobsterTwo-Bold.otf]/OT:script=latn;language=dflt;" at 10.0000
+3pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/opentype/imp
+allari/lobster2/LobsterTwo-Bold.otf
+Requested font "[LobsterTwo-Italic.otf]/OT:script=latn;language=dflt;" at 10.00
+003pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/opentype/imp
+allari/lobster2/LobsterTwo-Italic.otf
+Requested font "[LobsterTwo-BoldItalic.otf]/OT:script=latn;language=dflt;" at 1
+0.00003pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/opentype/imp
+allari/lobster2/LobsterTwo-BoldItalic.otf
+
+Package fontspec Info: Font family 'LobsterTwo(0)' created for font
+(fontspec)             'LobsterTwo' with options [Ligatures = TeX,Extension =
+(fontspec)             .otf,Scale = 1,Ligatures=TeX,UprightFont =
+(fontspec)             *-Regular,ItalicFont = *-Italic,BoldFont =
+(fontspec)             *-Bold,BoldItalicFont = *-BoldItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LobsterTwo-Regular.otf]/OT:script=latn;languag
+e=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LobsterTwo-Bold.otf]/OT:script=latn;language=d
+flt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LobsterTwo-Italic.otf]/OT:script=latn;language
+=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LobsterTwo-BoldItalic.otf]/OT:script=latn;lang
+uage=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+LaTeX Font Info:    Font shape `TU/LobsterTwo(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 43.
+Requested font "[LobsterTwo-Regular.otf]/OT:script=latn;language=dflt;mapping=t
+ex-text;" at 10.0pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/opentype/imp
+allari/lobster2/LobsterTwo-Regular.otf
+
+Package fontspec Info: Font family 'LobsterTwo(1)' created for font
+(fontspec)             'LobsterTwo' with options [Ligatures = TeX,Extension =
+(fontspec)             .otf,Scale = 1,UprightFont = *-Regular,ItalicFont =
+(fontspec)             *-Italic,BoldFont = *-Bold,BoldItalicFont =
+(fontspec)             *-BoldItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LobsterTwo-Regular.otf]/OT:script=latn;languag
+e=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LobsterTwo-Bold.otf]/OT:script=latn;language=d
+flt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LobsterTwo-Italic.otf]/OT:script=latn;language
+=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LobsterTwo-BoldItalic.otf]/OT:script=latn;lang
+uage=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/setspace/se
+tspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/home/abolfazl/Documents/DataR/Study/Pejohesh/MINIProj/Boostan/tex/Boostan-Rep
+Pres.tex
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/comment/com
+ment.sty
+\CommentStream=\write3
+ Excluding comment 'comment')
+(/home/abolfazl/Documents/DataR/Study/Pejohesh/MINIProj/Boostan/tex/src/Boostan
+-Init.tex)
+(/home/abolfazl/Documents/DataR/Study/Pejohesh/MINIProj/Boostan/tex/src/Boostan
+-Main.tex
+(/home/abolfazl/Documents/DataR/Study/Pejohesh/MINIProj/Boostan/tex/src/Boostan
+-LoadBasicPackage.tex
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/amscls/amst
+hm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks17
+\thm@bodyfont=\toks18
+\thm@headfont=\toks19
+\thm@notefont=\toks20
+\thm@headpunct=\toks21
+\thm@preskip=\skip53
+\thm@postskip=\skip54
+\thm@headsep=\skip55
+\dth@everypar=\toks22
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/amsmath/ams
+math.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip56
+
+For additional information on amsmath, use the `?' option.
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/amsmath/ams
+text.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/amsmath/ams
+gen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks23
+\ex@=\dimen142
+))
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/amsmath/ams
+bsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen143
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/amsmath/ams
+opn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count271
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count272
+\leftroot@=\count273
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count274
+\DOTSCASE@=\count275
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box48
+\strutbox@=\box49
+\big@size=\dimen144
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count276
+\c@MaxMatrixCols=\count277
+\dotsspace@=\muskip16
+\c@parentequation=\count278
+\dspbrk@lvl=\count279
+\tag@help=\toks24
+\row@=\count280
+\column@=\count281
+\maxfields@=\count282
+\andhelp@=\toks25
+\eqnshift@=\dimen145
+\alignsep@=\dimen146
+\tagshift@=\dimen147
+\tagwidth@=\dimen148
+\totwidth@=\dimen149
+\lineht@=\dimen150
+\@envbody=\toks26
+\multlinegap=\skip57
+\multlinetaggap=\skip58
+\mathdisplay@stack=\toks27
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/amsfonts/am
+ssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/amsfonts/am
+sfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/wasysym/was
+ysym.sty
+Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
+\symwasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/graphics/ro
+tating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/graphics/gr
+aphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/graphics/gr
+aphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/graphics/tr
+ig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/graphics-cf
+g/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 105.
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/graphics-de
+f/xetex.def
+File: xetex.def 2021/03/18 v5.0k Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen151
+\Gin@req@width=\dimen152
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/base/ifthen
+.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count283
+\rotFPtop=\skip59
+\rotFPbot=\skip60
+\rot@float@box=\box50
+\rot@mess@toks=\toks28
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/float/float
+.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count284
+\float@exts=\toks29
+\float@box=\box51
+\@float@everytoks=\toks30
+\@floatcapt=\box52
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/geometry/ge
+ometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/iftex/ifv
+tex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count285
+\Gm@cntv=\count286
+\c@Gm@tempcnt=\count287
+\Gm@bindingoffset=\dimen153
+\Gm@wd@mp=\dimen154
+\Gm@odd@mp=\dimen155
+\Gm@even@mp=\dimen156
+\Gm@layoutwidth=\dimen157
+\Gm@layoutheight=\dimen158
+\Gm@layouthoffset=\dimen159
+\Gm@layoutvoffset=\dimen160
+\Gm@dimlist=\toks31
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/caption/sub
+caption.sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/caption/cap
+tion.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/caption/cap
+tion3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen161
+\captionmargin@=\dimen162
+\captionwidth=\dimen163
+\caption@tempdima=\dimen164
+\caption@indent=\dimen165
+\caption@parindent=\dimen166
+\caption@hangindent=\dimen167
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count288
+\c@continuedfloat=\count289
+Package caption Info: float package is loaded.
+Package caption Info: rotating package is loaded.
+)
+\c@subfigure=\count290
+\c@subtable=\count291
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/xcolor/xcol
+or.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/graphics-cf
+g/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Package option `usenames' ignored on input line 216.
+Package xcolor Info: Driver file: xetex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/graphics/dv
+ipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/qrcode/qrco
+de.sty
+Package: qrcode 2015/01/08 v1.51 QR code generation
+\c@qr@i=\count292
+\c@qr@j=\count293
+\qr@a=\count294
+\qr@b=\count295
+\qr@c=\count296
+\qr@for@depth=\count297
+\qr@for@maxdepth=\count298
+\qr@for@start=\count299
+\qr@for@end=\count300
+\qr@for@step=\count301
+\qr@newforcount=\count302
+\qr@newforcount=\count303
+\qr@desiredheight=\skip61
+\qr@modulesize=\skip62
+\qr@minipagewidth=\skip63
+\c@maski=\count304
+\c@maskj=\count305
+\c@totalones=\count306
+\c@penaltyi=\count307
+\c@penaltyii=\count308
+\c@penaltyiii=\count309
+\c@penaltyiv=\count310
+\c@qr@hexchars=\count311
+\qr@newforcount=\count312
+\c@qr@divisionsremaining=\count313
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/psnfss/pifo
+nt.sty
+Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
+
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/psnfss/upzd
+.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+Requested font "pzdr" at 10.0pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/tfm/adobe/za
+pfding/pzdr.tfm
+LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
+
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/psnfss/upsy
+.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+)
+Requested font "psyr" at 10.0pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/tfm/adobe/sy
+mbol/psyr.tfm
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/multirow/mu
+ltirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip64
+\multirow@cntb=\count314
+\multirow@dima=\skip65
+\bigstrutjot=\dimen168
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/booktabs/bo
+oktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen169
+\lightrulewidth=\dimen170
+\cmidrulewidth=\dimen171
+\belowrulesep=\dimen172
+\belowbottomsep=\dimen173
+\aboverulesep=\dimen174
+\abovetopsep=\dimen175
+\cmidrulesep=\dimen176
+\cmidrulekern=\dimen177
+\defaultaddspace=\dimen178
+\@cmidla=\count315
+\@cmidlb=\count316
+\@aboverulesep=\dimen179
+\@belowrulesep=\dimen180
+\@thisruleclass=\count317
+\@lastruleclass=\count318
+\@thisrulewidth=\dimen181
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/framed/fram
+ed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip66
+\fb@frw=\dimen182
+\fb@frh=\dimen183
+\FrameRule=\dimen184
+\FrameSep=\dimen185
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/pgf/fronten
+dlayer/tikz.sty
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/pgf/basicla
+yer/pgf.sty
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/pgf/utiliti
+es/pgfrcs.sty
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/utili
+ties/pgfutil-common.tex
+\pgfutil@everybye=\toks32
+\pgfutil@tempdima=\dimen186
+\pgfutil@tempdimb=\dimen187
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/utili
+ties/pgfutil-common-lists.tex))
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/utili
+ties/pgfutil-latex.def
+\pgfutil@abb=\box53
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/utili
+ties/pgfrcs.code.tex
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/pgf.r
+evision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/pgf/basicla
+yer/pgfcore.sty
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/pgf/systeml
+ayer/pgfsys.sty
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/syste
+mlayer/pgfsys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/utili
+ties/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks33
+\pgfkeys@temptoks=\toks34
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/utili
+ties/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks35
+))
+\pgf@x=\dimen188
+\pgf@y=\dimen189
+\pgf@xa=\dimen190
+\pgf@ya=\dimen191
+\pgf@xb=\dimen192
+\pgf@yb=\dimen193
+\pgf@xc=\dimen194
+\pgf@yc=\dimen195
+\pgf@xd=\dimen196
+\pgf@yd=\dimen197
+\w@pgf@writea=\write4
+\r@pgf@reada=\read2
+\c@pgf@counta=\count319
+\c@pgf@countb=\count320
+\c@pgf@countc=\count321
+\c@pgf@countd=\count322
+\t@pgf@toka=\toks36
+\t@pgf@tokb=\toks37
+\t@pgf@tokc=\toks38
+\pgf@sys@id@count=\count323
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/syste
+mlayer/pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-xetex.def
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/syste
+mlayer/pgfsys-xetex.def
+File: pgfsys-xetex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/syste
+mlayer/pgfsys-dvipdfmx.def
+File: pgfsys-dvipdfmx.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/syste
+mlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)
+\pgfsys@objnum=\count324
+)))
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/syste
+mlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count325
+\pgfsyssoftpath@bigbuffer@items=\count326
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/syste
+mlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/basic
+layer/pgfcore.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/math/
+pgfmath.code.tex
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/math/
+pgfmathcalc.code.tex
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/math/
+pgfmathutil.code.tex)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/math/
+pgfmathparser.code.tex
+\pgfmath@dimen=\dimen198
+\pgfmath@count=\count327
+\pgfmath@box=\box54
+\pgfmath@toks=\toks39
+\pgfmath@stack@operand=\toks40
+\pgfmath@stack@operation=\toks41
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/math/
+pgfmathfunctions.code.tex
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/math/
+pgfmathfunctions.basic.code.tex)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/math/
+pgfmathfunctions.trigonometric.code.tex)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/math/
+pgfmathfunctions.random.code.tex)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/math/
+pgfmathfunctions.comparison.code.tex)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/math/
+pgfmathfunctions.base.code.tex)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/math/
+pgfmathfunctions.round.code.tex)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/math/
+pgfmathfunctions.misc.code.tex)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/math/
+pgfmathfunctions.integerarithmetics.code.tex)))
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/math/
+pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count328
+))
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/math/
+pgfint.code.tex)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen199
+\pgf@picmaxx=\dimen256
+\pgf@picminy=\dimen257
+\pgf@picmaxy=\dimen258
+\pgf@pathminx=\dimen259
+\pgf@pathmaxx=\dimen260
+\pgf@pathminy=\dimen261
+\pgf@pathmaxy=\dimen262
+\pgf@xx=\dimen263
+\pgf@xy=\dimen264
+\pgf@yx=\dimen265
+\pgf@yy=\dimen266
+\pgf@zx=\dimen267
+\pgf@zy=\dimen268
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen269
+\pgf@path@lasty=\dimen270
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen271
+\pgf@shorten@start@additional=\dimen272
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box55
+\pgf@hbox=\box56
+\pgf@layerbox@main=\box57
+\pgf@picture@serial@count=\count329
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/basic
+layer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen273
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/basic
+layer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen274
+\pgf@pt@y=\dimen275
+\pgf@pt@temp=\dimen276
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/basic
+layer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen277
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/basic
+layer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen278
+\pgf@sys@shading@range@num=\count330
+\pgf@shadingcount=\count331
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/basic
+layer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/basic
+layer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box58
+))
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/basic
+layer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/modul
+es/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box59
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/modul
+es/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/pgf/compati
+bility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen279
+\pgf@nodesepend=\dimen280
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/pgf/compati
+bility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/pgf/utiliti
+es/pgffor.sty
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/pgf/utiliti
+es/pgfkeys.sty
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/utili
+ties/pgfkeys.code.tex))
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/pgf/math/pg
+fmath.sty
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/math/
+pgfmath.code.tex))
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/utili
+ties/pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/math/
+pgfmath.code.tex)
+\pgffor@iter=\dimen281
+\pgffor@skip=\dimen282
+\pgffor@stack=\toks42
+\pgffor@toks=\toks43
+))
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/libra
+ries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count332
+\pgfplotmarksize=\dimen283
+)
+\tikz@lastx=\dimen284
+\tikz@lasty=\dimen285
+\tikz@lastxsaved=\dimen286
+\tikz@lastysaved=\dimen287
+\tikz@lastmovetox=\dimen288
+\tikz@lastmovetoy=\dimen289
+\tikzleveldistance=\dimen290
+\tikzsiblingdistance=\dimen291
+\tikz@figbox=\box60
+\tikz@figbox@bg=\box61
+\tikz@tempbox=\box62
+\tikz@tempbox@bg=\box63
+\tikztreelevel=\count333
+\tikznumberofchildren=\count334
+\tikznumberofcurrentchild=\count335
+\tikz@fig@count=\count336
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/modul
+es/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count337
+\pgfmatrixcurrentcolumn=\count338
+\pgf@matrix@numberofcolumns=\count339
+)
+\tikz@expandcount=\count340
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/mdframed/md
+framed.sty
+Package: mdframed 2013/07/01 1.9b: mdframed
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/kvoptions/k
+voptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/ltxcmds/l
+txcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/kvsetkeys
+/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/etoolbox/et
+oolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count341
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/zref/zref-a
+bspage.sty
+Package: zref-abspage 2020-07-03 v2.32 Module abspage for zref (HO)
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/zref/zref-b
+ase.sty
+Package: zref-base 2020-07-03 v2.32 Module base for zref (HO)
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/infwarerr
+/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/kvdefinek
+eys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pdftexcmd
+s/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/etexcmds/
+etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/auxhook/aux
+hook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 764.
+Package zref Info: New property: default on input line 765.
+Package zref Info: New property: page on input line 766.
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/base/atbegs
+hi-ltx.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
+ge
+with kernel methods
+)
+\c@abspage=\count342
+Package zref Info: New property: abspage on input line 66.
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/needspace/n
+eedspace.sty
+Package: needspace 2010/09/12 v1.3d reserve vertical space
+)
+\mdf@templength=\skip67
+\c@mdf@globalstyle@cnt=\count343
+\mdf@skipabove@length=\skip68
+\mdf@skipbelow@length=\skip69
+\mdf@leftmargin@length=\skip70
+\mdf@rightmargin@length=\skip71
+\mdf@innerleftmargin@length=\skip72
+\mdf@innerrightmargin@length=\skip73
+\mdf@innertopmargin@length=\skip74
+\mdf@innerbottommargin@length=\skip75
+\mdf@splittopskip@length=\skip76
+\mdf@splitbottomskip@length=\skip77
+\mdf@outermargin@length=\skip78
+\mdf@innermargin@length=\skip79
+\mdf@linewidth@length=\skip80
+\mdf@innerlinewidth@length=\skip81
+\mdf@middlelinewidth@length=\skip82
+\mdf@outerlinewidth@length=\skip83
+\mdf@roundcorner@length=\skip84
+\mdf@footenotedistance@length=\skip85
+\mdf@userdefinedwidth@length=\skip86
+\mdf@needspace@length=\skip87
+\mdf@frametitleaboveskip@length=\skip88
+\mdf@frametitlebelowskip@length=\skip89
+\mdf@frametitlerulewidth@length=\skip90
+\mdf@frametitleleftmargin@length=\skip91
+\mdf@frametitlerightmargin@length=\skip92
+\mdf@shadowsize@length=\skip93
+\mdf@extratopheight@length=\skip94
+\mdf@subtitleabovelinewidth@length=\skip95
+\mdf@subtitlebelowlinewidth@length=\skip96
+\mdf@subtitleaboveskip@length=\skip97
+\mdf@subtitlebelowskip@length=\skip98
+\mdf@subtitleinneraboveskip@length=\skip99
+\mdf@subtitleinnerbelowskip@length=\skip100
+\mdf@subsubtitleabovelinewidth@length=\skip101
+\mdf@subsubtitlebelowlinewidth@length=\skip102
+\mdf@subsubtitleaboveskip@length=\skip103
+\mdf@subsubtitlebelowskip@length=\skip104
+\mdf@subsubtitleinneraboveskip@length=\skip105
+\mdf@subsubtitleinnerbelowskip@length=\skip106
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/mdframed/md
+-frame-1.mdf
+File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
+)
+\mdf@frametitlebox=\box64
+\mdf@footnotebox=\box65
+\mdf@splitbox@one=\box66
+\mdf@splitbox@two=\box67
+\mdf@splitbox@save=\box68
+\mdfsplitboxwidth=\skip107
+\mdfsplitboxtotalwidth=\skip108
+\mdfsplitboxheight=\skip109
+\mdfsplitboxdepth=\skip110
+\mdfsplitboxtotalheight=\skip111
+\mdfframetitleboxwidth=\skip112
+\mdfframetitleboxtotalwidth=\skip113
+\mdfframetitleboxheight=\skip114
+\mdfframetitleboxdepth=\skip115
+\mdfframetitleboxtotalheight=\skip116
+\mdffootnoteboxwidth=\skip117
+\mdffootnoteboxtotalwidth=\skip118
+\mdffootnoteboxheight=\skip119
+\mdffootnoteboxdepth=\skip120
+\mdffootnoteboxtotalheight=\skip121
+\mdftotallinewidth=\skip122
+\mdfboundingboxwidth=\skip123
+\mdfboundingboxtotalwidth=\skip124
+\mdfboundingboxheight=\skip125
+\mdfboundingboxdepth=\skip126
+\mdfboundingboxtotalheight=\skip127
+\mdf@freevspace@length=\skip128
+\mdf@horizontalwidthofbox@length=\skip129
+\mdf@verticalmarginwhole@length=\skip130
+\mdf@horizontalspaceofbox=\skip131
+\mdfsubtitleheight=\skip132
+\mdfsubsubtitleheight=\skip133
+\c@mdfcountframes=\count344
+
+****** mdframed patching \endmdf@trivlist
+
+****** -- success******
+
+\mdf@envdepth=\count345
+\c@mdf@env@i=\count346
+\c@mdf@env@ii=\count347
+\c@mdf@zref@counter=\count348
+Package zref Info: New property: mdf@pagevalue on input line 895.
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/titlesec/ti
+tlesec.sty
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box69
+\beforetitleunit=\skip134
+\aftertitleunit=\skip135
+\ttl@plus=\dimen292
+\ttl@minus=\dimen293
+\ttl@toksa=\toks44
+\titlewidth=\dimen294
+\titlewidthlast=\dimen295
+\titlewidthfirst=\dimen296
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/pdfpages/pd
+fpages.sty
+Package: pdfpages 2021/03/06 v0.5t Insert pages of external PDF documents (AM)
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/tools/calc.
+sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count349
+\calc@Bcount=\count350
+\calc@Adimen=\dimen297
+\calc@Bdimen=\dimen298
+\calc@Askip=\skip136
+\calc@Bskip=\skip137
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count351
+\calc@Cskip=\skip138
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/eso-pic/eso
+-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen299
+\ESO@tempdimb=\dimen300
+)
+\AM@pagewidth=\dimen301
+\AM@pageheight=\dimen302
+\AM@fboxrule=\dimen303
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/pdfpages/pp
+xetex.def
+File: ppxetex.def 2021/03/06 v0.5t Pdfpages driver for XeTeX (AM)
+)
+\pdfpages@includegraphics@status=\count352
+\AM@pagebox=\box70
+\AM@global@opts=\toks45
+\AM@pagecnt=\count353
+\AM@toc@title=\toks46
+\c@AM@survey=\count354
+\AM@templatesizebox=\box71
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/colortbl/co
+lortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/tools/array
+.sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen304
+\ar@mcellbox=\box72
+\extrarowheight=\dimen305
+\NC@list=\toks47
+\extratabsurround=\skip139
+\backup@length=\skip140
+\ar@cellbox=\box73
+)
+\everycr=\toks48
+\minrowclearance=\skip141
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/wrapfig/wra
+pfig.sty
+\wrapoverhang=\dimen306
+\WF@size=\dimen307
+\c@WF@wrappedlines=\count355
+\WF@box=\box74
+\WF@everypar=\toks49
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/bidihl/bi
+dihl.sty
+Package: bidihl 2015/07/07 v0.1c Experimental bidi-aware text highlighting
+\bidihl@line@thickness=\dimen308
+\bidihl@pixel=\dimen309
+\bidihl@height=\dimen310
+\bidihl@depth=\dimen311
+\bidihl@spacefactor=\count356
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/sectsty/sec
+tsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
+les
+
+
+LaTeX Warning: Command \underbar  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \underline  has changed.
+               Check if current package is valid.
+
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/fancyhdr/fa
+ncyhdr.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
+rs
+\f@nch@headwidth=\skip142
+\f@nch@O@elh=\skip143
+\f@nch@O@erh=\skip144
+\f@nch@O@olh=\skip145
+\f@nch@O@orh=\skip146
+\f@nch@O@elf=\skip147
+\f@nch@O@erf=\skip148
+\f@nch@O@olf=\skip149
+\f@nch@O@orf=\skip150
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/relsize/rel
+size.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/listings/li
+stings.sty
+\lst@mode=\count357
+\lst@gtempboxa=\box75
+\lst@token=\toks50
+\lst@length=\count358
+\lst@currlwidth=\dimen312
+\lst@column=\count359
+\lst@pos=\count360
+\lst@lostspace=\dimen313
+\lst@width=\dimen314
+\lst@newlines=\count361
+\lst@lineno=\count362
+\lst@maxwidth=\dimen315
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/listings/ls
+tmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count363
+\lst@skipnumbers=\count364
+\lst@framebox=\box76
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/listings/li
+stings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/base/makeid
+x.sty
+Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
+)
+\@indexfile=\write5
+\openout5 = `Ch1-Intro.idx'.
+
+
+Writing index file Ch1-Intro.idx
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/hyperref/hy
+perref.sty
+Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pdfescape
+/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/hycolor/hyc
+olor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/letltxmacro
+/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+\@linkdim=\dimen316
+\Hy@linkcounter=\count365
+\Hy@pagecounter=\count366
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/hyperref/pd
+1enc.def
+File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/hyperref/hy
+perref-langpatches.def
+File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel la
+nguages
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/intcalc/i
+ntcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count367
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/hyperref/pu
+enc.def
+File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count368
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen317
+Requested font "pzdr" at 0.00002pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/tfm/adobe/za
+pfding/pzdr.tfm
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/bitset/bi
+tset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/bigintcal
+c/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count369
+\Field@Width=\dimen318
+\Fld@charsize=\dimen319
+Package hyperref Info: Hyper figures OFF on input line 6075.
+Package hyperref Info: Link nesting OFF on input line 6080.
+Package hyperref Info: Hyper index ON on input line 6083.
+Package hyperref Info: backreferencing OFF on input line 6090.
+Package hyperref Info: Link coloring OFF on input line 6095.
+Package hyperref Info: Link coloring with OCG OFF on input line 6100.
+Package hyperref Info: PDF/A mode OFF on input line 6105.
+LaTeX Info: Redefining \ref on input line 6145.
+LaTeX Info: Redefining \pageref on input line 6149.
+\Hy@abspage=\count370
+\c@Item=\count371
+\c@Hfootnote=\count372
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/hyperref/hx
+etex.def
+File: hxetex.def 2021-02-27 v7.00k Hyperref driver for XeTeX
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/stringenc
+/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box77
+\c@Hy@AnnotLevel=\count373
+\HyField@AnnotCount=\count374
+\Fld@listcount=\count375
+\c@bookmark@seq@number=\count376
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/rerunfilech
+eck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/base/atvery
+end-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
+with kernel methods
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/uniquecou
+nter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip151
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/glossaries/
+base/glossaries.sty
+Package: glossaries 2020/03/19 v4.46 (NLCT)
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/mfirstuc/mf
+irstuc.sty
+Package: mfirstuc 2017/11/14 v2.06 (NLCT)
+\@glsmfirst=\toks51
+\@glsmrest=\toks52
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/textcase/te
+xtcase.sty
+Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/xfor/xfor.s
+ty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/datatool/da
+tatool-base.sty
+Package: datatool-base 2019/09/27 v2.32 (NLCT)
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/substr/subs
+tr.sty
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count377
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/datatool/da
+tatool-fp.sty
+Package: datatool-fp 2019/09/27 v2.32 (NLCT)
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/fp/defpatte
+rn.sty
+Package: defpattern 1994/10/12
+\actioncount=\count378
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/fp/fp-basic
+.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count379
+\FP@xia=\count380
+\FP@xib=\count381
+\FP@xfa=\count382
+\FP@xfb=\count383
+\FP@rega=\count384
+\FP@regb=\count385
+\FP@regs=\count386
+\FP@times=\count387
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/fp/fp-addon
+s.sty
+Package: fp-addons 1995/03/15
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/fp/fp-snap.
+sty
+Package: fp-snap 1995/04/05
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/fp/fp-exp.s
+ty
+Package: fp-exp 1995/04/03
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/fp/fp-trigo
+.sty
+Package: fp-trigo 1995/04/14
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/fp/fp-pas.s
+ty
+Package: fp-pas 1994/08/29
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/fp/fp-rando
+m.sty
+Package: fp-random 1995/02/23
+\FPseed=\count388
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/fp/fp-eqn.s
+ty
+Package: fp-eqn 1995/04/03
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/fp/fp-upn.s
+ty
+Package: fp-upn 1996/10/21
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/fp/fp-eval.
+sty
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks53
+\@dtl@tmpcount=\count389
+\dtl@tmplength=\skip152
+\dtl@sortresult=\count390
+\@dtl@numgrpsepcount=\count391
+\@dtl@datatype=\count392
+\dtl@codeA=\count393
+\dtl@codeB=\count394
+\@dtl@foreach@level=\count395
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/glossaries/
+base/glossaries-compatible-307.sty
+Package: glossaries-compatible-307 2020/03/19 v4.46 (NLCT)
+)
+\gls@level=\count396
+\@gls@tmpb=\toks54
+\gls@tmplen=\skip153
+\glskeylisttok=\toks55
+\glslabeltok=\toks56
+\glsshorttok=\toks57
+\glslongtok=\toks58
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/glossaries/
+styles/glossary-hypernav.sty
+Package: glossary-hypernav 2020/03/19 v4.46 (NLCT)
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/glossaries/
+styles/glossary-list.sty
+Package: glossary-list 2020/03/19 v4.46 (NLCT)
+\glslistdottedwidth=\skip154
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/glossaries/
+styles/glossary-long.sty
+Package: glossary-long 2020/03/19 v4.46 (NLCT)
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/tools/longt
+able.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip155
+\LTright=\skip156
+\LTpre=\skip157
+\LTpost=\skip158
+\LTchunksize=\count397
+\LTcapwidth=\dimen320
+\LT@head=\box78
+\LT@firsthead=\box79
+\LT@foot=\box80
+\LT@lastfoot=\box81
+\LT@cols=\count398
+\LT@rows=\count399
+\c@LT@tables=\count400
+\c@LT@chunks=\count401
+\LT@p@ftn=\toks59
+)
+\glsdescwidth=\skip159
+\glspagelistwidth=\skip160
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/glossaries/
+styles/glossary-super.sty
+Package: glossary-super 2020/03/19 v4.46 (NLCT)
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/supertabula
+r/supertabular.sty
+Package: supertabular 2020/02/02 v4.1g the supertabular environment
+\c@tracingst=\count402
+\ST@wd=\dimen321
+\ST@rightskip=\skip161
+\ST@leftskip=\skip162
+\ST@parfillskip=\skip163
+\ST@pageleft=\dimen322
+\ST@headht=\dimen323
+\ST@tailht=\dimen324
+\ST@pagesofar=\dimen325
+\ST@pboxht=\dimen326
+\ST@lineht=\dimen327
+\ST@prevht=\dimen328
+\ST@toadd=\dimen329
+\ST@dimen=\dimen330
+\ST@pbox=\box82
+))
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/glossaries/
+styles/glossary-tree.sty
+Package: glossary-tree 2020/03/19 v4.46 (NLCT)
+\glstreeindent=\skip164
+)))
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/xepersian
+/xepersian.sty
+Package: xepersian 2020/05/17 v23.1 Persian typesetting in XeLaTeX
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/xepersian
+/xepersian-persiancal.sty
+Package: xepersian-persiancal 2012/07/25 v0.2 provides Persian calendar
+\XePersian@i=\count403
+\XePersian@y=\count404
+\XePersian@m=\count405
+\XePersian@d=\count406
+\XePersian@latini=\count407
+\XePersian@persiani=\count408
+\XePersian@latinii=\count409
+\XePersian@persianii=\count410
+\XePersian@latiniii=\count411
+\XePersian@persianiii=\count412
+\XePersian@latiniv=\count413
+\XePersian@persianiv=\count414
+\XePersian@latinv=\count415
+\XePersian@persianv=\count416
+\XePersian@latinvi=\count417
+\XePersian@persianvi=\count418
+\XePersian@latinvii=\count419
+\XePersian@persianvii=\count420
+\XePersian@latinviii=\count421
+\XePersian@persianviii=\count422
+\XePersian@latinix=\count423
+\XePersian@persianix=\count424
+\XePersian@latinx=\count425
+\XePersian@persianx=\count426
+\XePersian@latinxi=\count427
+\XePersian@persianxi=\count428
+\XePersian@latinxii=\count429
+\XePersian@persianxii=\count430
+\XePersian@persianxiii=\count431
+\XePersian@temp=\count432
+\XePersian@temptwo=\count433
+\XePersian@tempthree=\count434
+\XePersian@yModHundred=\count435
+\XePersian@thirtytwo=\count436
+\XePersian@dn=\count437
+\XePersian@sn=\count438
+\XePersian@mminusone=\count439
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/xepersian
+/xepersian-mathsdigitspec.sty
+Package: xepersian-mathsdigitspec 2018/12/16 v1.1.7 Unicode Persian maths digit
+s in XeLaTeX
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/bidi/bidi
+.sty
+Package: bidi 2020/05/17 v36.3 Bidirectional typesetting in plain TeX and LaTeX
+
+
+****************************************************
+* 
+* bidi package (Bidirectional typesetting in
+* plain TeX and LaTeX, using XeTeX engine)
+* 
+* Description: A convenient interface for
+* typesetting bidirectional texts in plain TeX
+* and LaTeX. The package includes adaptations
+* for use with many other commonly-used packages.
+* 
+* Copyright (c) 2007--2020 Vafa Khalighi
+* Copyright (c) 2018--2020 bidi-tex GitHub organization
+* 
+* v36.3, 2020/05/17
+* 
+* License: LaTeX Project Public License, version
+* 1.3c or higher (your choice)
+* 
+* Location on CTAN: /macros/xetex/latex/bidi
+* 
+* Issue tracker: https://github.com/persiantex/bidi/issues
+* 
+* Primary author of bidi package: Vafa Khalighi.
+* 
+****************************************************
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/bidi/bidi
+tools.sty
+Package: biditools 2020/05/13 v2 Programming tools for bidi package
+\@bidi@envbody=\toks60
+\@bidi@emptytoks=\toks61
+\bidi@poscount=\count440
+
+
+Package biditools Warning: Patching `\enddocument' failed on input line 916.
+
+\bidi@tempcountb=\count441
+\bidi@temptoksa=\toks62
+\bidi@temptoksb=\toks63
+\bidi@dummies=\count442
+\bidi@are@these@correct=\toks64
+\bidi@toks@lista=\toks65
+\bidi@toks@listb=\toks66
+\bidi@stack@length=\count443
+\bidi@empty@stack=\toks67
+\bidi@looprepeat@depth=\count444
+)
+\@bidi@copyins@=\insert252
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/bidi/late
+x-xetex-bidi.def
+File: latex-xetex-bidi.def 2019/03/03 v1.3.7 bidi adaptations for `latex.ltx' f
+or XeTeX engine
+\bidi@n@everypar=\toks68
+\bidi@column@check@number=\count445
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/bidi/foot
+note-xetex-bidi.def
+File: footnote-xetex-bidi.def 2017/08/09 v1.1 bidi footnote macros for XeTeX en
+gine
+\c@footdir@label=\count446
+\footdir@toks=\toks69
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/bidi/repo
+rt-xetex-bidi.def
+File: report-xetex-bidi.def 2017/06/09 v0.8 bidi adaptations for standard repor
+t class for XeTeX engine
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/bidi/amsm
+ath-xetex-bidi.def
+File: amsmath-xetex-bidi.def 2020/05/16 v1.2 bidi adaptations for amsmath packa
+ge for XeTeX engine
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/bidi/amst
+ext-xetex-bidi.def
+File: amstext-xetex-bidi.def 2016/09/12 v0.2 bidi adaptations for amstext packa
+ge for XeTeX engine
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/bidi/amst
+hm-xetex-bidi.def
+File: amsthm-xetex-bidi.def 2010/07/25 v0.1 bidi adaptations for amsthm package
+ for XeTeX engine
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/bidi/capt
+ion-xetex-bidi.def
+File: caption-xetex-bidi.def 2010/07/25 v0.1 bidi adaptations for caption packa
+ge for XeTeX engine
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/bidi/capt
+ion3-xetex-bidi.def
+File: caption3-xetex-bidi.def 2013/04/01 v0.1 bidi adaptations for caption3 pac
+kage for XeTeX engine
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/bidi/colo
+r-xetex-bidi.def
+File: color-xetex-bidi.def 2013/04/08 v0.2 bidi adaptations for color package f
+or XeTeX engine
+LaTeX Info: Redefining \color on input line 47.
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/bidi/xcol
+or-xetex-bidi.def
+File: xcolor-xetex-bidi.def 2013/04/08 v0.2 bidi adaptations for xcolor package
+ for XeTeX engine
+LaTeX Info: Redefining \color on input line 46.
+LaTeX Info: Redefining \bidicolor on input line 89.
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/bidi/colo
+rtbl-xetex-bidi.def
+File: colortbl-xetex-bidi.def 2012/06/10 v0.2 bidi adaptations for colortbl pac
+kage for XeTeX engine
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/bidi/floa
+t-xetex-bidi.def
+File: float-xetex-bidi.def 2013/04/04 v0.2 bidi adaptations for float package f
+or XeTeX engine
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/bidi/wrap
+fig-xetex-bidi.def
+File: wrapfig-xetex-bidi.def 2014/04/23 v0.3 bidi adaptations for wrapfig packa
+ge for XeTeX engine
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/bidi/grap
+hicx-xetex-bidi.def
+File: graphicx-xetex-bidi.def 2017/06/17 v0.5 bidi adaptations for graphicx pac
+kage for XeTeX engine
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/bidi/geom
+etry-xetex-bidi.def
+File: geometry-xetex-bidi.def 2017/01/14 v0.2 bidi adaptations for geometry pac
+kage for XeTeX engine
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/bidi/long
+table-xetex-bidi.def
+File: longtable-xetex-bidi.def 2019/01/19 v0.5 bidi adaptations for longtable p
+ackage for XeTeX engine
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/bidi/hype
+rref-xetex-bidi.def
+File: hyperref-xetex-bidi.def 2018/11/11 v1.1 bidi adaptations for hyperref pac
+kage for XeTeX engine
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/bidi/fanc
+yhdr-xetex-bidi.def
+File: fancyhdr-xetex-bidi.def 2018/02/15 v0.7 bidi adaptations for fancyhdr pac
+kage for XeTeX engine
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/bidi/eso-
+pic-xetex-bidi.def
+File: eso-pic-xetex-bidi.def 2013/04/10 v0.2 bidi adaptations for eso-pic packa
+ge for XeTeX engine
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/bidi/fram
+ed-xetex-bidi.def
+File: framed-xetex-bidi.def 2012/06/05 v0.3 bidi adaptations for framed package
+ for XeTeX engine
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/bidi/pdfp
+ages-xetex-bidi.def
+File: pdfpages-xetex-bidi.def 2010/07/25 v0.1 bidi adaptations for pdfpages pac
+kage for XeTeX engine
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/bidi/list
+ings-xetex-bidi.def
+File: listings-xetex-bidi.def 2018/09/15 v1.5 bidi adaptations for listings pac
+kage for XeTeX engine
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/bidi/pgfc
+orescopes.code-xetex-bidi.def
+File: pgfcorescopes.code-xetex-bidi.def 2015/11/14 v0.1 bidi adaptations for pg
+f package for XeTeX engine
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/bidi/titl
+esec-xetex-bidi.def
+File: titlesec-xetex-bidi.def 2010/07/25 v0.1 bidi adaptations for titlesec pac
+kage for XeTeX engine
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/bidi/arra
+y-xetex-bidi.def
+File: array-xetex-bidi.def 2015/11/07 v0.3 bidi adaptations for array package f
+or XeTeX engine
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/bidi/mdfr
+amed-xetex-bidi.def
+File: mdframed-xetex-bidi.def 2013/09/22 v0.4 bidi adaptations for mdframed pac
+kage for XeTeX engine
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/bidi/rota
+ting-xetex-bidi.def
+File: rotating-xetex-bidi.def 2013/05/22 v0.2 bidi adaptations for rotating pac
+kage for XeTeX engine
+))
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/bidi/load
+ingorder-xetex-bidi.def
+File: loadingorder-xetex-bidi.def 2017/12/29 v0.97 making sure that bidi is the
+ last package loaded
+)
+\bidi@digits=\count447
+\bidi@digits@charclass=\XeTeXcharclass1
+\bidi@sepmark@charclass=\XeTeXcharclass2
+)
+****************************************************
+* 
+* xepersian package (Persian for LaTeX, using XeTeX engine)
+* 
+* Description: The package supports Persian
+* typesetting, using fonts provided in the
+* distribution.
+* 
+* Copyright (c) 2008--2020 Vafa Khalighi
+* Copyright (c) 2018--2020 bidi-tex GitHub Organization
+* 
+* v23.1, 2020/05/17
+* 
+* License: LaTeX Project Public License, version
+* 1.3c or higher (your choice)
+* 
+* Location on CTAN: /macros/xetex/latex/xepersian
+* 
+* Issue tracker: https://github.com/persiantex/xepersian/issues
+* 
+* Primary author of xepersian package: Vafa Khalighi.
+* 
+****************************************************
+\xepersian@tcl=\count448
+\xepersian@ilg=\dimen331
+\xepersian@strutilg=\dimen332
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/xepersian
+/loadingorder-xepersian.def
+File: loadingorder-xepersian.def 2018/09/29 v0.5 making sure that xepersian is 
+the last package loaded
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/xepersian
+/footnote-xepersian.def
+File: footnote-xepersian.def 2017/08/09 v0.6 footnote macros for xepersian pack
+age
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/xepersian
+/listings-xepersian.def
+File: listings-xepersian.def 2014/07/17 v0.3 bilingual captions for listings pa
+ckage
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/xepersian
+/framed-xepersian.def
+File: framed-xepersian.def 2012/06/05 v0.1 xepersian adaptations for framed pac
+kage for XeTeX engine
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/xepersian
+/glossaries-xepersian.def
+File: glossaries-xepersian.def 2014/09/04 v0.4 xepersian adaptations for glossa
+ries package for XeTeX engine
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/xepersian
+/hyperref-xepersian.def
+File: hyperref-xepersian.def 2015/02/02 v0.6 bilingual captions for hyperref pa
+ckage
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/xepersian
+/tikz.code-xepersian.def
+File: tikz.code-xepersian.def 2020/05/17 v0.2 adaptations for tikz.code.tex fil
+e
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/xepersian
+/report-xepersian.def
+File: report-xepersian.def 2010/07/25 v0.2 adaptations for standard report clas
+s
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/bidi/extr
+afootnotefeatures-xetex-bidi.def
+File: extrafootnotefeatures-xetex-bidi.def 2018/10/11 v1.7 bidi extra footnote 
+features for XeTeX engine
+\footmarkwidth=\skip165
+\footinsdim=\skip166
+\footinsv@r=\insert251
+\footinsv@l=\insert250
+\@mpfootinsv@r=\insert249
+\@mpfootinsv@l=\insert248
+\m@m@k=\count449
+\m@m@h=\dimen333
+\m@mipn@skip=\skip167
+LaTeX Font Info:    Font shape `TU/LobsterTwo(0)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 1373.
+Requested font "[LobsterTwo-Regular.otf]/OT:script=latn;language=dflt;mapping=t
+ex-text;" at 8.0pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/opentype/imp
+allari/lobster2/LobsterTwo-Regular.otf
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/xelatex/xepersian
+/extrafootnotefeatures-xepersian.def
+File: extrafootnotefeatures-xepersian.def 2012/01/01 v0.2 footnote macros for e
+xtrafootnotefeatures option of xepersian package
+)
+Requested font "[lmroman10-regular]/OT" at 9.99997pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/opentype/pub
+lic/lm/lmroman10-regular.otf
+Requested font "[lmroman10-regular]/OT" at 10.00003pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/opentype/pub
+lic/lm/lmroman10-regular.otf
+Requested font "[lmroman10-regular]/OT:script=latn;language=dflt;" at 10.00003p
+t
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/opentype/pub
+lic/lm/lmroman10-regular.otf
+Requested font "[lmromancaps10-regular]/OT:script=latn;language=dflt;" at 10.00
+003pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/opentype/pub
+lic/lm/lmromancaps10-regular.otf
+Requested font "[lmroman10-bold]/OT:script=latn;language=dflt;" at 10.00003pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/opentype/pub
+lic/lm/lmroman10-bold.otf
+Requested font "[lmroman10-italic]/OT:script=latn;language=dflt;" at 10.00003pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/opentype/pub
+lic/lm/lmroman10-italic.otf
+Requested font "[lmromanslant10-regular]/OT:script=latn;language=dflt;" at 10.0
+0003pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/opentype/pub
+lic/lm/lmromanslant10-regular.otf
+Requested font "[lmroman10-bolditalic]/OT:script=latn;language=dflt;" at 10.000
+03pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/opentype/pub
+lic/lm/lmroman10-bolditalic.otf
+Requested font "[lmromanslant10-bold]/OT:script=latn;language=dflt;" at 10.0000
+3pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/opentype/pub
+lic/lm/lmromanslant10-bold.otf
+
+Package fontspec Info: Font family 'lmroman10-regular(0)' created for font
+(fontspec)             'lmroman10-regular' with options
+(fontspec)             [Ligatures=TeX,Path,BoldFont={lmroman10-bold},BoldItalic
+Font={lmroman10-bolditalic},ItalicFont={lmroman10-italic},SmallCapsFont={lmroma
+ncaps10-regular},SlantedFont={lmromanslant10-regular},BoldSlantedFont={lmromans
+lant10-bold}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[lmroman10-regular]/OT:script=latn;language=dflt;map
+ping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=dflt
+;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[lmroman10-bold]/OT:script=latn;language=dflt;mappin
+g=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=dflt
+;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[lmroman10-italic]/OT:script=latn;language=dflt;mapp
+ing=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=dflt
+;mapping=tex-text;"
+(fontspec)             - 'slanted' (m/sl) with NFSS spec.:
+(fontspec)             <->"[lmromanslant10-regular]/OT:script=latn;language=dfl
+t;mapping=tex-text;"
+(fontspec)             - 'slanted small caps'  (m/scsl) with NFSS spec.:
+(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=dflt
+;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"[lmroman10-bolditalic]/OT:script=latn;language=dflt;
+mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=dflt
+;mapping=tex-text;"
+(fontspec)             - 'bold slanted' (b/sl) with NFSS spec.:
+(fontspec)             <->"[lmromanslant10-bold]/OT:script=latn;language=dflt;m
+apping=tex-text;"
+(fontspec)             - 'bold slanted small caps'  (b/scsl) with NFSS spec.:
+(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=dflt
+;mapping=tex-text;"
+
+)
+(/home/abolfazl/Documents/DataR/Study/Pejohesh/MINIProj/Boostan/tex/src/Boostan
+-BasicCommand.tex
+LaTeX Info: Redefining \min on input line 45.
+)
+(/home/abolfazl/Documents/DataR/Study/Pejohesh/MINIProj/Boostan/tex/src/Boostan
+-PackageSettings.tex
+(/home/abolfazl/Documents/DataR/Study/Pejohesh/MINIProj/Boostan/tex/src/Boostan
+-Listings-settings.tex)
+Package hyperref Info: Option `pdfmenubar' set `false' on input line 55.
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 55.
+Package hyperref Info: Option `colorlinks' set `true' on input line 55.
+Package hyperref Info: Option `unicode' set `true' on input line 55.
+Requested font "IRNazanin/OT" at 9.99997pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazanin.ttf
+Requested font "IRNazanin/OT" at 10.00003pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazanin.ttf
+Requested font "IRNazanin/OT:script=arab;language=dflt;" at 10.00002pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazanin.ttf
+Requested font "IRNazanin/BI/OT:script=arab;language=dflt;" at 10.00002pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazaninIranic.ttf
+Requested font "IRNazanin/B/OT:script=arab;language=dflt;" at 10.00002pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazaninBold.ttf
+Requested font "IRNazanin/I/OT:script=arab;language=dflt;" at 10.00002pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazaninIranic.ttf
+Requested font "IRNazanin/OT:script=arab;language=dflt;" at 10.00003pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazanin.ttf
+Requested font "IRNazanin/B/OT:script=arab;language=dflt;" at 10.00003pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazaninBold.ttf
+Requested font "IRNazanin/B/OT:script=arab;language=dflt;" at 10.00003pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazaninBold.ttf
+Requested font "IRNazanin/I/OT:script=arab;language=dflt;" at 10.00003pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazaninIranic.ttf
+Requested font "IRNazanin/I/OT:script=arab;language=dflt;" at 10.00003pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazaninIranic.ttf
+Requested font "IRNazanin/BI/OT:script=arab;language=dflt;" at 10.00003pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazaninIranic.ttf
+Requested font "IRNazanin/BI/OT:script=arab;language=dflt;" at 10.00003pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazaninIranic.ttf
+
+Package fontspec Info: Font family 'IRNazanin(0)' created for font 'IRNazanin'
+(fontspec)             with options
+(fontspec)             [Script=Persian,Ligatures=PersianTeX,Scale=1.4].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1.4]"IRNazanin/OT:script=arab;language=dflt;mappin
+g=persian-tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1.4]"IRNazanin/B/OT:script=arab;language=dflt;mapp
+ing=persian-tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1.4]"IRNazanin/I/OT:script=arab;language=dflt;mapp
+ing=persian-tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1.4]"IRNazanin/BI/OT:script=arab;language=dflt;map
+ping=persian-tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+LaTeX Font Info:    Font shape `TU/IRNazanin(0)/m/n' will be
+(Font)              scaled to size 13.99994pt on input line 139.
+Requested font "IRNazanin/OT:script=arab;language=dflt;mapping=persian-tex-text
+;" at 13.99994pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazanin.ttf
+Requested font "Linux Libertine" at 9.99997pt
+ -> /usr/share/fonts/Font/ETC/linux-libertine/LinLibertine_Re-4.1_.8_.ttf
+Requested font "Linux Libertine/OT" at 10.00003pt
+ -> /usr/share/fonts/Font/ETC/linux-libertine/LinLibertine_Re-4.1_.8_.ttf
+Requested font "Linux Libertine/OT:script=latn;language=dflt;" at 10.00002pt
+ -> /usr/share/fonts/Font/ETC/linux-libertine/LinLibertine_Re-4.1_.8_.ttf
+Requested font "Linux Libertine/BI/OT:script=latn;language=dflt;" at 10.00002pt
+ -> /usr/share/fonts/Font/ETC/linux-libertine/LinLibertine_BI-4.0_.3_.ttf
+Requested font "Linux Libertine/B/OT:script=latn;language=dflt;" at 10.00002pt
+ -> /usr/share/fonts/Font/ETC/linux-libertine/LinLibertine_Bd-4.0_.2_.ttf
+Requested font "Linux Libertine/I/OT:script=latn;language=dflt;" at 10.00002pt
+ -> /usr/share/fonts/Font/ETC/linux-libertine/LinLibertine_It-4.0_.3_.ttf
+Requested font "Linux Libertine/OT:script=latn;language=dflt;" at 10.00003pt
+ -> /usr/share/fonts/Font/ETC/linux-libertine/LinLibertine_Re-4.1_.8_.ttf
+Requested font "Linux Libertine/B/OT:script=latn;language=dflt;" at 10.00003pt
+ -> /usr/share/fonts/Font/ETC/linux-libertine/LinLibertine_Bd-4.0_.2_.ttf
+Requested font "Linux Libertine/B/OT:script=latn;language=dflt;" at 10.00003pt
+ -> /usr/share/fonts/Font/ETC/linux-libertine/LinLibertine_Bd-4.0_.2_.ttf
+Requested font "Linux Libertine/I/OT:script=latn;language=dflt;" at 10.00003pt
+ -> /usr/share/fonts/Font/ETC/linux-libertine/LinLibertine_It-4.0_.3_.ttf
+Requested font "Linux Libertine/I/OT:script=latn;language=dflt;" at 10.00003pt
+ -> /usr/share/fonts/Font/ETC/linux-libertine/LinLibertine_It-4.0_.3_.ttf
+Requested font "Linux Libertine/BI/OT:script=latn;language=dflt;" at 10.00003pt
+ -> /usr/share/fonts/Font/ETC/linux-libertine/LinLibertine_BI-4.0_.3_.ttf
+Requested font "Linux Libertine/BI/OT:script=latn;language=dflt;" at 10.00003pt
+ -> /usr/share/fonts/Font/ETC/linux-libertine/LinLibertine_BI-4.0_.3_.ttf
+
+Package fontspec Info: Font family 'LinuxLibertine(0)' created for font 'Linux
+(fontspec)             Libertine' with options [Ligatures=TeX,Scale=1.2].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1.2]"Linux
+(fontspec)             Libertine/OT:script=latn;language=dflt;mapping=tex-text;
+"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1.2]"Linux
+(fontspec)             Libertine/OT:script=latn;language=dflt;+smcp;mapping=tex
+-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1.2]"Linux
+(fontspec)             Libertine/B/OT:script=latn;language=dflt;mapping=tex-tex
+t;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1.2]"Linux
+(fontspec)             Libertine/B/OT:script=latn;language=dflt;+smcp;mapping=t
+ex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->s*[1.2]"Linux
+(fontspec)             Libertine/I/OT:script=latn;language=dflt;mapping=tex-tex
+t;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1.2]"Linux
+(fontspec)             Libertine/I/OT:script=latn;language=dflt;+smcp;mapping=t
+ex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1.2]"Linux
+(fontspec)             Libertine/BI/OT:script=latn;language=dflt;mapping=tex-te
+xt;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+LaTeX Info: Redefining \latinfont on input line 140.
+)
+(/home/abolfazl/Documents/DataR/Study/Pejohesh/MINIProj/Boostan/tex/src/Boostan
+-Environments.tex
+\c@theorem=\count450
+\c@principle=\count451
+\c@proposition=\count452
+\c@lemma=\count453
+\c@definition=\count454
+\c@example=\count455
+\c@prob=\count456
+\c@corollary=\count457
+\c@property=\count458
+\c@remark=\count459
+\errorsize=\dimen334
+\mybox=\box83
+\c@problemcount=\count460
+\c@ntcounter=\count461
+)
+(/home/abolfazl/Documents/DataR/Study/Pejohesh/MINIProj/Boostan/tex/src/Boostan
+-ChapterStyle.tex)
+(/home/abolfazl/Documents/DataR/Study/Pejohesh/MINIProj/Boostan/tex/src/Boostan
+-TitleStyle.tex
+Requested font "Besmellah 2" at 9.99997pt
+ -> /home/abolfazl/.local/share/fonts/Besmellah_2.ttf
+Requested font "Besmellah 2/OT" at 10.00003pt
+ -> /home/abolfazl/.local/share/fonts/Besmellah_2.ttf
+Requested font "Besmellah 2/OT:language=dflt;" at 10.00002pt
+ -> /home/abolfazl/.local/share/fonts/Besmellah_2.ttf
+Requested font "Besmellah 2/BI/OT:language=dflt;" at 10.00002pt
+ -> /home/abolfazl/.local/share/fonts/Besmellah_2.ttf
+
+Package fontspec Info: Could not resolve font "Besmellah 2/BI" (it probably
+(fontspec)             doesn't exist).
+
+Requested font "Besmellah 2/B/OT:language=dflt;" at 10.00002pt
+ -> /home/abolfazl/.local/share/fonts/Besmellah_2.ttf
+
+Package fontspec Info: Could not resolve font "Besmellah 2/B" (it probably
+(fontspec)             doesn't exist).
+
+Requested font "Besmellah 2/I/OT:language=dflt;" at 10.00002pt
+ -> /home/abolfazl/.local/share/fonts/Besmellah_2.ttf
+
+Package fontspec Info: Could not resolve font "Besmellah 2/I" (it probably
+(fontspec)             doesn't exist).
+
+Requested font "Besmellah 2/OT:language=dflt;" at 10.00003pt
+ -> /home/abolfazl/.local/share/fonts/Besmellah_2.ttf
+
+Package fontspec Info: Font family 'Besmellah2(0)' created for font 'Besmellah
+(fontspec)             2' with options [Ligatures=TeX,Scale=50].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[50]"Besmellah
+(fontspec)             2/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+Requested font "IRTitr/OT" at 9.99997pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRTitr.ttf
+Requested font "IRTitr/OT" at 10.00003pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRTitr.ttf
+Requested font "IRTitr/OT:script=arab;language=dflt;" at 10.00002pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRTitr.ttf
+Requested font "IRTitr/BI/OT:script=arab;language=dflt;" at 10.00002pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRTitr.ttf
+
+Package fontspec Info: Could not resolve font "IRTitr/BI" (it probably doesn't
+(fontspec)             exist).
+
+Requested font "IRTitr/B/OT:script=arab;language=dflt;" at 10.00002pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRTitr.ttf
+
+Package fontspec Info: Could not resolve font "IRTitr/B" (it probably doesn't
+(fontspec)             exist).
+
+Requested font "IRTitr/I/OT:script=arab;language=dflt;" at 10.00002pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRTitr.ttf
+
+Package fontspec Info: Could not resolve font "IRTitr/I" (it probably doesn't
+(fontspec)             exist).
+
+Requested font "IRTitr/OT:script=arab;language=dflt;" at 10.00003pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRTitr.ttf
+
+Package fontspec Info: Font family 'IRTitr(0)' created for font 'IRTitr' with
+(fontspec)             options
+(fontspec)             [Script=Persian,Ligatures=PersianTeX,Scale=2.4].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[2.4]"IRTitr/OT:script=arab;language=dflt;mapping=p
+ersian-tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+)
+(/home/abolfazl/Documents/DataR/Study/Pejohesh/MINIProj/Boostan/tex/src/Boostan
+-Gloss.tex
+\glswrite=\write6
+\glo@main@file=\write7
+\openout7 = `Ch1-Intro.glo'.
+
+Package glossaries Info: Writing glossary file Ch1-Intro.glo on input line 14.
+\glo@acronym@file=\write8
+\openout8 = `Ch1-Intro.acn'.
+
+Package glossaries Info: Writing glossary file Ch1-Intro.acn on input line 14.
+\glo@english@file=\write9
+\openout9 = `Ch1-Intro.glo'.
+
+Package glossaries Info: Writing glossary file Ch1-Intro.glo on input line 14.
+\glo@persian@file=\write10
+\openout10 = `Ch1-Intro.blo'.
+
+Package glossaries Info: Writing glossary file Ch1-Intro.blo on input line 14.
+)
+Suceeded
+\lofthumbsize=\skip168
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibraryshadows.code.tex
+File: tikzlibraryshadows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/libra
+ries/pgflibraryfadings.code.tex
+File: pgflibraryfadings.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))))
+Requested font "B Kamran Outline" at 9.99997pt
+ -> /usr/share/fonts/Font/B Font/BKamranO.ttf
+Requested font "B Kamran Outline/OT" at 10.00003pt
+ -> /usr/share/fonts/Font/B Font/BKamranO.ttf
+Requested font "B Kamran Outline/OT:language=dflt;" at 10.00002pt
+ -> /usr/share/fonts/Font/B Font/BKamranO.ttf
+Requested font "B Kamran Outline/BI/OT:language=dflt;" at 10.00002pt
+ -> /usr/share/fonts/Font/B Font/BKamranO.ttf
+
+Package fontspec Info: Could not resolve font "B Kamran Outline/BI" (it
+(fontspec)             probably doesn't exist).
+
+Requested font "B Kamran Outline/B/OT:language=dflt;" at 10.00002pt
+ -> /usr/share/fonts/Font/B Font/BKamranO.ttf
+
+Package fontspec Info: Could not resolve font "B Kamran Outline/B" (it
+(fontspec)             probably doesn't exist).
+
+Requested font "B Kamran Outline/I/OT:language=dflt;" at 10.00002pt
+ -> /usr/share/fonts/Font/B Font/BKamranO.ttf
+
+Package fontspec Info: Could not resolve font "B Kamran Outline/I" (it
+(fontspec)             probably doesn't exist).
+
+Requested font "B Kamran Outline/OT:language=dflt;" at 10.00003pt
+ -> /usr/share/fonts/Font/B Font/BKamranO.ttf
+
+Package fontspec Info: Font family 'BKamranOutline(0)' created for font 'B
+(fontspec)             Kamran Outline' with options [Scale=3].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[3]"B Kamran
+(fontspec)             Outline/OT:language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+Requested font "IRNazanin/BI/OT:script=arab;language=dflt;" at 10.00002pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazaninIranic.ttf
+Requested font "IRNazanin/B/OT:script=arab;language=dflt;" at 10.00002pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazaninBold.ttf
+Requested font "IRNazanin/I/OT:script=arab;language=dflt;" at 10.00002pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazaninIranic.ttf
+Requested font "IRNazanin/B/OT:script=arab;language=dflt;" at 10.00003pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazaninBold.ttf
+Requested font "IRNazanin/B/OT:script=arab;language=dflt;" at 10.00003pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazaninBold.ttf
+Requested font "IRNazanin/I/OT:script=arab;language=dflt;" at 10.00003pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazaninIranic.ttf
+Requested font "IRNazanin/I/OT:script=arab;language=dflt;" at 10.00003pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazaninIranic.ttf
+Requested font "IRNazanin/BI/OT:script=arab;language=dflt;" at 10.00003pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazaninIranic.ttf
+Requested font "IRNazanin/BI/OT:script=arab;language=dflt;" at 10.00003pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazaninIranic.ttf
+
+Package fontspec Info: Font family 'IRNazanin(1)' created for font 'IRNazanin'
+(fontspec)             with options
+(fontspec)             [Script=Persian,Ligatures=PersianTeX,Scale=1.7].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1.7]"IRNazanin/OT:script=arab;language=dflt;mappin
+g=persian-tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1.7]"IRNazanin/B/OT:script=arab;language=dflt;mapp
+ing=persian-tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1.7]"IRNazanin/I/OT:script=arab;language=dflt;mapp
+ing=persian-tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1.7]"IRNazanin/BI/OT:script=arab;language=dflt;map
+ping=persian-tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibrarydecorations.code.tex
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/modul
+es/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen335
+\pgfdecoratedremainingdistance=\dimen336
+\pgfdecoratedinputsegmentcompleteddistance=\dimen337
+\pgfdecoratedinputsegmentremainingdistance=\dimen338
+\pgf@decorate@distancetomove=\dimen339
+\pgf@decorate@repeatstate=\count462
+\pgfdecorationsegmentamplitude=\dimen340
+\pgfdecorationsegmentlength=\dimen341
+)
+\tikz@lib@dec@box=\box84
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/libra
+ries/decorations/pgflibrarydecorations.pathmorphing.code.tex))
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/pgf-blur/ti
+kzlibraryshadows.blur.code.tex  v1.02, 2012/12/09
+\pgfbs@fading@count=\count463
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibraryshadings.code.tex
+File: tikzlibraryshadings.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/pgf/libra
+ries/pgflibraryshadings.code.tex
+File: pgflibraryshadings.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+\pgf@layerbox@background=\box85
+\pgf@layerboxsaved@background=\box86
+) (./titlePage2.tex
+Requested font "B Kamran Outline/OT" at 9.99997pt
+ -> /usr/share/fonts/Font/B Font/BKamranO.ttf
+Requested font "B Kamran Outline/OT:script=arab;language=dflt;" at 10.00002pt
+ -> /usr/share/fonts/Font/B Font/BKamranO.ttf
+Requested font "B Kamran Outline/BI/OT:script=arab;language=dflt;" at 10.00002p
+t
+ -> /usr/share/fonts/Font/B Font/BKamranO.ttf
+
+Package fontspec Info: Could not resolve font "B Kamran Outline/BI" (it
+(fontspec)             probably doesn't exist).
+
+Requested font "B Kamran Outline/B/OT:script=arab;language=dflt;" at 10.00002pt
+ -> /usr/share/fonts/Font/B Font/BKamranO.ttf
+
+Package fontspec Info: Could not resolve font "B Kamran Outline/B" (it
+(fontspec)             probably doesn't exist).
+
+Requested font "B Kamran Outline/I/OT:script=arab;language=dflt;" at 10.00002pt
+ -> /usr/share/fonts/Font/B Font/BKamranO.ttf
+
+Package fontspec Info: Could not resolve font "B Kamran Outline/I" (it
+(fontspec)             probably doesn't exist).
+
+Requested font "B Kamran Outline/OT:script=arab;language=dflt;" at 10.00003pt
+ -> /usr/share/fonts/Font/B Font/BKamranO.ttf
+
+Package fontspec Info: Font family 'BKamranOutline(1)' created for font 'B
+(fontspec)             Kamran Outline' with options
+(fontspec)             [Script=Persian,Ligatures=PersianTeX,Scale=2.7].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[2.7]"B Kamran
+(fontspec)             Outline/OT:script=arab;language=dflt;mapping=persian-tex
+-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+Requested font "B Tabassom/OT" at 9.99997pt
+ -> /usr/share/fonts/Font/B Font/BTabssom.ttf
+Requested font "B Tabassom/OT" at 10.00003pt
+ -> /usr/share/fonts/Font/B Font/BTabssom.ttf
+Requested font "B Tabassom/OT:script=arab;language=dflt;" at 10.00002pt
+ -> /usr/share/fonts/Font/B Font/BTabssom.ttf
+Requested font "B Tabassom/BI/OT:script=arab;language=dflt;" at 10.00002pt
+ -> /usr/share/fonts/Font/B Font/BTabssom.ttf
+
+Package fontspec Info: Could not resolve font "B Tabassom/BI" (it probably
+(fontspec)             doesn't exist).
+
+Requested font "B Tabassom/B/OT:script=arab;language=dflt;" at 10.00002pt
+ -> /usr/share/fonts/Font/B Font/BTabssom.ttf
+
+Package fontspec Info: Could not resolve font "B Tabassom/B" (it probably
+(fontspec)             doesn't exist).
+
+Requested font "B Tabassom/I/OT:script=arab;language=dflt;" at 10.00002pt
+ -> /usr/share/fonts/Font/B Font/BTabssom.ttf
+
+Package fontspec Info: Could not resolve font "B Tabassom/I" (it probably
+(fontspec)             doesn't exist).
+
+Requested font "B Tabassom/OT:script=arab;language=dflt;" at 10.00003pt
+ -> /usr/share/fonts/Font/B Font/BTabssom.ttf
+
+Package fontspec Info: Font family 'BTabassom(0)' created for font 'B
+(fontspec)             Tabassom' with options
+(fontspec)             [Script=Persian,Ligatures=PersianTeX,Scale=1.2].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1.2]"B
+(fontspec)             Tabassom/OT:script=arab;language=dflt;mapping=persian-te
+x-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+) (./Ch1-Intro.aux)
+\openout1 = `Ch1-Intro.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
+2.
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/base/ts1cmr
+.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+
+Package geometry Warning: The marginal notes overrun the paper.
+     Add 47.54726pt and more to the right margin.
+
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: landscape includefoot 
+* h-part:(L,W,R)=(28.45274pt, 788.14136pt, 28.45274pt)
+* v-part:(T,H,B)=(51.21504pt, 523.53064pt, 22.76219pt)
+* \paperwidth=845.04684pt
+* \paperheight=597.50787pt
+* \textwidth=788.14136pt
+* \textheight=509.30428pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-21.05495pt
+* \headheight=0.0pt
+* \headsep=0.0pt
+* \topskip=10.0pt
+* \footskip=14.22636pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/caption/ltc
+aption.sty
+Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
+)
+Package caption Info: supertabular package is loaded.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/pdflscape/p
+dflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/graphics/ls
+cape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
+
+)
+\c@lstlisting=\count464
+Package hyperref Info: Link coloring ON on input line 42.
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/hyperref/na
+meref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/refcount/re
+fcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/generic/gettitles
+tring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count465
+)
+LaTeX Info: Redefining \ref on input line 42.
+LaTeX Info: Redefining \pageref on input line 42.
+LaTeX Info: Redefining \nameref on input line 42.
+ (./Ch1-Intro.out) (./Ch1-Intro.out)
+\@outlinefile=\write11
+\openout11 = `Ch1-Intro.out'.
+
+LaTeX Font Info:    Font shape `TU/IRNazanin(0)/m/n' will be
+(Font)              scaled to size 24.19188pt on input line 42.
+Requested font "IRNazanin/OT:script=arab;language=dflt;mapping=persian-tex-text
+;" at 24.19188pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazanin.ttf
+LaTeX Font Info:    Font shape `TU/BKamranOutline(1)/m/n' will be
+(Font)              scaled to size 46.65593pt on input line 45.
+Requested font "B Kamran Outline/OT:script=arab;language=dflt;mapping=persian-t
+ex-text;" at 46.65593pt
+ -> /usr/share/fonts/Font/B Font/BKamranO.ttf
+LaTeX Font Info:    Font shape `TU/BTabassom(0)/m/n' will be
+(Font)              scaled to size 20.73593pt on input line 45.
+Requested font "B Tabassom/OT:script=arab;language=dflt;mapping=persian-tex-tex
+t;" at 20.73593pt
+ -> /usr/share/fonts/Font/B Font/BTabssom.ttf
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <22> not available
+(Font)              size <20.74> substituted on input line 45.
+
+Requested font "cmr17" at 20.74pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/tfm/public/c
+m/cmr17.tfm
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <16> not available
+(Font)              size <17.28> substituted on input line 45.
+
+Requested font "cmr17" at 17.28pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/tfm/public/c
+m/cmr17.tfm
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <15> not available
+(Font)              size <14.4> substituted on input line 45.
+
+Requested font "cmr12" at 14.4pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/tfm/public/c
+m/cmr12.tfm
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <22> not available
+(Font)              size <20.74> substituted on input line 45.
+
+Requested font "cmmi12" at 20.74pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/tfm/public/c
+m/cmmi12.tfm
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <16> not available
+(Font)              size <17.28> substituted on input line 45.
+
+Requested font "cmmi12" at 17.28pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/tfm/public/c
+m/cmmi12.tfm
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <15> not available
+(Font)              size <14.4> substituted on input line 45.
+
+Requested font "cmmi12" at 14.4pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/tfm/public/c
+m/cmmi12.tfm
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <22> not available
+(Font)              size <20.74> substituted on input line 45.
+
+Requested font "cmsy10" at 20.74pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/tfm/public/c
+m/cmsy10.tfm
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <16> not available
+(Font)              size <17.28> substituted on input line 45.
+
+Requested font "cmsy10" at 17.28pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/tfm/public/c
+m/cmsy10.tfm
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <15> not available
+(Font)              size <14.4> substituted on input line 45.
+
+Requested font "cmsy10" at 14.4pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/tfm/public/c
+m/cmsy10.tfm
+Requested font "cmex10" at 22.0pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/tfm/public/c
+m/cmex10.tfm
+Requested font "cmex10" at 16.0pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/tfm/public/c
+m/cmex10.tfm
+Requested font "cmex10" at 15.0pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/tfm/public/c
+m/cmex10.tfm
+LaTeX Font Info:    Trying to load font information for U+msa on input line 45.
+
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/amsfonts/um
+sa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+Requested font "msam10" at 22.0pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/tfm/public/a
+msfonts/symbols/msam10.tfm
+Requested font "msam10" at 16.0pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/tfm/public/a
+msfonts/symbols/msam10.tfm
+Requested font "msam10" at 15.0pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/tfm/public/a
+msfonts/symbols/msam10.tfm
+LaTeX Font Info:    Trying to load font information for U+msb on input line 45.
+
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/amsfonts/um
+sb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Requested font "msbm10" at 22.0pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/tfm/public/a
+msfonts/symbols/msbm10.tfm
+Requested font "msbm10" at 16.0pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/tfm/public/a
+msfonts/symbols/msbm10.tfm
+Requested font "msbm10" at 15.0pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/tfm/public/a
+msfonts/symbols/msbm10.tfm
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 45
+.
+
+(/home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/tex/latex/wasysym/uwa
+sy.fd
+File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
+)
+
+LaTeX Font Warning: Font shape `U/wasy/m/n' in size <22> not available
+(Font)              size <20.74> substituted on input line 45.
+
+Requested font "wasy10" at 20.74pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/tfm/public/w
+asy/wasy10.tfm
+
+LaTeX Font Warning: Font shape `U/wasy/m/n' in size <16> not available
+(Font)              size <17.28> substituted on input line 45.
+
+Requested font "wasy10" at 17.28pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/tfm/public/w
+asy/wasy10.tfm
+
+LaTeX Font Warning: Font shape `U/wasy/m/n' in size <15> not available
+(Font)              size <14.4> substituted on input line 45.
+
+Requested font "wasy10" at 14.4pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/tfm/public/w
+asy/wasy10.tfm
+LaTeX Font Info:    Font shape `TU/IRNazanin(0)/m/n' will be
+(Font)              scaled to size 16.79993pt on input line 45.
+Requested font "IRNazanin/OT:script=arab;language=dflt;mapping=persian-tex-text
+;" at 16.79993pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazanin.ttf
+\hour=\count466
+\min=\count467
+File: ./Pic///ETC/logo/IUSTLogo/ElmosanatUni-logo-LimooGraphic.png Graphic file
+ (type bmp)
+<./Pic///ETC/logo/IUSTLogo/ElmosanatUni-logo-LimooGraphic.png>
+[1
+
+\openout6 = `Ch1-Intro.xdy'.
+
+]
+LaTeX Font Info:    Font shape `TU/IRNazanin(0)/m/n' will be
+(Font)              scaled to size 34.83185pt on input line 47.
+Requested font "IRNazanin/OT:script=arab;language=dflt;mapping=persian-tex-text
+;" at 34.83185pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazanin.ttf
+LaTeX Font Info:    Font shape `TU/IRNazanin(0)/b/n' will be
+(Font)              scaled to size 34.83185pt on input line 47.
+Requested font "IRNazanin/B/OT:script=arab;language=dflt;mapping=persian-tex-te
+xt;" at 34.83185pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazaninBold.ttf
+Requested font "IRNazanin/OT" at 24.87997pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazanin.ttf
+Requested font "IRNazanin/OT" at 24.88004pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazanin.ttf
+Requested font "IRNazanin/OT:script=arab;language=dflt;" at 24.88002pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazanin.ttf
+Requested font "IRNazanin/BI/OT:script=arab;language=dflt;" at 24.88002pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazaninIranic.ttf
+Requested font "IRNazanin/B/OT:script=arab;language=dflt;" at 24.88002pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazaninBold.ttf
+Requested font "IRNazanin/I/OT:script=arab;language=dflt;" at 24.88002pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazaninIranic.ttf
+Requested font "IRNazanin/OT:script=arab;language=dflt;" at 24.88004pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazanin.ttf
+LaTeX Font Info:    Font shape `TU/IRNazanin(0)/b/n' will be
+(Font)              scaled to size 13.99994pt on input line 47.
+Requested font "IRNazanin/B/OT:script=arab;language=dflt;mapping=persian-tex-te
+xt;" at 13.99994pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazaninBold.ttf
+Requested font "IRNazanin/B/OT:script=arab;language=dflt;" at 24.88004pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazaninBold.ttf
+Requested font "IRNazanin/B/OT:script=arab;language=dflt;" at 24.88004pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazaninBold.ttf
+Requested font "IRNazanin/I/OT:script=arab;language=dflt;" at 24.88004pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazaninIranic.ttf
+Requested font "IRNazanin/I/OT:script=arab;language=dflt;" at 24.88004pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazaninIranic.ttf
+Requested font "IRNazanin/BI/OT:script=arab;language=dflt;" at 24.88004pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazaninIranic.ttf
+Requested font "IRNazanin/BI/OT:script=arab;language=dflt;" at 24.88004pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazaninIranic.ttf
+
+Package fontspec Info: Font family 'IRNazanin(2)' created for font 'IRNazanin'
+(fontspec)             with options
+(fontspec)             [Script=Persian,Ligatures=PersianTeX,Scale=1.4,Color=F5F
+5F5].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1.4]"IRNazanin/OT:script=arab;language=dflt;mappin
+g=persian-tex-text;color=F5F5F5FF
+(fontspec)             ;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1.4]"IRNazanin/B/OT:script=arab;language=dflt;mapp
+ing=persian-tex-text;color=F5F5F5FF
+(fontspec)             ;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1.4]"IRNazanin/I/OT:script=arab;language=dflt;mapp
+ing=persian-tex-text;color=F5F5F5FF
+(fontspec)             ;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1.4]"IRNazanin/BI/OT:script=arab;language=dflt;map
+ping=persian-tex-text;color=F5F5F5FF
+(fontspec)             ;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+LaTeX Font Info:    Font shape `TU/IRNazanin(2)/b/n' will be
+(Font)              scaled to size 34.83185pt on input line 47.
+Requested font "IRNazanin/B/OT:script=arab;language=dflt;mapping=persian-tex-te
+xt;color=F5F5F5FF ;" at 34.83185pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazaninBold.ttf
+ (./Ch1-Intro.toc)
+\tf@toc=\write12
+\openout12 = `Ch1-Intro.toc'.
+
+ [1
+
+
+]
+LaTeX Font Info:    Font shape `TU/BKamranOutline(0)/m/n' will be
+(Font)              scaled to size 51.84pt on input line 53.
+Requested font "B Kamran Outline/OT:language=dflt;" at 51.84pt
+ -> /usr/share/fonts/Font/B Font/BKamranO.ttf
+LaTeX Font Info:    Font shape `TU/IRNazanin(0)/m/n' will be
+(Font)              scaled to size 20.1599pt on input line 57.
+Requested font "IRNazanin/OT:script=arab;language=dflt;mapping=persian-tex-text
+;" at 20.1599pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazanin.ttf
+ [1
+
+
+
+]
+LaTeX Font Info:    Font shape `TU/IRNazanin(0)/b/n' will be
+(Font)              scaled to size 24.19188pt on input line 58.
+Requested font "IRNazanin/B/OT:script=arab;language=dflt;mapping=persian-tex-te
+xt;" at 24.19188pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazaninBold.ttf
+LaTeX Font Info:    Font shape `TU/IRNazanin(1)/b/n' will be
+(Font)              scaled to size 29.37593pt on input line 58.
+Requested font "IRNazanin/B/OT:script=arab;language=dflt;mapping=persian-tex-te
+xt;" at 29.37593pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazaninBold.ttf
+Requested font "pzdr" at 24.88pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/tfm/adobe/za
+pfding/pzdr.tfm
+ [2
+
+]
+LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/m/n' will be
+(Font)              scaled to size 20.73593pt on input line 101.
+Requested font "Linux Libertine/OT:script=latn;language=dflt;mapping=tex-text;"
+ at 20.73593pt
+ -> /usr/share/fonts/Font/ETC/linux-libertine/LinLibertine_Re-4.1_.8_.ttf
+File: ./Pic///ETC/decision.png Graphic file (type bmp)
+<./Pic///ETC/decision.png>
+
+Overfull \hbox (43.39656pt too wide) in paragraph at lines 86--107
+[][][] []
+ []
+
+[3
+
+]
+Requested font "pzdr" at 12.0pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/tfm/adobe/za
+pfding/pzdr.tfm
+File: ./Pic///ETC/exam.png Graphic file (type bmp)
+<./Pic///ETC/exam.png>
+
+Overfull \hbox (43.39656pt too wide) in paragraph at lines 114--140
+[][][] []
+ []
+
+File: note.png Graphic file (type bmp)
+<note.png>
+[4
+
+]
+File: ./Pic///ETC/book/williamStalingNetwork.jpg Graphic file (type bmp)
+<./Pic///ETC/book/williamStalingNetwork.jpg>
+ [5
+
+]
+File: ./Pic///ETC/AppLogo/moodleIcon.png Graphic file (type bmp)
+<./Pic///ETC/AppLogo/moodleIcon.png>
+Requested font "[lmmono12-regular]:" at 17.28pt
+ -> /home/abolfazl/Documents/Programs/TeXLive2021/texmf-dist/fonts/opentype/pub
+lic/lm/lmmono12-regular.otf
+File: ./Pic///ETC/viking.png Graphic file (type bmp)
+<./Pic///ETC/viking.png>
+File: ./Pic///ETC/exam2.jpg Graphic file (type bmp)
+<./Pic///ETC/exam2.jpg>
+File: ./Pic///ETC/AppLogo/telegramLogo.png Graphic file (type bmp)
+<./Pic///ETC/AppLogo/telegramLogo.png>
+File: ./Pic///ETC/coinT.png Graphic file (type bmp)
+<./Pic///ETC/coinT.png>
+LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/m/n' will be
+(Font)              scaled to size 19.19995pt on input line 179.
+Requested font "Linux Libertine/OT:script=latn;language=dflt;mapping=tex-text;"
+ at 19.19995pt
+ -> /usr/share/fonts/Font/ETC/linux-libertine/LinLibertine_Re-4.1_.8_.ttf
+File: ./Pic///ETC/presentation.png Graphic file (type bmp)
+<./Pic///ETC/presentation.png>
+File: ./Pic///ETC/idea.png Graphic file (type bmp)
+<./Pic///ETC/idea.png>
+ [6
+
+] [7
+
+]
+LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/b/n' will be
+(Font)              scaled to size 20.73593pt on input line 194.
+Requested font "Linux Libertine/B/OT:script=latn;language=dflt;mapping=tex-text
+;" at 20.73593pt
+ -> /usr/share/fonts/Font/ETC/linux-libertine/LinLibertine_Bd-4.0_.2_.ttf
+LaTeX Font Info:    Font shape `TU/IRNazanin(0)/m/n' will be
+(Font)              scaled to size 22.3999pt on input line 209.
+Requested font "IRNazanin/OT:script=arab;language=dflt;mapping=persian-tex-text
+;" at 22.3999pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazanin.ttf
+LaTeX Font Info:    Font shape `TU/IRNazanin(0)/m/n' will be
+(Font)              scaled to size 20.99991pt on input line 209.
+Requested font "IRNazanin/OT:script=arab;language=dflt;mapping=persian-tex-text
+;" at 20.99991pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazanin.ttf
+Requested font "Linux Libertine/OT:script=latn;language=dflt;mapping=tex-text;"
+ at 17.99995pt
+ -> /usr/share/fonts/Font/ETC/linux-libertine/LinLibertine_Re-4.1_.8_.ttf
+File: ./Pic///Courses/Security/Intro/roolEnc.png Graphic file (type bmp)
+<./Pic///Courses/Security/Intro/roolEnc.png>
+File: ./Pic///Courses/Security/Intro/hieroglyphics.jpg Graphic file (type bmp)
+<./Pic///Courses/Security/Intro/hieroglyphics.jpg>
+File: ./Pic///Courses/Security/Intro/caesar.png Graphic file (type bmp)
+<./Pic///Courses/Security/Intro/caesar.png>
+ [8
+
+] [9
+
+]
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.25981pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.25981pt}.
+
+[10] (./Ch1-Intro.bbl
+LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/m/it' will be
+(Font)              scaled to size 20.73593pt on input line 10.
+Requested font "Linux Libertine/I/OT:script=latn;language=dflt;mapping=tex-text
+;" at 20.73593pt
+ -> /usr/share/fonts/Font/ETC/linux-libertine/LinLibertine_It-4.0_.3_.ttf
+LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/m/n' will be
+(Font)              scaled to size 11.99997pt on input line 52.
+Requested font "Linux Libertine/OT:script=latn;language=dflt;mapping=tex-text;"
+ at 11.99997pt
+ -> /usr/share/fonts/Font/ETC/linux-libertine/LinLibertine_Re-4.1_.8_.ttf
+ [11
+
+
+]
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.25981pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.25981pt}.
+
+[12])
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.25981pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.25981pt}.
+
+[13] (./Ch1-Intro.acr
+LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/m/n' will be
+(Font)              scaled to size 14.39996pt on input line 26.
+Requested font "Linux Libertine/OT:script=latn;language=dflt;mapping=tex-text;"
+ at 14.39996pt
+ -> /usr/share/fonts/Font/ETC/linux-libertine/LinLibertine_Re-4.1_.8_.ttf
+LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/b/n' will be
+(Font)              scaled to size 14.39996pt on input line 26.
+Requested font "Linux Libertine/B/OT:script=latn;language=dflt;mapping=tex-text
+;" at 14.39996pt
+ -> /usr/share/fonts/Font/ETC/linux-libertine/LinLibertine_Bd-4.0_.2_.ttf
+LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/b/n' will be
+(Font)              scaled to size 22.79994pt on input line 26.
+Requested font "Linux Libertine/B/OT:script=latn;language=dflt;mapping=tex-text
+;" at 22.79994pt
+ -> /usr/share/fonts/Font/ETC/linux-libertine/LinLibertine_Bd-4.0_.2_.ttf
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--28
+[][]
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 31--264
+[][]
+ []
+
+[14
+
+
+
+] (./Ch1-Intro.gls
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[][]
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 32--265
+[][]
+ []
+
+[15
+
+
+
+
+
+
+] (./Ch1-Intro.bls
+LaTeX Font Info:    Font shape `TU/IRNazanin(0)/b/n' will be
+(Font)              scaled to size 16.79993pt on input line 28.
+Requested font "IRNazanin/B/OT:script=arab;language=dflt;mapping=persian-tex-te
+xt;" at 16.79993pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazaninBold.ttf
+LaTeX Font Info:    Font shape `TU/IRNazanin(0)/b/n' will be
+(Font)              scaled to size 26.59988pt on input line 28.
+Requested font "IRNazanin/B/OT:script=arab;language=dflt;mapping=persian-tex-te
+xt;" at 26.59988pt
+ -> /usr/share/fonts/Font/Standard IRFonts/IRNazaninBold.ttf
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--28
+[][]
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 32--265
+[][]
+ []
+
+[16
+
+
+
+
+] (./Ch1-Intro.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.28pt have occurred.
+
+
+Package rerunfilecheck Warning: File `Ch1-Intro.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Ch1-Intro.out':
+(rerunfilecheck)             Before: 09B633B3366B6B44706EADFE957B6962;1174
+(rerunfilecheck)             After:  2DD8ED01C1067481F30A3A93267DD004;1175.
+ ) 
+Here is how much of TeX's memory you used:
+ 37817 strings out of 476683
+ 749748 string characters out of 5808051
+ 1222294 words of memory out of 5000000
+ 57032 multiletter control sequences out of 15000+600000
+ 411222 words of font info for 144 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 106i,21n,140p,4904b,1387s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on Ch1-Intro.pdf (18 pages).

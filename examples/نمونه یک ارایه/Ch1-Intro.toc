@@ -1,0 +1,6 @@
+\contentsline {section}{در مورد این درس ...}{1}{chapter*.1}%
+\contentsline {section}{رمزنگاری تا قبل از شانون}{7}{figure.caption.2}%
+\contentsline {section}{مراجع}{11}{section*.4}%
+\contentsline {section}{فهرست اختصارات}{14}{section*.6}%
+\contentsline {section}{واژه نامه انگلیسی به فارسی}{15}{section*.11}%
+\contentsline {section}{واژه نامه فارسی به انگلیسی}{16}{section*.16}%

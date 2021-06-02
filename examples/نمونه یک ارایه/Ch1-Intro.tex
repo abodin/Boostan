@@ -1,0 +1,266 @@
+\documentclass[10pt]{report}
+
+\usepackage{epigraph}
+\usepackage{LobsterTwo}
+\usepackage[nodisplayskipstretch]{setspace}
+\input{Boostan-RepPres}
+
+\newword{Cryptography}{Cryptography}
+{رمزنگاری}{}
+
+\newword{Security}{Security}
+{امنیت}{}
+
+\newacronym{AES}{AES}{Advanced Encryption Standard}
+\newacronym{CA}{CA}{Certificate authority}
+\newacronym{CIA}{C-I-A}{Confidentiality, Integrity and Availability}
+\newacronym{DES}{DES}{Data Encription Standard}
+\newacronym{DPI}{DPI}{Deep Packet Inspection}
+\newacronym{SPI}{SPI}{Stochastic Packet Inspection}
+\newacronym{PKI}{PKI}{Public-Key Infrastructure}
+\newacronym{WBAN}{WBAN}{Wireless Body Area Network}
+
+
+\title{
+فصل اول:  مقدمات درس}
+
+\type{}
+
+\session{%
+امنیت سیستم‌های کامپیوتری
+}
+\logoScale{0.15}
+\logofile{/ETC/logo/IUSTLogo2}
+
+\author{ابوالفضل دیانت}
+
+%مسیر پیش فرض برای شاخه عکس‌ها نیازی نیست این شاخه به صورت git شود.
+\graphicspath{{./Pic/}}
+
+\input{titlePage2.tex}
+
+\begin{document}
+\pagenumbering{gobble}
+\pagestyle{empty}
+     \maketitlePres
+\clearpage
+\tableofcontents
+\clearpage
+\pagenumbering{arabic}
+\pagestyle{fancy}
+
+% ==============
+\putSec{در مورد این درس ...}
+
+
+% ==============
+\clearpage
+\frametitle{انگیزه}
+\handO
+از گذشته‌های دور امنیت جایگاه مهمی در زندگانی ما ایفا می کرد اما فکر می‌کردیم امنیت تنها یعنی محرمانه ماندن پیام.
+
+\handO
+رمز دوران بچگی ما: 
+$\oplus\leftthreetimes\leftthreetimes\oslash\circledast\oplus\leftthreetimes\circledcirc\boxplus\boxtimes$
+
+\handO
+هر ۳۹ ثانیه یک حمله توسط هکرها رخ می‌دهد. پیش بینی می شود که ۶ تریلیون دلار به صورت جهانی صرف امنیتپ سایبری شود.
+
+\handO
+چرا امنیت هنوز زنده است ....
+
+\handO
+چرا باید امنیت بدانیم؟؟؟
+
+%\begin{presNote}
+%
+%\end{presNote}
+
+
+% ==============
+\clearpage
+\frametitle{سرفصل‌ها}
+
+
+\vfill
+\begin{tabular}{cl} 
+& \begin{tabular}{r}
+\parbox{0.67\linewidth}{
+\treeO \textcolor{Plum}{فصل اول:}
+مفاهیم و واژه‌های کلیدی در بحث امنیت شبکه
+
+\treeO \textcolor{Plum}{فصل دوم:}
+ریاضیات رمز و رمزنگاری نامتقارن
+
+\treeO \textcolor{Plum}{فصل سوم:}
+رمزنگاری متقارن الگوریتم‌های 
+\gls{DES} و \gls{AES}
+
+\treeO \textcolor{Plum}{فصل چهارم:}
+امنیت در شبکه‌های کامپیوتری
+}
+\end{tabular}
+\begin{tabular}{l}
+\includegraphics[width=0.3\linewidth]{/ETC/decision}
+\end{tabular}
+\end{tabular}
+\vfill
+
+
+% ==============
+\clearpage
+\frametitle{‌نحوه نمره‌دهی}
+\vfill
+\begin{tabular}{cl} 
+& \begin{tabular}{r}
+\parbox{0.57\linewidth}{
+\sciO
+امتحان‌های کوتاه کلاسی  ( هفت یا هشت نمره)
+
+\sciO
+تمرین‌ها (سه نمره)
+
+\sciO
+پروژه‌ها (چهار نمره)
+
+\sciO
+‌یادداشت کلاسی (دو نمره)
+
+\sciO
+امتحان پایان ترم (سه یا چهار نمره)
+
+\sciO
+فعالیت کلاسی ($0.25$ نمره)
+}
+\end{tabular}
+\begin{tabular}{l}
+\includegraphics[width=0.4\linewidth]{/ETC/exam}
+\end{tabular}
+\end{tabular}
+\vfill
+\begin{note}
+مجموع از بیست‌نمره
+\end{note}
+\vfill
+
+
+% ==============
+\clearpage
+\frametitle{مراجع درسی}
+\begin{latin}
+\noindent [1] William Stallings, Cryptography and Network Security: Principles and Practice, Pearson Education Limited, 2017.
+\end{latin}
+\vfill
+\begin{figure}[H]
+\includegraphics[height=10cm]{/ETC/book/williamStalingNetwork}
+\end{figure}
+\vfill
+
+% ==============
+\clearpage
+\frametitle{برخی نکات}
+\includegraphics[width=27mm]{/ETC/AppLogo/moodleIcon}
+تمرین‌ها، کوییزها و اطلاع‌رسانی‌ها به صورت متمرکز در 
+\url{lms.iust.ac.ir}
+صورت می‌پذیرد. 
+
+\includegraphics[width=18mm]{/ETC/viking}
+تعیین نماینده برای کلاس
+
+\includegraphics[width=18mm]{/ETC/exam2}
+امتحان‌های کوتاه هر هفته روزهای یک‌شنبه
+
+\includegraphics[width=10mm]{/ETC/AppLogo/telegramLogo}
+عضویت در کانال تلگرامی درس (لینک در 
+\href{lms.iust.ac.ir}{\lr{LMS}} درس)
+
+\includegraphics[width=16mm]{/ETC/coinT}
+تمرین‌ها به صورت تایپ‌شده و با 
+\lr{\LaTeX}
+باید تحویل داده شود
+($20+80$).
+
+\includegraphics[width=13mm]{/ETC/presentation}
+کلاس‌های اندروید برای آماده‌سازی برای پروژه خواهید داشت. 
+
+\includegraphics[width=13mm]{/ETC/idea}
+لطفا کپی نکنید!!!
+
+
+\putSec{رمزنگاری تا قبل از شانون}
+
+% ==============
+\clearpage
+\frametitle{تاریخچه \mygls{Cryptography}}
+
+\handO
+نخستین مفهوم در
+\gls{Security}: \mygls{Cryptography}
+
+\handO
+قدمتی هزاران ساله از هیروگلیف‌ها گرفته تا 
+\lr{Atabash}
+و رمزنگاری آرشیلوس.
+
+\handO
+نخستین الگوی مدون سامانه‌های
+\gls{Cryptography}: الگوریتم سزار (\lr{Ceaser})
+\begin{equation*}
+\text{\lr{This is an example}} \longrightarrow \text{\lr{Wklv lv dq hadpsoh.}}
+\end{equation*}
+
+
+\vfill
+\begin{figure}[H]
+\centering
+\begin{subfigure}[b]{0.35\textwidth}\centering
+\includegraphics[height=5.5cm]{/Courses/Security/Intro/roolEnc}
+\end{subfigure}
+~ 
+\begin{subfigure}[b]{0.35\textwidth}\centering
+\includegraphics[height=5.5cm]{/Courses/Security/Intro/hieroglyphics}
+\end{subfigure}
+~
+\begin{subfigure}[b]{0.27\textwidth}\centering
+\includegraphics[height=5.5cm]{/Courses/Security/Intro/caesar}
+\end{subfigure}
+\end{figure}
+\vfill
+
+
+\begin{presNote}
+\mygls{Cryptography}
+که برگرفته از دو کلمه یونانی 
+\lr{krypto}
+به معنای محرمانه و 
+\lr{graphien}
+به معنای نوشتن است، به جرات می‌توان گفت قدمتی هزاران ساله دارد؛ گرچه باید گفت که عمر نگاه علمی به این موضوع، از صد سال تجاوز نمی کند. هیروگلیف‌های حک‌شده بر روی سنگ‌ها‌ (حروفی که با کشیدن تصویرهایی از جانوران و اشیاءپدید آمده باشد-
+\lr{Hieroglyph})،
+در ۱۹۰۰ سال پیش از میلاد مسیح در تمدن باستانی مصر، شاید نخستین تلاش بشر در مسیر علم 
+\gls{Cryptography}
+بود، گرچه به نظر می رسد هدف مصریان باستان از این کار مخفی کردن پیام نبوده، بلکه برعکس افزایش جذابیت کتیبه‌ها بوده است. اولین نمونه از این نوع کدگذاری را در آرامگاه مربوط به یکی از اشراف‌زادگان مصری به نام خنوم‌هتپ دوم 
+(\lr{Khnumhotep II})
+یافت شده است.
+
+عبری ها در نوشتن کتاب مقدس ارمیای نبی، از یک شیوه 
+\gls{Cryptography} به نام \lr{Atbash}
+استفاده می‌کردند، بدین‌سان که نام بسیاری از مکان‌ها و افراد در کتاب مقدس عبری‌ها عمداً با رمز \lr{Atbash} به صورت مخفی و مبهم نوشته شده است. این رمز بسیار شبیه به رمز جانشینی است، بدین نحو که در \lr{Atbash} اولین حرف از الفبای عبری با آخرین حرف جدول الفبا جانشین می‌شد. به همین نحو دومین حرف با حرف ما قبل آخر و این روال به همین ترتیب تکرار می شد تا متن رمز شده به دست آید.
+
+در یکی از شهرهای یونان باستان به نام اسپارتا، پیام‌ها از طریق نوشته شدن روی یک نوار کاغذی و پیچیدن آن دور یک استوانه‌ی با قطر مشخص رمزگذاری ‌می‌شدند. نوار کاغذی تا زمانی که توسط گیرنده آن، روی یک استوانه با همان قطر قرار نمی‌گرفت، به صورت ناخوانا باقی می‌ماند. به این نوع از
+\gls{Cryptography}
+اصطلاحا آرشیلوس گفته می‌شد. جالب است بدانید که تا حدود پانصد سال راز این روش مخفی ماند تا عاقبت در 120 قبل از میلاد راز این روش نگارش بر ملا شد.
+
+
+در حوالی ۱۰۰ سال پیش از میلاد مسیح، ژولیس سزار 
+(\lr{Julius Caesar})،
+در مکاتبات خود در هنگام جنگ از یک شیوه نوینی از 
+\gls{Cryptography}
+استفاده می کرد که در آن جای حروف الفبا تغییر پیدا می‌کرد. روش او در عین سادگی اما کارا و مفید بود، و عملا اولین الگوی رمزنگاری
+ثبت شده در تاریخ به شمار می‌آید. در این الگو هر حرف با حرفی به فاصله $n$ از خودش جانشین می‌شد. الگوی رمزنگاری ژولیوس سزار برای دورانی که از هر قوم و قبیله به ندرت کسانی با سواد بودند، به قدر کافی امنیت داشت ولی امروز بیشتر به یک شوخی شبیه است. 
+\end{presNote}
+
+%\geometry{a4paper,top=2.4cm, bottom=2.6cm, left=2cm, right=2.1cm}
+\bibliography{/home/abolfazl/Documents/DataR/Study/Pejohesh/TotReport/R-Main/Chapters/library/library}
+\printabbreviation
+\printglossary
+\end{document}
