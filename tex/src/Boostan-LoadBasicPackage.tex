@@ -1,4 +1,4 @@
-%% Last Update: 03 May 2020
+%% Last Update: 22 Sep 2022
 %
 
 %% =========================================================================================================================
@@ -8,7 +8,6 @@
 %% ج) بسته glossaries حتما باید بعد از hyperref فراخوانی شود. 
 %% د) بسته listings باید حتما قبل از  hyperref فراخوانی شود. 
 
-%
 %\usepackage{etex}
 %\reserveinserts{28}
 
@@ -44,7 +43,7 @@
 
 % برای رنگی کردن متن و استفاده از رنگ در متن این دو بسته مورد نیاز است.
 \usepackage[usenames,dvipsnames]{xcolor}
-
+\usepackage{eso-pic}
 % بسته ای برای وارد کردن Watermarking
 %\usepackage{draftwatermark}
 
@@ -109,6 +108,8 @@
 
 % بسته‌ای برای قراردادن متن در کنار عکس.
 \usepackage{wrapfig}
+\usepackage{LobsterTwo}
+\usepackage{epigraph}
 
 % بسته ای برای هایلایت کردن متن
 \usepackage{bidihl}
@@ -118,10 +119,11 @@
 \ifthenelse{\equal{\@docStyle}{Pres}}
 {
 	\usepackage{sectsty}
-	\usepackage{fancyhdr}
 	\usepackage{relsize}
 }{}
 \makeatother
+
+\usepackage{fancyhdr}
 
 % بسته ای برای وارد کردن کدهای برنامه نویسی (MATLAB، JAVA و ...) در متن. بسته listings باید قبل از hyperref باشد و گرنه با خطا مواجه خواهیم شد. برای مطالب بیشتر در مورد نحوه کارکرد این بسته سایت زیر را مشاهده کنید.
 % http://www.parsilatex.com/mediawiki/index.php?title=%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C_%D9%88%D8%A7%D8%B1%D8%AF_%DA%A9%D8%B1%D8%AF%D9%86_%DA%A9%D8%AF_%D8%AF%D8%B1_%D9%85%D8%AA%D9%86

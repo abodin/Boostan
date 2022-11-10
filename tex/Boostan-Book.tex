@@ -1,0 +1,11 @@
+\ifx\MyPath\undefined
+\newcommand{\MyPath}{}
+\fi
+
+\input{\MyPath src/Boostan-Init}
+%تخصیص مقدار به این دو متغیر حتما باید قبل از فراخوانی Boostan-Main باشد. 
+\docStyle{Report}
+\depRe{chapter}
+
+
+\input{\MyPath src/Boostan-Main}

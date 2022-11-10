@@ -123,7 +123,7 @@
 % با دستور زیر می توانید فونتی مخصوص عبارات فارسی تعیین کنید:
 	\ifthenelse{\equal{\@docStyle}{Report}} {\settextfont[Scale=1.25]{IRNazanin}}{
 	\ifthenelse{\equal{\@docStyle}{Pres}}   {\settextfont[Scale=1.4]{IRNazanin}}{
-	\ifthenelse{\equal{\@docStyle}{Letter}}{\settextfont[Scale=1.25]{IRNazanin}}{}}
+	\ifthenelse{\equal{\@docStyle}{Letter}}{\settextfont[Scale=1.25]{}}{}}
 	}
 % شما با دستور زیر بعد از فراخوانی بسته xepersian می توانید فونت انگلیسی را تعیین کنید
 % دقت کنید که عبارات انگلیسی شما باید در دستور \lr{} قرار گیرد تا xepersian بتواند بفمهد که این عبارات انگلیسی است
@@ -139,7 +139,7 @@
 \defaultFont
 
 %%  با استفاده از این دستور می‌توان فونت و فارسی و یا انگلیسی بودن اعداد در فرمول‌ها را به حالت اولیه (یعنی پیش‌فرض لاتک) برگرداند.
-\DefaultMathsDigits
+%\DefaultMathsDigits
 
 %% نحوه تغییر اندازه فونت عبارات ریاضی و فرمول‌ها. این کار توسط دستور زیر انجام می‌شود. 
 %%\DeclareMathSizes{textsize}{mathsize}{scriptsize}{scriptscriptsize}

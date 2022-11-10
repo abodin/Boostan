@@ -612,6 +612,9 @@ addtohook={%
 
 \newcommand{\sci}{\item[\footnotesize\color{OrangeRed}\ding{108}]}
 \newcommand{\tree}{\item[\color{ForestGreen}\ding{171}]}
+\newcommand{\hand}{\item[
+	\ifthenelse{\equal{\@docStyle}{Pres}}{\huge}{\Large}\color{blue}\ding{43}]}
+
 
 \usetikzlibrary{shadows}
 \newcommand*\keystroke[1]{%

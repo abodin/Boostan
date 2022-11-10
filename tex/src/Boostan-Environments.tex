@@ -223,7 +223,7 @@
 			\IfValueTF{#2}{
 				\IfFileExists{#2}{\begin{minipage}{.85\textwidth}}{\begin{minipage}{.93\textwidth}}
 			}{%%
-				\IfFileExists{note.png}{\begin{minipage}{.85\textwidth}}{\begin{minipage}{.93\textwidth}}
+				\IfFileExists{\MyPath images/icon/note.png}{\begin{minipage}{.85\textwidth}}{\begin{minipage}{.93\textwidth}}
 			}%%
 				\begin{RTL}
 }{%
@@ -236,8 +236,8 @@
 				{\node[fancytitle3, left=3pt,   rounded corners] at (box.west) {\includegraphics[width=.07\textwidth]{#2}}; }
 				{\node[fancytitle2,  rounded corners] at (box.west) {\handBS};}			
 			}{%%
-				\IfFileExists{note.png}
-				{\node[fancytitle3, left=3pt,   rounded corners] at (box.west) {\includegraphics[width=.07\textwidth]{note}}; }
+				\IfFileExists{\MyPath images/icon/note.png}
+				{\node[fancytitle3, left=3pt,   rounded corners] at (box.west) {\includegraphics[width=.07\textwidth]{\MyPath images/icon/note}}; }
 				{\node[fancytitle2,  rounded corners] at (box.west) {\handBS};}
 			}%%
 		\end{tikzpicture}
@@ -331,7 +331,7 @@
 	\IfValueTF{#2}{
 		\IfFileExists{#2}{\begin{minipage}{.85\textwidth}}{\begin{minipage}{.93\textwidth}}
 	}{%%
-		\IfFileExists{referO.png}{\begin{minipage}{.85\textwidth}}{\begin{minipage}{.93\textwidth}}
+		\IfFileExists{\MyPath images/icon/referO.png}{\begin{minipage}{.85\textwidth}}{\begin{minipage}{.93\textwidth}}
 	}%%
 	\begin{RTL}
 }{%
@@ -344,8 +344,8 @@
 		{\node[fancytitle3, left=3pt,   rounded corners] at (box.west) {\includegraphics[width=.07\textwidth]{#2}}; }
 		{\node[fancytitle2,  rounded corners] at (box.west) {\envBS};}			
 	}{%%
-		\IfFileExists{referO.png}
-		{\node[fancytitle3, left=3pt,   rounded corners] at (box.west) {\includegraphics[width=.07\textwidth]{referO}}; }
+		\IfFileExists{\MyPath images/icon/referO.png}
+		{\node[fancytitle3, left=3pt,   rounded corners] at (box.west) {\includegraphics[width=.07\textwidth]{\MyPath images/icon/referO}}; }
 		{\node[fancytitle2,  rounded corners] at (box.west) {\envBS};}
 	}%%
 	\end{tikzpicture}
@@ -369,7 +369,7 @@
 	\IfValueTF{#2}{
 		\IfFileExists{#2}{\begin{minipage}{.85\textwidth}}{\begin{minipage}{.93\textwidth}}
 	}{%%
-		\IfFileExists{infoRR.png}{\begin{minipage}{.85\textwidth}}{\begin{minipage}{.93\textwidth}}
+		\IfFileExists{\MyPath images/icon/infoRR.png}{\begin{minipage}{.85\textwidth}}{\begin{minipage}{.93\textwidth}}
 	}%%
 	\begin{RTL}
 }{%
@@ -382,8 +382,8 @@
 		{\node[fancytitle3, left=3pt,   rounded corners] at (box.west) {\includegraphics[width=.07\textwidth]{#2}}; }
 		{\node[fancytitle2,  rounded corners] at (box.west) {\twoBS};}			
 	}{%%
-		\IfFileExists{infoRR.png}
-		{\node[fancytitle3, left=3pt,   rounded corners] at (box.west) {\includegraphics[width=.07\textwidth]{infoRR}}; }
+		\IfFileExists{\MyPath images/icon/infoRR.png}
+		{\node[fancytitle3, left=3pt,   rounded corners] at (box.west) {\includegraphics[width=.07\textwidth]{\MyPath images/icon/infoRR}}; }
 		{\node[fancytitle2,  rounded corners] at (box.west) {\twoBS};}
 	}%%
 	\end{tikzpicture}
@@ -406,7 +406,7 @@
 	\IfValueTF{#2}{
 		\IfFileExists{#2}{\begin{minipage}{.85\textwidth}}{\begin{minipage}{.93\textwidth}}
 	}{%%
-		\IfFileExists{home.png}{\begin{minipage}{.85\textwidth}}{\begin{minipage}{.93\textwidth}}
+		\IfFileExists{\MyPath images/icon/home.png}{\begin{minipage}{.85\textwidth}}{\begin{minipage}{.93\textwidth}}
 	}%%
 	\linespread{1.5}
 	\begin{RTL}
@@ -420,8 +420,8 @@
 		{\node[fancytitle3, left=3pt,   rounded corners] at (box.west) {\includegraphics[width=.07\textwidth]{#2}}; }
 		{\node[fancytitle2,  rounded corners] at (box.west) {\twoBS};}			
 	}{%%
-		\IfFileExists{home.png}
-		{\node[fancytitle3, left=3pt,   rounded corners] at (box.west) {\includegraphics[width=.07\textwidth]{home}}; }
+		\IfFileExists{\MyPath images/icon/home.png}
+		{\node[fancytitle3, left=3pt,   rounded corners] at (box.west) {\includegraphics[width=.07\textwidth]{\MyPath images/icon/home}}; }
 		{\node[fancytitle2,  rounded corners] at (box.west) {\teleBS};}
 	}%%
 	\end{tikzpicture}
@@ -457,8 +457,8 @@
 				{\node[fancytitle3, left=3pt,   rounded corners] at (box.west) {\includegraphics[width=.07\textwidth]{#2}}; }
 				{\node[fancytitle2,  rounded corners] at (box.west) {\defBS};}			
 			}{%%
-				\IfFileExists{defi.png}
-				{\node[fancytitle3, left=3pt,   rounded corners] at (box.west) {\includegraphics[width=.07\textwidth]{defi}}; }
+				\IfFileExists{\MyPath images/icon/defi.png}
+				{\node[fancytitle3, left=3pt,   rounded corners] at (box.west) {\includegraphics[width=.07\textwidth]{\MyPath images/icon/defi}}; }
 				{\node[fancytitle2,  rounded corners] at (box.west) {\defBS};}
 			}%%
 		\end{tikzpicture}
@@ -495,7 +495,7 @@
 				{\node[fancytitle2,  rounded corners] at (box.west) {\commentBSS};}			
 			}{%%
 				\IfFileExists{robah.png}
-				{\node[fancytitle3, left=3pt,   rounded corners] at (box.west) {\includegraphics[width=.07\textwidth]{robah}}; }
+				{\node[fancytitle3, left=3pt,   rounded corners] at (box.west) {\includegraphics[width=.07\textwidth]{\MyPath images/icon/robah}}; }
 				{\node[fancytitle2,  rounded corners] at (box.west) {\commentBSS};}
 			}%%
 		\end{tikzpicture}
@@ -676,43 +676,43 @@ align=center,
 	innerrightmargin=5pt,innerleftmargin=5pt,
 	backgroundcolor=ntsec,
 	  singleextra={
-	      \node[
-	        overlay,
-	        inner ysep=7pt,
-	       inner xsep=9pt,
-	        anchor=east,
-	       % text width=1.2cm,
-	       % align=left,
-	        minimum height=4ex,
-	        fill=nttitle,
-	        yshift=-5.2mm,
-	        xshift=0mm,
-	        %rounded corners=3pt,
-	        font=\color{white}\bfseries
-	      ] at (P) {\rl{نکته~\thentcounter}};
-	        \draw[white,fill=white] ($(P)-(0pt,1.65mm)$) -- ($(P)-(0pt,8.8mm)$) -- ($(P)-(7pt,5.225mm)$) -- cycle;
+		\node[
+		overlay,
+		inner ysep=7pt,
+		inner xsep=9pt,
+		anchor=east,
+		% text width=1.2cm,
+		% align=left,
+		minimum height=4ex,
+		fill=nttitle,
+		yshift=-5.2mm,
+		xshift=0mm,
+		%rounded corners=3pt,
+		font=\color{white}\bfseries
+		] at (P) {\rl{نکته~\thentcounter}};
+		\draw[white,fill=white] ($(P)-(0pt,1.65mm)$) -- ($(P)-(0pt,8.8mm)$) -- ($(P)-(7pt,5.225mm)$) -- cycle;
 	      },
 	   firstextra={
-	      \node[
-	       overlay,
-	        inner ysep=7pt,
-	       inner xsep=9pt,
-	        anchor=east,
-	       % text width=1.2cm,
-	       % align=left,
-	        minimum height=4ex,
-	        fill=nttitle,
-	        yshift=-5.2mm,
-	        xshift=0mm,
-	        %rounded corners=3pt,
-	        font=\color{white}\bfseries
-	      ] at (P) {\rl{نکته~\thentcounter}};
-	        \draw[white,fill=white] ($(P)-(0pt,1.65mm)$) -- ($(P)-(0pt,8.8mm)$) -- ($(P)-(7pt,5.225mm)$) -- cycle;
+		\node[
+		overlay,
+		inner ysep=7pt,
+		inner xsep=9pt,
+		anchor=east,
+		% text width=1.2cm,
+		% align=left,
+		minimum height=4ex,
+		fill=nttitle,
+		yshift=-5.2mm,
+		xshift=0mm,
+		%rounded corners=3pt,
+		font=\color{white}\bfseries
+		] at (P) {\rl{نکته~\thentcounter}};
+		\draw[white,fill=white] ($(P)-(0pt,1.65mm)$) -- ($(P)-(0pt,8.8mm)$) -- ($(P)-(7pt,5.225mm)$) -- cycle;
 	      },
 	]
 	\linespread{1.5}
 	\refstepcounter{ntcounter}
-	\textbf{\ifx\empty#1\hspace*{2.2cm}\relax\else\hspace*{1.85cm}(#1)\fi}%\\[.2cm]%
+	\textbf{\ifx\empty#1\hspace*{1.9cm}\relax\else\hspace*{1.65cm}(#1)\fi}%\\[.2cm]%
 	\noindent\ignorespaces%
 	\noindent}{\end{mdframed}\par}
 }
@@ -909,28 +909,28 @@ middlelinecolor=ForestGreen,
 	        overlay,
 	        outer sep=0pt,
 	        anchor=north west,
-	        text width=2.3cm,
+	        text width=2.4cm,
 	        minimum height=4ex,
 	        fill=ntdef,
 	        yshift=-2mm,
-	        xshift=-21mm,
+	        xshift=-19mm,
 	        %rounded corners=3pt,
 	        font=\color{white}\bfseries
-	      ]     at (P) {\rl{تعریف~\thedefinition}};
+	      ]     at (P) {\rl{~تعریف~\thedefinition}};
 	      },
 	   firstextra={
 	      \node[
 	        overlay,
 	        outer sep=0pt,
 	        anchor=north west,
-	        text width=2.3cm,
+	        text width=2.4cm,
 	        minimum height=4ex, 
 	        fill=ntdef,
 	        yshift=-2mm,
-	        xshift=-21mm,
+	        xshift=-19mm,
 	        %rounded corners=3pt,
 	        font=\color{white}\bfseries
-	      ] at (P) {\rl{تعریف~\thedefinition}};
+	      ] at (P) {\rl{~تعریف~\thedefinition}};
 	      },
 	]
 	\linespread{1.5}
