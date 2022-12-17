@@ -123,7 +123,7 @@
 % با دستور زیر می توانید فونتی مخصوص عبارات فارسی تعیین کنید:
 	\ifthenelse{\equal{\@docStyle}{Report}} {\settextfont[Scale=1.25]{IRNazanin}}{
 	\ifthenelse{\equal{\@docStyle}{Pres}}   {\settextfont[Scale=1.4]{IRNazanin}}{
-	\ifthenelse{\equal{\@docStyle}{Letter}}{\settextfont[Scale=1.25]{}}{}}
+	\ifthenelse{\equal{\@docStyle}{Letter}}{\settextfont[Scale=1.25]{IRNazanin}}{}}
 	}
 % شما با دستور زیر بعد از فراخوانی بسته xepersian می توانید فونت انگلیسی را تعیین کنید
 % دقت کنید که عبارات انگلیسی شما باید در دستور \lr{} قرار گیرد تا xepersian بتواند بفمهد که این عبارات انگلیسی است
@@ -152,3 +152,6 @@
 %%\DeclareMathSizes{10}{11}{9}{8}   % For size 10 text
 %%\DeclareMathSizes{11}{12}{11}{10}   % For size 11 text
 %%\DeclareMathSizes{12}{13}{12}{11}  % For size 12 text
+
+
+\presetkeys{todonotes}{align=justify,textdirection=righttoleft}{}

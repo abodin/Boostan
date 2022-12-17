@@ -1,4 +1,4 @@
-%% Last Update: 22 Sep 2022
+%% Last Update: 17 Dec 2022
 %
 
 %% =================================================================================
@@ -22,6 +22,10 @@
 \gdef\@author{}
 \def\author#1{\gdef\@author{#1}}
 \newcommand{\authorText}{\@author\,}
+
+\gdef\@authorCode{}
+\def\authorCode#1{\gdef\@authorCode{#1}}
+
 % تاریخ نهایی نوشتن مستند را تعیین می‌کند این تاریخ در نوشتن عنوان استفاده می‌شود این تارخ باید تعیین شود در غیر این صورت به صورت پیش فرض یک تاریخ برای آن استفاده می شود.
 \gdef\@date{ آخرین ویرایش: \myData}
 \def\date#1{\gdef\@date{#1}}

@@ -1,4 +1,4 @@
-%% Last Update: 29 Oct 2019
+%% Last Update: 15 Nov 2021
 %
 
 %% =================================================================================
@@ -9,9 +9,9 @@
 %  فایل‌ها نگهداری می‌کند. مهم‌ترین option‌ این قسمت این است که 
 % عنوان واژه‌نامه‌ها و یا فهرست اختصارات و یا فهرست نمادها را می‌توانید در این‌جا مشخص کنید. 
 % در این جا عباراتی مثل glg، gls، glo و ... پسوند فایل‌هایی است که برای xindy بکار می‌روند. 
- \newglossary[glg]{english}{gls}{glo}{واژه‌نامه انگلیسی به فارسی}
- \newglossary[blg]{persian}{bls}{blo}{واژه‌نامه فارسی به انگلیسی}
- \makeglossaries
+\newglossary[glg]{english}{gls}{glo}{واژه‌نامه انگلیسی به فارسی}
+\newglossary[blg]{persian}{bls}{blo}{واژه‌نامه فارسی به انگلیسی}
+\makeglossaries
  \glsdisablehyper
  
 % تعریف استایل برای واژه نامه فارسی به انگلیسی، در این استایل واژه‌های فارسی در سمت راست و واژه‌های انگلیسی در سمت چپ خواهند آمد. از حالت گروه ‌بندی استفاده می‌کنیم، 
@@ -94,22 +94,48 @@
 }
 
 % بر طبق این دستور، در اولین باری که واژه مورد نظر از واژه‌نامه وارد شود، پاورقی زده می‌شود. 
-\makeatletter
-\ifthenelse
-{\equal{\@docStyle}{Pres}}
-{\defglsentryfmt[english]{\glsgenentryfmt\ifglsused{\glslabel}{}{}}}
-{\defglsentryfmt[english]{\glsgenentryfmt\ifglsused{\glslabel}{}{\LTRfootnote{\glsentryname{\glslabel}}}}}
-
+\defglsentryfmt[english]{\glsgenentryfmt\ifglsused{\glslabel}{}{\LTRfootnote{\glsentryname{\glslabel}}}}
 
 % بر طبق این دستور، در اولین باری که واژه مورد نظر از فهرست اختصارات وارد شود، پاورقی زده می‌شود. 
-\ifthenelse{\equal{\@docStyle}{Pres}}%
-{\defglsentryfmt[acronym]{\glsentryname{\glslabel}\ifglsused{\glslabel}{}{}}}%
-{\defglsentryfmt[acronym]{\glsentryname{\glslabel}\ifglsused{\glslabel}{}{\LTRfootnote{\glsentrydesc{\glslabel}}}}}
-\makeatother
+\defglsentryfmt[acronym]{\glsentryname{\glslabel}\ifglsused{\glslabel}{}{\LTRfootnote{\glsentrydesc{\glslabel}}}}
 
 
 %دو دستور که با استفاده از آن علاوه بر این که معادل کلمه قرار داده می‌شود، معادل انگلیسی آن در پرانتز جلوی آن نوشته می‌شود. 
 \newcommand{\mygls}[1]{\gls*{#1} \lr{(\glsentryname{#1})}}
 \newcommand{\myglspl}[1]{\glspl*{#1} \lr{(\glsentryname{#1})}}
 \newcommand{\myglsab}[1]{\lr{\gls*{#1} (\glsentrydesc{#1})}}
+
+
+\makeatletter
+
+\ifthenelse{\equal{\@docStyle}{Pres}}%
+{}
+{%
+\setglossarystyle{long}
+\newacronymstyle{ex-footnote}%
+{%
+  \GlsUseAcrEntryDispStyle{footnote}%
+}%
+{%
+  \GlsUseAcrStyleDefs{footnote}%
+  \renewcommand*{\genacrfullformat}[2]{%
+   \firstacronymfont{\glsentryshort{##1}}##2%
+   \expandafter\LTRfootnote\expandafter{\expandafter\glsentrylong\expandafter{##1}}%
+  }%
+  \renewcommand*{\Genacrfullformat}[2]{%
+   \firstacronymfont{\Glsentryshort{##1}}##2%
+   \expandafter\LTRfootnote\expandafter{\expandafter\glsentrylong\expandafter{##1}}%
+  }%
+  \renewcommand*{\genplacrfullformat}[2]{%
+   \firstacronymfont{\glsentryshortpl{##1}}##2%
+   \expandafter\LTRfootnote\expandafter{\expandafter\glsentrylongpl\expandafter{##1}}%
+  }%
+  \renewcommand*{\Genplacrfullformat}[2]{%
+   \firstacronymfont{\Glsentryshortpl{##1}}##2%
+   \expandafter\LTRfootnote\expandafter{\expandafter\glsentrylongpl\expandafter{##1}}%
+  }%
+}
+\setacronymstyle{ex-footnote}
+}
+\makeatletter
 

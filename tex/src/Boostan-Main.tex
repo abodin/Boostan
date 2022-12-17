@@ -1,4 +1,4 @@
-%% Last Update: 29 Oct 2019
+%% Last Update: 15 Nov 2021
 %
 
 %% ============================================================================
@@ -141,6 +141,9 @@
 	\pagestyle{plain}
 	\pagenumbering{arabic}
 %	\SetWatermarkText{}
+
+%برای این‌که اولین رخداد تمام gls ها را در بخش واژه‌نامه و اختصارات را غیرفعال کند
+     \ifthenelse{\equal{\@docStyle}{Pres}}{\glsunsetall}{}
      \ifthenelse{\equal{\@docStyle}{Pres}}{\LARGE}{}
 }{%
 	\endolddocument

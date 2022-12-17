@@ -1,0 +1,77 @@
+\ifx\MyPath\undefined
+\newcommand{\MyPath}{}
+\fi
+
+\input{\MyPath src/Boostan-Init}
+%تخصیص مقدار به این دو متغیر حتما باید قبل از فراخوانی Boostan-Main باشد. 
+\docStyle{Report}
+\depRe{chapter}
+\input{\MyPath src/Boostan-Main}
+
+%\defpersianfont\titlefont[Scale=2.4]{IRTitr}
+%\defpersianfont\logofontR[Scale=1.2]{IRZar}
+\defpersianfont\typefontR[Scale=1.8]{IRZar}
+%\defpersianfont\titlefontR[Scale=2]{IRTitr}
+\defpersianfont\datafontR[Scale=1.4]{B Zar}
+\defpersianfont\proposalFont[Scale=1]{IRTitr}
+\defpersianfont\InstituteFont[Scale=.8]{XM Traffic}
+\defpersianfont\godFont[Scale=.9]{XM Traffic}
+\defpersianfont\nastaliq[Scale=2]{IranNastaliq}
+
+%% این دستور تعیین می‌کند که در متن تا چه عمقی شماره‌گذاری انجام شود. 
+\setcounter{secnumdepth}{3}
+
+
+\makeatletter
+\defpersianfont\chaptertitlefont[Scale=1.6]{B Titr}
+
+\newcommand\mycustomraggedright{%
+ \if@RTL\raggedleft%
+ \else\raggedright%
+ \fi}
+\def\@part[#1]#2{%
+\ifnum \c@secnumdepth >-2\relax
+\refstepcounter{part}%
+\addcontentsline{toc}{part}{\thepart\hspace{1em}#1}%
+\else
+\addcontentsline{toc}{part}{#1}%
+\fi
+\markboth{}{}%
+{\centering
+\interlinepenalty \@M
+\ifnum \c@secnumdepth >-2\relax
+ \huge\bfseries \partname\nobreakspace\thepart
+\par
+\vskip 20\p@
+\fi
+\LARGE\bfseries #2\par}%
+\@endpart}
+\def\@makechapterhead#1{%
+  \vspace*{200\p@}%
+  {\parindent \z@ \raggedleft \normalfont
+    \ifnum \c@secnumdepth >\m@ne
+      \if@mainmatter
+        \huge\bfseries \@chapapp\space \thechapter
+        \par\nobreak
+        \vskip 20\p@
+      \fi
+    \fi
+    \interlinepenalty\@M
+    \Huge \bfseries \raggedleft{ #1}\par\nobreak
+    \vskip 50\p@
+  }}
+
+%اگه می‌خواین که کلمه «فصل» رو هم داشته باشین، خط پایین رو غیرفعال کنین.
+%\renewcommand{\chaptername}{}
+%  نکته جانبی و بی‌ربط به این بحث: اگه می‌خواین که صفحات اول هر فصل، شماره صفحه نداشته باشن، ۹ خط پایین رو فعال کنین.
+%\let\origchapter\chapter
+%\renewcommand*{\chapter}{% 
+%  \fancypagestyle{plain}{%
+%    %\fancyhf{}%
+%    \renewcommand{\headrulewidth}{0pt}%
+%    \renewcommand{\footrulewidth}{0pt}%
+%  }%
+%\origchapter
+%}
+
+\makeatother

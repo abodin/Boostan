@@ -1,4 +1,4 @@
-%% Last Update: 13 Sep 2019
+%% Last Update: 22 Nov 2022
 %
 
 %% ====================================================================================
@@ -259,7 +259,7 @@
 			\IfValueTF{#2}{
 				\IfFileExists{#2}{\begin{minipage}{.85\textwidth}}{\begin{minipage}{.93\textwidth}}
 			}{%%
-				\IfFileExists{archeryf.pdf}{\begin{minipage}{.85\textwidth}}{\begin{minipage}{.93\textwidth}}
+				\IfFileExists{\MyPath images/icon/archeryf.pdf}{\begin{minipage}{.85\textwidth}}{\begin{minipage}{.93\textwidth}}
 			}%%
 				\begin{RTL}
 }{%
@@ -272,8 +272,8 @@
 				{\node[fancytitle3, left=3pt,   rounded corners] at (box.west) {\includegraphics[width=.07\textwidth]{#2}}; }
 				{\node[fancytitle2,  rounded corners] at (box.west) {\treeBS};}			
 			}{%%
-				\IfFileExists{archeryf.pdf}
-				{\node[fancytitle3, left=3pt,   rounded corners] at (box.west) {\includegraphics[width=.07\textwidth]{archeryf}}; }
+				\IfFileExists{\MyPath images/icon/archeryf.pdf}
+				{\node[fancytitle3, left=3pt,   rounded corners] at (box.west) {\includegraphics[width=.07\textwidth]{\MyPath images/icon/archeryf}}; }
 				{\node[fancytitle2,  rounded corners] at (box.west) {\treeBS};}
 			}%%
 		\end{tikzpicture}
@@ -295,7 +295,7 @@
 	\IfValueTF{#2}{
 		\IfFileExists{#2}{\begin{minipage}{.85\textwidth}}{\begin{minipage}{.93\textwidth}}
 	}{%%
-		\IfFileExists{warining.png}{\begin{minipage}{.85\textwidth}}{\begin{minipage}{.93\textwidth}}
+		\IfFileExists{\MyPath images/icon/warining.png}{\begin{minipage}{.85\textwidth}}{\begin{minipage}{.93\textwidth}}
 	}%%
 		\begin{RTL}
 }{%
@@ -308,8 +308,8 @@
 		{\node[fancytitle3, left=3pt,   rounded corners] at (box.west) {\includegraphics[width=.07\textwidth]{#2}}; }
 		{\node[fancytitle2,  rounded corners] at (box.west) {\arcBS};}			
 	}{%%
-		\IfFileExists{warining.png}
-		{\node[fancytitle3, left=3pt,   rounded corners] at (box.west) {\includegraphics[width=.07\textwidth]{warining.png}}; }
+		\IfFileExists{\MyPath images/icon/warining.png}
+		{\node[fancytitle3, left=3pt,   rounded corners] at (box.west) {\includegraphics[width=.07\textwidth]{\MyPath images/icon/warining.png}}; }
 		{\node[fancytitle2,  rounded corners] at (box.west) {\arcBS};}
 	}%%
 	\end{tikzpicture}

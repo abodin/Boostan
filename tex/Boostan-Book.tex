@@ -2,6 +2,8 @@
 \newcommand{\MyPath}{}
 \fi
 
+%\PassOptionsToPackage{total={170mm,240mm},left=32.5mm,right=32.5mm,top=44.5mm,bottom=43.5mm}{geometry}
+
 \input{\MyPath src/Boostan-Init}
 %تخصیص مقدار به این دو متغیر حتما باید قبل از فراخوانی Boostan-Main باشد. 
 \docStyle{Report}
@@ -9,3 +11,17 @@
 
 
 \input{\MyPath src/Boostan-Main}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% دستورهایی برای تنظیم نحوه چینش سربرگ‌ها
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE]{\small\thepage\hfill\leftmark}
+\fancyhead[RO]{\small\rightmark\hfill\thepage}
+%\fancyhead[RE,LO]{\small\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\chaptermark}[1]{%
+\markboth{\thechapter\ \ #1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ \ #1}}
+
+
