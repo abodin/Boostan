@@ -1,5 +1,5 @@
 % نام قالب را تعیین می کند و همچنین بیان می کند که آخرین به روز رسانی  این قالب در چه زمانی بوده است. یک توصف مختصر هم از این بسته در اینجا امده است.
-\ProvidesClass{CSICC2016}[2015/10/04]
+\ProvidesClass{CSICC2016}[2023/05/06]
 
 % تمام پارامترهای ورودی برای تنظیم متن را به کلاس زیر ارسال می‌کنیم
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
@@ -48,7 +48,7 @@
 \defpersianfont\titleFont[Scale=1.5]{IRMitra Bold}
 \defpersianfont\AbstractBold[Scale=.95]{IRMitra Bold}
 %%  با استفاده از این دستور می‌توان فونت و فارسی و یا انگلیسی بودن اعداد در فرمول‌ها را به حالت اولیه (یعنی پیش‌فرض لاتک) برگرداند.
-\DefaultMathsDigits
+%\DefaultMathsDigits
 
 %% اختصاص - به عنوان جداکننده شماره بخش و زیربخش
 \SepMark{-}
@@ -128,7 +128,7 @@
 \def\lemmaproof{\paragraph{\textit{اثبات لم.}} }
 \def\endlemmaproof{\hfill$\blacksquare$\oldendproof}
 
-\renewcommand{\bibname}{\large مراجع}
+%\renewcommand{\bibname}{\large مراجع}
 \bibliographystyle{ieeetr-fa}
 
 \let\Oldbibliography\bibliography
