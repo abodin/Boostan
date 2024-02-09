@@ -1,51 +1,52 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.4.24)  6 MAY 2023 09:47
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.1.24)  9 FEB 2024 14:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **myPaper.tex
 (./myPaper.tex
-LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-04-20> (./CSICC.cls
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+(./CSICC.cls
 
 LaTeX Warning: You have requested document class `CSICC',
                but the document class provides `CSICC2016'.
 
 Document Class: CSICC2016 2023/05/06
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+File: size11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count181
-\c@section=\count182
-\c@subsection=\count183
-\c@subsubsection=\count184
-\c@paragraph=\count185
-\c@subparagraph=\count186
-\c@figure=\count187
-\c@table=\count188
+\c@part=\count183
+\c@section=\count184
+\c@subsection=\count185
+\c@subsubsection=\count186
+\c@paragraph=\count187
+\c@subparagraph=\count188
+\c@figure=\count189
+\c@table=\count190
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks16
-\thm@bodyfont=\toks17
-\thm@headfont=\toks18
-\thm@notefont=\toks19
-\thm@headpunct=\toks20
+\thm@style=\toks17
+\thm@bodyfont=\toks18
+\thm@headfont=\toks19
+\thm@notefont=\toks20
+\thm@headpunct=\toks21
 \thm@preskip=\skip50
 \thm@postskip=\skip51
 \thm@headsep=\skip52
-\dth@everypar=\toks21
+\dth@everypar=\toks22
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks22
+\@emptytoks=\toks23
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
@@ -53,7 +54,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2022/04/08 v2.17n AMS math features
+Package: amsmath 2023/05/13 v2.17o AMS math features
 \@mathmargin=\skip53
 
 For additional information on amsmath, use the `?' option.
@@ -62,7 +63,7 @@ Package: amstext 2021/08/26 v2.01 AMS text
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks23
+\@emptytoks=\toks24
 \ex@=\dimen141
 ))
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -72,14 +73,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count189
+\inf@bad=\count191
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count190
-\leftroot@=\count191
+\uproot@=\count192
+\leftroot@=\count193
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count192
-\DOTSCASE@=\count193
+\classnum@=\count194
+\DOTSCASE@=\count195
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -92,46 +93,46 @@ LaTeX Info: Redefining \Bigg on input line 725.
 \big@size=\dimen143
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count194
+\macc@depth=\count196
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count195
+\c@MaxMatrixCols=\count197
 \dotsspace@=\muskip16
-\c@parentequation=\count196
-\dspbrk@lvl=\count197
-\tag@help=\toks24
-\row@=\count198
-\column@=\count199
-\maxfields@=\count266
-\andhelp@=\toks25
+\c@parentequation=\count198
+\dspbrk@lvl=\count199
+\tag@help=\toks25
+\row@=\count266
+\column@=\count267
+\maxfields@=\count268
+\andhelp@=\toks26
 \eqnshift@=\dimen144
 \alignsep@=\dimen145
 \tagshift@=\dimen146
 \tagwidth@=\dimen147
 \totwidth@=\dimen148
 \lineht@=\dimen149
-\@envbody=\toks26
+\@envbody=\toks27
 \multlinegap=\skip54
 \multlinetaggap=\skip55
-\mathdisplay@stack=\toks27
+\mathdisplay@stack=\toks28
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2023/02/19 v1.6 Sub-captions (AR)
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2023/03/12 v3.6j Customizing captions (AR)
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks28
+\KV@toks@=\toks29
 )
 \caption@tempdima=\dimen150
 \captionmargin=\dimen151
@@ -143,13 +144,13 @@ Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \caption@hangindent=\dimen157
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count267
-\c@continuedfloat=\count268
+\c@caption@flags=\count269
+\c@continuedfloat=\count270
 )
-Package caption Info: New subtype `subfigure' on input line 239.
-\c@subfigure=\count269
-Package caption Info: New subtype `subtable' on input line 239.
-\c@subtable=\count270
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count271
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count272
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/algorithms/algorithm.sty
 Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
@@ -158,33 +159,33 @@ nment
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count271
-\float@exts=\toks29
+\c@float@type=\count273
+\float@exts=\toks30
 \float@box=\box53
-\@float@everytoks=\toks30
+\@float@everytoks=\toks31
 \@floatcapt=\box54
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-\@float@every@algorithm=\toks31
-\c@algorithm=\count272
+\@float@every@algorithm=\toks32
+\c@algorithm=\count274
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/algorithms/algorithmic.sty
 Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-\c@ALC@unique=\count273
-\c@ALC@line=\count274
-\c@ALC@rem=\count275
-\c@ALC@depth=\count276
+\c@ALC@unique=\count275
+\c@ALC@line=\count276
+\c@ALC@rem=\count277
+\c@ALC@depth=\count278
 \ALC@tlm=\skip56
 \algorithmicindent=\skip57
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/sttools/cuted.sty
 Package: cuted 2021/10/04 v2.0 Mixing onecolumn and twocolumn modes
-\At@ViperColsBreak=\toks32
-\preCutedStrip=\toks33
-\postCutedStrip=\toks34
+\At@ViperColsBreak=\toks33
+\preCutedStrip=\toks34
+\postCutedStrip=\toks35
 \cuted@@tempbox@a=\box55
 \cuted@@tempbox@c=\box56
 \cuted@@tempbox@var=\box57
@@ -199,7 +200,7 @@ Package: cuted 2021/10/04 v2.0 Mixing onecolumn and twocolumn modes
 \ht@viper=\dimen162
 \var@@pagediscards@ht=\dimen163
 \stripsep=\skip58
-\viper@penalty=\count277
+\viper@penalty=\count279
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
@@ -227,7 +228,7 @@ Invalid UTF-8 byte or sequence at line 118 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 121 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 121 replaced by U+FFFD.
 Package: endnotes 2020-01-02 endnotes package
-\c@endnote=\count278
+\c@endnote=\count280
 \endnotesep=\dimen166
 \@enotes=\write3
 )
@@ -235,9 +236,9 @@ Package: endnotes 2020-01-02 endnotes package
 Package: authblk 2001/02/27 1.3 (PWD)
 \affilsep=\skip59
 \@affilsep=\skip60
-\c@Maxaffil=\count279
-\c@authors=\count280
-\c@affil=\count281
+\c@Maxaffil=\count281
+\c@authors=\count282
+\c@affil=\count283
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -248,9 +249,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-\Gm@cnth=\count282
-\Gm@cntv=\count283
-\c@Gm@tempcnt=\count284
+\Gm@cnth=\count284
+\Gm@cntv=\count285
+\c@Gm@tempcnt=\count286
 \Gm@bindingoffset=\dimen167
 \Gm@wd@mp=\dimen168
 \Gm@odd@mp=\dimen169
@@ -259,13 +260,22 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layoutheight=\dimen172
 \Gm@layouthoffset=\dimen173
 \Gm@layoutvoffset=\dimen174
-\Gm@dimlist=\toks35
+\Gm@dimlist=\toks36
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2023-04-22 v7.00x Hypertext links for LaTeX
+Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
@@ -277,27 +287,15 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)
-(/usr/local/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)
-(/usr/local/texlive/2023/texmf-dist/tex/generic/pdfescape/pdfescape.sty
-Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-)
+))
 (/usr/local/texlive/2023/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
-Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
@@ -308,38 +306,38 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
  (/usr/local/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count285
+\c@section@level=\count287
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count286
+\etb@tempcnta=\count288
 )
 \@linkdim=\dimen175
-\Hy@linkcounter=\count287
-\Hy@pagecounter=\count288
+\Hy@linkcounter=\count289
+\Hy@pagecounter=\count290
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2023-04-22 v7.00x Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
 )
 (/usr/local/texlive/2023/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count289
+\Hy@SavedSpaceFactor=\count291
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2023-04-22 v7.00x Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 4065.
-Package hyperref Info: Hyper figures OFF on input line 4182.
-Package hyperref Info: Link nesting OFF on input line 4187.
-Package hyperref Info: Hyper index ON on input line 4190.
-Package hyperref Info: Plain pages OFF on input line 4197.
-Package hyperref Info: Backreferencing ON on input line 4200.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4062.
+Package hyperref Info: Hyper figures OFF on input line 4179.
+Package hyperref Info: Link nesting OFF on input line 4184.
+Package hyperref Info: Hyper index ON on input line 4187.
+Package hyperref Info: Plain pages OFF on input line 4194.
+Package hyperref Info: Backreferencing ON on input line 4197.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4449.
+Package hyperref Info: Bookmarks ON on input line 4446.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/backref.sty
-Package: backref 2023/04/20 v1.42 Bibliographical back referencing
+Package: backref 2023-11-26 v1.44 Bibliographical back referencing
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
@@ -357,88 +355,88 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 ))
-\c@Hy@tempcnt=\count290
+\c@Hy@tempcnt=\count292
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4787.
+LaTeX Info: Redefining \url on input line 4784.
 \XeTeXLinkMargin=\dimen176
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 )
-\Fld@menulength=\count291
+\Fld@menulength=\count293
 \Field@Width=\dimen177
 \Fld@charsize=\dimen178
-Package hyperref Info: Hyper figures OFF on input line 6066.
-Package hyperref Info: Link nesting OFF on input line 6071.
-Package hyperref Info: Hyper index ON on input line 6074.
-Package hyperref Info: backreferencing ON on input line 6079.
-Package hyperref Info: Link coloring ON on input line 6084.
-Package hyperref Info: Link coloring with OCG OFF on input line 6091.
-Package hyperref Info: PDF/A mode OFF on input line 6096.
+Package hyperref Info: Hyper figures OFF on input line 6063.
+Package hyperref Info: Link nesting OFF on input line 6068.
+Package hyperref Info: Hyper index ON on input line 6071.
+Package hyperref Info: backreferencing ON on input line 6076.
+Package hyperref Info: Link coloring ON on input line 6081.
+Package hyperref Info: Link coloring with OCG OFF on input line 6088.
+Package hyperref Info: PDF/A mode OFF on input line 6093.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count292
-\c@Item=\count293
-\c@Hfootnote=\count294
+\Hy@abspage=\count294
+\c@Item=\count295
+\c@Hfootnote=\count296
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2023-04-22 v7.00x Hyperref driver for XeTeX
+File: hxetex.def 2024-01-20 v7.01h Hyperref driver for XeTeX
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
 \pdfm@box=\box62
-\c@Hy@AnnotLevel=\count295
-\HyField@AnnotCount=\count296
-\Fld@listcount=\count297
-\c@bookmark@seq@number=\count298
+\c@Hy@AnnotLevel=\count297
+\HyField@AnnotCount=\count298
+\Fld@listcount=\count299
+\c@bookmark@seq@number=\count300
 \Hy@SectionHShift=\skip61
 )
 (/usr/local/texlive/2023/texmf-dist/tex/xelatex/xepersian/xepersian.sty
-Package: xepersian 2022/10/30 v24.8 (Release Women, Life, and Freedom) Persian 
+Package: xepersian 2023/08/30 v25.0 (Release Women, Life, and Freedom) Persian 
 typesetting in XeLaTeX
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.sty
 (/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 (/usr/local/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2023-04-20 L3 programming layer (loader) 
+Package: expl3 2024-01-22 L3 programming layer (loader) 
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-File: l3backend-xetex.def 2023-04-19 L3 backend support: XeTeX
-\g__graphics_track_int=\count299
+File: l3backend-xetex.def 2024-01-04 L3 backend support: XeTeX
+\g__graphics_track_int=\count301
 \l__pdf_internal_box=\box63
-\g__pdf_backend_object_int=\count300
-\g__pdf_backend_annotation_int=\count301
-\g__pdf_backend_link_int=\count302
+\g__pdf_backend_object_int=\count302
+\g__pdf_backend_annotation_int=\count303
+\g__pdf_backend_link_int=\count304
 ))
-Package: xparse 2023-02-02 L3 Experimental document command parser
+Package: xparse 2023-10-10 L3 Experimental document command parser
 )
 Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
 Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count303
-\l__fontspec_language_int=\count304
-\l__fontspec_strnum_int=\count305
-\l__fontspec_tmp_int=\count306
-\l__fontspec_tmpa_int=\count307
-\l__fontspec_tmpb_int=\count308
-\l__fontspec_tmpc_int=\count309
-\l__fontspec_em_int=\count310
-\l__fontspec_emdef_int=\count311
-\l__fontspec_strong_int=\count312
-\l__fontspec_strongdef_int=\count313
+\l__fontspec_script_int=\count305
+\l__fontspec_language_int=\count306
+\l__fontspec_strnum_int=\count307
+\l__fontspec_tmp_int=\count308
+\l__fontspec_tmpa_int=\count309
+\l__fontspec_tmpb_int=\count310
+\l__fontspec_tmpc_int=\count311
+\l__fontspec_em_int=\count312
+\l__fontspec_emdef_int=\count313
+\l__fontspec_strong_int=\count314
+\l__fontspec_strongdef_int=\count315
 \l__fontspec_tmpa_dim=\dimen179
 \l__fontspec_tmpb_dim=\dimen180
 \l__fontspec_tmpc_dim=\dimen181
@@ -450,51 +448,51 @@ Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 (/usr/local/texlive/2023/texmf-dist/tex/xelatex/xepersian/xepersian-persiancal.
 sty
 Package: xepersian-persiancal 2012/07/25 v0.2 provides Persian calendar
-\XePersian@i=\count314
-\XePersian@y=\count315
-\XePersian@m=\count316
-\XePersian@d=\count317
-\XePersian@latini=\count318
-\XePersian@persiani=\count319
-\XePersian@latinii=\count320
-\XePersian@persianii=\count321
-\XePersian@latiniii=\count322
-\XePersian@persianiii=\count323
-\XePersian@latiniv=\count324
-\XePersian@persianiv=\count325
-\XePersian@latinv=\count326
-\XePersian@persianv=\count327
-\XePersian@latinvi=\count328
-\XePersian@persianvi=\count329
-\XePersian@latinvii=\count330
-\XePersian@persianvii=\count331
-\XePersian@latinviii=\count332
-\XePersian@persianviii=\count333
-\XePersian@latinix=\count334
-\XePersian@persianix=\count335
-\XePersian@latinx=\count336
-\XePersian@persianx=\count337
-\XePersian@latinxi=\count338
-\XePersian@persianxi=\count339
-\XePersian@latinxii=\count340
-\XePersian@persianxii=\count341
-\XePersian@persianxiii=\count342
-\XePersian@temp=\count343
-\XePersian@temptwo=\count344
-\XePersian@tempthree=\count345
-\XePersian@yModHundred=\count346
-\XePersian@thirtytwo=\count347
-\XePersian@dn=\count348
-\XePersian@sn=\count349
-\XePersian@mminusone=\count350
+\XePersian@i=\count316
+\XePersian@y=\count317
+\XePersian@m=\count318
+\XePersian@d=\count319
+\XePersian@latini=\count320
+\XePersian@persiani=\count321
+\XePersian@latinii=\count322
+\XePersian@persianii=\count323
+\XePersian@latiniii=\count324
+\XePersian@persianiii=\count325
+\XePersian@latiniv=\count326
+\XePersian@persianiv=\count327
+\XePersian@latinv=\count328
+\XePersian@persianv=\count329
+\XePersian@latinvi=\count330
+\XePersian@persianvi=\count331
+\XePersian@latinvii=\count332
+\XePersian@persianvii=\count333
+\XePersian@latinviii=\count334
+\XePersian@persianviii=\count335
+\XePersian@latinix=\count336
+\XePersian@persianix=\count337
+\XePersian@latinx=\count338
+\XePersian@persianx=\count339
+\XePersian@latinxi=\count340
+\XePersian@persianxi=\count341
+\XePersian@latinxii=\count342
+\XePersian@persianxii=\count343
+\XePersian@persianxiii=\count344
+\XePersian@temp=\count345
+\XePersian@temptwo=\count346
+\XePersian@tempthree=\count347
+\XePersian@yModHundred=\count348
+\XePersian@thirtytwo=\count349
+\XePersian@dn=\count350
+\XePersian@sn=\count351
+\XePersian@mminusone=\count352
 )
 (/usr/local/texlive/2023/texmf-dist/tex/xelatex/xepersian/xepersian-mathdigitsp
 ec.sty
 Package: xepersian-mathdigitspec 2022/05/20 v1.2.0 Unicode Persian math digits 
 in XeLaTeX
 ) (/usr/local/texlive/2023/texmf-dist/tex/xelatex/bidi/bidi.sty
-Package: bidi 2023/01/18 v39.7 (Release Serge Lang) Bidirectional typesetting i
-n plain TeX and LaTeX
+Package: bidi 2023/08/02 v39.8 (Release Donald Ervin Knuth) Bidirectional types
+etting in plain TeX and LaTeX
 
 ****************************************************
 * 
@@ -509,7 +507,7 @@ n plain TeX and LaTeX
 * Copyright (c) 2007--2023 Vafa Khalighi
 * Copyright (c) 2018--2020 bidi-tex GitHub organization
 * 
-* v39.7 (Release Serge Lang), 2023/01/18
+* v39.8 (Release Donald Ervin Knuth), 2023/08/02
 * 
 * License: LaTeX Project Public License, version
 * 1.3c or higher (your choice)
@@ -525,25 +523,25 @@ n plain TeX and LaTeX
 ****************************************************
 (/usr/local/texlive/2023/texmf-dist/tex/xelatex/bidi/biditools.sty
 Package: biditools 2022/06/15 v2.3 Programming tools for bidi package
-\@bidi@envbody=\toks36
-\@bidi@emptytoks=\toks37
-\bidi@poscount=\count351
-\bidi@tempcountb=\count352
-\bidi@temptoksa=\toks38
-\bidi@temptoksb=\toks39
-\bidi@dummies=\count353
-\bidi@are@these@correct=\toks40
-\bidi@toks@lista=\toks41
-\bidi@toks@listb=\toks42
-\bidi@stack@length=\count354
-\bidi@empty@stack=\toks43
-\bidi@looprepeat@depth=\count355
+\@bidi@envbody=\toks37
+\@bidi@emptytoks=\toks38
+\bidi@poscount=\count353
+\bidi@tempcountb=\count354
+\bidi@temptoksa=\toks39
+\bidi@temptoksb=\toks40
+\bidi@dummies=\count355
+\bidi@are@these@correct=\toks41
+\bidi@toks@lista=\toks42
+\bidi@toks@listb=\toks43
+\bidi@stack@length=\count356
+\bidi@empty@stack=\toks44
+\bidi@looprepeat@depth=\count357
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/zref/zref-abspage.sty
-Package: zref-abspage 2022-04-07 v2.34 Module abspage for zref (HO)
+Package: zref-abspage 2023-09-14 v2.35 Module abspage for zref (HO)
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/zref/zref-base.sty
-Package: zref-base 2022-04-07 v2.34 Module base for zref (HO)
+Package: zref-base 2023-09-14 v2.35 Module base for zref (HO)
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
@@ -552,18 +550,18 @@ Package zref Info: New property list: main on input line 767.
 Package zref Info: New property: default on input line 768.
 Package zref Info: New property: page on input line 769.
 )
-\c@abspage=\count356
-Package zref Info: New property: abspage on input line 65.
+\c@abspage=\count358
+Package zref Info: New property: abspage on input line 67.
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks44
-\XKV@tempa@toks=\toks45
+\XKV@toks=\toks45
+\XKV@tempa@toks=\toks46
 )
-\XKV@depth=\count357
+\XKV@depth=\count359
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 \@bidi@copyins@=\insert252
@@ -571,14 +569,14 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 (/usr/local/texlive/2023/texmf-dist/tex/xelatex/bidi/latex-xetex-bidi.def
 File: latex-xetex-bidi.def 2022/07/04 v1.4.9 bidi adaptations for `latex.ltx' f
 or XeTeX engine
-\bidi@n@everypar=\toks46
-\bidi@column@check@number=\count358
+\bidi@n@everypar=\toks47
+\bidi@column@check@number=\count360
 
 (/usr/local/texlive/2023/texmf-dist/tex/xelatex/bidi/footnote-xetex-bidi.def
 File: footnote-xetex-bidi.def 2023/01/18 v1.2 bidi footnote macros for XeTeX en
 gine
-\c@footdir@label=\count359
-\footdir@toks=\toks47
+\c@footdir@label=\count361
+\footdir@toks=\toks48
 )
 (/usr/local/texlive/2023/texmf-dist/tex/xelatex/bidi/article-xetex-bidi.def
 File: article-xetex-bidi.def 2017/06/09 v0.6 bidi adaptations for standard arti
@@ -629,7 +627,7 @@ f
 File: loadingorder-xetex-bidi.def 2017/12/29 v0.97 making sure that bidi is the
  last package loaded
 )
-\bidi@digits=\count360
+\bidi@digits=\count362
 \bidi@digits@charclass=\XeTeXcharclass1
 \bidi@sepmark@charclass=\XeTeXcharclass2
 )
@@ -641,10 +639,10 @@ File: loadingorder-xetex-bidi.def 2017/12/29 v0.97 making sure that bidi is the
 * typesetting, using fonts provided in the
 * distribution.
 * 
-* Copyright (c) 2008--2022 Vafa Khalighi
+* Copyright (c) 2008--2023 Vafa Khalighi
 * Copyright (c) 2018--2020 bidi-tex GitHub Organization
 * 
-* v24.8 (Release Women, Life, and Freedom), 2022/10/30
+* v25.0 (Release Women, Life, and Freedom), 2023/08/30
 * 
 * License: LaTeX Project Public License, version
 * 1.3c or higher (your choice)
@@ -658,7 +656,7 @@ File: loadingorder-xetex-bidi.def 2017/12/29 v0.97 making sure that bidi is the
 * Primary author of xepersian package: Vafa Khalighi.
 * 
 ****************************************************
-\xepersian@tcl=\count361
+\xepersian@tcl=\count363
 \xepersian@ilg=\dimen182
 \xepersian@strutilg=\dimen183
 
@@ -850,13 +848,13 @@ text;"
 -text;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
-\c@theorem=\count362
-\c@principle=\count363
-\c@lemma=\count364
-\c@proposition=\count365
-\c@definition=\count366
-\c@corollary=\count367
-\c@remark=\count368
+\c@theorem=\count364
+\c@principle=\count365
+\c@lemma=\count366
+\c@proposition=\count367
+\c@definition=\count368
+\c@corollary=\count369
+\c@remark=\count370
 ) (./myPaper.aux)
 \openout1 = `myPaper.aux'.
 
@@ -873,7 +871,7 @@ LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
 1.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 31.
 LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 31.
@@ -1175,6 +1173,11 @@ LaTeX Font Info:    Font shape `TU/IRMitra(0)/m/n' will be
 \openout3 = `myPaper.ent'.
 
  [7] (./myPaper.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+ ***********
+
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
@@ -1188,12 +1191,12 @@ Package rerunfilecheck Info: File `myPaper.brf' has not changed.
 (rerunfilecheck)             Checksum: F8DE4016C5754F62ED82F084387AB3DC;320.
  ) 
 Here is how much of TeX's memory you used:
- 17418 strings out of 476660
- 346141 string characters out of 11553252
- 13842704 words of memory out of 24000000
- 37295 multiletter control sequences out of 15000+600000
- 526331 words of font info for 145 fonts, out of 12000000 for 9000
+ 17332 strings out of 474885
+ 341602 string characters out of 11510500
+ 13915627 words of memory out of 24000000
+ 38989 multiletter control sequences out of 15000+600000
+ 572113 words of font info for 149 fonts, out of 12000000 for 9000
  1348 hyphenation exceptions out of 8191
- 102i,14n,111p,1294b,816s stack positions out of 10000i,1000n,20000p,12000000b,200000s
+ 109i,14n,121p,1294b,816s stack positions out of 10000i,1000n,20000p,12000000b,200000s
 
 Output written on myPaper.pdf (7 pages).
