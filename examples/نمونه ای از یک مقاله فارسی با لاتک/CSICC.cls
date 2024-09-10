@@ -1,5 +1,5 @@
 % نام قالب را تعیین می کند و همچنین بیان می کند که آخرین به روز رسانی  این قالب در چه زمانی بوده است. یک توصف مختصر هم از این بسته در اینجا امده است.
-\ProvidesClass{CSICC2016}[2023/05/06]
+\ProvidesClass{CSICC2016}[2024/05/02]
 
 % تمام پارامترهای ورودی برای تنظیم متن را به کلاس زیر ارسال می‌کنیم
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
@@ -244,3 +244,6 @@
                                      {3.45831pt \@plus .861108pt}%
                                      {\normalfont\normalsize\bfseries}}
 \makeatother
+
+
+\renewcommand{\sectionautorefname}{بخش}

@@ -1,0 +1,25 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}%[]
+\centering
+\caption{ متوسط ​​تاخیر هر پهپاد در هر سناریو در طول زمان}
+\begin{tabular}{|c|c|c|c|}
+\hline
+\multicolumn{1}{|l|}{کارآزمایی} & \multicolumn{1}{l|}{تعداد کاربران} & \multicolumn{1}{l|}{تعداد پهپادها} & \multicolumn{1}{l|}{میانگین تاخیر (ms)} \\ \hline
+1                                & \multirow{4}{*}{50}                & 2                                      & 0.60                                      \\ \cline{1-1} \cline{3-4} 
+2                                &                                    & 3                                      & 0.40                                      \\ \cline{1-1} \cline{3-4} 
+3                                &                                    & 5                                      & 0.24                                      \\ \cline{1-1} \cline{3-4} 
+4                                &                                    & 10                                     & 0.20                                      \\ \hline
+5                                & \multirow{4}{*}{75}                & 2                                      & 0.90                                      \\ \cline{1-1} \cline{3-4} 
+6                                &                                    & 3                                      & 0.72                                      \\ \cline{1-1} \cline{3-4} 
+7                                &                                    & 5                                      & 0.61                                      \\ \cline{1-1} \cline{3-4} 
+8                                &                                    & 10                                     & 0.37                                      \\ \hline
+9                                & \multirow{4}{*}{150}               & 2                                      & 1.82                                      \\ \cline{1-1} \cline{3-4} 
+10                               &                                    & 3                                      & 1.22                                      \\ \cline{1-1} \cline{3-4} 
+11                               &                                    & 5                                      & 1.66                                      \\ \cline{1-1} \cline{3-4} 
+12                               &                                    & 10                                     & 0.67                                      \\ \hline
+\end{tabular}
+\label{tab:avglatency}
+\end{table}\textbf{}

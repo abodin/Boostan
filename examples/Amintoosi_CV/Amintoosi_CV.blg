@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2024)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Amintoosi_CV.aux
+The style file: ieeetr-fa.bst
+Database file #1: BibTeX_M_Amintoosi.bib
+-- ieeetr-fa.bst version 0.9 (2015/05/09) 
+-- This is a BibTeX style for XePersian: http://www.parsilatex.com
+
+Done.
+You've used 30 entries,
+            2349 wiz_defined-function locations,
+            826 strings with 12661 characters,
+and the built_in function-call counts, 9601 in all, are:
+= -- 897
+> -- 321
+< -- 0
++ -- 117
+- -- 87
+* -- 653
+:= -- 1158
+add.period$ -- 44
+call.type$ -- 30
+change.case$ -- 111
+chr.to.int$ -- 0
+cite$ -- 30
+duplicate$ -- 479
+empty$ -- 871
+format.name$ -- 87
+if$ -- 2609
+int.to.chr$ -- 0
+int.to.str$ -- 30
+missing$ -- 282
+newline$ -- 191
+num.names$ -- 32
+pop$ -- 138
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 317
+stack$ -- 0
+substring$ -- 463
+swap$ -- 166
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 4
+type$ -- 0
+warning$ -- 0
+while$ -- 69
+width$ -- 32
+write$ -- 382

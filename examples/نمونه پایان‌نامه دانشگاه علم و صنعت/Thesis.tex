@@ -1,0 +1,61 @@
+\documentclass[twoside]{report}
+
+\newcommand{\RootPath}{../../../}
+\newcommand{\MyPath}{\RootPath Boostan/tex/}
+
+\usepackage{adjustbox}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+
+\input{\MyPath Boostan-Thesis}
+
+%واژه‌های خود را در فایل words وارد کنید، و در ضمن اختصارات را نیز در abbre وارد کنید. 
+\input{./ETC/words}
+\input{./ETC/abbre}
+
+\title{موضوع پایان‌نامه را در این قسمت بنویسید}
+\faculity{نام دانشکده}
+\group{نام گروه}
+\author{نام نویسنده}
+\forwhat{پایان‌نامه کارشناسی ارشد}
+\field{در رشته‌ ........}
+\logofile{Logo/Fa}
+\logoScale{0.25\linewidth}
+\supervisor{دکتر .....}
+\date{شهریور 1403}
+
+\graphicspath{{./Pic/}}
+
+\begin{document}
+\pagenumbering{gobble}
+\thesisStyleO
+\newpage
+\Godpage
+\newpage
+\input{./ETC/sign}
+\input{./ETC/taahod}
+\input{./ETC/taghdim}
+\input{./Chapters/Abstract/Fa.tex}
+
+\clearpage
+\pagenumbering{alph}
+\tableofcontents
+\listoffigures
+\listoftables
+\printabbreviation
+\pagenumbering{arabic}
+
+\input{Chapters/Introduction}
+\input{Chapters/Concepts}
+\input{Chapters/RelatedWorks}
+\input{Chapters/Approach}
+\input{Chapters/Simulation}
+\input{Chapters/Conclusion}
+
+\bibliography{ETC/library.bib}
+\printglossary
+\printindex
+
+\input{Chapters/Abstract/En.tex}
+\input{Titles/English.tex}
+\end{document}

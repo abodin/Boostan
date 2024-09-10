@@ -1,0 +1,25 @@
+\contentsline {chapter}{فهرست اشکال}{ج}{section*.4}%
+\contentsline {chapter}{فهرست جداول}{ه}{section*.6}%
+\contentsline {chapter}{فهرست اختصارات}{ز}{section*.8}%
+\contentsline {chapter}{فصل~\numberline {1}~~~ مقدمه}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}طرح مسئله}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}چالش‌ها و انگیزه}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}نوآوری‌ها}{2}{section.1.3}%
+\contentsline {section}{\numberline {1.4}ساختار گزارش}{3}{section.1.4}%
+\contentsline {chapter}{فصل~\numberline {2}~~~ مفاهیم پایه‌ای}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}معماری UE در شبکه‌های تلفن‌همراه}{4}{section.2.1}%
+\contentsline {chapter}{فصل~\numberline {3}~~~ مروری بر کارهای پیشین}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}بهینه‌سازی مسیر}{5}{section.3.1}%
+\contentsline {section}{\numberline {3.2}حل مشکلات}{5}{section.3.2}%
+\contentsline {chapter}{فصل~\numberline {4}~~~ شرح روش پیشنهادی}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}مدل سامانه و فرضیات}{7}{section.4.1}%
+\contentsline {section}{\numberline {4.2}تشریح روش پیشنهادی}{7}{section.4.2}%
+\contentsline {chapter}{فصل~\numberline {5}~~~ شبیه‌سازی}{10}{chapter.5}%
+\contentsline {section}{\numberline {5.1}وارد کردن کد در متن}{10}{section.5.1}%
+\contentsline {chapter}{فصل~\numberline {6}~~~ نتیجه‌گیری و کا‌ر‌های آینده}{12}{chapter.6}%
+\contentsline {section}{\numberline {6.1}نتیجه‌گیری}{12}{section.6.1}%
+\contentsline {section}{\numberline {6.2}کارهای آینده}{12}{section.6.2}%
+\contentsline {chapter}{مراجع}{13}{section*.15}%
+\contentsline {chapter}{واژه نامه انگلیسی به فارسی}{14}{section*.17}%
+\contentsline {chapter}{واژه نامه فارسی به انگلیسی}{15}{section*.20}%
+\contentsline {chapter}{نمایه}{16}{section*.23}%

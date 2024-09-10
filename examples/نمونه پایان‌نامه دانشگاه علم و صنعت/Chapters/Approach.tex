@@ -1,0 +1,124 @@
+\chapter{شرح روش پیشنهادی}
+\label{chap:approach}
+
+در این فصل، قصد داریم روشی برای بهینه‌سازی مسیر انجام 
+\gls{DriveTest}
+ارائه دهیم که با استفاده از آن، دیگر نیازی به بررسی تمامی موقعیت‌ها و نقاط جغرافیایی یک ناحیه از نقشه نیست و می‌توان با پیمایش یک مسیر کوتاه‌تر، به جمع‌آوری داده‌هایی که نشان‌دهنده‌ی وضعیت سیگنال در آن ناحیه هستند، پرداخت. 
+
+در ابتدا، مدل سامانه و فرضیات مساله در 
+\autoref{sec:systemmodel}
+مورد بررسی قرار می‌گیرد و پس از آن، در 
+\autoref{sec:proposedapproach}،
+روش پیشنهادی در چهار گام تشریح می‌شود. این رویکرد به گونه‌ای طراحی شده است تا عملگرهای شبکه‌های تلفن همراه بتوانند با بهبود فرآیند جمع‌آوری داده‌ها، کارایی و بهره‌وری عملیات \gls{DriveTest} را افزایش دهند و به‌ طور همزمان هزینه‌ها و زمان مورد نیاز برای انجام این عملیات‌ها را کاهش دهند.
+
+\section{مدل سامانه و فرضیات}
+\label{sec:systemmodel}
+
+
+\begin{table}
+	\centering
+	\renewcommand{\arraystretch}{2}
+	\caption{فهرست نمادها}
+	\begin{tabular}{cp{13cm}}
+		\toprule
+		\textbf{نماد} &  \textbf{توضیحات} \\
+		\midrule
+		$W\times H$ &
+		ابعاد بخش مستطیلی از نقشه \\
+		$K$ &
+		تعداد ناحیه‌های مستطیلی کوچک \\
+		$N$ &
+		تعداد کل نقاط بحرانی‌ انتخاب شده برای \gls{DriveTest} \\
+		$M$ &
+		حداکثر تعداد نقاط بحرانی‌‌ای انتخاب شده در هر ناحیه \\
+		$\mathbf{B}^i$ &
+		مجموعه‌ی ایستگاه‌های پایه ناحیه $i$-ام \\
+		$\mathbf{P}^i$ &
+		مجموعه‌ی نقاط بحرانی ناحیه $i$-ام \\
+		$\mathbb{C}(i, d_i)$ &
+		دایره‌ای به مرکز نقطه‌ی مرکزی ناحیه‌ی $i$-ام و شعاع $d_i$ به اندازه‌ی قطر این ناحیه‌ی مستطیلی \\
+		$\mathbf{O}^i$ &
+		اجتماع ایستگاه‌های پایه و نقاط بحرانی ناحیه‌ی $i$-ام و ایستگاه‌های پایه و نقاط بحرانی ناحیه‌های همسایه‌ی‌ واقع در دایره‌ی $\mathbb{C}(i, 0.7d_i)$
+		\\
+		$(\text{lat},\text{lon})$ &
+		مختصات نقطه‌ای در دستگاه مختصات جغرافیایی \\
+		$\text{lat}_{\min}^i$ &
+		حداقل عرض جغرافیایی نقاط ناحیه‌ی $i$-ام \\
+		$\text{lon}_{\max}^i$ &
+		حداکثر طول جغرافیایی نقاط ناحیه‌ی $i$-ام \\
+		\bottomrule 
+	\end{tabular}
+	\label{tab:symbols}
+\end{table}
+
+
+\section{تشریح روش پیشنهادی}
+\label{sec:proposedapproach}
+\begin{nttheorem}
+	\label{theorem:betweenmeasure}
+	در صورتی‌که نسبت جابه‌جایی بین دو اندازه‌گیری متوالی با فاصله یکی از آن‌ها به اندازه کافی کوچک باشد، می‌توان نتیجه گرفت که 
+	$d_{i+1} \approx d_i$.
+\end{nttheorem}
+\begin{proof}
+	مثلث مشخص شده در 
+%	\autoref{fig:estimateShadowingNoise}
+	را یک بار دیگر در نظر بگیرید. از روابط مثلثاتی می‌دانیم که 
+	\begin{equation}
+		l_{i,i+1}^2 = d_{i+1}^2+d_i^2 - 2d_id_{i+1}\cos\alpha,
+		\label{eq:liiid}
+	\end{equation}
+	که در آن $l_{i,i+1}$ بیانگر میزان جابه‌جایی بین دو اندازه‌گیری متوالی است.
+	\\*[1mm]
+\end{proof}
+
+اکنون لم زیر را بدین‌منظور در نظر بگیرد.
+\begin{lemma}
+	\gls{RandomVariable} $\mathrm{P}^d$
+	از
+	\gls{GaussianDistribution}
+	با 
+	\gls{Average}  صفر و \gls{StandardDeviation} $\sqrt{2}\sigma$
+	پیروی می‌کند. 
+\end{lemma}
+\begin{lemmaproof}
+	می‌دانیم که 
+	$n_i\sim\mathcal{N}(0,\sigma)$. 
+	و برای نویز
+
+	
+	
+\end{lemmaproof}
+
+
+نمایی از الگوریتم پیشنهادی به صورت سودوکد در 
+\autoref{alg:tsp}
+نشان  داده شده است. 
+\begin{algorithm}[t]
+	\caption{حل تقریبی مسئله \lr{TSP}}
+	\label{alg:tsp}
+	\begin{latin}
+		\raggedright
+		\textbf{Input}: $N$ Critical points, $K$ partitions.\\
+		\vspace{2mm}\textbf{Output}: Approximate TSP solution.
+		\begin{algorithmic}[1]
+			\STATE\vspace{2mm} Initialize $curPart \gets$ bottom-left partition
+			\STATE\vspace{2mm} Initialize $curPoint \gets$ a random point in $curPart$
+			\STATE\vspace{2mm} Mark $curPoint$ as visited
+			\vspace{2mm}\REPEAT
+			\vspace{2mm}\WHILE{unvisited points in $curPart$}
+			\STATE\vspace{2mm} Find nearest point $nextPoint$ to $curPoint$
+			\STATE\vspace{2mm} Mark $nextPoint$ as visited
+			\STATE\vspace{2mm} $curPoint \gets nextPoint$
+			\vspace{2mm}\ENDWHILE
+			\vspace{2mm}\IF{unvisited partitions remain}
+			\STATE\vspace{2mm} Move to next partition (spiral/row-by-row)
+			\STATE\vspace{2mm} $curPart \gets$ next partition
+			\STATE\vspace{2mm} Find nearest point in $curPart$ to $curPoint$
+			\STATE\vspace{2mm} $curPoint \gets$ this nearest point
+			\STATE\vspace{2mm} Mark $curPoint$ as visited
+			\vspace{2mm}\ENDIF
+			\vspace{2mm}\UNTIL{all points visited}\vspace{2mm}
+		\end{algorithmic}
+	\end{latin}
+\end{algorithm}
+

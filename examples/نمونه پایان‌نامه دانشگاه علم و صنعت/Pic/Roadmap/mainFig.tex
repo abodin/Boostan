@@ -1,0 +1,30 @@
+\documentclass[border=1mm]{standalone}
+% تقسیم بندی ذکر شده قابل استناد نیست.
+\usepackage{tikz}
+\usetikzlibrary{mindmap,trees,shadows}
+
+\usepackage{xepersian}
+\settextfont[Scale=1.25]{IRNazanin}
+
+\begin{document}
+\thispagestyle{empty}
+\begin{tikzpicture}
+\path[mindmap,concept color=black,text=white]
+node[concept] {\rl{شبکه‌های تلفن‌همراه}}
+[clockwise from=0]
+child[concept color=blue] {
+node[concept] {\lr{Drive Test}}
+[clockwise from=90]
+child { node[concept] {\rl{بهینه‌سازی مسیر}} }
+child[concept color=orange]  { node[concept] {\rl{پیش‌بینی داده} }
+child { node[concept] {\rl{پیش‌بینی ایستان} }}
+child { node[concept] {\rl{پیش‌بینی پویا} }}
+}
+child { node[concept] {\rl{یافتن مشکل} }}
+child { node[concept] {\rl{استخراج اطلاعات} }}
+}
+child[concept color=red] { node[concept] {\lr{Minimal DT} }}
+;
+\end{tikzpicture}
+\end{document}
+

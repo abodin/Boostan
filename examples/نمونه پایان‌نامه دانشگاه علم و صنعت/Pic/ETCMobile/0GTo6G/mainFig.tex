@@ -1,0 +1,111 @@
+\documentclass[border={0mm, 0mm, 0mm, 1mm},multi={tikzpicture}]{standalone}
+\usepackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+
+\usepackage{tikz}
+\usetikzlibrary{shapes,calc}
+
+%\usepackage[active,tightpage]{preview}
+%\PreviewEnvironment{tikzpicture}
+%\setlength\PreviewBorder{1mm}
+
+%\usepackage{xepersian}
+%\settextfont[Scale=1.15]{IRNazanin}
+%\setlatintextfont[Scale=1.1]{Linux Libertine}
+
+\usepackage{fontspec}
+\setmainfont[Scale=.9]{Linux Libertine}
+
+\begin{document}
+\tikzstyle{nodeStyle} = [draw=none,fill=cyan!40,circle]
+\tikzstyle{yearStyle}  = [fill=Red,draw=none,yshift=-.8cm]
+\tikzstyle{picStyle}  = [yshift=-1.8cm]
+\tikzstyle{pic2Style}  = [yshift=-3.8cm]
+\begin{tikzpicture}
+\def \D{1.8}
+\node at({0*\D cm},0)[nodeStyle]{0G};
+\node at({1*\D cm},0)[nodeStyle]{1G};
+\node at({2*\D cm},0)[nodeStyle]{2G};
+\node at({3*\D cm},0)[nodeStyle]{3G};
+\node at({4*\D cm},0)[nodeStyle]{4G};
+\node at({5*\D cm},0)[nodeStyle]{5G};
+\node at({6*\D cm},0)[nodeStyle]{6G};
+
+\draw[-latex,Green,yshift=-.8cm,line width=2pt](-0.3,0)--(11.5,0);
+\draw[yearStyle]({0*\D cm},0)circle(1mm)node[below=1mm]{1970's};
+\draw[yearStyle]({1*\D cm},0)circle(1mm)node[below=1mm]{1980};
+\draw[yearStyle]({2*\D cm},0)circle(1mm)node[below=1mm]{1990};
+\draw[yearStyle]({3*\D cm},0)circle(1mm)node[below=1mm]{2003};
+\draw[yearStyle]({4*\D cm},0)circle(1mm)node[below=1mm]{2009};
+\draw[yearStyle]({5*\D cm},0)circle(1mm)node[below=1mm]{2020};
+\draw[yearStyle]({6*\D cm},0)circle(1mm)node[below=1mm]{2030};
+
+\node at({0*\D cm},0)[picStyle]{\small PTT};
+\node at({0*\D cm},-0.4)[picStyle]{\small MTS};
+\node at({0*\D cm},-0.8)[picStyle]{\small IMTS};
+
+\node at({1*\D cm},0)[picStyle]{\small AMPS};
+\node at({1*\D cm},-0.4)[picStyle]{\small TACS};
+\node at({1*\D cm},-0.8)[picStyle]{\small NMT};
+
+\node at({2*\D cm},0)[picStyle]{\small GSM};
+\node at({2*\D cm},-0.4)[picStyle]{\small GPRS};
+\node at({2*\D cm},-0.8)[picStyle]{\small EDGE};
+
+\node at({3*\D cm},0)[picStyle]{\small UMTS};
+\node at({3*\D cm},-0.4)[picStyle]{\small HSPA};
+\node at({3*\D cm},-0.8)[picStyle]{\small HSPA+};
+
+\node at({4*\D cm},0)[picStyle]{\small LTE};
+\node at({4*\D cm},-0.4)[picStyle]{\small LTE-A};
+\node at({4*\D cm},-0.8)[picStyle]{\small LTE-A Pro};
+
+\node at({5*\D cm},0)[picStyle]{\small 5G};
+\node at({5*\D cm},-0.4)[picStyle]{\small Beyond 5G};
+
+
+\node at({6*\D cm},0)[picStyle]{\small ?};
+
+%
+\node at({0*\D cm},0)[pic2Style]{\includegraphics[height=11mm]{Pic/zeroG}};
+\node at({1*\D cm},0)[pic2Style]{\includegraphics[height=11mm]{Pic/martincooper.jpg}};
+\node at({2*\D cm},0)[pic2Style]{\includegraphics[height=11mm]{Pic/2gM.jpg}};
+\node at({3*\D cm},0)[pic2Style]{\includegraphics[height=11mm]{Pic/3gM.jpg}};
+\node at({4*\D cm},0)[pic2Style]{\includegraphics[height=11mm]{Pic/4gM.png}};
+\node at({5*\D cm},0)[pic2Style]{\includegraphics[height=11mm]{Pic/5gM.png}};
+\node at({6*\D cm},0)[pic2Style]{\includegraphics[height=11mm]{Pic/6gM.png}};
+
+\end{tikzpicture}
+
+
+
+\begin{tikzpicture}
+\def \D{1.8}
+\node at({0*\D cm},0)[nodeStyle]{0G};
+\node at({1*\D cm},0)[nodeStyle]{1G};
+\node at({2*\D cm},0)[nodeStyle]{2G};
+\node at({3*\D cm},0)[nodeStyle]{3G};
+\node at({4*\D cm},0)[nodeStyle]{4G};
+\node at({5*\D cm},0)[nodeStyle]{5G};
+\node at({6*\D cm},0)[nodeStyle]{6G};
+
+\draw[-latex,Green,yshift=-.8cm,line width=2pt](-0.3,0)--(11.5,0);
+\draw[yearStyle]({0*\D cm},0)circle(1mm)node[below=1mm]{1970's};
+\draw[yearStyle]({1*\D cm},0)circle(1mm)node[below=1mm]{1980};
+\draw[yearStyle]({2*\D cm},0)circle(1mm)node[below=1mm]{1990};
+\draw[yearStyle]({3*\D cm},0)circle(1mm)node[below=1mm]{2003};
+\draw[yearStyle]({4*\D cm},0)circle(1mm)node[below=1mm]{2009};
+\draw[yearStyle]({5*\D cm},0)circle(1mm)node[below=1mm]{2020};
+\draw[yearStyle]({6*\D cm},0)circle(1mm)node[below=1mm]{2030};
+
+%
+\node at({0*\D cm},1.8)[pic2Style]{\includegraphics[height=11mm]{Pic/zeroG}};
+\node at({1*\D cm},1.8)[pic2Style]{\includegraphics[height=11mm]{Pic/martincooper.jpg}};
+\node at({2*\D cm},1.8)[pic2Style]{\includegraphics[height=11mm]{Pic/2gM.jpg}};
+\node at({3*\D cm},1.8)[pic2Style]{\includegraphics[height=11mm]{Pic/3gM.jpg}};
+\node at({4*\D cm},1.8)[pic2Style]{\includegraphics[height=11mm]{Pic/4gM.png}};
+\node at({5*\D cm},1.8)[pic2Style]{\includegraphics[height=11mm]{Pic/5gM.png}};
+\node at({6*\D cm},1.8)[pic2Style]{\includegraphics[height=11mm]{Pic/6gM.png}};
+
+\end{tikzpicture}
+\end{document}
