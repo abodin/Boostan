@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.8.31)  11 SEP 2024 00:45
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.8.31)  11 SEP 2024 08:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3165,7 +3165,7 @@ LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/m/n' will be
 (Font)              scaled to size 15.84007pt on input line 3.
 LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/b/n' will be
 (Font)              scaled to size 15.84007pt on input line 3.
-) (./Titles/English.tex
+) (./Chapters/Titles/English.tex
 
 [16
 
@@ -3203,8 +3203,8 @@ Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 8E2F1297455CD576E4A63F66C76D88E7;4572.
  ) 
 Here is how much of TeX's memory you used:
- 41897 strings out of 474235
- 843529 string characters out of 11482018
+ 41896 strings out of 474235
+ 843562 string characters out of 11482018
  13918609 words of memory out of 24000000
  63464 multiletter control sequences out of 15000+600000
  567906 words of font info for 193 fonts, out of 12000000 for 9000
