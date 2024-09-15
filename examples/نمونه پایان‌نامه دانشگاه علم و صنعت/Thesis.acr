@@ -27,7 +27,8 @@
 \glossentry{GPRS}{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{1}}}\relax\glsresetentrylist
 \glossentry{GSM}{\glossaryentrynumbers{\relax 
-\glsXpageXglsnumberformat{}{1}}}\relax\glsresetentrylist
+\glsXpageXglsnumberformat{}{1}\delimN 
+\glsXpageXglsnumberformat{}{4}}}\relax\glsresetentrylist
 \glossentry{GSMA}{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{1}}}\glsgroupskip
 \glsgroupheading{I}\relax\glsresetentrylist
@@ -40,12 +41,15 @@
 \glsXpageXglsnumberformat{}{2}}}\glsgroupskip
 \glsgroupheading{M}\relax\glsresetentrylist
 \glossentry{MDT}{\glossaryentrynumbers{\relax 
-\glsXpageXglsnumberformat{}{3}}}\relax\glsresetentrylist
+\glsXpageXglsnumberformat{}{10}}}\relax\glsresetentrylist
 \glossentry{MIMO}{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{1}}}\glsgroupskip
 \glsgroupheading{N}\relax\glsresetentrylist
 \glossentry{NFV}{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{1}}}\glsgroupskip
+\glsgroupheading{Q}\relax\glsresetentrylist
+\glossentry{QoS}{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{2}}}\glsgroupskip
 \glsgroupheading{S}\relax\glsresetentrylist
 \glossentry{SDN}{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{1}}}\relax\glsresetentrylist
@@ -53,7 +57,9 @@
 \glsXpageXglsnumberformat{}{1}}}\glsgroupskip
 \glsgroupheading{U}\relax\glsresetentrylist
 \glossentry{UE}{\glossaryentrynumbers{\relax 
-\glsXpageXglsnumberformat{}{3}}}\relax\glsresetentrylist
+\glsXpageXglsnumberformat{}{3}\delimN 
+\glsXpageXglsnumberformat{}{4}\delimN 
+\glsXpageXglsnumberformat{}{10}}}\relax\glsresetentrylist
 \glossentry{UMTS}{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{1}}}%
 \end{theglossary}\glossarypostamble

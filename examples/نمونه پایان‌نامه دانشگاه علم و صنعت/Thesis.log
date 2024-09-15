@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.8.31)  11 SEP 2024 08:09
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.9.13)  15 SEP 2024 22:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Thesis.tex
 (./Thesis.tex
 LaTeX2e <2024-06-01> patch level 2
-L3 programming layer <2024-08-16>
+L3 programming layer <2024-08-30>
 
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/base/repor
 t.cls
@@ -119,6 +119,30 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@loff=\dimen156
 \@vwid@roff=\dimen157
 ))
+(/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/xelatex/ptext/pt
+ext.sty
+Package: ptext 2013/04/28 v1.1 A package similar to the lipsum package for the 
+Persian language with 100 paragraphs of the Shahnameh
+
+(/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/xelatex/bidi/bid
+itools.sty
+Package: biditools 2022/06/15 v2.3 Programming tools for bidi package
+\@bidi@envbody=\toks19
+\@bidi@emptytoks=\toks20
+\bidi@poscount=\count268
+\bidi@tempcountb=\count269
+\bidi@temptoksa=\toks21
+\bidi@temptoksb=\toks22
+\bidi@dummies=\count270
+\bidi@are@these@correct=\toks23
+\bidi@toks@lista=\toks24
+\bidi@toks@listb=\toks25
+\bidi@stack@length=\count271
+\bidi@empty@stack=\toks26
+\bidi@looprepeat@depth=\count272
+)
+\c@pte@count=\count273
+)
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/algorithms
 /algorithm.sty
 Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
@@ -128,27 +152,27 @@ nment
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/float/floa
 t.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count268
-\float@exts=\toks19
+\c@float@type=\count274
+\float@exts=\toks27
 \float@box=\box54
-\@float@everytoks=\toks20
+\@float@everytoks=\toks28
 \@floatcapt=\box55
 )
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/base/ifthe
 n.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
-\@float@every@algorithm=\toks21
-\c@algorithm=\count269
+\@float@every@algorithm=\toks29
+\c@algorithm=\count275
 )
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/algorithms
 /algorithmic.sty
 Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-\c@ALC@unique=\count270
-\c@ALC@line=\count271
-\c@ALC@rem=\count272
-\c@ALC@depth=\count273
+\c@ALC@unique=\count276
+\c@ALC@line=\count277
+\c@ALC@rem=\count278
+\c@ALC@depth=\count279
 \ALC@tlm=\skip51
 \algorithmicindent=\skip52
 ) (../../../Boostan/tex/Boostan-Thesis.tex
@@ -158,15 +182,15 @@ Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/amscls/ams
 thm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks22
-\thm@bodyfont=\toks23
-\thm@headfont=\toks24
-\thm@notefont=\toks25
-\thm@headpunct=\toks26
+\thm@style=\toks30
+\thm@bodyfont=\toks31
+\thm@headfont=\toks32
+\thm@notefont=\toks33
+\thm@headpunct=\toks34
 \thm@preskip=\skip53
 \thm@postskip=\skip54
 \thm@headsep=\skip55
-\dth@everypar=\toks27
+\dth@everypar=\toks35
 )
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/amsmath/am
 smath.sty
@@ -182,7 +206,7 @@ Package: amstext 2021/08/26 v2.01 AMS text
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/amsmath/am
 sgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks28
+\@emptytoks=\toks36
 \ex@=\dimen158
 ))
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/amsmath/am
@@ -194,14 +218,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 sopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count274
+\inf@bad=\count280
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count275
-\leftroot@=\count276
+\uproot@=\count281
+\leftroot@=\count282
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count277
-\DOTSCASE@=\count278
+\classnum@=\count283
+\DOTSCASE@=\count284
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
@@ -214,31 +238,31 @@ LaTeX Info: Redefining \Bigg on input line 724.
 \big@size=\dimen160
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count279
+\macc@depth=\count285
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count280
+\c@MaxMatrixCols=\count286
 \dotsspace@=\muskip17
-\c@parentequation=\count281
-\dspbrk@lvl=\count282
-\tag@help=\toks29
-\row@=\count283
-\column@=\count284
-\maxfields@=\count285
-\andhelp@=\toks30
+\c@parentequation=\count287
+\dspbrk@lvl=\count288
+\tag@help=\toks37
+\row@=\count289
+\column@=\count290
+\maxfields@=\count291
+\andhelp@=\toks38
 \eqnshift@=\dimen161
 \alignsep@=\dimen162
 \tagshift@=\dimen163
 \tagwidth@=\dimen164
 \totwidth@=\dimen165
 \lineht@=\dimen166
-\@envbody=\toks31
+\@envbody=\toks39
 \multlinegap=\skip57
 \multlinetaggap=\skip58
-\mathdisplay@stack=\toks32
+\mathdisplay@stack=\toks40
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
@@ -265,11 +289,11 @@ LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/graphics/r
 otating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count286
+\c@r@tfl@t=\count292
 \rotFPtop=\skip59
 \rotFPbot=\skip60
 \rot@float@box=\box58
-\rot@mess@toks=\toks33
+\rot@mess@toks=\toks41
 )
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/geometry/g
 eometry.sty
@@ -283,9 +307,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 tex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-\Gm@cnth=\count287
-\Gm@cntv=\count288
-\c@Gm@tempcnt=\count289
+\Gm@cnth=\count293
+\Gm@cntv=\count294
+\c@Gm@tempcnt=\count295
 \Gm@bindingoffset=\dimen167
 \Gm@wd@mp=\dimen168
 \Gm@odd@mp=\dimen169
@@ -294,7 +318,7 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layoutheight=\dimen172
 \Gm@layouthoffset=\dimen173
 \Gm@layoutvoffset=\dimen174
-\Gm@dimlist=\toks34
+\Gm@dimlist=\toks42
 )
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/caption/su
 bcaption.sty
@@ -317,15 +341,15 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen182
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count290
-\c@continuedfloat=\count291
+\c@caption@flags=\count296
+\c@continuedfloat=\count297
 Package caption Info: float package is loaded.
 Package caption Info: rotating package is loaded.
 )
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count292
+\c@subfigure=\count298
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count293
+\c@subtable=\count299
 )
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/xcolor/xco
 lor.sty
@@ -361,31 +385,31 @@ Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/qrcode/qrc
 ode.sty
 Package: qrcode 2015/01/08 v1.51 QR code generation
-\c@qr@i=\count294
-\c@qr@j=\count295
-\qr@a=\count296
-\qr@b=\count297
-\qr@c=\count298
-\qr@for@depth=\count299
-\qr@for@maxdepth=\count300
-\qr@for@start=\count301
-\qr@for@end=\count302
-\qr@for@step=\count303
-\qr@newforcount=\count304
-\qr@newforcount=\count305
+\c@qr@i=\count300
+\c@qr@j=\count301
+\qr@a=\count302
+\qr@b=\count303
+\qr@c=\count304
+\qr@for@depth=\count305
+\qr@for@maxdepth=\count306
+\qr@for@start=\count307
+\qr@for@end=\count308
+\qr@for@step=\count309
+\qr@newforcount=\count310
+\qr@newforcount=\count311
 \qr@desiredheight=\skip61
 \qr@modulesize=\skip62
 \qr@minipagewidth=\skip63
-\c@maski=\count306
-\c@maskj=\count307
-\c@totalones=\count308
-\c@penaltyi=\count309
-\c@penaltyii=\count310
-\c@penaltyiii=\count311
-\c@penaltyiv=\count312
-\c@qr@hexchars=\count313
-\qr@newforcount=\count314
-\c@qr@divisionsremaining=\count315
+\c@maski=\count312
+\c@maskj=\count313
+\c@totalones=\count314
+\c@penaltyi=\count315
+\c@penaltyii=\count316
+\c@penaltyiii=\count317
+\c@penaltyiv=\count318
+\c@qr@hexchars=\count319
+\qr@newforcount=\count320
+\c@qr@divisionsremaining=\count321
 )
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/psnfss/pif
 ont.sty
@@ -408,7 +432,7 @@ File: upsy.fd 2001/06/04 font definitions for U/psy.
 ultirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip64
-\multirow@cntb=\count316
+\multirow@cntb=\count322
 \multirow@dima=\skip65
 \bigstrutjot=\dimen185
 )
@@ -425,12 +449,12 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen193
 \cmidrulekern=\dimen194
 \defaultaddspace=\dimen195
-\@cmidla=\count317
-\@cmidlb=\count318
+\@cmidla=\count323
+\@cmidlb=\count324
 \@aboverulesep=\dimen196
 \@belowrulesep=\dimen197
-\@thisruleclass=\count319
-\@lastruleclass=\count320
+\@thisruleclass=\count325
+\@lastruleclass=\count326
 \@thisrulewidth=\dimen198
 )
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/framed/fra
@@ -450,7 +474,7 @@ ayer/pgf.sty
 ies/pgfrcs.sty
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/generic/pgf/util
 ities/pgfutil-common.tex
-\pgfutil@everybye=\toks35
+\pgfutil@everybye=\toks43
 \pgfutil@tempdima=\dimen259
 \pgfutil@tempdimb=\dimen260
 )
@@ -476,12 +500,12 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/generic/pgf/util
 ities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks36
-\pgfkeys@temptoks=\toks37
+\pgfkeys@pathtoks=\toks44
+\pgfkeys@temptoks=\toks45
 
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/generic/pgf/util
 ities/pgfkeyslibraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks38
+\pgfkeys@tmptoks=\toks46
 ))
 \pgf@x=\dimen261
 \pgf@y=\dimen262
@@ -495,14 +519,14 @@ ities/pgfkeyslibraryfiltered.code.tex
 \pgf@yd=\dimen270
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count321
-\c@pgf@countb=\count322
-\c@pgf@countc=\count323
-\c@pgf@countd=\count324
-\t@pgf@toka=\toks39
-\t@pgf@tokb=\toks40
-\t@pgf@tokc=\toks41
-\pgf@sys@id@count=\count325
+\c@pgf@counta=\count327
+\c@pgf@countb=\count328
+\c@pgf@countc=\count329
+\c@pgf@countd=\count330
+\t@pgf@toka=\toks47
+\t@pgf@tokb=\toks48
+\t@pgf@tokc=\toks49
+\pgf@sys@id@count=\count331
 
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/generic/pgf/syst
 emlayer/pgf.cfg
@@ -522,13 +546,13 @@ File: pgfsys-dvipdfmx.def 2023-01-15 v3.1.10 (3.1.10)
 emlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 )
-\pgfsys@objnum=\count326
+\pgfsys@objnum=\count332
 )))
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/generic/pgf/syst
 emlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count327
-\pgfsyssoftpath@bigbuffer@items=\count328
+\pgfsyssoftpath@smallbuffer@items=\count333
+\pgfsyssoftpath@bigbuffer@items=\count334
 )
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/generic/pgf/syst
 emlayer/pgfsysprotocol.code.tex
@@ -545,11 +569,11 @@ Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/generic/pgf/math
 /pgfmathparser.code.tex
 \pgfmath@dimen=\dimen271
-\pgfmath@count=\count329
+\pgfmath@count=\count335
 \pgfmath@box=\box60
-\pgfmath@toks=\toks42
-\pgfmath@stack@operand=\toks43
-\pgfmath@stack@operation=\toks44
+\pgfmath@toks=\toks50
+\pgfmath@stack@operand=\toks51
+\pgfmath@stack@operation=\toks52
 )
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/generic/pgf/math
 /pgfmathfunctions.code.tex)
@@ -573,7 +597,7 @@ Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 /pgfmathcalc.code.tex)
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/generic/pgf/math
 /pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count330
+\c@pgfmathroundto@lastzeros=\count336
 ))
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/generic/pgf/math
 /pgfint.code.tex)
@@ -613,7 +637,7 @@ File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box61
 \pgf@hbox=\box62
 \pgf@layerbox@main=\box63
-\pgf@picture@serial@count=\count331
+\pgf@picture@serial@count=\count337
 )
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/generic/pgf/basi
 clayer/pgfcoregraphicstate.code.tex
@@ -648,8 +672,8 @@ File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 clayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen295
-\pgf@sys@shading@range@num=\count332
-\pgf@shadingcount=\count333
+\pgf@sys@shading@range@num=\count338
+\pgf@shadingcount=\count339
 )
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/generic/pgf/basi
 clayer/pgfcoreimage.code.tex
@@ -710,8 +734,8 @@ ities/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen298
 \pgffor@skip=\dimen299
-\pgffor@stack=\toks45
-\pgffor@toks=\toks46
+\pgffor@stack=\toks53
+\pgffor@toks=\toks54
 ))
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/generic/pgf/fron
 tendlayer/tikz/tikz.code.tex
@@ -720,7 +744,7 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/generic/pgf/libr
 aries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count334
+\pgf@plot@mark@count=\count340
 \pgfplotmarksize=\dimen300
 )
 \tikz@lastx=\dimen301
@@ -735,19 +759,19 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@figbox@bg=\box67
 \tikz@tempbox=\box68
 \tikz@tempbox@bg=\box69
-\tikztreelevel=\count335
-\tikznumberofchildren=\count336
-\tikznumberofcurrentchild=\count337
-\tikz@fig@count=\count338
+\tikztreelevel=\count341
+\tikznumberofchildren=\count342
+\tikznumberofcurrentchild=\count343
+\tikz@fig@count=\count344
 
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/generic/pgf/modu
 les/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count339
-\pgfmatrixcurrentcolumn=\count340
-\pgf@matrix@numberofcolumns=\count341
+\pgfmatrixcurrentrow=\count345
+\pgfmatrixcurrentcolumn=\count346
+\pgf@matrix@numberofcolumns=\count347
 )
-\tikz@expandcount=\count342
+\tikz@expandcount=\count348
 
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/generic/pgf/fron
 tendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
@@ -777,22 +801,22 @@ Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 /xparse/xparse.sty
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/l3kernel/e
 xpl3.sty
-Package: expl3 2024-08-16 L3 programming layer (loader) 
+Package: expl3 2024-08-30 L3 programming layer (loader) 
 
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/l3backend/
 l3backend-xetex.def
 File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
-\g__graphics_track_int=\count343
+\g__graphics_track_int=\count349
 \l__pdf_internal_box=\box70
-\g__pdf_backend_annotation_int=\count344
-\g__pdf_backend_link_int=\count345
+\g__pdf_backend_annotation_int=\count350
+\g__pdf_backend_link_int=\count351
 ))
 Package: xparse 2024-08-16 L3 Experimental document command parser
 )
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/etoolbox/e
 toolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count346
+\etb@tempcnta=\count352
 )
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/zref/zref-
 abspage.sty
@@ -830,7 +854,7 @@ Package zref Info: New property list: main on input line 767.
 Package zref Info: New property: default on input line 768.
 Package zref Info: New property: page on input line 769.
 )
-\c@abspage=\count347
+\c@abspage=\count353
 Package zref Info: New property: abspage on input line 67.
 )
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/needspace/
@@ -838,7 +862,7 @@ needspace.sty
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
 \mdf@templength=\skip67
-\c@mdf@globalstyle@cnt=\count348
+\c@mdf@globalstyle@cnt=\count354
 \mdf@skipabove@length=\skip68
 \mdf@skipbelow@length=\skip69
 \mdf@leftmargin@length=\skip70
@@ -915,16 +939,16 @@ File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 \mdf@horizontalspaceofbox=\skip131
 \mdfsubtitleheight=\skip132
 \mdfsubsubtitleheight=\skip133
-\c@mdfcountframes=\count349
+\c@mdfcountframes=\count355
 
 ****** mdframed patching \endmdf@trivlist
 
 ****** -- success******
 
-\mdf@envdepth=\count350
-\c@mdf@env@i=\count351
-\c@mdf@env@ii=\count352
-\c@mdf@zref@counter=\count353
+\mdf@envdepth=\count356
+\c@mdf@env@i=\count357
+\c@mdf@env@ii=\count358
+\c@mdf@zref@counter=\count359
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/titlesec/t
@@ -935,7 +959,7 @@ Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \aftertitleunit=\skip135
 \ttl@plus=\dimen309
 \ttl@minus=\dimen310
-\ttl@toksa=\toks47
+\ttl@toksa=\toks55
 \titlewidth=\dimen311
 \titlewidthlast=\dimen312
 \titlewidthfirst=\dimen313
@@ -951,15 +975,15 @@ Package: pdfpages 2024/08/20 v0.6b Insert pages of external PDF documents (AM)
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/tools/calc
 .sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count354
-\calc@Bcount=\count355
+\calc@Acount=\count360
+\calc@Bcount=\count361
 \calc@Adimen=\dimen314
 \calc@Bdimen=\dimen315
 \calc@Askip=\skip136
 \calc@Bskip=\skip137
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count356
+\calc@Ccount=\count362
 \calc@Cskip=\skip138
 )
 \AM@pagewidth=\dimen316
@@ -970,13 +994,13 @@ LaTeX Info: Redefining \addtolength on input line 81.
 pxetex.def
 File: ppxetex.def 2024/08/20 v0.6b Pdfpages driver for XeTeX (AM)
 )
-\pdfpages@includegraphics@status=\count357
+\pdfpages@includegraphics@status=\count363
 \AM@pagebox=\box77
-\AM@global@opts=\toks48
-\AM@pagecnt=\count358
-\AM@toc@title=\toks49
-\AM@lof@heading=\toks50
-\c@AM@survey=\count359
+\AM@global@opts=\toks56
+\AM@pagecnt=\count364
+\AM@toc@title=\toks57
+\AM@lof@heading=\toks58
+\c@AM@survey=\count365
 \AM@templatesizebox=\box78
 )
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/colortbl/c
@@ -989,22 +1013,22 @@ Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
 \col@sep=\dimen319
 \ar@mcellbox=\box79
 \extrarowheight=\dimen320
-\NC@list=\toks51
+\NC@list=\toks59
 \extratabsurround=\skip139
 \backup@length=\skip140
 \ar@cellbox=\box80
 )
-\everycr=\toks52
+\everycr=\toks60
 \minrowclearance=\skip141
-\rownum=\count360
+\rownum=\count366
 )
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/wrapfig/wr
 apfig.sty
 \wrapoverhang=\dimen321
 \WF@size=\dimen322
-\c@WF@wrappedlines=\count361
+\c@WF@wrappedlines=\count367
 \WF@box=\box81
-\WF@everypar=\toks53
+\WF@everypar=\toks61
 Package: wrapfig 2003/01/31  v 3.6
 )
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/lobster2/L
@@ -1032,17 +1056,17 @@ Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
 ontspec-xetex.sty
 Package: fontspec-xetex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count362
-\l__fontspec_language_int=\count363
-\l__fontspec_strnum_int=\count364
-\l__fontspec_tmp_int=\count365
-\l__fontspec_tmpa_int=\count366
-\l__fontspec_tmpb_int=\count367
-\l__fontspec_tmpc_int=\count368
-\l__fontspec_em_int=\count369
-\l__fontspec_emdef_int=\count370
-\l__fontspec_strong_int=\count371
-\l__fontspec_strongdef_int=\count372
+\l__fontspec_script_int=\count368
+\l__fontspec_language_int=\count369
+\l__fontspec_strnum_int=\count370
+\l__fontspec_tmp_int=\count371
+\l__fontspec_tmpa_int=\count372
+\l__fontspec_tmpb_int=\count373
+\l__fontspec_tmpc_int=\count374
+\l__fontspec_em_int=\count375
+\l__fontspec_emdef_int=\count376
+\l__fontspec_strong_int=\count377
+\l__fontspec_strongdef_int=\count378
 \l__fontspec_tmpa_dim=\dimen323
 \l__fontspec_tmpb_dim=\dimen324
 \l__fontspec_tmpc_dim=\dimen325
@@ -1164,7 +1188,7 @@ Package: bidihl 2015/07/07 v0.1c Experimental bidi-aware text highlighting
 \bidihl@pixel=\dimen327
 \bidihl@height=\dimen328
 \bidihl@depth=\dimen329
-\bidihl@spacefactor=\count373
+\bidihl@spacefactor=\count379
 )
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/fancyhdr/f
 ancyhdr.sty
@@ -1182,17 +1206,17 @@ rs
 )
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/listings/l
 istings.sty
-\lst@mode=\count374
+\lst@mode=\count380
 \lst@gtempboxa=\box82
-\lst@token=\toks54
-\lst@length=\count375
+\lst@token=\toks62
+\lst@length=\count381
 \lst@currlwidth=\dimen330
-\lst@column=\count376
-\lst@pos=\count377
+\lst@column=\count382
+\lst@pos=\count383
 \lst@lostspace=\dimen331
 \lst@width=\dimen332
-\lst@newlines=\count378
-\lst@lineno=\count379
+\lst@newlines=\count384
+\lst@lineno=\count385
 \lst@maxwidth=\dimen333
 
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/listings/l
@@ -1202,8 +1226,8 @@ File: lstpatch.sty 2024/05/25 1.10b (Carsten Heinz)
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/listings/l
 stmisc.sty
 File: lstmisc.sty 2024/05/25 1.10b (Carsten Heinz)
-\c@lstnumber=\count380
-\lst@skipnumbers=\count381
+\c@lstnumber=\count386
+\lst@skipnumbers=\count387
 \lst@framebox=\box83
 )
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/listings/l
@@ -1231,7 +1255,7 @@ Package: todonotes 2024/01/05
 tendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-\c@@todonotes@numberoftodonotes=\count382
+\c@@todonotes@numberoftodonotes=\count388
 )
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/hyperref/h
 yperref.sty
@@ -1257,7 +1281,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 string/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count383
+\c@section@level=\count389
 )
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/generic/stringen
 c/stringenc.sty
@@ -1265,8 +1289,8 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
 \@linkdim=\dimen334
-\Hy@linkcounter=\count384
-\Hy@pagecounter=\count385
+\Hy@linkcounter=\count390
+\Hy@pagecounter=\count391
 
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/hyperref/p
 d1enc.def
@@ -1276,7 +1300,7 @@ File: pd1enc.def 2024-07-10 v7.01j Hyperref: PDFDocEncoding definition (HO)
 intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count386
+\Hy@SavedSpaceFactor=\count392
 
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/hyperref/p
 uenc.def
@@ -1289,7 +1313,7 @@ Package hyperref Info: Plain pages OFF on input line 4172.
 Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4424.
-\c@Hy@tempcnt=\count387
+\c@Hy@tempcnt=\count393
 
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/url/url.st
 y
@@ -1308,7 +1332,7 @@ lc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count388
+\Fld@menulength=\count394
 \Field@Width=\dimen336
 \Fld@charsize=\dimen337
 Package hyperref Info: Hyper figures OFF on input line 6042.
@@ -1324,9 +1348,9 @@ shi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count389
-\c@Item=\count390
-\c@Hfootnote=\count391
+\Hy@abspage=\count395
+\c@Item=\count396
+\c@Hfootnote=\count397
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
@@ -1334,10 +1358,10 @@ Package hyperref Info: Driver (autodetected): hxetex.
 xetex.def
 File: hxetex.def 2024-07-10 v7.01j Hyperref driver for XeTeX
 \pdfm@box=\box84
-\c@Hy@AnnotLevel=\count392
-\HyField@AnnotCount=\count393
-\Fld@listcount=\count394
-\c@bookmark@seq@number=\count395
+\c@Hy@AnnotLevel=\count398
+\HyField@AnnotCount=\count399
+\Fld@listcount=\count400
+\c@bookmark@seq@number=\count401
 
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/rerunfilec
 heck/rerunfilecheck.sty
@@ -1365,8 +1389,8 @@ Package: glossaries 2024/04/03 v4.54 (NLCT)
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/mfirstuc/m
 firstuc.sty
 Package: mfirstuc 2022/10/14 v2.08 (NLCT)
-\@glsmfirst=\toks55
-\@glsmrest=\toks56
+\@glsmfirst=\toks63
+\@glsmrest=\toks64
 )
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/xfor/xfor.
 sty
@@ -1379,7 +1403,7 @@ Package: datatool-base 2019/09/27 v2.32 (NLCT)
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/substr/sub
 str.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count396
+\c@su@anzahl=\count402
 )
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/datatool/d
 atatool-fp.sty
@@ -1392,20 +1416,20 @@ Package: fp 1995/04/02
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/fp/defpatt
 ern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count397
+\actioncount=\count403
 )
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/fp/fp-basi
 c.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count398
-\FP@xia=\count399
-\FP@xib=\count400
-\FP@xfa=\count401
-\FP@xfb=\count402
-\FP@rega=\count403
-\FP@regb=\count404
-\FP@regs=\count405
-\FP@times=\count406
+\FP@xs=\count404
+\FP@xia=\count405
+\FP@xib=\count406
+\FP@xfa=\count407
+\FP@xfb=\count408
+\FP@rega=\count409
+\FP@regb=\count410
+\FP@regs=\count411
+\FP@times=\count412
 )
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/fp/fp-addo
 ns.sty
@@ -1430,7 +1454,7 @@ Package: fp-pas 1994/08/29
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/fp/fp-rand
 om.sty
 Package: fp-random 1995/02/23
-\FPseed=\count407
+\FPseed=\count413
 )
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/fp/fp-eqn.
 sty
@@ -1444,23 +1468,23 @@ Package: fp-upn 1996/10/21
 .sty
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks57
-\@dtl@tmpcount=\count408
+\@dtl@toks=\toks65
+\@dtl@tmpcount=\count414
 \dtl@tmplength=\skip156
-\dtl@sortresult=\count409
-\@dtl@numgrpsepcount=\count410
-\@dtl@datatype=\count411
-\dtl@codeA=\count412
-\dtl@codeB=\count413
-\@dtl@foreach@level=\count414
+\dtl@sortresult=\count415
+\@dtl@numgrpsepcount=\count416
+\@dtl@datatype=\count417
+\dtl@codeA=\count418
+\dtl@codeB=\count419
+\@dtl@foreach@level=\count420
 )
-\gls@level=\count415
-\@gls@tmpb=\toks58
+\gls@level=\count421
+\@gls@tmpb=\toks66
 \gls@tmplen=\skip157
-\glskeylisttok=\toks59
-\glslabeltok=\toks60
-\glsshorttok=\toks61
-\glslongtok=\toks62
+\glskeylisttok=\toks67
+\glslabeltok=\toks68
+\glsshorttok=\toks69
+\glslongtok=\toks70
 
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/glossaries
 /styles/glossary-hypernav.sty
@@ -1482,18 +1506,18 @@ Package: longtable 2024-04-26 v4.20 Multi-page Table package (DPC)
 \LTright=\skip160
 \LTpre=\skip161
 \LTpost=\skip162
-\LTchunksize=\count416
+\LTchunksize=\count422
 \LTcapwidth=\dimen338
 \LT@head=\box85
 \LT@firsthead=\box86
 \LT@foot=\box87
 \LT@lastfoot=\box88
 \LT@gbox=\box89
-\LT@cols=\count417
-\LT@rows=\count418
-\c@LT@tables=\count419
-\c@LT@chunks=\count420
-\LT@p@ftn=\toks63
+\LT@cols=\count423
+\LT@rows=\count424
+\c@LT@tables=\count425
+\c@LT@chunks=\count426
+\LT@p@ftn=\toks71
 )
 \glsdescwidth=\skip163
 \glspagelistwidth=\skip164
@@ -1505,7 +1529,7 @@ Package: glossary-super 2024/04/03 v4.54 (NLCT)
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/supertabul
 ar/supertabular.sty
 Package: supertabular 2024/07/20 v4.2c the supertabular environment
-\c@tracingst=\count421
+\c@tracingst=\count427
 \ST@wd=\dimen339
 \ST@rightskip=\skip165
 \ST@leftskip=\skip166
@@ -1534,43 +1558,43 @@ typesetting in XeLaTeX
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/xelatex/xepersia
 n/xepersian-persiancal.sty
 Package: xepersian-persiancal 2012/07/25 v0.2 provides Persian calendar
-\XePersian@i=\count422
-\XePersian@y=\count423
-\XePersian@m=\count424
-\XePersian@d=\count425
-\XePersian@latini=\count426
-\XePersian@persiani=\count427
-\XePersian@latinii=\count428
-\XePersian@persianii=\count429
-\XePersian@latiniii=\count430
-\XePersian@persianiii=\count431
-\XePersian@latiniv=\count432
-\XePersian@persianiv=\count433
-\XePersian@latinv=\count434
-\XePersian@persianv=\count435
-\XePersian@latinvi=\count436
-\XePersian@persianvi=\count437
-\XePersian@latinvii=\count438
-\XePersian@persianvii=\count439
-\XePersian@latinviii=\count440
-\XePersian@persianviii=\count441
-\XePersian@latinix=\count442
-\XePersian@persianix=\count443
-\XePersian@latinx=\count444
-\XePersian@persianx=\count445
-\XePersian@latinxi=\count446
-\XePersian@persianxi=\count447
-\XePersian@latinxii=\count448
-\XePersian@persianxii=\count449
-\XePersian@persianxiii=\count450
-\XePersian@temp=\count451
-\XePersian@temptwo=\count452
-\XePersian@tempthree=\count453
-\XePersian@yModHundred=\count454
-\XePersian@thirtytwo=\count455
-\XePersian@dn=\count456
-\XePersian@sn=\count457
-\XePersian@mminusone=\count458
+\XePersian@i=\count428
+\XePersian@y=\count429
+\XePersian@m=\count430
+\XePersian@d=\count431
+\XePersian@latini=\count432
+\XePersian@persiani=\count433
+\XePersian@latinii=\count434
+\XePersian@persianii=\count435
+\XePersian@latiniii=\count436
+\XePersian@persianiii=\count437
+\XePersian@latiniv=\count438
+\XePersian@persianiv=\count439
+\XePersian@latinv=\count440
+\XePersian@persianv=\count441
+\XePersian@latinvi=\count442
+\XePersian@persianvi=\count443
+\XePersian@latinvii=\count444
+\XePersian@persianvii=\count445
+\XePersian@latinviii=\count446
+\XePersian@persianviii=\count447
+\XePersian@latinix=\count448
+\XePersian@persianix=\count449
+\XePersian@latinx=\count450
+\XePersian@persianx=\count451
+\XePersian@latinxi=\count452
+\XePersian@persianxi=\count453
+\XePersian@latinxii=\count454
+\XePersian@persianxii=\count455
+\XePersian@persianxiii=\count456
+\XePersian@temp=\count457
+\XePersian@temptwo=\count458
+\XePersian@tempthree=\count459
+\XePersian@yModHundred=\count460
+\XePersian@thirtytwo=\count461
+\XePersian@dn=\count462
+\XePersian@sn=\count463
+\XePersian@mminusone=\count464
 )
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/xelatex/xepersia
 n/xepersian-mathdigitspec.sty
@@ -1609,24 +1633,6 @@ etting in plain TeX and LaTeX
 * Primary author of bidi package: Vafa Khalighi.
 * 
 ****************************************************
-
-(/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/xelatex/bidi/bid
-itools.sty
-Package: biditools 2022/06/15 v2.3 Programming tools for bidi package
-\@bidi@envbody=\toks64
-\@bidi@emptytoks=\toks65
-\bidi@poscount=\count459
-\bidi@tempcountb=\count460
-\bidi@temptoksa=\toks66
-\bidi@temptoksb=\toks67
-\bidi@dummies=\count461
-\bidi@are@these@correct=\toks68
-\bidi@toks@lista=\toks69
-\bidi@toks@listb=\toks70
-\bidi@stack@length=\count462
-\bidi@empty@stack=\toks71
-\bidi@looprepeat@depth=\count463
-)
 \@bidi@copyins@=\insert252
 
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/xelatex/bidi/lat
@@ -1634,13 +1640,13 @@ ex-xetex-bidi.def
 File: latex-xetex-bidi.def 2022/07/04 v1.4.9 bidi adaptations for `latex.ltx' f
 or XeTeX engine
 \bidi@n@everypar=\toks72
-\bidi@column@check@number=\count464
+\bidi@column@check@number=\count465
 
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/xelatex/bidi/foo
 tnote-xetex-bidi.def
 File: footnote-xetex-bidi.def 2023/01/18 v1.2 bidi footnote macros for XeTeX en
 gine
-\c@footdir@label=\count465
+\c@footdir@label=\count466
 \footdir@toks=\toks73
 )
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/xelatex/bidi/rep
@@ -1791,7 +1797,7 @@ dingorder-xetex-bidi.def
 File: loadingorder-xetex-bidi.def 2017/12/29 v0.97 making sure that bidi is the
  last package loaded
 )
-\bidi@digits=\count466
+\bidi@digits=\count467
 \bidi@digits@charclass=\XeTeXcharclass1
 \bidi@sepmark@charclass=\XeTeXcharclass2
 )
@@ -1820,7 +1826,7 @@ File: loadingorder-xetex-bidi.def 2017/12/29 v0.97 making sure that bidi is the
 * Primary author of xepersian package: Vafa Khalighi.
 * 
 ****************************************************
-\xepersian@tcl=\count467
+\xepersian@tcl=\count468
 \xepersian@ilg=\dimen349
 \xepersian@strutilg=\dimen350
 
@@ -1893,13 +1899,13 @@ features for XeTeX engine
 \bidi@columnwidth=\dimen351
 \footmarkwidth=\skip169
 \footinsdim=\skip170
-\bidi@absolutepage@count=\count468
-\bidi@absolutefootnote@count=\count469
+\bidi@absolutepage@count=\count469
+\bidi@absolutefootnote@count=\count470
 \footinsv@r=\insert251
 \footinsv@l=\insert250
 \@mpfootinsv@r=\insert249
 \@mpfootinsv@l=\insert248
-\m@m@k=\count470
+\m@m@k=\count471
 \m@m@h=\dimen352
 \m@mipn@skip=\skip171
 LaTeX Font Info:    Font shape `TU/LobsterTwo(0)/m/n' will be
@@ -2083,20 +2089,20 @@ xt;"
 LaTeX Info: Redefining \latinfont on input line 140.
 )
 (../../../Boostan/tex/src/Boostan-Environments.tex
-\c@theorem=\count471
-\c@principle=\count472
-\c@proposition=\count473
-\c@lemma=\count474
-\c@definition=\count475
-\c@example=\count476
-\c@prob=\count477
-\c@corollary=\count478
-\c@property=\count479
-\c@remark=\count480
+\c@theorem=\count472
+\c@principle=\count473
+\c@proposition=\count474
+\c@lemma=\count475
+\c@definition=\count476
+\c@example=\count477
+\c@prob=\count478
+\c@corollary=\count479
+\c@property=\count480
+\c@remark=\count481
 \errorsize=\dimen353
 \mybox=\box91
-\c@problemcount=\count481
-\c@ntcounter=\count482
+\c@problemcount=\count482
+\c@ntcounter=\count483
 )
 (../../../Boostan/tex/src/Boostan-ChapterStyle.tex)
 (../../../Boostan/tex/src/Boostan-TitleStyle.tex
@@ -2169,6 +2175,43 @@ Package fontspec Info:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
 (fontspec)             <->s*[2.4]"IRTitr/OT:language=dflt;script=arab;mapping=p
+ersian-tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             IRTitr scale = 2.3.
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "IRTitr/BI" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "IRTitr/B" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "IRTitr/I" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: 
+(fontspec)             IRTitr scale = 2.3.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IRTitr(1)' created for font 'IRTitr' with
+(fontspec)             options
+(fontspec)             [RawFeature={script=arab},Ligatures=PersianTeX,Scale=2.3
+].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[2.3]"IRTitr/OT:language=dflt;script=arab;mapping=p
 ersian-tex-text;"
 
 )
@@ -2315,7 +2358,7 @@ Package fontspec Info:
 
 
 Package fontspec Info: 
-(fontspec)             Font family 'IRTitr(1)' created for font 'IRTitr' with
+(fontspec)             Font family 'IRTitr(2)' created for font 'IRTitr' with
 (fontspec)             options
 (fontspec)             [RawFeature={script=arab},Ligatures=PersianTeX,Scale=1].
 
@@ -2491,33 +2534,33 @@ xt;"
 (./Thesis.aux)
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
+0.
 
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/base/ts1cm
 r.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -2582,8 +2625,8 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 
 ))
-\c@lstlisting=\count483
-Package hyperref Info: Link coloring ON on input line 29.
+\c@lstlisting=\count484
+Package hyperref Info: Link coloring ON on input line 30.
  (./Thesis.out) (./Thesis.out)
 \@outlinefile=\write10
 \openout10 = `Thesis.out'.
@@ -2592,7 +2635,7 @@ Package hyperref Info: Link coloring ON on input line 29.
 Package fontspec Info: 
 (fontspec)             IRNazanin scale = 1.25.
 
-LaTeX Info: Redefining \persianfont on input line 32.
+LaTeX Info: Redefining \persianfont on input line 33.
 
 Package fontspec Info: 
 (fontspec)             Linux Libertine scale = 1.
@@ -2657,22 +2700,22 @@ ex-text;"
 (fontspec)             Libertine/BI/OT:script=latn;language=dflt;mapping=tex-te
 xt;"
 
-LaTeX Info: Redefining \latinfont on input line 32.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
+LaTeX Info: Redefining \latinfont on input line 33.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 33.
 
 
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/amsfonts/u
 msa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 33.
 
 
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/amsfonts/u
 msb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 32
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 33
 .
 
 (/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/wasysym/uw
@@ -2682,15 +2725,20 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 File: ./Pic/Logo/Fa.png Graphic file (type bmp)
 <./Pic/Logo/Fa.png>
 LaTeX Font Info:    Font shape `TU/IRNazanin(0)/b/n' will be
-(Font)              scaled to size 12.5pt on input line 32.
-LaTeX Font Info:    Font shape `TU/IRNazanin(0)/b/n' will be
-(Font)              scaled to size 18.75pt on input line 32.
+(Font)              scaled to size 12.5pt on input line 33.
+
+
+LaTeX Font Warning: Font shape `TU/IRTitr(1)/b/n' undefined
+(Font)              using `TU/IRTitr(1)/m/n' instead on input line 33.
+
+LaTeX Font Info:    Font shape `TU/IRTitr(1)/m/n' will be
+(Font)              scaled to size 23.00003pt on input line 33.
 LaTeX Font Info:    Font shape `TU/IRNazanin(0)/m/n' will be
-(Font)              scaled to size 15.0pt on input line 32.
+(Font)              scaled to size 15.0pt on input line 33.
 LaTeX Font Info:    Font shape `TU/IRNazanin(0)/m/n' will be
-(Font)              scaled to size 17.99998pt on input line 32.
+(Font)              scaled to size 17.99998pt on input line 33.
 LaTeX Font Info:    Font shape `TU/IRNazanin(0)/b/n' will be
-(Font)              scaled to size 17.99998pt on input line 32.
+(Font)              scaled to size 17.99998pt on input line 33.
 
 
 [1
@@ -2699,7 +2747,7 @@ LaTeX Font Info:    Font shape `TU/IRNazanin(0)/b/n' will be
 
 ]
 LaTeX Font Info:    Font shape `TU/Besmellah2(0)/m/n' will be
-(Font)              scaled to size 500.0pt on input line 34.
+(Font)              scaled to size 500.0pt on input line 35.
 
 
 [2
@@ -2732,25 +2780,20 @@ LaTeX Info: Redefining \latinfont on input line 23.
 
 ]
 LaTeX Font Info:    Font shape `TU/IranNastaliq(0)/m/n' will be
-(Font)              scaled to size 20.0pt on input line 4.
-LaTeX Font Info:    Font shape `TU/IranNastaliq(0)/m/n' will be
-(Font)              scaled to size 49.76001pt on input line 5.
-
-
-[5]
+(Font)              scaled to size 20.0pt on input line 15.
 LaTeX Font Info:    Font shape `TU/IranNastaliq(0)/m/n' will be
 (Font)              scaled to size 34.56pt on input line 15.
 ) (./Chapters/Abstract/Fa.tex
 
-[6])
+[5])
 
-[7
+[6
 
 ]
 LaTeX Font Info:    Font shape `TU/IRNazanin(0)/m/n' will be
-(Font)              scaled to size 31.1pt on input line 42.
+(Font)              scaled to size 31.1pt on input line 43.
 LaTeX Font Info:    Font shape `TU/IRNazanin(0)/b/n' will be
-(Font)              scaled to size 31.1pt on input line 42.
+(Font)              scaled to size 31.1pt on input line 43.
 
 Package fontspec Info: 
 (fontspec)             IRNazanin scale = 1.25.
@@ -2799,7 +2842,7 @@ pping=persian-tex-text;color=F5F5F5FF
 (fontspec)             ;"
 
 LaTeX Font Info:    Font shape `TU/IRNazanin(1)/b/n' will be
-(Font)              scaled to size 31.1pt on input line 42.
+(Font)              scaled to size 31.1pt on input line 43.
  (./Thesis.toc
 
 [1
@@ -2819,6 +2862,10 @@ Package fontspec Info:
  (./Thesis.lof
 File: ./Pic//ETCMobile/0GTo6G/mainFig.pdf Graphic file (type pdf)
 <use ./Pic//ETCMobile/0GTo6G/mainFig.pdf>
+File: ./Pic//calcdistance/mainFig.pdf Graphic file (type pdf)
+<use ./Pic//calcdistance/mainFig.pdf>
+LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/m/n' will be
+(Font)              scaled to size 11.00006pt on input line 2.
 File: ./Pic//Roadmap/mainFig.pdf Graphic file (type pdf)
 <use ./Pic//Roadmap/mainFig.pdf>
 )
@@ -2860,38 +2907,36 @@ Package fontspec Info:
 (fontspec)             IRNazanin scale = 1.25.
 
 LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/m/n' will be
-(Font)              scaled to size 11.00006pt on input line 26.
-LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/m/n' will be
 (Font)              scaled to size 13.20007pt on input line 26.
 LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/b/n' will be
 (Font)              scaled to size 13.20007pt on input line 26.
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--32
+Underfull \hbox (badness 10000) in paragraph at lines 28--33
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--37
+Underfull \hbox (badness 10000) in paragraph at lines 36--38
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--45
+Underfull \hbox (badness 10000) in paragraph at lines 44--46
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--48
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--53
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
 [][]
  []
 
@@ -2900,8 +2945,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--53
 [7
 
 
-])
-Underfull \hbox (badness 10000) in paragraph at lines 56--45
+]
+Underfull \hbox (badness 10000) in paragraph at lines 55--57
+[][]
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 62--46
 [][]
  []
 
@@ -2933,41 +2983,353 @@ LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/m/n' will be
 
 
 ]
-Package mdframed Info: mdframed inside twoside mode but
-(mdframed)             works with oneside mode on input line 73.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 73.
-LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/b/n' will be
-(Font)              scaled to size 11.00006pt on input line 73.
+(/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/listings/l
+stlang1.sty
+File: lstlang1.sty 2024/05/25 1.10b listings language file
+)
+(/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/listings/l
+stlang2.sty
+File: lstlang2.sty 2024/05/25 1.10b listings language file
+)
+(/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/listings/l
+stlang3.sty
+File: lstlang3.sty 2024/05/25 1.10b listings language file
+)
+(/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/listings/l
+stmisc.sty
+File: lstmisc.sty 2024/05/25 1.10b (Carsten Heinz)
+)
+(/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/listings/l
+stlang1.sty
+File: lstlang1.sty 2024/05/25 1.10b listings language file
+)
+(/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/listings/l
+stlang2.sty
+File: lstlang2.sty 2024/05/25 1.10b listings language file
+)
+(/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/listings/l
+stlang3.sty
+File: lstlang3.sty 2024/05/25 1.10b listings language file
+)
+(/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/listings/l
+stlang1.sty
+File: lstlang1.sty 2024/05/25 1.10b listings language file
+)
+(/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/listings/l
+stlang2.sty
+File: lstlang2.sty 2024/05/25 1.10b listings language file
+)
+(/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/listings/l
+stlang3.sty
+File: lstlang3.sty 2024/05/25 1.10b listings language file
+)
+(/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/listings/l
+stmisc.sty
+File: lstmisc.sty 2024/05/25 1.10b (Carsten Heinz)
+)
 
-\endL or \endR problem (2 missing, 0 extra) detected at line 84
+[2]
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 88.
+LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/m/it' will be
+(Font)              scaled to size 11.00006pt on input line 99.
+
+\endL or \endR problem (2 missing, 0 extra) detected at line 121
  [][][]\U/pzd/m/n/12 4[][]
  []
 
 
-\endL or \endR problem (0 missing, 2 extra) detected at line 84
+\endL or \endR problem (0 missing, 2 extra) detected at line 121
+[][][] [][][][][]
+ []
+
+
+\endL or \endR problem (2 missing, 0 extra) detected at line 125
+ [][][]\U/pzd/m/n/12 4[][]
+ []
+
+
+\endL or \endR problem (0 missing, 2 extra) detected at line 125
+[][][] [][][][][]
+ []
+
+
+\endL or \endR problem (2 missing, 0 extra) detected at line 129
+ [][][]\U/pzd/m/n/12 4[][]
+ []
+
+
+\endL or \endR problem (0 missing, 2 extra) detected at line 129
+[][][] [][][][][]
+ []
+
+
+\endL or \endR problem (2 missing, 0 extra) detected at line 131
+ [][][]\U/pzd/m/n/12 4[][]
+ []
+
+
+\endL or \endR problem (0 missing, 2 extra) detected at line 131
+[][][] [][][][][]
+ []
+
+
+\endL or \endR problem (2 missing, 0 extra) detected at line 134
+ [][][]\U/pzd/m/n/12 4[][]
+ []
+
+
+\endL or \endR problem (0 missing, 2 extra) detected at line 134
+[][][] [][][][][]
+ []
+
+
+\endL or \endR problem (2 missing, 0 extra) detected at line 136
+ [][][]\U/pzd/m/n/12 4[][]
+ []
+
+
+\endL or \endR problem (0 missing, 2 extra) detected at line 136
+[][][] [][][][][]
+ []
+
+
+\endL or \endR problem (2 missing, 0 extra) detected at line 139
+ [][][]\U/pzd/m/n/12 4[][]
+ []
+
+
+\endL or \endR problem (0 missing, 2 extra) detected at line 139
+[][][] [][][][][]
+ []
+
+
+\endL or \endR problem (2 missing, 0 extra) detected at line 142
+ [][][]\U/pzd/m/n/12 4[][]
+ []
+
+
+\endL or \endR problem (0 missing, 2 extra) detected at line 142
+[][][] [][][][][]
+ []
+
+
+\endL or \endR problem (2 missing, 0 extra) detected at line 144
+ [][][]\U/pzd/m/n/12 4[][]
+ []
+
+
+\endL or \endR problem (0 missing, 2 extra) detected at line 144
+[][][] [][][][][]
+ []
+
+
+\endL or \endR problem (2 missing, 0 extra) detected at line 145
+ [][][]\U/pzd/m/n/12 4[][]
+ []
+
+
+\endL or \endR problem (0 missing, 2 extra) detected at line 145
+[][][] [][][][][]
+ []
+
+
+
+[3]
+File: ./Pic//calcdistance/mainFig.pdf Graphic file (type pdf)
+<use ./Pic//calcdistance/mainFig.pdf>
+LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/m/n' will be
+(Font)              scaled to size 9.90005pt on input line 156.
+
+\endL or \endR problem (2 missing, 0 extra) detected at line 165
+ [][][]\U/pzd/m/n/12 4[][]
+ []
+
+
+\endL or \endR problem (0 missing, 2 extra) detected at line 165
 [][][] [][][][][]
  []
 
 ) (./Chapters/Concepts.tex
 
-[2]
-
-[3]
+[4]
 فصل 2.
+LaTeX Font Info:    Font shape `TU/IRNazanin(0)/b/n' will be
+(Font)              scaled to size 15.0pt on input line 14.
+File: ../../../Boostan/tex/images/icon/note.png Graphic file (type bmp)
+<../../../Boostan/tex/images/icon/note.png>
 
-LaTeX Warning: Reference `sec:propagateChannel' on page 4 undefined on input li
-ne 9.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-) (./Chapters/RelatedWorks.tex
 
-[4
+
+[5
 
 ]
+File: ../../../Boostan/tex/images/icon/home.png Graphic file (type bmp)
+<../../../Boostan/tex/images/icon/home.png>
+File: ../../../Boostan/tex/images/icon/referO.png Graphic file (type bmp)
+<../../../Boostan/tex/images/icon/referO.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.03764pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.03764pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.03764pt}.
+
+[6]
+File: ../../../Boostan/tex/images/icon/infoRR.png Graphic file (type bmp)
+<../../../Boostan/tex/images/icon/infoRR.png>
+File: ../../../Boostan/tex/images/icon/warining.png Graphic file (type bmp)
+<../../../Boostan/tex/images/icon/warining.png>
+File: ../../../Boostan/tex/images/icon/archeryf.pdf Graphic file (type pdf)
+<use ../../../Boostan/tex/images/icon/archeryf.pdf>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.03764pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.03764pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.03764pt}.
+
+[7]
+Package mdframed Info: mdframed inside twoside mode but
+(mdframed)             works with oneside mode on input line 68.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 68.
+Package mdframed Info: mdframed inside twoside mode but
+(mdframed)             works with oneside mode on input line 72.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 72.
+Package mdframed Info: mdframed inside twoside mode but
+(mdframed)             works with oneside mode on input line 76.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 76.
+Package mdframed Info: mdframed inside twoside mode but
+(mdframed)             works with oneside mode on input line 80.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 80.
+Package mdframed Info: mdframed works in twoside mode on input line 82.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 82.
+
+
+Package mdframed Warning: You got a bad break
+(mdframed)                because the last box will be empty
+(mdframed)                you have to change it manually
+(mdframed)                by changing the text, the space
+(mdframed)                or something else on input line 84.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.03764pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.03764pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.03764pt}.
+
+[8]
+Package mdframed Info: mdframed works in twoside mode on input line 88.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 88.
+Package mdframed Info: mdframed works in twoside mode on input line 96.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 96.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 97.
+Package mdframed Info: mdframed works in twoside mode on input line 99.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 99.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 100.
+LaTeX Font Info:    Font shape `TU/IRNazanin(0)/m/it' will be
+(Font)              scaled to size 12.5pt on input line 105.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.03764pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.03764pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.03764pt}.
+
+[9]
+Package mdframed Info: mdframed inside twoside mode but
+(mdframed)             works with oneside mode on input line 112.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 112.
+Package mdframed Info: mdframed inside twoside mode but
+(mdframed)             works with oneside mode on input line 115.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 115.
+
+(/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/listings/l
+stlang1.sty
+File: lstlang1.sty 2024/05/25 1.10b listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 123.
+ (./Code/code3.m) (./Code/prog3.m
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.03764pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.03764pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.03764pt}.
+
+[10]) (./Code/code4.m)) (./Chapters/RelatedWorks.tex
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.03764pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.03764pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.03764pt}.
+
+[11]
 فصل 3.
+
+Overfull \hbox (7.73866pt too wide) in paragraph at lines 5--10
+[][]\TU/IRNazanin(0)/m/n/10 مسئله‌ی بهینه‌سازی شبکه‌های تلفن همراه از جنبه‌های 
+مختلفی موردمطالعه قرار گرفته است که می‌توان آن‌ها را در دسته‌بندی‌های[]
+ []
+
 File: ./Pic//Roadmap/mainFig.pdf Graphic file (type pdf)
 <use ./Pic//Roadmap/mainFig.pdf>
+
+
+[12
+
+]
 File: ./Pic//Person/LukmanMedriavinSilalahi.jpg Graphic file (type bmp)
 <./Pic//Person/LukmanMedriavinSilalahi.jpg>
 File: ./Pic//Person/MarcoSousa.png Graphic file (type bmp)
@@ -2978,11 +3340,7 @@ File: ./Pic//Person/YuliarmanSaragih.jpg Graphic file (type bmp)
 <./Pic//Person/YuliarmanSaragih.jpg>
 ) (./Chapters/Approach.tex
 
-[5
-
-]
-
-[6]
+[13]
 فصل 4.
 
 Package fontspec Info: 
@@ -2998,7 +3356,7 @@ LaTeX Font Info:    Font shape `TU/IRNazanin(0)/m/n' will be
 (Font)              scaled to size 6.25pt on input line 43.
 
 
-[7
+[14
 
 ]
 Package mdframed Info: mdframed works in twoside mode on input line 58.
@@ -3008,60 +3366,40 @@ Package mdframed Info: mdframed detected package amsthm
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 61.
-LaTeX Font Info:    Font shape `TU/IRNazanin(0)/b/n' will be
-(Font)              scaled to size 15.0pt on input line 61.
 Package mdframed Info: Not enough space on this page on input line 61.
 
 Underfull \hbox (badness 10000) in paragraph at lines 69--72
 [][]
  []
 
-LaTeX Font Info:    Font shape `TU/IRNazanin(0)/m/it' will be
-(Font)              scaled to size 12.5pt on input line 75.
 
 Package hyperref Warning: No autoref name for `algorithm' on input line 94.
 
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 97.
+LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/b/n' will be
+(Font)              scaled to size 11.00006pt on input line 101.
 
 
-[8]) (./Chapters/Simulation.tex
+[15]) (./Chapters/Simulation.tex
 
-[9]
+[16]
 فصل 5.
+) (./Chapters/Conclusion.tex
 
-(/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/listings/l
-stlang1.sty
-File: lstlang1.sty 2024/05/25 1.10b listings language file
-)
-(/home/abolfazl/Documents/Programs/Texlive/2024/texmf-dist/tex/latex/listings/l
-stmisc.sty
-File: lstmisc.sty 2024/05/25 1.10b (Carsten Heinz)
-)
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 8.
- (./Code/code3.m
-LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 1.
-) (./Code/prog3.m
+[17
 
-[10
-
-]) (./Code/code4.m)) (./Chapters/Conclusion.tex
-
-[11]
+]
 فصل 6.
 )
 
-[12
+[18
 
 ] (./Thesis.bbl
 
 Package fontspec Info: 
 (fontspec)             IRNazanin scale = 1.25.
 
-LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/m/it' will be
-(Font)              scaled to size 11.00006pt on input line 9.
 
 Underfull \hbox (badness 6859) in paragraph at lines 9--12
 [][]\TU/LinuxLibertine(0)/m/n/10 GSMA, “The Mobile Economy 2024,” \TU/LinuxLibe
@@ -3076,7 +3414,7 @@ content/uploads/2024/02/260224-The-Mobile-Economy-[]
 
 )
 
-[13
+[19
 
 
 ] (./Thesis.gls
@@ -3094,17 +3432,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--35
 [][]
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--43
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--54
+[][]
+ []
+
+
+Underfull \vbox (badness 3148) has occurred while \output is active []
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+[][]
+ []
+
 )
-Underfull \hbox (badness 10000) in paragraph at lines 38--56
+Underfull \hbox (badness 10000) in paragraph at lines 60--58
 [][]
  []
 
 
 
-
-
-[14
-
+[20
 
 
 
@@ -3115,60 +3480,81 @@ Package fontspec Info:
 (fontspec)             IRNazanin scale = 1.25.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
+Underfull \hbox (badness 10000) in paragraph at lines 28--28
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--33
+Underfull \hbox (badness 10000) in paragraph at lines 31--35
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
+Underfull \hbox (badness 10000) in paragraph at lines 44--44
 [][]
  []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--52
+[][]
+ []
+
+
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 42--56
+Underfull \hbox (badness 10000) in paragraph at lines 55--58
 [][]
  []
 
 
 
-
-
-[15
-
+[21
 
 
 
-]
-No file Thesis.ind.
+] (./Thesis.ind
 
 Package fontspec Info: 
 (fontspec)             IRNazanin scale = 1.25.
 
-LaTeX Info: Redefining \persianfont on input line 58.
+
+
+
+
+[22
+
+
+
+
+])
+
+Package fontspec Info: 
+(fontspec)             IRNazanin scale = 1.25.
+
+LaTeX Info: Redefining \persianfont on input line 60.
 
 Package fontspec Info: 
 (fontspec)             Linux Libertine scale = 1.1.
 
-LaTeX Info: Redefining \latinfont on input line 58.
-(./Chapters/Abstract/En.tex
+LaTeX Info: Redefining \latinfont on input line 60.
+ (./Chapters/Abstract/En.tex
 LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/m/n' will be
 (Font)              scaled to size 15.84007pt on input line 3.
 LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/b/n' will be
 (Font)              scaled to size 15.84007pt on input line 3.
 ) (./Chapters/Titles/English.tex
 
-[16
-
+[23
 
 
 ]
@@ -3190,25 +3576,25 @@ LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/b/n' will be
 (Font)              scaled to size 16.50009pt on input line 27.
 
 
-[17]) (./Thesis.aux)
+[24]) (./Thesis.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
-L3 programming layer <2024-08-16>
+L3 programming layer <2024-08-30>
  ***********
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 8E2F1297455CD576E4A63F66C76D88E7;4572.
+(rerunfilecheck)             Checksum: 6957BDCD14EF87913E738D6D3C377856;6151.
  ) 
 Here is how much of TeX's memory you used:
- 41896 strings out of 474235
- 843562 string characters out of 11482018
- 13918609 words of memory out of 24000000
- 63464 multiletter control sequences out of 15000+600000
+ 43486 strings out of 474235
+ 874138 string characters out of 11482018
+ 13476858 words of memory out of 24000000
+ 65018 multiletter control sequences out of 15000+600000
  567906 words of font info for 193 fonts, out of 12000000 for 9000
  1348 hyphenation exceptions out of 8191
- 106i,15n,140p,2434b,2068s stack positions out of 10000i,1000n,20000p,12000000b,200000s
+ 96i,15n,134p,2434b,2073s stack positions out of 10000i,1000n,20000p,12000000b,200000s
 
-Output written on Thesis.pdf (32 pages).
+Output written on Thesis.pdf (38 pages).

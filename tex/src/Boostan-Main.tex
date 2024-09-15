@@ -206,11 +206,12 @@
 \makeatletter
 \let\Oldlistoffigures\listoffigures
 \renewcommand{\listoffigures}{
+\renewcommand{\listfigurename}{فهرست شکل‌ها}
 	\cleardoublepage
 	\phantomsection
-	\ifthenelse{\equal{\@docStyle}{Pres}}
-	{\addcontentsline{toc}{section}{فهرست اشکال}}
-	{\addcontentsline{toc}{chapter}{فهرست اشکال}}
+%	\ifthenelse{\equal{\@docStyle}{Pres}}
+%	{\addcontentsline{toc}{section}{فهرست اشکال}}
+%	{\addcontentsline{toc}{chapter}{فهرست اشکال}}
 	\lofimagetrue
 	\Oldlistoffigures\clearpage
 	\lofimagefalse
@@ -223,11 +224,12 @@
 \makeatletter
 \let\Oldlistoftables\listoftables
 \renewcommand{\listoftables}{
+\renewcommand{\listtablename}{فهرست جدول‌ها}
 	\cleardoublepage
 	\phantomsection
-	\ifthenelse{\equal{\@docStyle}{Pres}}
-	{\addcontentsline{toc}{section}{فهرست جداول}}
-	{\addcontentsline{toc}{chapter}{فهرست جداول}}
+%	\ifthenelse{\equal{\@docStyle}{Pres}}
+%	{\addcontentsline{toc}{section}{فهرست جداول}}
+%	{\addcontentsline{toc}{chapter}{فهرست جداول}}
 	\Oldlistoftables\clearpage
 }%
 \makeatother
@@ -240,9 +242,9 @@
 	\phantomsection
 	\linespread{\BaseLineSpreadForList}
 % با این دستور عنوان فهرست اختصارات به فهرست مطالب اضافه می‌شود. 
-	\ifthenelse{\equal{\@docStyle}{Pres}}
-	{\addcontentsline{toc}{section}{فهرست اختصارات}}
-	{\addcontentsline{toc}{chapter}{فهرست اختصارات}}
+%	\ifthenelse{\equal{\@docStyle}{Pres}}
+%	{\addcontentsline{toc}{section}{فهرست اختصارات}}
+%	{\addcontentsline{toc}{chapter}{فهرست اختصارات}}
 	\setglossarystyle{myAbbrlist}
 	
 	\begin{LTR}
@@ -430,4 +432,10 @@
       font=\small\sffamily,
 	anchor=south
     ](key) {\textcolor{white}{#1}\strut};
+}
+
+\fancypagestyle{mystyle}{%
+\fancyhf{}
+\fancyhead[LO,RE]{\thepage}
+\fancyhead[RO,LE]{\leftmark}
 }

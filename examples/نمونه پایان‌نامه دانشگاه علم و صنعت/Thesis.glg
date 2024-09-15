@@ -1,11 +1,17 @@
 ;; This logfile was generated automatically by `xindy'
-;; at 10.09.2024  23:50:33
-;; Indexstyle: "/tmp/6NAs35A0x9", Rawindex: "/tmp/96JGxhM6lb", Output: "Thesis.gls"
+;; at 14.09.2024  23:30:10
+;; Indexstyle: "/tmp/73pzH4urGJ", Rawindex: "/tmp/gYTrdzgWSR", Output: "Thesis.gls"
 
 
 Building indexentry-tree:
 Hierdepth of index is :TREE
 
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
@@ -19,10 +25,26 @@ Letter-group: "¨ÖåÄ‚¯ ¨åÝêÄ‚üÊÞ¿" -> "C"
 Letter-group: "¨¢ÖÖ" -> "C"
 Letter-group: "ê¢¨Ð¹ü òÄˆÊü¨Æ" -> "P"
 Letter-group: "¯¹Ö¢Ä" -> "D"
+Letter-group: "ìÄ‚¢ÖÊüÄ å¾ ò¹íÄ‡Ê¨¹" -> "Q"
 Letter-group: "¯íÊÄ‡¹ ü¹òü" -> "D"
+Letter-group: "¢í¨ÆÊü¹¨üÄ‚í¹" -> "A"
+Letter-group: "òü¢Þ¯¢í¯ ¯¹Ä‡Ê¢üÊåÞ" -> "S"
+Letter-group: "¢Ä‡¹í¢¿¹" -> "A"
+Letter-group: "¿¢Ä‚òòÊ¢Þ ¯ÊòüíÊ¦Ä‚üÊåÞ" -> "G"
+Letter-group: "í¢Þ¯åÝ Ä‡¢íÊ¢¦Ö¹" -> "R"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "¢Ä‡¹í¢¿¹" -> "A"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "¨¢ÖÖ" -> "C"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "¯¹Ö¢Ä" -> "D"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "¿¢Ä‚òòÊ¢Þ ¯ÊòüíÊ¦Ä‚üÊåÞ" -> "G"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "ê¢¨Ð¹ü òÄˆÊü¨Æ" -> "P"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "ìÄ‚¢ÖÊüÄ å¾ ò¹íÄ‡Ê¨¹" -> "Q"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "í¢Þ¯åÝ Ä‡¢íÊ¢¦Ö¹" -> "R"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "òü¢Þ¯¢í¯ ¯¹Ä‡Ê¢üÊåÞ" -> "S"
