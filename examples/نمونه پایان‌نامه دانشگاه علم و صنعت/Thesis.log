@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.9.13)  15 SEP 2024 22:04
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.9.13)  17 SEP 2024 00:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3591,7 +3591,7 @@ Package rerunfilecheck Info: File `Thesis.out' has not changed.
 Here is how much of TeX's memory you used:
  43486 strings out of 474235
  874138 string characters out of 11482018
- 13476858 words of memory out of 24000000
+ 13476857 words of memory out of 24000000
  65018 multiletter control sequences out of 15000+600000
  567906 words of font info for 193 fonts, out of 12000000 for 9000
  1348 hyphenation exceptions out of 8191
