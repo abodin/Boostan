@@ -1,0 +1,38 @@
+\documentclass{report} 
+
+\newcommand{\MyPath}{../../tex/}
+\input{\MyPath Englishstyle}
+
+\title{Seminar Report Title}
+\author{Your name}
+\supervisor{Supervisor Name}
+\faculity{Computer Engineering Department}
+\forwhat{Master's Seminar Report}
+\field{In Computer Engineering, Specialization in Computer Networks}
+\date{September 2024}
+
+
+\input{./ETC/abbr}
+
+\graphicspath{{./Pic/}}
+
+\begin{document}
+\pagenumbering{gobble}
+\clearpage
+\input{./Chapters/title.tex}
+\input{./Chapters/Abstract.tex}
+\pagenumbering{alph}
+\tableofcontents
+\listoffigures
+\listoftables
+\printabbreviation
+\pagenumbering{arabic}
+
+\input{./Chapters/Introduction.tex}
+\input{./Chapters/Concepts.tex}
+\input{./Chapters/RelatedWork.tex}
+\input{./Chapters/Conclusion.tex}
+
+\bibliography{./ETC/library.bib}
+
+\end{document}

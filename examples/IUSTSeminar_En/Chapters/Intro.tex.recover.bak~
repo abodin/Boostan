@@ -1,0 +1,574 @@
+\chapter{Introduction}
+\label{Chap:Intro}
+
+\section{Applications of Drones}
+The concept of drones and UAVs was associated in the past with wars.  They are similar in the meaning and can be used interchangeably. In contemporary times, the widespread integration of drones into various aspects of daily life reflects a significant shift from their historical association with military applications. This transformation is particularly evident in the peaceful utilization of drones across diverse sectors. Notably, the incorporation of drones into smart cities emerges as a crucial and impactful domain. Within the smart city landscape, drones hold the potential to revolutionize numerous applications, including but not limited to medical services, parcel delivery, law enforcement, traffic monitoring, firefighting, and disaster management. This underscores the multifaceted role that drones can play in enhancing efficiency and addressing various challenges within the urban environment.
+\index{Drones}
+Drones in smart cities are able to collect or sense a large amount of data. This amount of data is sent to computing systems to be analyzed and used to make useful decisions that do not involve human intervention. Cloud computing systems process this data that is relayed to them due to their extensive infrastructure. However, the main objective of employing drones in smart cities or urban environments is to provide a quick and timely response along with providing an energy-efficient services. 
+
+They  can be used to facilitate disaster monitoring, as they are becoming more widely used today, and have many advantages such as low operating cost, access to hazardous environments, small size, and a high probability of mission success without compromising crew resources. Compared with other remote sensing technologies such as aircraft and satellites, \glspl{UAV} have proven their ability to compete with traditional remote sensing platforms (such as satellites and aircraft) due to lower operating costs, high operational flexibility and high spatial resolution of images. Integrating remote sensing by drones with disaster management methodologies is one of the recent trends in employing drones in disaster management in smart cities.
+Here are some key ways in which drones contribute to disaster management:
+
+
+\subsection{Aerial Surveillance and Mapping}
+Drones equipped with cameras and sensors can provide real-time aerial views of disaster-affected areas.
+High-resolution imagery and mapping help emergency responders assess the extent of damage, identify critical areas, and plan response efforts.
+Integrating remote sensing by drones with disaster management methodologies is one of the recent trends in employing drones in disaster management in smart cities.
+The past decade has seen an average of 37,400 people die from disasters related to natural hazards, in addition to economic losses amounting to \$187 billion annually \citep{WORDEN2020106754}. The disaster management process consists of phases: mitigation, preparedness, response, and recovery.
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\linewidth]{Fig2.png}
+	\caption{The disaster management phases.}
+	\label{fig:fig2}
+\end{figure}
+
+In the mitigation phase, remote sensing applications assess risks using \gls{GIS} and model them based on digital elevation models obtained by remote sensing techniques, including satellites, manned and unmanned aircraft, and these applications can predict flood and tsunami damage, thus helping to reduce such damage in the event of a disaster.% (FEMA, 2017, 2018a, 2018b). 
+In the phase of disaster preparedness, the applications used depend on geographical data that is provided before the disaster, which shows the natural features, facilities and various built assets. This data is derived from manual interpretation and digitization of optical images of satellites, manned and unmanned aircraft.% (EU, 2020a).
+
+As for the disaster response phase, there are applications that quickly draw maps in order to determine the amount of risk to buildings and facilities, through manual comparison of optical images taken by manned, unmanned aircraft and satellites before and after the disaster. For example, in the event of a fire or flood, optical and radar satellite images before and after the event are automatically analyzed respectively \citep{bhatt2018targeted} %(In`es \textit{et al.}, 2020). 
+In the last phase of disaster management, the recovery phase, reconstruction monitoring is conducted through manual comparison of multi-time satellite optical images and manned or unmanned aircraft \citep{chuvieco1989application}.
+Thus, the information is a critical component of every phase of disaster management, particularly in the field of  \gls{ISR}. An action that coordinates and unifies the planning and execution of sensor, asset, computing, and exploitation activities, and implementation of systems in direct assistance of ongoing and upcoming operations, and hence heavily on information gathering and examination. 
+
+\index{SAR}
+To aid in observation and investigation, drones are equipped with multi-mission sensors depending on the phase of the disaster. Before a disaster (for example, in preparedness phase), the drones help with constant verge perception and controller-directed scanning, looking for actions that may specify an approaching catastrophe. The valuation takes place throughout a catastrophe and contains real-time situational consciousness and harm education. In the reply and regaining phase, and after the disaster, the drones in the response phase carry out \gls{SAR} missions, in addition to conducting survey related to the recovery phase \citep{worden2020sensor}.
+
+
+
+
+
+\subsection{Search and Rescue Operations}
+Disaster management in its mentioned basic phases is concerned with mitigating the possibility of risks turning into disasters, preparing for those disasters if they occur and reducing the risks resulting from them, in addition to rescue operations and reducing the economic losses resulting from disasters as much as possible, and facilitating the recovery process in the short and long term \citep{lichtman2015humanitarian}. Remote sensing has played a major role in the implementation of disaster management phases in various countries of the world, especially with regard to sudden natural disasters such as storms, floods, earthquakes, hurricanes, landslides, fires and volcanic eruptions.
+Drones equipped with thermal imaging cameras and other sensors aid in locating survivors in disaster-stricken areas.
+They can cover large areas quickly and access hard-to-reach or hazardous locations, improving the speed and effectiveness of search and rescue missions.
+ 
+
+\subsection{Communication and Connectivity}
+Drones can be equipped with communication relay devices to restore or enhance communication networks in areas where infrastructure has been damaged or destroyed.
+They play a crucial role in establishing temporary communication links for coordinating emergency responses.
+\subsection{Damage Assessment}
+Drones help in assessing structural damage to buildings, bridges, and other critical infrastructure.
+Rapid and accurate damage assessments enable better resource allocation and prioritization of response efforts.
+\subsection{Environmental Monitoring}
+Drones equipped with specialized sensors can monitor environmental factors such as air quality, temperature, and radiation levels.
+This information is vital for assessing environmental risks and ensuring the safety of both responders and affected populations.
+\subsection{Delivery of Aid and Supplies}
+Drones can transport essential supplies, medicines, and medical equipment to remote or inaccessible areas.
+This capability is particularly valuable when traditional transportation infrastructure is disrupted.
+\subsection{Data Collection and Analysis}
+Drones facilitate the collection of real-time data, which can be analyzed to make informed decisions during disaster response and recovery phases.
+\subsection{Wildfire Management}
+In the case of wildfires, drones equipped with thermal imaging cameras can monitor the progression of the fire, helping in early detection and firefighting efforts.
+Drones play a crucial role in wildfire management, offering innovative solutions to enhance monitoring, response, and overall effectiveness in combating wildfires. Equipped with advanced sensors, such as thermal imaging cameras, drones provide real-time aerial views of the affected areas, allowing for early detection and precise mapping of the fire's progression \citep{drones7010047}. This capability is particularly valuable in assessing the extent of the wildfire, identifying hotspots, and determining critical areas for intervention. Drones also facilitate the rapid deployment of resources by providing vital situational awareness to firefighting teams. Their agility allows them to access challenging terrains and capture valuable data, guiding strategic decision-making. Additionally, drones contribute to post-fire assessments by surveying the aftermath, aiding in understanding the impact on ecosystems and infrastructure. The integration of drones into wildfire management not only improves response times but also enhances the safety of firefighting personnel and enables a more proactive and efficient approach to mitigating the devastating effects of wildfires.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.9\linewidth]{Fig1.png}
+	\caption[Drone supported disaster management.]{Drones establish communication networks in areas with compromised infrastructure, monitor environmental conditions, and create high-resolution maps for informed decision-making. In wildfire management, drones equipped with infrared sensors aid in monitoring fire progression and strategizing firefighting efforts. Overall, the integration of drones in disaster management enhances response times, situational awareness, and resource allocation, making them invaluable tools in mitigating the impact of disasters on affected communities.}
+	\label{fig:fig1}
+\end{figure}
+
+
+
+
+\section{Scope of the Proposal}
+\label{Struct}
+
+
+
+
+\begin{figure}
+	\centering
+	\includegraphics[trim={0.5cm 0.5cm 0.5cm 0.5cm },clip,width=0.9\linewidth]{FigKa}
+	\caption[A wildfire detection system]{A wildfire detection system employing a network of Unmanned Aerial Vehicles (UAVs) equipped with advanced sensors represents a cutting-edge approach to early wildfire identification and management. In this system, UAVs, commonly known as drones, are strategically deployed across a targeted geographical area susceptible to wildfires. These UAVs are outfitted with a suite of sensors, including thermal imaging cameras and smoke detectors, capable of swiftly detecting signs of a wildfire. The network of UAVs operates collaboratively, constantly surveying the landscape from different vantage points and relaying real-time data to a central control system. The sensors on board are designed to recognize temperature anomalies and smoke patterns associated with wildfires. Once a potential threat is identified, the system can trigger immediate alerts to relevant authorities for prompt response. This proactive and automated approach not only accelerates the detection process but also facilitates a rapid and targeted deployment of firefighting resources to contain the wildfire, ultimately enhancing the efficiency of wildfire management efforts.}
+	\label{fig:scope}
+\end{figure}
+
+%This research seeks to answer the following question:
+%\begin{itemize}
+%	\item How can Drones Equipped with IMINT Sensors be used to simulate the phases of wildfire related disaster management in smart cities?
+%\end{itemize}
+\ignore{
+In disaster circumstances, \glspl{UAV} can be widely relied on to gather information about and respond to a disaster. However, in most of these applications the operator ($n$) to vehicle ($m$) ratios are high ($n \geq m$). These restrictions prevent the widespread use of cheaper, energy-efficient \glspl{UAV}. 
+From this point of view, a number of research studies have studied the use of swarms of unmanned aerial vehicles with different degrees of autonomy so that they can coordinate with each other through simple stations and communications that do not consume a lot of energy. For example, the use of unmanned aerial vehicles has limitations in terms of threat avoidance, which poses many challenges to swarm monitoring and management of procedures. 
+
+As swarm size increases, so does the complexity of guidance and information for a human operator and to monitor the safety of the swarm. \glspl{UAV} may be taken down due to fire or enemy attack.
+Drones have varying levels of autonomy, reaching from non-autonomous to fully autonomous. There are clear variances among automated and autonomous systems. Automated systems are pre-programmed to achieve tasks on their own, while autonomous systems can handle unanticipated circumstances by means of a pre-programmed set of rules to aid them make verdicts. 
+Another classification of levels of autonomy is shown in \autoref{fig:fig6}
+and  \autoref{fig:fig7}.
+%figures 1,6 and 1,7%  as below:
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.9\linewidth]{Fig6.png}
+	\caption{Unraveling 5 Levels of Drone Autonomy.}
+	\label{fig:fig6}
+\end{figure}
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.9\linewidth]{Fig7.png}
+	\caption{Levels of Drone Autonomy and Drone Applications.}
+	\label{fig:fig7}
+\end{figure}
+
+
+
+One of the objectives of this research is to improve the ratios of operator to unmanned aerial vehicles ($n < m$) regarding the use of unmanned aerial vehicle swarms in disaster management, by developing the idea of the cooperation of close swarm members with each other and with the human operator so that the human operators are able to direct the swarm through a set of instructions without having individual interaction with the swarm members except in a few cases.
+ 
+On the other hand, each member of the swarm can communicate with members close to it (or with the operator close to it) within a specified range. The operator cannot direct each drone where it should go, what tasks it should perform and what goals it should achieve. Therefore, the operator sets a target or a group of targets for the swarm to achieve. This means that the operator gives each member of the swarm a high degree of autonomy that allows them to make the appropriate decision about where they must go, the mission they must carry out and the goals they must achieve based on the inputs that are given to them.
+
+The approach in this research is based on interactive user interfaces that permit the operator to estimate the state of a swarm, direct and monitor it, and evaluate the information sent by that swarm. Interactive user interfaces can combine direct swarm guidance or give different degrees of autonomy to the drones in order to make appropriate decisions, without having to communicate with other swarm members being directed by the operator directly. Each member sends the information to the closest member of the swarm and this process continues until the information reaches the operator and allows him to estimate the state of the swarm and control it.
+The following procedures represent the activities and plans that we will undertake in this research:
+\begin{enumerate}
+	
+	\item  First, we will evaluate the impact of diverse visualization methods on the usability of interactive user interfaces between swarm members and the operator and report the outcome. We can do this step by a user study or reviewing the various research conducted in this field.
+	\item  Second, after the evaluation process that we will do in the previous step, we can choose the preferred visualization method in order to build the appropriate interactive user interface for our research. Choosing the best method will allow to reduce the number of scenarios an operator must rely on in order to monitor and control the swarm.
+	\item  Third, in this step, we can propose a method of joint decision-making in a loop that includes the human operator and the unmanned aerial vehicle swarm, so that the human operator is also treated as a member that can rely on interaction with close members in order to assess and control the status of the swarm.
+ In this step, we will rely on the simulation of the disaster management in order to study the effectiveness of a swarm in tracking a disaster status (for example, a wildfire) based on a single human operator and minimal interactions.
+\end{enumerate}
+
+By adopting these steps, it is expected that a new model will be presented that considers the operator and swarm as one team and develops interaction mechanisms that guarantee the concept of flexible autonomy.
+The research problem is the need to track, respond and deal with disasters that are detected on the ground, which are dynamic phenomena, through the use of unmanned aerial vehicles. Phenomena is time-dependent and have properties that change over time. One example of a disaster can easily be chosen to represent the issue of integrating different topics such as coordination and uncertainty, although there are probably many examples worth researching.
+}
+
+This study focuses on the challenging task of anticipating wildfires, given their unpredictable occurrence rates, which complicates tracking efforts. Variables such as vegetation density, dryness, wind direction, environmental humidity, and temperature significantly impact predicting fire direction and progression. Despite insights gained from combining these factors, accurately predicting the fire line remains exceptionally difficult. Addressing this challenge, the utilization of UAV swarms offers a solution for precise and independent real-time fire tracking. Deploying drone swarms, each equipped with cameras and  sensors, proves to be an effective strategy for acquiring essential information for disaster management. These systems define an Area of Interest (AOI) and streamline the transmission of data collected by diverse sensors to human operators, aiding decision-making at various stages of disaster management. We aim to incorporate a learning mechanism into the ground station to enhance wildfire detection.
+
+In scenarios marked by low visibility, such as adverse weather and dense fog, conventional cameras struggle to provide essential monitoring. In these instances, infrared cameras and thermal imaging devices, which capture images based on temperature readings, are employed. This technology allows for comprehensive visibility in challenging conditions, thereby enhancing monitoring capabilities.
+In disaster management, access to critical real-time data from a safe distance facilitates timely decision-making for effective response and mitigation. This resilience has the potential to transform disaster planning, preparedness, response, and reconstruction. Electro-optical and infrared camera systems play a vital role in collecting data crucial for decision-making processes. The utilization of multiple  sensors in UAVs offers a versatile range of applications for specific emergency tasks, disaster response, and loss prevention and mitigation. The condition awareness capabilities provided by these sensor systems improve data collection for real-time or post-event analysis. Additionally, distributed learning methods, such as federated learning, will be applied to leverage the benefits of distributed learning.
+
+
+
+
+\section{Structure of the Proposal}
+
+
+The remaining sections of this document are structured as follows. In \autoref{ChapterConcept}, we present the fundamental concepts utilized in this proposal, commencing with an exploration of disaster management in \autoref{SDisasterManagement}. \autoref{UAVsec} provides insights into Unmanned Aerial Vehicles. 
+%The concepts of Imagery Intelligence and Levels of Autonomy are discussed in \autoref{Imagery Intelligence s} and \autoref{Levels of Autonomy s}, respectively. Additionally, \autoref{Drone Controlss} introduces the concept of Drone Control. 
+Two learning methods integral to this proposal, namely Convolutional Neural Network, are covered in \autoref{Convolutional Neural Network ss}, and Federated Learning is discussed in \autoref{Federated Learning}. In \autoref{RelatedWork}, we will examine the latest advancements within the proposed scope, reviewing the state-of-the-art research and studies in the relevant field. In \autoref{ChapModeling}, we will delve into a comprehensive discussion concerning the model architecture, dataset selection, performance metrics, and various simulation tools (to be) employed within the framework of this proposal.
+
+
+
+
+\chapter{Concepts}
+\label{ChapterConcept}
+%\section{Some Key Concepts} 
+\section{Disaster Management} \index{Disaster Management}
+\label{SDisasterManagement}
+Disaster management (or emergency management) is the guidelines for dealing with and evading risks.%  (Bullock & Haddow, 2005).
+These are guidelines that contain preparation for catastrophe circumstances before they occur, catastrophe response (eg, emergency evacuation, isolation, mass cleansing, etc.), support, and reconstruction of civilization after human or natural disasters have happened. In overall, any emergency management is an ongoing process by which all persons, groups and communities manage risks in an effort to evade or lessen the effects of catastrophes produced by hazards. The movements taken depend in part on the remarks of the danger of those exposed to it.% (Wisner \textit{et al.}, 2004). 
+The disaster management process consists of the phases: mitigation, preparedness, response, and recovery. Disaster management in its mentioned basic phases is concerned with mitigating the possibility of risks turning into disasters, preparing for those disasters if they occur and reducing the risks resulting from them, in addition to rescue operations and reducing the economic losses resulting from disasters as much as possible, and facilitating the recovery process in the short and long term.%(Coppola, 2015).
+
+ Remote sensing has played a major role in the implementation of disaster management phases in various countries of the world, especially with regard to sudden natural disasters such as storms, floods, earthquakes, hurricanes, landslides, fires and volcanic eruptions.% (Twigg, 2004).
+ 
+In the mitigation phase, remote sensing applications assess risks using GIS and model them based on digital elevation models obtained by remote sensing techniques, including satellites, manned and unmanned aircraft, and these applications can predict flood and tsunami damage, thus helping to reduce such damage in the event of a disaster. % (FEMA, 2017, 2018a, 2018b). 
+
+In the phase of disaster preparedness, the applications used depend on geographical data that is provided before the disaster, which shows the natural features, facilities and various built assets. This data is derived from manual interpretation and digitization of optical images of satellites, manned and unmanned aircraft. % (EU, 2020a).
+As for the disaster response phase, there are applications that quickly draw maps in order to determine the amount of risk to buildings and facilities, through manual comparison of optical images taken by manned, unmanned aircraft and satellites before and after the disaster. For example, in the event of a fire or flood, optical and radar satellite images before and after the event are automatically analyzed respectively.% (In`es \textit{et al.}, 2020). 
+In the last phase of disaster management, the recovery phase, reconstruction monitoring is conducted through manual comparison of multi-time satellite optical images and manned or unmanned aircraft .%(EU, 2020b).
+
+\section{UAVs} \index{UAV}
+\label{UAVsec}
+Drones or UAVs are aircrafts that are preprogrammed with a course to follow or remotely operated. They typically transport a payload to carry out their functions as camera or even missiles. UAVs are primarily used for military operations like monitoring and attack, but their use in civil tasks like fighting fires and pipeline control has grown significantly. This is because UAVs can perform tasks that conventional aircraft cannot, such as meeting the pilot's needs for a cabin, aircraft control mechanisms, and environmental factors. This aircraft revolutionized the essence of aerial combat so that the controllers of the aircraft was not in any real danger by eliminating requirements for pressure and oxygen and lowering the weight and cost of the aircraft \citep{walters2016can}% . %(Walters, 2018).
+
+Perhaps the UAVs, one of the most prominent of those technical phenomena that took its share of technological development, moved from being just unmanned remote-controlled aircraft, of large size, that did not exceed military use during the era of World War I to a tool equipped with the latest Techniques that allow monitoring the number on the battlefield. The development of drones did not stop only to this extent, but the technology of drones extended outside the army, weapons and wars, to take a smaller form and newer technologies that allow them to carry out civilian functions that include many sectors and fields, such as their use in geographical surveys, agriculture, follow-up search and rescue missions, delivery Products and humanitarian aid delivery, mail distribution.
+
+Among the civilian uses of drones, which constitutes the main element in this study, is the use of this technology in disaster management and to carry out tasks quickly, more accurately and effectively. The researchers were interested in studying how to use this type of aircraft usefully during the performance of tasks related to disaster management and to enhance the element of creativity and excellence in collecting, processing and presenting data to operators clearly, quickly and in real time.
+These gadgets are made using infrared cameras that record variables including wind speed and direction as well as high-resolution images of smoke. Firefighters can utilize UAVs to locate quick escape routes because they can operate at low altitudes \citep{twidwell2016smokey}.% (Twidwell \textit{et al.}, 2016).
+
+In disaster management, fighting wildfires for example, the use of drones reduces the risks to pilots and firefighters in the wild. Drones are easy to pack and can fly in locations that manned aircraft cannot reach. These planes can fly at speeds of 40 miles an hour or more. Drone operators can fly the machines at various speeds to improve visibility for onlookers. A personal computer at a portable ground station can view communication from UAVs or UAVs. The drone can fly for an hour without recharging, has a range of around eight miles, weighs 15 pounds, and has a wingspan of six feet. The aircraft can be set up to fly autonomously, but during tests, a safety pilot will keep an eye on things. These can also be used as instruments to start planned fires under supervision to get rid of bushes that are difficult to uproot. Drones are used in the study and control of fires. %(Drones: A Tool For Early Wildfire Detection, 2014).
+
+
+\ignore{
+\section{Imagery Intelligence} \index{Imagery Intelligence}
+\label{Imagery Intelligence s}
+\gls{IMINT}, which can be pronounced either as IMINT or I-Mint, is a discipline of intelligence collecting in which imagery is studied (or "exploited") to find information with a value for gathering intelligence. In most cases, satellite imagery or satellite imaging is employed to capture the imagery needed for defense intelligence objectives \citep{corps2002imagery}.% (Pike, 2004).
+
+A strong intelligence gathering management system is crucial to the production of IMINT as an intelligence collection discipline. Non-imaging MASINT electro-optical and radar sensors work in conjunction with IMINT \citep{kuperman1997human}.% (Kuperman, 1997).
+Information is gathered from sensors with \gls{IMINT}. IMINT are optical sensors, such as \gls{IR}, \gls{EO}, and hyperspectral cameras. These sensors can be utilized for practically any kind of disaster and at any level of disaster management. For instance, drones with hyperspectral cameras can be used to acquire a comprehensive picture of potential damage after a wildfire, earthquake, storm, etc. \citep{WORDEN2020106754}.%(Worden et al, 2020).
+
+Hyperspectral cameras capture images in the observable and near-infrared portion of the electromagnetic range, and image integration times range from 1 to 2 seconds. When flying at relatively high speeds, this integration time may result in spatial shifts of spectral bands within a scene, which means significant changes in illumination conditions in bands of a single scene, resulting in inconsistent and unsuitable hyperspectral output for interpretation. This problem can be overcome by equipping drones with cameras with hyperspectral sensors, because the drones can maintain a fixed position in the air during data acquisition, which causes the spectral bands of the same image to overlap strongly and prevents large changes in illumination, and this means the results will be consistent and suitable for more interpretation.% (Jakob \textit{et al.} 2017).
+
+In areas with low visibility conditions, such as bad weather, inadequate lighting, dense fog, and physical barriers, ordinary cameras are less capable of providing the necessary monitoring. Therefore, infrared cameras and thermal imaging devices are used in these cases, which take pictures based on temperature readings, and thus are able to provide a view of almost everything.
+
+The balance between the intelligence product's timeliness and robustness determines the usefulness of IMINT reports. As a result, intelligence professionals traditionally see the accuracy of intelligence that can be gained through imagery analysis as a consequence of the amount of time a picture analyst (IA) has to fully utilize a particular image or series of imagery. %(Department of The Army, 2010).
+
+\section{Levels of Autonomy} \index{Levels Of Autonomy}
+\label{Levels of Autonomy s}
+A human-operated system with no individual control over the environment and complete human decision-making in regards to drone operation is considered to have the lowest degree of autonomy for an autonomous system.
+A human-delegated system has a higher level of autonomy because it can carry out many tasks on its own but needs a human controller to turn it on or off.
+A system that is overseen and given instructions by a human being is considered to be autonomous on the third level. Only within the parameters of the current work can this system, along with the supervisor, start activities based on sensor data.
+An entirely independent system is the highest level of autonomy. This system receives human command input and turns it into detailed tasks deprived of human interaction with the exclusion in the occurrence of an emergency. %(Fergo, 2016).
+}
+\section{Drone Control} \index{Drone Control}
+\label{Drone Controlss}
+%Figure 1,8 
+\autoref{fig:fig8}
+displays a schematic of a drone control system in general. The drone also features the required sensors to maintain its steadiness throughout all labor stages, such as launch, loiter, and mooring, in addition to the rotors, engines, and their motorists. Typically, the stabilization task involves the use of sensors or Angular Heading Reference Systems (AHRS). Also, we added IMNT sensors in our study as we mentioned before, every action the drone does is controlled, including stabilized flying, initiation, landing, climbing, and falling. The drone’s aerodynamic modeling is outside the purview of this study, and the dynamic equations are available in \citep{bhatt2018targeted}.
+%(Nakamura, M.; et.. 2019).
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.95\linewidth]{Fig8.png}
+	\caption{General Drone Control System.}
+	\label{fig:fig8}
+\end{figure}
+
+Drivers of the drone motors employ the \gls{MMA} orders to generate appropriate actions such as varying speed, altitude, and attitude in accordance with the direction algorithm, which in turn depends on the drone assignment \citep{ceppi2020model}. %(Ceppi, P. 2020)
+ The thrust and angle-related signals (yaw, pitch, and roll) are converted into the appropriate control signals by MMA. A well-defined overall system model is required in order for the commands that constitute the task to be ready when disconnected and kept in an aboard computer for use in an open-loop manner. Since it is practically difficult to obtain a well-determined model, the closed-loop system is typically utilized built on the obtainable dimensions and the projected state. A straightforward path-tracking mission to define the path, a few landmarks are picked out in suitable areas and saved in the aboard computer. The drone searches for these landmarks while on the operation.
+
+
+The drone's navigation system gathers data from sensors and graphic systems to provide it with the necessary characteristics for producing the right command messages. The features of each subsystem involved, including steering, controller, motor drivers, sensors, and other subsystems, determine how well the task is carried out. The path tracking mission will be more accurate the more precise the position that is reported to the control system. Imaging technologies are useful in these circumstances because they provide a wealth of information about the environment's surrounding structures. if the image's utilized data consists of points in image coordinates ($u,v$) then the necessary drone (camera) velocity to fly to the specified place can be obtained using the interaction matrix \citep{cong2019evaluate}. %(Cong, V.D et…2019)
+The relationship between the motion of the points in the actual world and their projections onto the picture plane is represented by the interaction matrix. Equation illustrates the relationship in following equation:
+%\cref{eq:1} 
+%equation (1).
+
+\begin{equation} 
+\left( {\begin{array}{c}
+		v_{x} \\
+		v_{y} \\
+		v_{z} \\
+\end{array} } \right) =  - \lambda \left(J^+\right)
+ \left( {\begin{array}{c}
+u_{1} - u_{1}^*  \\
+v_{1} - v_{1}^*  \\
+u_{2} - u_{2}^*  \\
+v_{2} - v_{2}^*  \\
+.\\
+.\\
+u_{n} - u_{n}^*  \\
+v_{n} - v_{n}^*  \\
+\end{array} } \right)\label{eq:1}
+\end{equation}
+
+where $J$ is the contact matrix which has a pseudo-inverse $J^+$, and n is the number of features. is an optional constant. The left side vector represents the speed at which the drone must travel in order to arrive at the location indicated by the vector $(u_1^*, v_2^*, \dots,  u_n^*, v_n^*)$.
+When relying on a predefined object, one option is to servo to the object's center. Equation offers a suggested formula that will be used to change the object and current camera image centers, the waypoints are situated at the center of the landmark hence this method was employed \citep{senpheng2015automatic}.% (Senpheng, M er.. 2015).
+Models for drone autopilots that are well-suited to advanced simulation settings include px4 and IRIS from Ardupilot. These models produce more realistic results with no additional costs when used in 3D environments like the one chosen. They offer considerable suppleness in modifying and repetition trials in addition to being free, which makes realization in the real world simpler. In addition to giving directions to the drone, including the intended headline viewpoint and speed, ROS enables subscribers to the drone's sensors' signals, including the camera's picture, \gls{GPS}, and compass. In this study, ROS was used. In a nutshell, the developed subsystem creates the necessary speed and headline viewpoint to manage the drone course using the visual data from the camera.
+
+\section{Convolutional Neural Network} \index{Convolutional Neural Network}\index{CNN}
+\label{Convolutional Neural Network ss} 
+A deep learning network architecture known as a convolutional neural network (CNN or ConvNet) learns directly from data, doing away with the requirement for human feature extraction. CNNs are very helpful for recognizing objects, faces, and scenes in photos by looking for patterns in the images. For categorizing non-image data, such as audio, time series, and signal data, they can be highly useful. \glspl{CNN} are a key component of many computers vision and object identification applications, including those used in self-driving cars and face recognition.% ( Hubel DH,et.. 1968).
+
+To better understand \gls{CNN}, we can say that to process information having a network design, for example images, \gls{CNN} is a type of deep learning model. The design of the animal visual brain served as an inspiration for \gls{CNN}, which was developed to dynamically and adaptively acquire three-dimensional ladders of information from low-level to higher-level patterns. Convolution, merging, and fully linked layers make up the trio different kinds of layers that make up a \gls{CNN}. Convolution and pooling layers, the first two, extract features, while a fully connected layer, the third, translates the extracted features into the final output, such as classification. An important part of \gls{CNN}, which is composed of a series of mathematical operations, is a convolution layer, a particular sort of linear operation.% ( Fukushima K,1980).
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.9\linewidth]{Fig9.png}
+	\caption[CNN Work Mechanism ]{Convolutional Neural Networks (CNNs) function through a hierarchical and localized mechanism for feature extraction, particularly adept at tasks involving image data. These networks utilize convolutional layers to apply filters, systematically scanning input images to extract local features like edges and textures. Activation functions, typically ReLU, introduce non-linearity, facilitating the learning of complex patterns. Pooling layers downsample feature maps, reducing computational complexity and enhancing translational invariance. The flattened feature maps then progress through fully connected layers, which learn global patterns and relationships. The final output layer produces network predictions, guided by backpropagation and optimization algorithms during training. CNNs excel in automatically learning hierarchical representations, making them powerful for image-related tasks such as classification and object detection. The combination of convolutional, pooling, and fully connected layers enables CNNs to discern intricate patterns, contributing to their efficacy in various computer vision applications \citep{yamashita2018convolutional}.}
+	\label{fig:fig9}
+\end{figure}
+
+
+a description of the \gls{CNN} architecture and the training process. Some of the component parts that make up a \gls{CNN} are convolution layers, pooling layers (such as max pooling), and \gls{FC} layers. By backpropagation with the gradient descent optimization algorithm, a learnable parameter, such as kernels and weights, is modified in line with the loss value. Forward propagating on a training data is used to calculate a performance of the model under particular kernels and weights. linear rectified unit (ReLU).
+In the widespread of current radiomics inquiries, manually created feature extraction approaches, like texture examination, are used first, Conventional machine learning classifiers, such as support vector machines and random forests, are next
+\citep{aerts2014decoding}.
+ %(Aerts HJ,et.. 2014).
+ There are a number of distinctions between such approaches and \gls{CNN}. First of all, \gls{CNN} does not demand meticulous feature extraction. Second, segmenting tumors or organs by human With \gls{CNN} designs, expertise are not always essential. Third, because \gls{CNN} must estimate millions of learnable parameters, it demands \glspl{GPU} for training the model as it is more computationally very expensive and has a greater data appetite.
+
+\section{Federated Learning} \index{Federated Learning}\index{FL}
+\label{Federated Learning}
+
+Federated Learning (FL) is considered the new dawn of AI. The notion of FL was initially introduced by Google in 2016. It was first applied in the Google keyboard to understand the combineddata from different Android devices. FL has gained a lot of interest recently and has ledto successful attempts to develop learning-based applications across distributed devices. FL permits distributed learning without the exchange of raw data thereby improving the privacy \citep{electronics11172714} of the data by keeping them on the client side. In addition to this, FL also ensures the reduction of the communication cost that is incurred between the server and the client \citep{mcmahan2023communicationefficient}. Since the data at the client are not sent to the server for training purposes, the latency in communication between the client and server is reduced. FL can also use vast amounts of data on remote devices \citep{kone2015federated}. FL is implemented in scenarios where security \citep{9566732} and privacy are very important. \autoref{fig:figfl} explains the framework of FL.
+The following steps brief the working of FL:
+\begin{itemize}[label={\checkmark}]
+\item The server creates a model based on the data available,
+\item Sends a copy of the model to all the clients and the model is trained on each client
+based on the local data,
+
+\item The models that are trained at clients are sent back to the server,
+\item The models sent from each client are aggregated on the server side using aggregation
+algorithms,
+\item The server sends the new updates to the client and this process repeats till the optimal
+model is created,
+
+
+\end{itemize}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.6\linewidth]{figFL.png}
+	\caption[Arichitecture of FL.]{The architecture of Federated Learning is a distributed and privacy-preserving approach to machine learning. Client devices, such as smartphones or edge devices, locally train a global model initialized on a centralized server using their own datasets. Model updates, capturing the local changes, are then sent to the central server for aggregation. The central server collects and combines these updates to update the global model, which is then shared back with the client devices. This iterative process continues until the model converges or a predefined stopping point is reached. Crucially, raw data never leaves the client devices, ensuring privacy, and various security measures, including encryption and differential privacy, are implemented. Federated Learning's architecture allows collaborative learning across decentralized devices, making it suitable for applications where data privacy is paramount, such as in healthcare or personal devices.}
+	\label{fig:figfl}
+\end{figure}
+
+
+In the upcoming chapter, we will provide an introduction to the related work pertinent to our study. This section will delve into the existing literature and research that forms the foundation for our investigation. By exploring the context in which our study operates, we aim to comprehensively review and analyze prior research conducted in the field. This will include an examination of studies, methodologies, and findings that are directly relevant to our research objectives. Through this thorough exploration of the related work, we intend to establish a framework that contributes to the existing body of knowledge and positions our study within the broader academic discourse on the subject matter.
+
+
+
+
+\chapter{Related Works}
+\label{RelatedWork}
+In this chapter, we will conduct a comprehensive review of the most recent studies and research within the scope of this proposal. Our examination will encompass a thorough exploration of relevant literature, methodologies, and findings that contribute to the understanding of the key concepts and objectives outlined in our proposal. By scrutinizing the latest works in the field, we aim to identify gaps, trends, and advancements that will inform and contextualize our research. This literature review will serve as a foundational step, positioning our study within the current academic landscape while providing insights that contribute to the overall knowledge and discourse in the subject area.
+
+\section{State-of-the-art works}
+The realm of wildfire detection has undergone a transformative shift with the convergence of Unmanned Aerial Vehicles (UAVs) and artificial intelligence (AI) techniques, drawing substantial attention. Diverse methodologies within UAV-based wildfire detection, such as object detection, image classification, semantic segmentation, and optimization algorithms, have been explored.
+Initiating the narrative, Kinaneva, Diyana, \textit{et al.} \citep{8756696} (2019) propelled an innovative fire detection and control approach, harnessing the potential of UAVs equipped with AI capabilities. Their platform, utilizing computer vision methods, enables the recognition and detection of smoke or fire based on still images or video input from drone cameras. The exploration includes scenarios involving both fixed and rotary-wing drones.
+Transitioning seamlessly, Saeed, Faisal, \textit{et al.} \citep{saeed2020convolutional} (2020) addressed the limitations of traditional fire detection models, proposing a method grounded in machine learning and deep learning algorithms. Their hybrid model, comprising Adaboost and MLP neural networks, Adaboost-LBP model, and convolutional neural network, showcases high accuracy, nearly 99\%, with a commendably low false alarming rate.
+
+
+
+Complementing this, Akhloufi, Moulay A., \textit{et al.} \citep{akhloufi2021unmanned} (2021) delve into the role of UAVs in wildland fire assistance and fighting, emphasizing their utility in remote sensing, allocation strategies, and task planning. The study positions UAVs as a cost-effective alternative for large-scale wildland firefighting strategies.
+The panorama extends further with Bouguettaya, Abdelmalek, \textit{et al.} \citep{bouguettaya2022review} (2021), focusing on the pivotal role of remote sensing technologies, particularly UAV-based systems, in early wildfire detection. The study amplifies the significance of deep learning-based computer vision algorithms for preemptive wildfire detection.
+
+
+Shroff, Prisha, \textit{et al.} \citep{shroff2023ai} (2022) contribute to the discourse by addressing the global wildfire threat, proposing an AI-based Wildfire Prevention, Detection, and Suppression System (WPDSS). Leveraging real-time satellite data, machine learning algorithms, and drone deployment, WPDSS demonstrates high accuracy, showcasing its potential to mitigate the impacts of climate change.
+The synergy of UAVs and AI for wildfire detection unfolds in a distributed optimization and monitoring context. Bailon-Ruiz, Rafael, \textit{et al.} \citep{bailon2022real} (2022) introduce a wildfire monitoring system based on a fleet of UAVs, employing the Variable Neighborhood Search metaheuristic to plan trajectories. This system provides precise, up-to-date information for efficient firefighting.
+The narrative reaches a crescendo with Zhang, Audrey, and Albert S. Zhang \citep{zhang2022real} (2022), where a novel machine learning approach for real-time spot wildfire detection takes center stage. The study compares different Convolutional Neural Network (CNN) approaches, achieving higher detection precision and underlining the pivotal role of artificial intelligence in real-time wildfire detection and alerting.
+Mukhiddinov, Mukhriddin, \textit{et al.} \citep{mukhiddinov2022wildfire} (2022), in their work on present a solution for early wildfire detection. By curating a substantial dataset and optimizing the YOLOv5 model, they achieved an average precision of 73.6\%, surpassing other object detectors.
+In a different approach, Saffre, Fabrice, \textit{et al.} \citep{drones6100301} (2022), delve into the potential of autonomous drone swarms for monitoring and cordoning wildfires. Through Monte Carlo simulation, they explore the influence of parameters such as fire propagation dynamics and swarm size on the performance of an autonomous drone force. Their findings contribute valuable insights for real-time situational awareness during firefighting efforts.
+Ghali, Rafik, \textit{et al.} \citep{ghali2022deep}, (2022).  take a deep learning and transformer-based approach to UAV-based wildfire detection and segmentation. Addressing challenges like small fire size and image degradation, their novel ensemble learning method and vision transformers showcase promising results, with an accuracy of 85.12\% for wildfire classification and F1-scores of 99.9\% and 99.82\% for semantic segmentation.
+
+Recently, Alkhatib, Ramez, \textit{et al.} \citep{alkhatib2023brief}, (2023) provide a brief review of machine learning algorithms in forest fire science, acknowledging the increasing frequency of forest fires globally. Focused on the application of artificial intelligence, they evaluate various machine learning techniques, aiming to identify gaps and recent studies in this critical domain.
+Kim, Soon-Young, and Muminov, Azamjon \citep{kim2023forest},(2023). propose a refined version of the YOLOv7 model for forest fire smoke detection. Leveraging 6500 UAV images and incorporating attention mechanisms, they achieve an impressive AP50 of 86.4\%, surpassing the performance of previous detectors and emphasizing the significance of early smoke identification.
+In the continuum, James, George L., \textit{et al.}  \citep{james2023efficient} (2023) present a methodology focusing on designing an efficient machine learning system for wildfire detection using satellite imagery. Utilizing a MobileNet convolutional neural network model, their approach showcases good classification accuracy, with a significantly lighter computational load compared to a full-depth network.
+Vılchez, Enrique, \textit{et al.} \citep{vilchez2023towards} (2023) contribute to the evolving landscape by presenting an approach to building control software for UAVs, enabling autonomous monitoring of wildfires. This proposal integrates artificial intelligence techniques, including Recurrent Neural Networks (RNNs) and Deep Reinforcement Learning (DRL), showcasing the potential of smart cyber-physical systems, such as small UAVs, in monitoring, predicting, and mitigating wildfires.
+Beyond AI techniques, the interplay of environmental factors in wildfire detection is illuminated by Partheepan, Shouthiri, \textit{et al.} \citep{partheepan2023autonomous}(2023). Their comprehensive review underscores the increasing role of UAVs in bushfire management, delving into the advantages of UAV technology coupled with artificial intelligence for fire detection, prediction, and monitoring.
+In synthesis, the literature review on UAV-based wildfire detection using AI techniques unveils a tapestry of research areas, embracing AI algorithms, environmental factors, distributed optimization, hydrological impacts, and predictive modeling. The integration of UAVs and AI emerges as a promising avenue for early wildfire detection, monitoring, and mitigation in a holistic and interdisciplinary manner.
+
+
+\begin{table}[]
+	\caption{Cutting-edge research within the scope of this proposal}
+	\begin{tabular}{|p{0.75cm}|p{0.5cm}|p{6cm}|p{7cm}|}
+		\hline
+		\multicolumn{1}{|c|}{Ref.}                  & \multicolumn{1}{c|}{Year} & \multicolumn{1}{c|}{Proposed idea}                                                               & Technique                                                                                                                                                               \\ \hline
+		\citep{8756696}                  & 2019                      & Innovative fire detection and control using UAVs with AI   capabilities.                         & Computer vision methods for smoke or fire recognition in images   or video from drone cameras.                                                                          \\ \hline
+		\citep{saeed2020convolutional}   & 2020                      & Method based on machine learning and deep learning for fire   detection.                         & Hybrid model with Adaboost and MLP neural networks, Adaboost-LBP   model, and convolutional neural network.                                                             \\ \hline
+		\citep{akhloufi2021unmanned}     & 2021                      & Emphasizes the role of UAVs in wildland fire assistance.                                         & Review of UAVs' utility in remote sensing, allocation strategies,   and task planning.                                                                                  \\ \hline
+		\citep{bouguettaya2022review}    & 2021                      & Focuses on the pivotal role of UAV-based systems in early   wildfire detection.                  & Deep learning-based computer vision algorithms for preemptive   wildfire detection.                                                                                     \\ \hline
+		\citep{shroff2023ai}             & 2022                      & AI-based Wildfire Prevention, Detection, and Suppression System (WPDSS).                         & Real-time satellite data, machine learning algorithms, and drone   deployment.                                                                                          \\ \hline
+		\citep{bailon2022real}           & 2022                      & Introduces a wildfire monitoring system based on a UAV fleet.                                    & Uses Variable Neighborhood Search metaheuristic to plan   trajectories for precise firefighting.                                                                        \\ \hline
+		\citep{zhang2022real}            & 2022                      & Novel machine learning approach for real-time spot wildfire   detection.                         & Compares different Convolutional Neural Network (CNN) approaches   for higher detection precision.                                                                      \\ \hline
+		\citep{mukhiddinov2022wildfire}  & 2022                      & Early wildfire smoke detection using UAV images based on   optimized YOLOv5.                     & Optimized YOLOv5, anchor box clustering, spatial pyramid pooling,   bidirectional feature pyramid network, network pruning, and transfer   learning.                    \\ \hline
+		\citep{drones6100301}            & 2022                      & investigates the potential of autonomous drone swarms for   monitoring and cordoning wildfires.  & Monte Carlo simulation exploring the influence of parameters on   swarm performance.                                                                                    \\ \hline
+		\citep{ghali2022deep}            & 2023                      & Deep learning and transformer-based approach to UAV-based   wildfire detection and segmentation. & Ensemble learning method using EfficientNet-B5 and DenseNet-201   models, vision transformers (TransUNet and TransFire), and deep convolutional   model (EfficientSeg). \\ \hline
+		\citep{alkhatib2023brief}        & 2023                      & Brief review of machine learning algorithms in forest fire   science.                            & Review of various machine learning techniques applied to forest   fire prediction.                                                                                      \\ \hline
+		\citep{kim2023forest}            & 2023                      & Refined version of YOLOv7 for forest fire smoke detection using   UAV images.                    & YOLOv7 model, CBAM attention mechanism, SPPF+ layer, decoupled   heads, BiFPN, and learning weights for network optimization.                                           \\ \hline
+		\citep{james2023efficient}       & 2023                      & Efficient machine learning system for wildfire detection using   satellite imagery.              & MobileNet convolutional neural network model with image   augmentation.                                                                                                 \\ \hline
+		\citep{vilchez2023towards}       & 2023                      & Building control software for UAVs for autonomous monitoring of   wildfires.                     & Integration of artificial intelligence techniques, including   Recurrent Neural Networks (RNNs) and Deep Reinforcement Learning (DRL).                                  \\ \hline
+		\citep{partheepan2023autonomous} & 2023                      & Comprehensive review of the role of UAVs in bushfire management.                                 & Emphasizes advantages of UAV technology coupled with artificial   intelligence for fire detection, prediction, and monitoring.                                          \\ \hline
+	\end{tabular}
+\end{table}
+
+\section{Optimization Strategy}\index{Optimization Strategy}
+The goal of the world is to optimize every facet of a natural phenomenon. As a result, numerous scholars created optimization techniques for multi-dimensional issues in numerous fields. These algorithms offer the best solutions for UAVs for Smart Cities issues, such as lowering production costs, increasing strength, efficiency, and dependability, and decreasing convergence rate and energy consumption. According on the information provided in, the optimization algorithms can be divided into biological, physical, and geographic categories. Swarm-based and evolution-based algorithms are additional categories for biological algorithms in our research we are going to use drone deployment algorithm \citep{israr2022}.   %. %(Israr, A. Et al,2022).
+
+Swarm-based algorithms developed from nature-based and population-based ones. The collective behavior of all the agents is represented by the swarm. Despite having restricted powers, a swarm of agents can cooperate to complete tasks even when they are spread out at a distance. As a result, even in the face of uncertainties and complexity, quick, inexpensive, and ideal solutions are obtained. \gls{ANT} algorithm, \gls{ABC} algorithm  and \gls{PSO}, \gls{CRO} algorithm, \gls{AIS}, \gls{BFO} algorithm, \gls{CS} algorithm, \gls{SFLA} algorithm, \gls{TLBO} algorithm, Firefly algorithm, and \gls{PIO} are a few examples of these algorithms \citep{israr2022}.  
+
+An intelligent swarm-based algorithm called AIS is built on the fundamental concepts of the human immune system. It possesses traits similar to the immune system of memory and learning that can be used to address issues. With minimal processing, it provides appropriate path planning trajectories. The movement idea of an insect crowd served as the foundation for PSO development. Every lone particle This fact-finding approach layout locates the points provided by the preceding swarm in the crowd and creates a velocity vector in the direction of the target point. This method's key benefit is that it can provide 3D optimal path planning, but it also has certain disadvantages, such as premature convergence and excessive temporal complexity. Escherichia coli bacteria, known for their foraging habits, are known to reside in human intestines and Passino has created a formula based on these bacteria. He dubbed this shrewd program BFO \citep{israr2022}.  
+
+It offers quick convergence and an international search. The CS algorithm employs the theoretically better answer in place of the average solutions. The ABC method offers answers to a variety of constrained optimization issues. The ACO algorithm, which is based on how ants deposit food during their foraging activities, has been shown to be a meta-heuristic method for determining the shortest path when navigating continuous and multi-objective path planning problems. With several benefits, the CRO algorithm effectively solves challenging optimization challenges. The TLBO method is simple to use and requires little computer memory. For multimodal optimization issues, FA is effective. It determines the most energy-efficient placement for UAVs \citep{israr2022}.  
+
+
+\begin{figure}
+	\centering
+	\includegraphics[angle=90,origin=c, trim={0cm 2cm 0cm 0cm },clip,width=0.85\linewidth]{Fig14.pdf}
+	\caption{Classification of Optimization algorithms.}
+	\label{fig:fig14}
+\end{figure}
+
+
+
+
+
+\ignore{
+\section{}
+Disaster management is a well-studied problem that places great emphasis on disaster response and resource allocation. Several recent studies have looked at disaster management tasks that can be efficiently performed by drone swarms. Some studies address the problem of formation of drone swarms, while others address the problem of coordination between swarm members. Fewer studies have been done of IMINT sensors for drones for use in the phases of disaster management. We consider drones to be armed with multiple IMINT sensors that can work in various phases of crisis management.
+
+Coordination issues are addressed in a number of research on multi-UAV cooperative control systems. The reported applications center on a system intended to manage and watch over a region. Aerial photography as a tool for monitoring and managing fire activity was the subject of one of the earlier investigations.
+
+In the state-of-the-art solutions researchers use most of the capabilities of the new technologies, however, they still miss the option to combine with the advantage of deployed fleet of UAVs to improve the uncertainty of different mission variables.
+
+\index{MILP}\index{ISR}
+McKenzie R. Worden discusses the issue of making the most of information gathering and exchange between an autonomous resource and a control station in a situation where bandwidth is constrained. In disaster response, \glspl{UAV} are used to get information and provide support for  \gls{ISR}. It frequently has numerous heterogeneous sensors attached on the gimbal, producing a lot of data that is sent to task managers via a communications network. For this issue, a  \gls{MILP} was developed. However, \gls{MILP} can only handle small-scale issues because of how intricate this topic is. It has been demonstrated through rigorous testing that a three-stage heuristic strategy is capable of resolving high-volume situations. The analysis presented by McKenzie R. Worden also gives insight into the characteristics of this problem and its impact on mission success.
+
+\item   \textbf{Experimental Results in Multi-UAV Coordination for Disaster Management and Civil Security Applications \citep{maza2011experimental}:} 
+In “Experimental Results in Multi-UAV Coordination for Disaster Management and Civil Security Applications”, Iván Maza et al discuss a distributed multi-UAV decision architecture developed under the AWARE project, a number of experiments using actual unmanned aerial vehicles, and Wireless Sensor Networks to support this strategy in applications for disaster management and civil security. The article outlines the various AWARE platform components as well as the situation in which the numerous UAV tasks were carried out. The activities covered in this study involve sensor placement, monitoring with several drones, and confirming fire risk. In order to prevent repetition, only the non-overlapping components of each task are highlighted rather than explaining how the entire structure of each task functions. The main problems in the UAV systems such as the distribution of tasks, conflict resolution and the refinement of the plan in the implementation of tasks were resolved.
+
+
+\item  \textbf{The Use of Drones in Disaster Aerial Needs Reconnaissance and Damage Assessment – Three-Dimensional Modeling and Orthophoto Map Study \citep{zwkeglinski2020use}:}
+Tomasz Zweglinski aims to offer disaster managers with test outcomes of 3D modeling and orthophoto charting, to add value to atmospheric assessments of flood-related needs and damages, in The Role of Drones in Disaster Aerial Needs Reconnaissance and Damage Assessment: A Study Using Orthophoto Maps and Three-Dimensional Modeling. The pre-disaster phase must include thorough testing of solutions in relation to the actual needs of disaster managers. As a result, providing evidence-based results for effective solutions is essential to their successful acquisition and application for disaster management. It requires the right testing techniques because catastrophe response is typically accomplished in complex and active contexts rather than repeating ones. In addition to addressing the restrictions brought on by the peculiarities of the catastrophe environment, a quasi-experimental technique can be used to satisfy the needs of disaster management.
+
+ Although 3D modeling and orthophoto mapping have previously shown their potential in a variety of professional settings, they have not yet undergone a thorough evaluation for use in disaster response. Therefore, the goal of their research is to validate methods for their use in aerial reconnaissance in the event of catastrophic calamities. The assumption is that these solutions will increase the process's efficacy and efficiency (for instance, in terms of time and accuracy of provided data). The study confirms that technologies can make disaster managers' jobs easier by more precisely estimating damage. Regarding the requirements for reconnaissance, its effectiveness was, nevertheless, less than anticipated. Second, while the methodologies allow for a reduction in analytical effort, the total review procedure greatly increases the time required for data processing.
+ 
+ \item  \textbf{Evaluation of Swarm Supervision Complexity \citep{lindner2021evaluation}}: 
+ In “Evaluation of Swarm Supervision Complexity”, Lindner \textit{et al.} By presenting the drone swarm as an avatar for the pilots of the aircraft, researchers were able to gauge how difficult it would be to control a manned aerial vehicle full of drones. The accuracy of showing swarm coverage is severely compromised despite efficacy in lowering cognitive complexity. Swarm control proved difficult, according to the study's pilots, and additional swarm independence and control options were needed. In "Mixed-granularity human-swarm interaction," Patel \textit{et al.} combined robotics and environment-focused techniques with an improved authenticity interface to ascertain the general goal of the swarm. The system proposed in this research enables different levels of autonomy in swarm management and information exchange between swarm members so that the operator can give complete autonomy to the swarm. 
+ 
+ The level of swarm autonomy has also been the subject of other studies, including "Models of trust in human control of swarms with varied levels of autonomy" by Nam, C. \textit{et al.}, "Moderating Influence as a Design Principle for Human-Swarm Interaction" by Ashcraft, C.C., and "Analysis of human-swarm interaction through potential field manipulation" by Oliveira, T.L. \textit{et al.} . and "More than the sum of its parts: Assessing the coherence and expressivity of a robotic swarm" by Levillain, F. \textit{et al.} as well as human swarm system visualization approaches like "Human perception and prediction of robot swarm motion" by Cain, M.S. and Wendell, D.M.
+ The following table shows a comparison between the related works, as it divides them into Works that propose a different method to solve the same problem, Works that use the same proposed method to solve a different problem, works that are similar to our method that solves a relatively similar problem, and related works that cover our problem domain:
+\end{enumerate}
+
+
+
+
+	\begin{center}
+	\begin{longtable}{| p{0.2\textwidth} | p{0.2\textwidth} |p{0.2\textwidth}  | p{0.25\textwidth}|}
+%		\caption{A comparison between the related works}
+\hline
+		The    Name    Of      The Study & Proposed Idea  & Technique  & Performance \\ \hline
+		Cooperative forest fire surveillance using a   team of small unmanned air vehicles.                                                                                      & presents a concept for low-altitude and short-endurance (LASE).   The work  demonstrates  the    fire  line tracking scenario   while a team of UAVs follows the perimeter of the wildfire area.                                                                                                                                & low-altitude and short- endurance (LASE).                                             & The     research     focused     on minimization of the latency   associated with the fire perimeter measurement when transferred  to the ground    station.                                          \\ \hline
+		Coordination of Helicopter UAVs for Aerial   Forest-Fire Surveillance                                                                                                    & the   system   design     includes   a coordination scheme   to control a rotary  wing  platform    (Quadrotor) fora  similar  mission    to  the  one previous.                                                                                                                                                                & RP    (rendezvous point).                                                             & The paper continues further   by assuming         a         generically propagating fire   perimeter. Whenever    a  UAV  approaches another UAV (rendezvous point)   they agree on their next flight direction.                                      \\ \hline
+		A        Dynamic      Data Driven Wildland Fire Model.                                                                                                                   & A significant research activity exists on the wildfire   scenarios and modeling.                                                                                                                                                                                                                                                & Fire-Front Propagation Using    the  Level Set Method.                                & develops model of   fire-front propagation and (A Dynamic Data Driven Wildland Fire Model)   develops a wildland fire model.                                                                                                                          \\ \hline
+		Distributed    Control  of Robotic   Networks:     A Mathematical  Approach to   Motion Coordination Algorithms.                                                         & A Mathematical Approach to Motion Coordination Algorithms) has   a chapter that deals with deployment algorithms; the authors consider a   distributed algorithm to address the physical limitations of the   communication systems.                                                                                            & \begin{tabular}[c]{@{}l@{}}mixed         linear   program\\      (MILP).\end{tabular} & addresses the problem of   partial information. It reflects the "real- world" problem where   the UAV has limited communication link characterizations (range or   bandwidth).                                                                        \\ \hline
+		Experimental Results in Multi-  UAV Coordination for Disaster Management and Civil   Security Applications.                                                              & discuss a distributed multi-UAV decision    architecture    developed under  the    AWARE  project  along with    a  range  of    tests  with  real unmanned    aerial      vehicles    and Wireless    Sensor      Networks    to validate  this    approach  in  disaster management   and     civil   security applications. & \begin{tabular}[c]{@{}l@{}}AWARE\\      platform.\end{tabular}                        & The tasks described in this   paper include monitoring with multiple drones, sensor deployment, and fire   risk confirmation. In order to avoid redundancy.                                                                                           \\ \hline
+		The Use    of  Drones in Disaster  Aerial    Needs Reconnaissance       and   Damage  Assessment  - Three-Dimensional Modeling                 and Orthophoto Map Study. & Three-Dimensional Modeling and Orthophoto Map Study, this study   aim to  provide  disaster    managers with  test  results    of  3D  modeling and  orthophoto    mapping,  to  add value    to  atmospheric  assessments of     flood-related      needs      and damages.                                                    & 3D modeling.                                                                          & the overall evaluation   processes significantly overburdens data processing time, however, the   techniques allow to reduce analytical work.                                                                                                         \\ \hline
+		Evaluation     of   Swarm Supervision   Complexity.                                                                                                                      & assessed the complexity of supervising a swarm of drones by a   manned aerial vehicle by displaying the swarm as an avatar for the aircraft's   pilots                                                                                                                                                                          & manned       aerial   vehicle.                                                        & The     system   proposed   in     this research enables different levels of      autonomy      in        swarm management and information exchange       between       swarm members so that the operator can   give complete autonomy to the swarm. \\ \hline
+\label{table:table01}%
+\end{longtable}
+\end{center}
+}
+
+
+
+
+
+%\ignore{
+%\begin{figure}
+%	\centering
+%	\includegraphics[trim={0.5cm 0.5cm 0.5cm 0.5cm },clip, height=0.8\textheight]{aa.pdf}
+%	\caption{a comparison between the related works.}
+%	\label{fig:aa}
+%\end{figure}
+%\begin{figure}
+%	\centering
+%	\includegraphics[trim={0.5cm 0.5cm 0.5cm 0.5cm },clip, height=0.4\textheight]{bb.pdf}
+%	\caption{a comparison between the related works (Cont'd).}
+%	\label{figb:aa}
+%\end{figure}
+%}
+
+
+\chapter{Modeling and Proposal}
+%\section{Swarm Model}\index{Swarm Model}
+\label{ChapModeling}
+
+\ignore{
+This may rely on the hardware's capability, the battery's charge, the agent's ability to sway other agents, etc.  $\rho$ can be extracted from the incoming messages, but if further security measures aren't put in place, it could pose a security threat. As an alternative, the receiving agent can maintain a list of  $\rho$ values and determine internally whether an incoming message is coming from a trustworthy UAV (decreases scalability). $\rho$ establishes the degree to which each agent is susceptible to influence from other agents. For the sake of simplicity in our research, all agents have $\phi=0.5$ and $\rho = 1$.
+}
+
+
+\section{System model}
+As detailed in \autoref{Struct}, our research endeavors to formulate an innovative AI-based wildfire detection system by harnessing the capabilities of a network of Unmanned Aerial Vehicles (UAVs) equipped with state-of-the-art sensors. This pioneering approach to early wildfire identification and management involves strategically deploying UAVs, or drones, across specific geographic areas prone to wildfires. These UAVs are equipped with a sophisticated array of sensors, including thermal imaging cameras and smoke detectors, enabling swift detection of potential wildfire indicators. Operating collaboratively, the UAV network continuously surveys the landscape from various perspectives, transmitting real-time data to a central control system. The sensors onboard are meticulously designed to identify temperature anomalies and smoke patterns associated with wildfires. Upon detecting a potential threat, the system triggers immediate alerts to pertinent authorities, facilitating a prompt and targeted response. This proactive and automated methodology not only expedites the detection process but also streamlines the rapid and focused deployment of firefighting resources, thereby significantly enhancing the overall efficiency of wildfire management initiatives.
+
+
+\section{Data challenge}
+The primary challenge encountered in our project revolved around acquiring a suitable dataset. To address this hurdle, we employed The Wildfire Dataset, which is openly accessible on the provided website: \href{https://www.kaggle.com/datasets/elmadafri/the-wildfire-dataset/data}{[The Wildfire Dataset]}. This dataset was chosen for its availability and relevance to our research objectives.
+The mentioned work in \citep{f14091697} investigates the utility of RGB image data in the realm of forest fire detection through the application of deep learning models. The study assesses the advantages and limitations of these models while considering potential integration within a broader multi-modal data context. To achieve comprehensive insights, a distinctive and expansive wildfire dataset is introduced, encompassing diverse environmental conditions, forest types, geographical regions, and confounding elements. The primary objective is to mitigate high false alarm rates in existing fire detection systems. To ensure transparency and reliability, only public domain images are incorporated, accompanied by a detailed description of dataset attributes, URL sources, and image resolutions. The research also introduces an innovative multi-task learning approach, incorporating multi-class confounding elements into the framework. This pioneering strategy seeks to augment the model's discriminatory capabilities and reduce false positives. In rigorous testing against the wildfire dataset, the multi-task learning approach exhibits significantly enhanced performance in key metrics and lower false alarm rates compared to traditional binary classification methods. This underscores the efficacy of the proposed methodology and its potential to address confounding elements. Emphasizing the practical implications, the study highlights the importance of future efforts to enhance the representativeness of training and testing datasets. The ongoing evolution of the publicly available wildfire dataset is expected to inspire novel solutions, making a substantial contribution to the field.
+
+
+
+\section{Performance Metrics}
+The performance of the model is gauged using the four key elements of the confusion matrix: True Positives (TP), True Negatives (TN), False Negatives (FN), and False Positives (FP). TP and TN represent the accurate predictions of fire and no fire images,respectively, while FN and FP denote the instances where fire images and no fire  images are incorrectly identified. By having these four elements, we use the following performance metrics: 
+
+\subsection{Accuracy}
+Accuracy is a measure of how often the model predicts correctly and is given by theratio of correct predictions to total predictions.
+\begin{equation}
+	\text{Accuracy} = \frac{(TN + TP)}{(TN+FN+FP+TP)}
+\end{equation}
+
+\subsection{Precision}
+Precision quantifies the model’s reliability when making positive predictions, definedas the ratio of correctly identified fire instances to all instances that the model labels as fire.
+\begin{equation}
+\text{Precision} = \frac{TP}{(FP+TP)}
+\end{equation}
+	
+	
+\subsection{Recall}
+Recall (or sensitivity) expresses the proportion of actual fire images that are correctlyidentified by the model out of all actual fire images.
+\begin{equation}
+	\text{Recall} = \frac{(TN+ TP)}{(FN+TP)}
+\end{equation}
+
+\subsection{F1-score}
+The F1-score is a combined measure that reflects both precision and recall in a singlemetric, thus allowing for an overall evaluation of a model’s predictive performance. This is in contrast to accuracy, which measures the overall rate of correct predictions, encompassing both fire and nofire predictions.
+
+\begin{equation}
+	\text{F1\_score} = \frac{2 \times (\text{Precision} \times  \text{Recall} )}{(\text{Precision} +  \text{Recall} )}
+\end{equation}
+
+\section{Primary results}
+Using the open-source Computer Vision library OpenCV, we extract frames from the stream of 60 frames per second at a rate of one frame for every 240 frames, giving us a yield of roughly two frame every four seconds. The UAV camera records the imagery in real-time. After passing this frame through the algorithm, which predicts a wildfire, we can pinpoint the exact location of the fire using geospatial tagging. Based on the positive and negative images, we trained a whole image classifier. A negative image is one that doesn't have any fire patches, whereas a positive image must have at least one fire patch. We have a somewhat small training dataset, which makes it risky to train an entire image classifier from scratch. The so-called fine-tuning strategy, which can transfer the previously learnt network parameters to the new model for the new dataset, is one effective method of training a CNN classifier on a short dataset.
+
+Given that CNNs are sophisticated models with several learnable parameters, performance is a very important need. Therefore, rather than central processing units, (CPUs), CNNs are typically trained on graphics processing units (GPUs). GPUs are hardware that has been specially designed to carry out numerous parallel matrix operations needed for graphics processing. Due to their naturally parallel structure, CNNS also profit greatly from parallelization.
+After receiving the images from the sensors In order to locate, recognize, and locate objects in an image, region-based CNNs are used. They use bounding boxes to pinpoint where the identified items in our case wildfires are in the supplied image. One-stage detectors and two-stage detectors are the two groups into which these approaches fall. One-stage detectors perform a straightforward regression operation on an input image to find and locate items. First stage two-stage detectors using a proposed region network generate the Region of Interest. The created region is further categorized and its bounding box is established. The accuracy of region-based CNNs for object detection issues was quite good. Additionally, they are used to demonstrate the best performance in spotting flames on aerial photos.
+The optimizer did a good job, as can be see in \autoref{fig:fig132},  it produced final accuracy values of 95.27\% on the testing set and 96.89\% on the training set, as well as training loss values of 0.14 and testing loss values of 0.16. 
+
+
+
+\begin{figure}
+	\centering
+	\includegraphics[trim={0.5cm 0.5cm 0.5cm 0.5cm },clip,width=0.9\linewidth]{Accuracy_and.pdf}
+	\caption{Primary resuls: Accuracy and loss of the trained network}
+	\label{fig:fig132}
+\end{figure}
+
+
+
+
+
+
+
+\section{Future Tasks: Drone Deployment Algorithm} \index{Drone Deployment!Algorithm}
+In order to create a mobile network for disaster management, we intend to develop a drone deployment algorithm. The following is a summary of the important factors:
+\begin{enumerate}
+	\item  To create a drone deployment plan that keeps the average remaining energy as high as feasible, extending the total hovering time of all drones in use.
+   \item To create a region-filling technique that ensures complete coverage with the  least number of drones.
+  \item To use drones to establish communication based on analysis of the terrain and altitude.
+ \item To figure out how many base stations are needed and in what locations to support the network.
+\end{enumerate}
+\index{PSO}
+In a disaster-affected area, our goal is to create a swarm of drones to make it easier to establish a communication network without creating voids. Using an AI-based technique like \gls{PSO} is one practical option to do this. The pace of convergence in the iterative process may be poor, and PSO-based algorithms are prone to entering local optima. In addition to being overly slow, other AI-based algorithms like Simulated Annealing and Genetic Algorithms struggle with the same problems. Deep learning and neural networks are computationally demanding and frequently require repeated training in order to deliver reliable results.
+
+In our situation, we must create deterministic placements for the drones in order to fully guarantee network coverage in the disaster-affected area and to ensure that there is a maximum amount of average energy left over to support the network. This must be accomplished using the available computational resources in a timely manner. Therefore, our goal is to create a less computationally costly terrain-aware region-filling technique. Here, we determine the quantity and placement of base stations and drones needed to establish a strong temporary network in the desired area. We achieve this by taking the topography into account, planning to completely cover the area without any voids, while reducing the number of drones and increasing their average remaining energy.
+
+We suggest a preprocessing module and a region-filling module for the drone deployment algorithm. Preprocessing entails gathering topography information for the emergency area and then transforming it into a format that the region-filling algorithm can use. An effective solution to the aforementioned issue is offered by the region-filling algorithm. The result of the region-filling algorithm includes a list of the drones' positions in three dimensions, together with information about their base stations, remaining energy, and hovering times. Finally, using the positional data gleaned from the Region-Filling method, we simulate the deployment of drones. The below schematic depicts the process' general outline:
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.3\textheight]{Fig15.png}
+	\caption{Flow chart of preprocessing ,the algorithm and simulation}
+	\label{fig:fig15}
+\end{figure}
+
+
+\begin{figure}
+	\centering
+	\includegraphics[trim={0cm 3cm 0cm 0cm },clip,width=0.7\linewidth]{Fig16.pdf}
+	\caption{An Outline of The Filling Region Algorithm.}
+	\label{fig:fig16}
+\end{figure}
+
+\subsection{Discussion and Upcoming Tasks}
+Establishing a reliable link between human operators and a swarm is quite challenging. In this study, we focused on the issue of context awareness without forcing a high level of cognitive complexity, using a swarm and an operator. Our findings demonstrate that the swarm may be visualized and managed using the same map. It is not necessary for the operator to connect directly with each swarm member, which would be overwhelming for a human operator. Instead, the operator must use this map to communicate with the swarm. In order to support the theory, we established a few assumptions. Our parameters were selected through experimentation, and we did not undertake a parameter sensitivity analysis.
+
+For instance, our swarm size was fixed even though research indicates that performance is influenced by swarm density. The scalability of our strategy is another topic for discussion. In order to map an uncharted region, our approach focuses on small-scale human-swarm interaction and local interactions. The only restriction on scaling is that the mapping resolution decreases as the exploring zone gets larger. By process local pictures and building a worldwide image with a human worker, this problem might be handled.
+This investigation can be expanded in a number of ways: 
+\begin{itemize} [label={\checkmark}]
+
+\item	We intend to research how different dynamic disaster areas and human operators will affect management tactics that are cooperative and competitive.
+\item	In addition to the conflicting operator commands, there can also be unauthorized UAV or operator attacks that need to be identified and disregarded while making decisions.
+\item	More research is required on how noise (in communication, positioning, and sensing) affects swarm performance and how to find lost or malfunctioning UAVs; A number of communications attributes can be used to compare speed and correctness.
+\item	One of our next stages will be to conduct a more thorough user study and collaborate with industry professionals to design an communication interface for human-swarm teams.
+\item	Differences that could be caused by operative bias in experiments using humans in the loop.
+\item	In some application scenarios, it might be advantageous to use a more complicated communication to steer a subset of the swarm.
+\item	Our  aim is to address some of these issues, put our strategy into practice on actual UAVs, and assess the swarm's performance in practical applications. protocol that permits entree to certain swarm members without affecting the entire swarm.
+\end{itemize}
+
+
+
+\section{Simulation tools}
+The program given here is a solution to a common challenge in machine learning and computer vision applied to UAVs. It is vital to be able to simulate an algorithm in order to see if it is operating as planned, make necessary modifications, and catch bugs before downloading and executing it on a real platform, allowing for faster development and lower implementation costs. 
+Simulating cameras with excellent performance is a challenging problem, especially on python; building one from scratch would take a long time, effort, and there was no guarantee of acceptable performance, so a python game engine called Panda3D was picked. With this engine and its integration into the software that has been provided, Common UAV missions, as well as their dynamics, on-board or off-board cameras, object viewing, and collision detection, can all be simulated.
+At the time, the software on display is capable of:
+\begin{itemize}
+	\item Quadrotor with full functionality.
+	\item Cameras on-board and off-board.
+	\item  Integration with OpenCv on a one-to-one basis.
+	\item Dynamic Controls That Can Be Fully Customized.
+	\item Scenario Model with Complete Customization.
+	\item  Model of UAV that can be fully customized.
+\end{itemize}
+
