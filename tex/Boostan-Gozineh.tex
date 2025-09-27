@@ -3,7 +3,15 @@
 \input{\MyPath Boostan-Letter}
 \usetikzlibrary{calc}
 
+
+
+
 \makeatletter% Taken from http://tex.stackexchange.com/q/109619/5764
+
+\newif\ifrandomize
+\randomizetrue  % فعالسازی تصادفیسازی (پیشفرض)
+%\randomizefalse % غیرفعالسازی تصادفیسازی
+
 \def\declarenumlist#1#2#3{%
 	\expandafter\edef\csname pgfmath@randomlist@#1\endcsname{#3}%
 	\count@\@ne
@@ -72,27 +80,37 @@
 	\newcounter{totalquestions}
 	\NewEnviron{questionblock}{}%
 	
-	\newcommand{\randomquestionsfrombank}[2]{%
-		\CatchFileDef{\bank}{#1}{}% Read the entire bank of questions into \bank
-		\setcounter{totalquestions}{0}% Reset total questions counters  ***
-		\RenewEnviron{questionblock}{\stepcounter{totalquestions}}% Count every question  ***
-		\bank% Process file  ***
-		\declarenumlist{uniquequestionlist}{1}{\thetotalquestions}% list from 1 to totalquestions inclusive.
-		\setcounter{totalquestions}{#2}% Start the count-down
-		\RenewEnviron{questionblock}{%
-			\stepcounter{questionblock}% Next question
-			\ifnum\value{questionblock}=\randomquestion 
-			\par% Start new paragraph
-			\BODY% Print question
-			\fi
-		}%
-		\foreach \uNiQueQ in {1,...,#2} {% Extract #2 random questions
-			\setcounter{questionblock}{0}% Start fresh with question block counter
-			\pgfmathrandomitem\randomquestion{uniquequestionlist}% Grab random question from list
-			\xdef\randomquestion{\randomquestion}% Make random question available globally
-			\prunelist{uniquequestionlist}% Remove picked item from list
-			\bank% Process file
-		}}
+\newcommand{\randomquestionsfrombank}[2]{%
+    \CatchFileDef{\bank}{#1}{}%
+    \setcounter{totalquestions}{0}%
+    \RenewEnviron{questionblock}{\stepcounter{totalquestions}}%
+    \bank%
+    \ifrandomize
+        \declarenumlist{uniquequestionlist}{1}{\thetotalquestions}%
+        \setcounter{totalquestions}{#2}%
+    \else
+        \setcounter{totalquestions}{\numexpr#2\relax}%
+    \fi%
+    \RenewEnviron{questionblock}{%
+        \stepcounter{questionblock}%
+        \ifnum\value{questionblock}=\randomquestion 
+            \par\BODY%
+        \fi
+    }%
+    \foreach \uNiQueQ in {1,...,#2} {%
+        \setcounter{questionblock}{0}%
+        \ifrandomize
+            \pgfmathrandomitem\randomquestion{uniquequestionlist}%
+            \xdef\randomquestion{\randomquestion}%
+            \prunelist{uniquequestionlist}%
+        \else
+            \xdef\randomquestion{\numexpr\uNiQueQ\relax}%
+        \fi%
+        \bank%
+    }%
+}
+
+
 		\usepackage{multicol,color}
 		\definecolor{mycolor}{rgb}{0,0,0}
 		\newcounter{question}

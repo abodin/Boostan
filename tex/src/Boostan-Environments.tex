@@ -1,4 +1,4 @@
-%% Last Update: 22 Nov 2022
+%% Last Update: 30 Jul 2024
 %
 
 %% ====================================================================================
@@ -1091,3 +1091,16 @@ middlelinecolor=nttitle,
 %\end{fullwidth}
 \vspace*{-.5\baselineskip}
 }
+
+
+%% ===============================================================================
+% put color to \boxed math command
+\makeatletter
+\renewcommand{\boxed}[2]{%
+\tikz[baseline]\node [rectangle, minimum width=1ex,rounded corners=3mm,draw,fill=#1,draw=none,anchor=base] {$\displaystyle#2$};}
+ \makeatother
+
+\makeatletter
+\newcommand{\boxedT}[2]{%
+\tikz[baseline]\node [rectangle, minimum width=1ex,rounded corners=3mm,draw,fill=#1,draw=none,anchor=base] {#2};}
+ \makeatother

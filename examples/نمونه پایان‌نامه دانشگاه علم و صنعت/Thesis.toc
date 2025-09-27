@@ -10,23 +10,23 @@
 \contentsline {section}{\hspace *{2pt}تمرین‌}{10}{section*.13}%
 \contentsline {section}{\numberline {2.2}وارد کردن کد در متن}{10}{section.2.2}%
 \contentsline {chapter}{فصل~\numberline {3}~~~ مروری بر کارهای پیشین}{12}{chapter.3}%
-\contentsline {section}{\numberline {3.1}دیدگاه‌های دسته بندی کارهای پیشین}{13}{section.3.1}%
-\contentsline {section}{\numberline {3.2}ملاک های ارزیابی و مقایسه}{13}{section.3.2}%
-\contentsline {section}{\numberline {3.3}مرور مطالعات موجود}{13}{section.3.3}%
-\contentsline {section}{\numberline {3.4}جمع بندی}{13}{section.3.4}%
-\contentsline {chapter}{فصل~\numberline {4}~~~ شرح روش پیشنهادی}{14}{chapter.4}%
-\contentsline {section}{\numberline {4.1}مدل سامانه و فرضیات}{14}{section.4.1}%
-\contentsline {section}{\numberline {4.2}تشریح روش پیشنهادی}{14}{section.4.2}%
-\contentsline {chapter}{فصل~\numberline {5}~~~ شبیه‌سازی}{17}{chapter.5}%
-\contentsline {section}{\numberline {5.1}محیط آزمایش و تنظیمات}{17}{section.5.1}%
-\contentsline {section}{\numberline {5.2}کارهای مورد مقایسه}{17}{section.5.2}%
-\contentsline {section}{\numberline {5.3}معیارهای سنجش کارایی}{17}{section.5.3}%
-\contentsline {section}{\numberline {5.4}آزمایش‌ها و تحلیل نتایج}{17}{section.5.4}%
-\contentsline {section}{\numberline {5.5}جمع بندی}{17}{section.5.5}%
-\contentsline {chapter}{فصل~\numberline {6}~~~ نتیجه‌گیری و کا‌ر‌های آینده}{18}{chapter.6}%
-\contentsline {section}{\numberline {6.1}نتیجه‌گیری}{18}{section.6.1}%
-\contentsline {section}{\numberline {6.2}کارهای آینده}{18}{section.6.2}%
-\contentsline {chapter}{مراجع}{19}{section*.17}%
-\contentsline {chapter}{واژه نامه انگلیسی به فارسی}{20}{section*.19}%
-\contentsline {chapter}{واژه نامه فارسی به انگلیسی}{21}{section*.22}%
-\contentsline {chapter}{نمایه}{22}{section*.25}%
+\contentsline {section}{\numberline {3.1}دیدگاه‌های دسته بندی کارهای پیشین}{14}{section.3.1}%
+\contentsline {section}{\numberline {3.2}ملاک های ارزیابی و مقایسه}{14}{section.3.2}%
+\contentsline {section}{\numberline {3.3}مرور مطالعات موجود}{14}{section.3.3}%
+\contentsline {section}{\numberline {3.4}جمع بندی}{14}{section.3.4}%
+\contentsline {chapter}{فصل~\numberline {4}~~~ شرح روش پیشنهادی}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}مدل سامانه و فرضیات}{15}{section.4.1}%
+\contentsline {section}{\numberline {4.2}تشریح روش پیشنهادی}{15}{section.4.2}%
+\contentsline {chapter}{فصل~\numberline {5}~~~ شبیه‌سازی}{18}{chapter.5}%
+\contentsline {section}{\numberline {5.1}محیط آزمایش و تنظیمات}{18}{section.5.1}%
+\contentsline {section}{\numberline {5.2}کارهای مورد مقایسه}{18}{section.5.2}%
+\contentsline {section}{\numberline {5.3}معیارهای سنجش کارایی}{18}{section.5.3}%
+\contentsline {section}{\numberline {5.4}آزمایش‌ها و تحلیل نتایج}{18}{section.5.4}%
+\contentsline {section}{\numberline {5.5}جمع بندی}{18}{section.5.5}%
+\contentsline {chapter}{فصل~\numberline {6}~~~ نتیجه‌گیری و کا‌ر‌های آینده}{19}{chapter.6}%
+\contentsline {section}{\numberline {6.1}نتیجه‌گیری}{19}{section.6.1}%
+\contentsline {section}{\numberline {6.2}کارهای آینده}{19}{section.6.2}%
+\contentsline {chapter}{مراجع}{20}{section*.17}%
+\contentsline {chapter}{واژه نامه انگلیسی به فارسی}{21}{section*.19}%
+\contentsline {chapter}{واژه نامه فارسی به انگلیسی}{22}{section*.22}%
+\contentsline {chapter}{نمایه}{23}{section*.25}%

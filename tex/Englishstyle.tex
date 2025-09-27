@@ -1,55 +1,30 @@
-\usepackage[dvipsnames,table]{xcolor}
+\usepackage[dvipsnames,table,svgnames]{xcolor}
 \usepackage[top=3cm,bottom=3cm,left=2.5cm,right=2.5cm]{geometry}
 \usepackage{graphicx}
 \usepackage{pifont}
-%\usepackage{subcaption}
+\usepackage[Lenny]{fncychap}
 \usepackage{amsmath,amsthm,amssymb}
 \usepackage{float}
-%\usepackage{tikz}
-%\usetikzlibrary{arrows,calc}
-
-%\usepackage{adjustbox}
-%\usepackage{epigraph}
-%\usepackage{dblfnote}
-
 \usepackage{xparse}
-%\usepackage{ifthen}
-%\usepackage[explicit]{titlesec}
-%\usepackage{tocloft,calc}
 \usepackage{listings}
-
 \usepackage{pifont}
-
+\usepackage[framemethod=TikZ]{mdframed}
 \usepackage{fontspec}
 \setmainfont[Scale=1.2]{Linux Libertine}
 
 \usepackage{hyperref}
-
 \usepackage[xindy,acronym]{glossaries}
 
 
 
 %% ===========================================================================
 %تنظیمات hyperref
-
-% برای وارد کردن کلمه (بخش) در فهرست مطالب بسته hyperref برای حالت فارسی یک مشکل دارد. بدین منظور این 
-% مشکل را به صورت دستی حل شده است. برای این که رنگ keywordstyle که تعیین کننده رنگ کل قسمت فهرست مطالب
-% نیز هست یکسان در آید یک پارامتر رنگ برای keywordstyle این جا تعریف می‌کنیم، و سپس از آن هم در تنظمیات hypperref 
-% و هم در اون کدهایی که به صورت دستی وارد شده است، استفاده می‌شود.  مطالب بیشتر در مورد این بسته را در سایت زیر مطالعه کنید.
-% http://en.wikibooks.org/wiki/LaTeX/Hyperlinks
-
-% در این قسمت تنظیمات بسته hyperref را قرار می دهیم.
-% این تنظیمات شامل موارد زیر است:
 \hypersetup{
 	pdfmenubar=false,			% show or hide Acrobat’s menu
 	pdftoolbar=true,			%show or hide Acrobat’s toolbar
-%% موقعی که فایل پی دی اف خروجی را باز می کنید صفحه به صورت عریض و بزرگ باز می شود.
 	pdfstartview=FitH, 
-	%% مواردی که برای فعال سازی این که شماره اشکال را به صورت ارجاعی نشان دهد
 	%hyperfigures=true,
-	%% به جای استفاده از مربع قرمز دور موارد ارجاعی از لینک های رنگی استفاده کند.
 	colorlinks=true, 
-	%% رنگ برخی از لینک ها در زیر تعریف شده است. 
 	linkcolor=blue, 
 	anchorcolor=green, 
 	citecolor=magenta, 
@@ -59,7 +34,6 @@
 	unicode = true			%allows to use characters of non-Latin based languages in Acrobat’s bookmarks
 	%bookmarksopen = true,
 	%bookmarksopenlevel = 1
-	%%% اگر این option را true‌ بکنیم، آن‌گاه در کنار bookmark شماره فصل و بخش و زیربخش نیز می آید. مثلا می‌نویسد: ۱.۲ طراحی شبکه
 	%bookmarksnumbered = true,
 	%hidelinks			%hide links (removing color and border)
 } % M
@@ -69,10 +43,6 @@
 \newcommand{\BaseLineSpreadForList}{1.1}
 \newcommand{\BaseLineSpreadFA}{1.7}
 \linespread{\BaseLineSpreadFA}
-
-%\makeatletter
-%\bidi@AtBeginEnvironment{latin}{\linespread{1.7}}
-%\makeatother
 
 
 %% ==================================================================================
@@ -192,6 +162,35 @@
 \newcommand{\printacronyms}{\printabbreviation}
 
 
+\makeatletter
+\setglossarystyle{long}
+\newacronymstyle{ex-footnote}%
+{%
+  \GlsUseAcrEntryDispStyle{footnote}%
+}%
+{%
+  \GlsUseAcrStyleDefs{footnote}%
+  \renewcommand*{\genacrfullformat}[2]{%
+   \firstacronymfont{\glsentryshort{##1}}##2%
+   \expandafter\footnote\expandafter{\expandafter\glsentrylong\expandafter{##1}}%
+  }%
+  \renewcommand*{\Genacrfullformat}[2]{%
+   \firstacronymfont{\Glsentryshort{##1}}##2%
+   \expandafter\footnote\expandafter{\expandafter\glsentrylong\expandafter{##1}}%
+  }%
+  \renewcommand*{\genplacrfullformat}[2]{%
+   \firstacronymfont{\glsentryshortpl{##1}}##2%
+   \expandafter\footnote\expandafter{\expandafter\glsentrylongpl\expandafter{##1}}%
+  }%
+  \renewcommand*{\Genplacrfullformat}[2]{%
+   \firstacronymfont{\Glsentryshortpl{##1}}##2%
+   \expandafter\footnote\expandafter{\expandafter\glsentrylongpl\expandafter{##1}}%
+  }%
+}
+\setacronymstyle{ex-footnote}
+
+\makeatletter
+
 %% ================================================================================
 
 
@@ -270,6 +269,8 @@
 \newtheorem{definition}{Definition}
 \newtheorem{theorem}{Theorem}
 \newtheorem{lemma}{Lemma}
+
+
 
 
 

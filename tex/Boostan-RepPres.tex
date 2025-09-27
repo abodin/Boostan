@@ -1,4 +1,4 @@
-%% Last Update: 04 May 2020
+%% Last Update: 01 Apr 2025
 %
 
 \ifx\MyPath\undefined
@@ -38,12 +38,16 @@
 %% =============================================================================
 %فونت شروع بخش‌ها
 \newfontfamily\secTitFont[Scale=3]{B Kamran Outline}
-\newcommand{\putSec}[1]{
-\clearpage
-\addcontentsline{toc}{section}{#1}
-\vspace*{\fill}
-\begin{center}\secTitFont\color{Plum}#1\end{center}
-\vspace*{\fill}
+\newcommand{\putSec}[2][]{%
+  \clearpage
+  \if\relax\detokenize{#1}\relax
+    \addcontentsline{toc}{section}{#2}%
+  \else
+    \addcontentsline{toc}{section}{#1}%
+  \fi
+  \vspace*{\fill}%
+  \begin{center}\secTitFont\color{Plum}#2\end{center}%
+  \vspace*{\fill}%
 }
 
 %% =============================================================================
